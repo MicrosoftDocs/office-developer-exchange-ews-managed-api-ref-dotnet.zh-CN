@@ -1,0 +1,447 @@
+<Type Name="TaskSchema" FullName="Microsoft.Exchange.WebServices.Data.TaskSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="36b5c3abeb3882e1424b8d30b6b42c962c64fea1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623069" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TaskSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TaskSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TaskSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskSchema&#xA;Inherits ItemSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TaskSchema : Microsoft::Exchange::WebServices::Data::ItemSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示任务项目的架构。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActualWork">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ActualWork;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ActualWork" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.ActualWork" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ActualWork As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ActualWork;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 ActualWork 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignedTime">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AssignedTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AssignedTime" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.AssignedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AssignedTime As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AssignedTime;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 AssignedTime 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BillingInformation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition BillingInformation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition BillingInformation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.BillingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BillingInformation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ BillingInformation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BillingInformation 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ChangeCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ChangeCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.ChangeCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ChangeCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ChangeCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 ChangeCount 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Companies;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Companies" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Companies As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Companies;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义公司属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteDate">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition CompleteDate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition CompleteDate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.CompleteDate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CompleteDate As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ CompleteDate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 CompleteDate 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Contacts;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Contacts" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Contacts As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Contacts;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义联系人属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegationState">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DelegationState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DelegationState" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.DelegationState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DelegationState As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DelegationState;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 DelegationState 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delegator">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Delegator;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Delegator" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.Delegator" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Delegator As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Delegator;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Delegator 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DueDate">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DueDate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DueDate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.DueDate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DueDate As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DueDate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 DueDate 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsComplete">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsComplete;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsComplete" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.IsComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsComplete As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsComplete;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义程序属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRecurring;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRecurring" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRecurring As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsRecurring;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 IsRecurring 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTeamTask">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsTeamTask;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsTeamTask" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.IsTeamTask" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsTeamTask As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsTeamTask;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 IsTeamTask 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Mileage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Mileage" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Mileage As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Mileage;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Mileage 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Mode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Mode" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Mode As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Mode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Mode 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Owner;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Owner" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Owner As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Owner;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Owner 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PercentComplete">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PercentComplete;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PercentComplete" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.PercentComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PercentComplete As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PercentComplete;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 PercentComplete 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Recurrence;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Recurrence" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Recurrence As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Recurrence;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义的定期属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition StartDate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition StartDate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StartDate As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ StartDate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 StartDate 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Status;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Status" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Status As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Status;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Status 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusDescription">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition StatusDescription;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition StatusDescription" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.StatusDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StatusDescription As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ StatusDescription;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 StatusDescription 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalWork">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition TotalWork;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition TotalWork" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskSchema.TotalWork" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TotalWork As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ TotalWork;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 TotalWork 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,142 @@
+<Type Name="ExchangeVersion" FullName="Microsoft.Exchange.WebServices.Data.ExchangeVersion">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a8f7dff611658e68a588ecd1376a8fc3f6ed4dc9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622906" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ExchangeVersion" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExchangeVersion extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExchangeVersion" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ExchangeVersion" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义 Exchange Server 的可发行的版本。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exchange2007_SP1">
+      <MemberSignature Language="C#" Value="Exchange2007_SP1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Exchange2007_SP1 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" />
+      <MemberSignature Language="VB.NET" Value="Exchange2007_SP1" />
+      <MemberSignature Language="C++ CLI" Value="Exchange2007_SP1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Exchange Server 2007 Service Pack 1 (SP1)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exchange2010">
+      <MemberSignature Language="C#" Value="Exchange2010" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Exchange2010 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" />
+      <MemberSignature Language="VB.NET" Value="Exchange2010" />
+      <MemberSignature Language="C++ CLI" Value="Exchange2010" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Exchange Server 2010</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exchange2010_SP1">
+      <MemberSignature Language="C#" Value="Exchange2010_SP1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Exchange2010_SP1 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010_SP1" />
+      <MemberSignature Language="VB.NET" Value="Exchange2010_SP1" />
+      <MemberSignature Language="C++ CLI" Value="Exchange2010_SP1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Exchange Server 2010 Service Pack 1 (SP1)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exchange2010_SP2">
+      <MemberSignature Language="C#" Value="Exchange2010_SP2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Exchange2010_SP2 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010_SP2" />
+      <MemberSignature Language="VB.NET" Value="Exchange2010_SP2" />
+      <MemberSignature Language="C++ CLI" Value="Exchange2010_SP2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Exchange Server 2010 Service Pack 2 (SP2)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exchange2013">
+      <MemberSignature Language="C#" Value="Exchange2013" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Exchange2013 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013" />
+      <MemberSignature Language="VB.NET" Value="Exchange2013" />
+      <MemberSignature Language="C++ CLI" Value="Exchange2013" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Exchange Server 2013年。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exchange2013_SP1">
+      <MemberSignature Language="C#" Value="Exchange2013_SP1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Exchange2013_SP1 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2013_SP1" />
+      <MemberSignature Language="VB.NET" Value="Exchange2013_SP1" />
+      <MemberSignature Language="C++ CLI" Value="Exchange2013_SP1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Exchange Server 2013 Service Pack 1 (SP1)。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

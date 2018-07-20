@@ -1,0 +1,53 @@
+<Type Name="AcceptMeetingInvitationMessage" FullName="Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1feda35c9e9584ae6bbb30a3147a7fcbde5719a0" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622953" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AcceptMeetingInvitationMessage : Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AcceptMeetingInvitationMessage extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1&lt;class Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AcceptMeetingInvitationMessage&#xA;Inherits CalendarResponseMessage(Of MeetingResponse)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AcceptMeetingInvitationMessage sealed : Microsoft::Exchange::WebServices::Data::CalendarResponseMessage&lt;Microsoft::Exchange::WebServices::Data::MeetingResponse ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TMessage">Microsoft.Exchange.WebServices.Data.MeetingResponse</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表会议接受邮件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Tentative">
+      <MemberSignature Language="C#" Value="public bool Tentative { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Tentative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage.Tentative" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tentative As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Tentative { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否暂时接受关联的会议。</summary>
+        <value>
+          <b>true</b>如果暂时接受关联的会议;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

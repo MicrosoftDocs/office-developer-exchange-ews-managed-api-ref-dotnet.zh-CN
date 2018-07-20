@@ -1,0 +1,256 @@
+<Type Name="Month" FullName="Microsoft.Exchange.WebServices.Data.Month">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="788ebd5ecc9c0ec4f32c9f95006c909dc7b2dfba" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622925" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum Month" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Month extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Month" />
+  <TypeSignature Language="VB.NET" Value="Public Enum Month" />
+  <TypeSignature Language="C++ CLI" Value="public enum class Month" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义一年中的月数。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="April">
+      <MemberSignature Language="C#" Value="April" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month April = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.April" />
+      <MemberSignature Language="VB.NET" Value="April" />
+      <MemberSignature Language="C++ CLI" Value="April" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>4 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="August">
+      <MemberSignature Language="C#" Value="August" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month August = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.August" />
+      <MemberSignature Language="VB.NET" Value="August" />
+      <MemberSignature Language="C++ CLI" Value="August" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>8 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="December">
+      <MemberSignature Language="C#" Value="December" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month December = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.December" />
+      <MemberSignature Language="VB.NET" Value="December" />
+      <MemberSignature Language="C++ CLI" Value="December" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>12 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="February">
+      <MemberSignature Language="C#" Value="February" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month February = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.February" />
+      <MemberSignature Language="VB.NET" Value="February" />
+      <MemberSignature Language="C++ CLI" Value="February" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>2 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="January">
+      <MemberSignature Language="C#" Value="January" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month January = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.January" />
+      <MemberSignature Language="VB.NET" Value="January" />
+      <MemberSignature Language="C++ CLI" Value="January" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>1 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="July">
+      <MemberSignature Language="C#" Value="July" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month July = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.July" />
+      <MemberSignature Language="VB.NET" Value="July" />
+      <MemberSignature Language="C++ CLI" Value="July" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>7 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="June">
+      <MemberSignature Language="C#" Value="June" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month June = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.June" />
+      <MemberSignature Language="VB.NET" Value="June" />
+      <MemberSignature Language="C++ CLI" Value="June" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>6 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="March">
+      <MemberSignature Language="C#" Value="March" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month March = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.March" />
+      <MemberSignature Language="VB.NET" Value="March" />
+      <MemberSignature Language="C++ CLI" Value="March" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>3 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="May">
+      <MemberSignature Language="C#" Value="May" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month May = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.May" />
+      <MemberSignature Language="VB.NET" Value="May" />
+      <MemberSignature Language="C++ CLI" Value="May" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>5 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="November">
+      <MemberSignature Language="C#" Value="November" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month November = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.November" />
+      <MemberSignature Language="VB.NET" Value="November" />
+      <MemberSignature Language="C++ CLI" Value="November" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>11 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="October">
+      <MemberSignature Language="C#" Value="October" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month October = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.October" />
+      <MemberSignature Language="VB.NET" Value="October" />
+      <MemberSignature Language="C++ CLI" Value="October" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>10 月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="September">
+      <MemberSignature Language="C#" Value="September" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Month September = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Month.September" />
+      <MemberSignature Language="VB.NET" Value="September" />
+      <MemberSignature Language="C++ CLI" Value="September" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>9 月。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

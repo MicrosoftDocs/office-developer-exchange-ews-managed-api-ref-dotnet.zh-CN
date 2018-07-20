@@ -1,0 +1,85 @@
+<Type Name="ItemFlagStatus" FullName="Microsoft.Exchange.WebServices.Data.ItemFlagStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="34082c8d5c8df9eb33fd4d47dbd2bfabd75f5603" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623282" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ItemFlagStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemFlagStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemFlagStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ItemFlagStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ItemFlagStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义项目属于对话已标记的状态。             <see cref="T:Microsoft.Exchange.WebServices.Data.ItemFlagStatus" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Complete">
+      <MemberSignature Language="C#" Value="Complete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ItemFlagStatus Complete = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ItemFlagStatus.Complete" />
+      <MemberSignature Language="VB.NET" Value="Complete" />
+      <MemberSignature Language="C++ CLI" Value="Complete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemFlagStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>与该对话项关联的任务已完成的标志。             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemFlagStatus.Complete" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Flagged">
+      <MemberSignature Language="C#" Value="Flagged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ItemFlagStatus Flagged = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ItemFlagStatus.Flagged" />
+      <MemberSignature Language="VB.NET" Value="Flagged" />
+      <MemberSignature Language="C++ CLI" Value="Flagged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemFlagStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>标记的对话项。             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemFlagStatus.Flagged" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotFlagged">
+      <MemberSignature Language="C#" Value="NotFlagged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ItemFlagStatus NotFlagged = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ItemFlagStatus.NotFlagged" />
+      <MemberSignature Language="VB.NET" Value="NotFlagged" />
+      <MemberSignature Language="C++ CLI" Value="NotFlagged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemFlagStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>在该对话项无标志。             <see cref="F:Microsoft.Exchange.WebServices.Data.ItemFlagStatus.NotFlagged" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

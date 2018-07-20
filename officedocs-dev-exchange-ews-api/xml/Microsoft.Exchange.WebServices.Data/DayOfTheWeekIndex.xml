@@ -1,0 +1,123 @@
+<Type Name="DayOfTheWeekIndex" FullName="Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aa25e5e8a5459e0129f25b6e0743216e6cd6bd18" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623279" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DayOfTheWeekIndex" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DayOfTheWeekIndex extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DayOfTheWeekIndex" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DayOfTheWeekIndex" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义一个月中的工作日的索引。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="First">
+      <MemberSignature Language="C#" Value="First" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex First = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex.First" />
+      <MemberSignature Language="VB.NET" Value="First" />
+      <MemberSignature Language="C++ CLI" Value="First" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>一个月中一周的第一个特定一天。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Fourth">
+      <MemberSignature Language="C#" Value="Fourth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex Fourth = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex.Fourth" />
+      <MemberSignature Language="VB.NET" Value="Fourth" />
+      <MemberSignature Language="C++ CLI" Value="Fourth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>一个月中一周的第四个特定日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Last">
+      <MemberSignature Language="C#" Value="Last" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex Last = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex.Last" />
+      <MemberSignature Language="VB.NET" Value="Last" />
+      <MemberSignature Language="C++ CLI" Value="Last" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>一个月中一周中的特定最后一天。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Second">
+      <MemberSignature Language="C#" Value="Second" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex Second = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex.Second" />
+      <MemberSignature Language="VB.NET" Value="Second" />
+      <MemberSignature Language="C++ CLI" Value="Second" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>一个月中一周的第二个特定日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Third">
+      <MemberSignature Language="C#" Value="Third" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex Third = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex.Third" />
+      <MemberSignature Language="VB.NET" Value="Third" />
+      <MemberSignature Language="C++ CLI" Value="Third" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>一个月中一周的第三个特定日期。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

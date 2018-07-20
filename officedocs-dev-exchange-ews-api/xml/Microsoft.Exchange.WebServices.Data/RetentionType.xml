@@ -1,0 +1,66 @@
+<Type Name="RetentionType" FullName="Microsoft.Exchange.WebServices.Data.RetentionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dc17d188f15ecd18e2dcc89d34e10b75d39c332f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622824" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum RetentionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RetentionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RetentionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RetentionType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义要执行的保留策略操作。             <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionType" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Archive">
+      <MemberSignature Language="C#" Value="Archive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionType Archive = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionType.Archive" />
+      <MemberSignature Language="VB.NET" Value="Archive" />
+      <MemberSignature Language="C++ CLI" Value="Archive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>对项目进行存档。             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionType.Archive" />成员是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionType Delete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionType.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="C++ CLI" Value="Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>删除项目。             <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionType.Delete" />成员是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

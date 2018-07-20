@@ -1,0 +1,117 @@
+<Type Name="FolderView" FullName="Microsoft.Exchange.WebServices.Data.FolderView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="922b20f82974ad9fd6478f8c5ab40f05fadc04be" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622916" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderView : Microsoft.Exchange.WebServices.Data.PagedView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderView extends Microsoft.Exchange.WebServices.Data.PagedView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderView" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderView&#xA;Inherits PagedView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderView sealed : Microsoft::Exchange::WebServices::Data::PagedView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.PagedView</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表文件夹搜索操作中的视图设置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderView (int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderView.#ctor(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pageSize As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderView(int pageSize);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">搜索操作返回的文件夹的最大数目。</param>
+        <summary>返回指定的文件夹的最大数目与初始化 FolderView 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderView (int pageSize, int offset);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize, int32 offset) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderView.#ctor(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pageSize As Integer, offset As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderView(int pageSize, int offset);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">搜索操作返回的文件夹的最大数目。</param>
+        <param name="offset">将视图从基本点偏移量。</param>
+        <summary>初始化与返回指定的文件夹的最大数量从基本点指定的偏移量 FolderView 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderView (int pageSize, int offset, Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize, int32 offset, valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderView.#ctor(System.Int32,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderView(int pageSize, int offset, Microsoft::Exchange::WebServices::Data::OffsetBasePoint offsetBasePoint);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">搜索操作返回的文件夹的最大数目。</param>
+        <param name="offset">将视图从基本点偏移量。</param>
+        <param name="offsetBasePoint">偏移量的基准数据点。</param>
+        <summary>初始化与返回指定的文件夹的最大数量、 基本点，从指定的偏移量和基本点偏移量 FolderView 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderTraversal Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FolderTraversal Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderView.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As FolderTraversal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderTraversal Traversal { Microsoft::Exchange::WebServices::Data::FolderTraversal get(); void set(Microsoft::Exchange::WebServices::Data::FolderTraversal value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderTraversal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置搜索遍历模式。</summary>
+        <value>一个值，指示如何执行搜索。</value>
+        <remarks>
+          <para>此属性默认为<see cref="F:Microsoft.Exchange.WebServices.Data.FolderTraversal.Shallow" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

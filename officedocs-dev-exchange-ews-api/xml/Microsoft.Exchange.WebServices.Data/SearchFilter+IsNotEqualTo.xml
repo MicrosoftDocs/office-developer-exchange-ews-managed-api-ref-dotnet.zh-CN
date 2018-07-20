@@ -1,0 +1,90 @@
+<Type Name="SearchFilter+IsNotEqualTo" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+IsNotEqualTo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aea7f426a801fc504a5ff98ea16ede293e9ee92e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622661" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.IsNotEqualTo : Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/IsNotEqualTo extends Microsoft.Exchange.WebServices.Data.SearchFilter/RelationalFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.IsNotEqualTo&#xA;Inherits SearchFilter.RelationalFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::IsNotEqualTo sealed : Microsoft::Exchange::WebServices::Data::SearchFilter::RelationalFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+RelationalFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表确定 whetheeer 属性不等于给定的值或其他属性的搜索筛选器。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsNotEqualTo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsNotEqualTo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 IsNotEqualTo 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsNotEqualTo (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase otherPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase otherPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, otherPropertyDefinition As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsNotEqualTo(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ otherPropertyDefinition);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="otherPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">正在比较属性的定义。</param>
+        <param name="otherPropertyDefinition">正在比较属性的定义。</param>
+        <summary>初始化与指定的属性定义 IsNotEqualTo 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsNotEqualTo (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsNotEqualTo(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, System::Object ^ value);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">正在比较属性的定义。</param>
+        <param name="value">要比较的属性的值。</param>
+        <summary>初始化与指定的属性定义和值进行比较的 IsNotEqualTo 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

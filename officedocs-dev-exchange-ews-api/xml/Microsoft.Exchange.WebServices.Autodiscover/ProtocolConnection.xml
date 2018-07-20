@@ -1,0 +1,89 @@
+<Type Name="ProtocolConnection" FullName="Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b52eba0243c922a9ec77e2e169b134a6e2507c05" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623541" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ProtocolConnection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ProtocolConnection extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ProtocolConnection" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ProtocolConnection sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>定义的 POP、 IMAP 和 SMTP 协议的协议连接设置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EncryptionMethod">
+      <MemberSignature Language="C#" Value="public string EncryptionMethod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EncryptionMethod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection.EncryptionMethod" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptionMethod As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EncryptionMethod { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用于连接的加密方法。</summary>
+        <value>协议连接加密方法。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hostname">
+      <MemberSignature Language="C#" Value="public string Hostname { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Hostname" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection.Hostname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Hostname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Hostname { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此协议连接引用的服务器的主机名。</summary>
+        <value>服务器主机名。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Port">
+      <MemberSignature Language="C#" Value="public int Port { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Port" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection.Port" />
+      <MemberSignature Language="VB.NET" Value="Public Property Port As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Port { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置连接协议使用的端口号。</summary>
+        <value>由连接协议系统端口号。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

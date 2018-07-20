@@ -1,0 +1,85 @@
+<Type Name="PhysicalAddressKey" FullName="Microsoft.Exchange.WebServices.Data.PhysicalAddressKey">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0f9ea044483c59ea1ca43aa2e1a623d75f4ceccd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623513" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum PhysicalAddressKey" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PhysicalAddressKey extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressKey" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PhysicalAddressKey" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PhysicalAddressKey" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定用于定义联系人的物理地址条目的常量。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Business">
+      <MemberSignature Language="C#" Value="Business" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressKey Business = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhysicalAddressKey.Business" />
+      <MemberSignature Language="VB.NET" Value="Business" />
+      <MemberSignature Language="C++ CLI" Value="Business" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhysicalAddressKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>商务地址。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Home">
+      <MemberSignature Language="C#" Value="Home" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressKey Home = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhysicalAddressKey.Home" />
+      <MemberSignature Language="VB.NET" Value="Home" />
+      <MemberSignature Language="C++ CLI" Value="Home" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhysicalAddressKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>住宅地址。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Other">
+      <MemberSignature Language="C#" Value="Other" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressKey Other = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhysicalAddressKey.Other" />
+      <MemberSignature Language="VB.NET" Value="Other" />
+      <MemberSignature Language="C++ CLI" Value="Other" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhysicalAddressKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>备选电子邮件地址。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

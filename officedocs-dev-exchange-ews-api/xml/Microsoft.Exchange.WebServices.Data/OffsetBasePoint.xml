@@ -1,0 +1,66 @@
+<Type Name="OffsetBasePoint" FullName="Microsoft.Exchange.WebServices.Data.OffsetBasePoint">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c02d5983fd12fc4d7eea7d105e05693c3118912e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623186" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OffsetBasePoint" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OffsetBasePoint extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OffsetBasePoint" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OffsetBasePoint" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义分页视图中的偏移量的基点。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Beginning">
+      <MemberSignature Language="C#" Value="Beginning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint Beginning = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OffsetBasePoint.Beginning" />
+      <MemberSignature Language="VB.NET" Value="Beginning" />
+      <MemberSignature Language="C++ CLI" Value="Beginning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OffsetBasePoint</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>从开头的视图的偏移量。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="End" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint End = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OffsetBasePoint.End" />
+      <MemberSignature Language="VB.NET" Value="End" />
+      <MemberSignature Language="C++ CLI" Value="End" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OffsetBasePoint</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>从视图的末尾偏移量。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

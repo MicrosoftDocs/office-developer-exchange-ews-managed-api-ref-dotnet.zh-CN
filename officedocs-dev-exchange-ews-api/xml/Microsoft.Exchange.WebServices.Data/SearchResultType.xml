@@ -1,0 +1,66 @@
+<Type Name="SearchResultType" FullName="Microsoft.Exchange.WebServices.Data.SearchResultType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3ee277660de007c7992ff9b260bc572115b42e9a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623210" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SearchResultType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchResultType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchResultType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchResultType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchResultType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义搜索结果的类型。             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchResultType" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PreviewOnly">
+      <MemberSignature Language="C#" Value="PreviewOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SearchResultType PreviewOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SearchResultType.PreviewOnly" />
+      <MemberSignature Language="VB.NET" Value="PreviewOnly" />
+      <MemberSignature Language="C++ CLI" Value="PreviewOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchResultType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>仅在搜索结果的预览。             <see cref="F:Microsoft.Exchange.WebServices.Data.SearchResultType.PreviewOnly" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StatisticsOnly">
+      <MemberSignature Language="C#" Value="StatisticsOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SearchResultType StatisticsOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SearchResultType.StatisticsOnly" />
+      <MemberSignature Language="VB.NET" Value="StatisticsOnly" />
+      <MemberSignature Language="C++ CLI" Value="StatisticsOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchResultType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>仅在搜索结果的关键字统计信息。             <see cref="F:Microsoft.Exchange.WebServices.Data.SearchResultType.StatisticsOnly" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

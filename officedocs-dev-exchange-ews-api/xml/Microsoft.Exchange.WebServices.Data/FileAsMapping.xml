@@ -1,0 +1,370 @@
+<Type Name="FileAsMapping" FullName="Microsoft.Exchange.WebServices.Data.FileAsMapping">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6eb506ae22d0cdf3f37aec8deb590390dc267b4c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623013" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum FileAsMapping" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FileAsMapping extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FileAsMapping" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FileAsMapping" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FileAsMapping" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义如何联系人的 FileAs 属性自动设置格式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Company">
+      <MemberSignature Language="C#" Value="Company" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping Company = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.Company" />
+      <MemberSignature Language="VB.NET" Value="Company" />
+      <MemberSignature Language="C++ CLI" Value="Company" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>公司</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanySurnameCommaGivenName">
+      <MemberSignature Language="C#" Value="CompanySurnameCommaGivenName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping CompanySurnameCommaGivenName = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.CompanySurnameCommaGivenName" />
+      <MemberSignature Language="VB.NET" Value="CompanySurnameCommaGivenName" />
+      <MemberSignature Language="C++ CLI" Value="CompanySurnameCommaGivenName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>姓 GivenName</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanySurnameGivenName">
+      <MemberSignature Language="C#" Value="CompanySurnameGivenName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping CompanySurnameGivenName = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.CompanySurnameGivenName" />
+      <MemberSignature Language="VB.NET" Value="CompanySurnameGivenName" />
+      <MemberSignature Language="C++ CLI" Value="CompanySurnameGivenName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>公司 (SurnameGivenName)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanySurnameSpaceGivenName">
+      <MemberSignature Language="C#" Value="CompanySurnameSpaceGivenName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping CompanySurnameSpaceGivenName = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.CompanySurnameSpaceGivenName" />
+      <MemberSignature Language="VB.NET" Value="CompanySurnameSpaceGivenName" />
+      <MemberSignature Language="C++ CLI" Value="CompanySurnameSpaceGivenName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>公司 (姓 GivenName)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="DisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping DisplayName = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="DisplayName" />
+      <MemberSignature Language="C++ CLI" Value="DisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>DisplayName</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Empty">
+      <MemberSignature Language="C#" Value="Empty" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping Empty = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.Empty" />
+      <MemberSignature Language="VB.NET" Value="Empty" />
+      <MemberSignature Language="C++ CLI" Value="Empty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>没有映射。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenName">
+      <MemberSignature Language="C#" Value="GivenName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping GivenName = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.GivenName" />
+      <MemberSignature Language="VB.NET" Value="GivenName" />
+      <MemberSignature Language="C++ CLI" Value="GivenName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>GivenName</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenNameSpaceSurname">
+      <MemberSignature Language="C#" Value="GivenNameSpaceSurname" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping GivenNameSpaceSurname = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.GivenNameSpaceSurname" />
+      <MemberSignature Language="VB.NET" Value="GivenNameSpaceSurname" />
+      <MemberSignature Language="C++ CLI" Value="GivenNameSpaceSurname" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>GivenName 姓</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>使用没有自动套用格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Surname">
+      <MemberSignature Language="C#" Value="Surname" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping Surname = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.Surname" />
+      <MemberSignature Language="VB.NET" Value="Surname" />
+      <MemberSignature Language="C++ CLI" Value="Surname" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Surname</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SurnameCommaGivenName">
+      <MemberSignature Language="C#" Value="SurnameCommaGivenName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping SurnameCommaGivenName = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.SurnameCommaGivenName" />
+      <MemberSignature Language="VB.NET" Value="SurnameCommaGivenName" />
+      <MemberSignature Language="C++ CLI" Value="SurnameCommaGivenName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>姓 GivenName</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SurnameCommaGivenNameCompany">
+      <MemberSignature Language="C#" Value="SurnameCommaGivenNameCompany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping SurnameCommaGivenNameCompany = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.SurnameCommaGivenNameCompany" />
+      <MemberSignature Language="VB.NET" Value="SurnameCommaGivenNameCompany" />
+      <MemberSignature Language="C++ CLI" Value="SurnameCommaGivenNameCompany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>姓 GivenNameCompany</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SurnameGivenName">
+      <MemberSignature Language="C#" Value="SurnameGivenName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping SurnameGivenName = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.SurnameGivenName" />
+      <MemberSignature Language="VB.NET" Value="SurnameGivenName" />
+      <MemberSignature Language="C++ CLI" Value="SurnameGivenName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>SurnameGivenName</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SurnameGivenNameCompany">
+      <MemberSignature Language="C#" Value="SurnameGivenNameCompany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping SurnameGivenNameCompany = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.SurnameGivenNameCompany" />
+      <MemberSignature Language="VB.NET" Value="SurnameGivenNameCompany" />
+      <MemberSignature Language="C++ CLI" Value="SurnameGivenNameCompany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>SurnameGivenNameCompany</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SurnameGivenNameMiddleSuffix">
+      <MemberSignature Language="C#" Value="SurnameGivenNameMiddleSuffix" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping SurnameGivenNameMiddleSuffix = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.SurnameGivenNameMiddleSuffix" />
+      <MemberSignature Language="VB.NET" Value="SurnameGivenNameMiddleSuffix" />
+      <MemberSignature Language="C++ CLI" Value="SurnameGivenNameMiddleSuffix" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>SurnameGivenNameMiddleSuffix</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SurnameGivenNameSuffix">
+      <MemberSignature Language="C#" Value="SurnameGivenNameSuffix" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping SurnameGivenNameSuffix = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.SurnameGivenNameSuffix" />
+      <MemberSignature Language="VB.NET" Value="SurnameGivenNameSuffix" />
+      <MemberSignature Language="C++ CLI" Value="SurnameGivenNameSuffix" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>SurnameGivenNameSuffix</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SurnameSpaceGivenName">
+      <MemberSignature Language="C#" Value="SurnameSpaceGivenName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping SurnameSpaceGivenName = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.SurnameSpaceGivenName" />
+      <MemberSignature Language="VB.NET" Value="SurnameSpaceGivenName" />
+      <MemberSignature Language="C++ CLI" Value="SurnameSpaceGivenName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>姓 GivenName</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SurnameSpaceGivenNameCompany">
+      <MemberSignature Language="C#" Value="SurnameSpaceGivenNameCompany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FileAsMapping SurnameSpaceGivenNameCompany = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FileAsMapping.SurnameSpaceGivenNameCompany" />
+      <MemberSignature Language="VB.NET" Value="SurnameSpaceGivenNameCompany" />
+      <MemberSignature Language="C++ CLI" Value="SurnameSpaceGivenNameCompany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAsMapping</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>姓 GivenNameCompany</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

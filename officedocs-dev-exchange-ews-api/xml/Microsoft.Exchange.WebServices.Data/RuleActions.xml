@@ -1,0 +1,381 @@
+<Type Name="RuleActions" FullName="Microsoft.Exchange.WebServices.Data.RuleActions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1b5db106e68699c1aeda8568e4cf0e55b9e34c61" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623035" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RuleActions : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleActions extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleActions" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleActions&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleActions sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示适用于规则的一组操作。</summary>
+    <remarks>
+      <para>此类表示可能的规则条件的计算结果为<b>true</b>时所执行的操作。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AssignCategories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList AssignCategories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList AssignCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AssignCategories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ AssignCategories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取在电子邮件标记的类别。</summary>
+        <value>在电子邮件标记中的类别。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" />属性表示为邮件分配类别的操作。</para>
+          <para>返回<see cref="T:Microsoft.Exchange.WebServices.Data.StringList" />对象包含逗号分隔的列表的每个<see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" />规则已创建或更新时已添加的字符串。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.AssignCategories" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为非空。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyToFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId CopyToFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId CopyToFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.CopyToFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Property CopyToFolder As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ CopyToFolder { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); void set(Microsoft::Exchange::WebServices::Data::FolderId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置电子邮件项目将被复制到的文件夹的 ID。</summary>
+        <value>标识电子邮件项目将被复制到的文件夹的 ID。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.CopyToFolder" />代表将邮件复制到指定的文件夹的操作。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.CopyToFolder" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为非空。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public bool Delete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Delete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Property Delete As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Delete { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否应将邮件移到已删除邮件文件夹。</summary>
+        <value>如果为<b>true</b>的电子邮件将被移动到已删除邮件文件夹中;否则为<b>false</b>。 默认值为 <b>false</b> 。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.Delete" />属性代表将邮件移动到已删除邮件文件夹的操作。若要删除一条消息，而不保存对已删除邮件文件夹，请使用<see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" />属性。</para>
+          <para />
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.Delete" />属性返回<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，则此属性将为<b>true</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardAsAttachmentToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ForwardAsAttachmentToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForwardAsAttachmentToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ForwardAsAttachmentToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取到应作为附件转发邮件的电子邮件地址。</summary>
+        <value>电子邮件地址的集合。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" />属性代表将邮件转发作为附件嵌入到指定的收件人的操作。</para>
+          <para>禁用将传入邮件转发，空<see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" />属性。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardAsAttachmentToRecipients" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为非空<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ForwardToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ForwardToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForwardToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ForwardToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取邮件应转发到的电子邮件地址。</summary>
+        <value>电子邮件地址的集合。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" />属性代表将邮件转发给指定的收件人的操作。</para>
+          <para>要禁用转发邮件，空<see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" />属性。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ForwardToRecipients" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为非空<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsRead">
+      <MemberSignature Language="C#" Value="public bool MarkAsRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MarkAsRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkAsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkAsRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MarkAsRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否应将邮件标记为已读。</summary>
+        <value>
+          <b>true</b>如果电子邮件被标记为读取;否则为<b>false</b>。 默认值为 <b>false</b> 。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkAsRead" />属性代表标记为已读邮件的操作。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkAsRead" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，则此属性将为<b>true</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkImportance">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt; MarkImportance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.Importance&gt; MarkImportance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkImportance As Nullable(Of Importance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; MarkImportance { Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置对邮件应标的重要性。</summary>
+        <value>表示邮件的重要性的重要性枚举值之一。 默认值为空引用 (在 Visual Basic 中为 Nothing)。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" />属性表示为邮件分配指定的重要性的操作。若要禁用的一条包含消息戳<see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" />值时，请将此属性设置为空引用 (在 Visual Basic 中为 Nothing)。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MarkImportance" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为<see cref="T:Microsoft.Exchange.WebServices.Data.Importance" />枚举值。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId MoveToFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId MoveToFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.MoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Property MoveToFolder As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ MoveToFolder { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); void set(Microsoft::Exchange::WebServices::Data::FolderId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置电子邮件项目将移动到的文件夹的 ID。</summary>
+        <value>标识电子邮件将被移动到的文件夹的 ID。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MoveToFolder" />属性代表将邮件移动到指定的文件夹的操作。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.MoveToFolder" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为非空。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermanentDelete">
+      <MemberSignature Language="C#" Value="public bool PermanentDelete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PermanentDelete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" />
+      <MemberSignature Language="VB.NET" Value="Public Property PermanentDelete As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PermanentDelete { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否应永久删除邮件并在不保存到已删除邮件文件夹。</summary>
+        <value>
+          <b>true</b>如果电子邮件被永久删除;否则为<b>false</b>。 默认值为 <b>false</b> 。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" />属性代表永久删除邮件的操作。若要保存到收件人的邮箱后，请删除一条消息，请使用<see cref="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionDelete" />操作。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.PermanentDelete" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，则此属性将为<b>true</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection RedirectToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection RedirectToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RedirectToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ RedirectToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取邮件应将重定向到的电子邮件地址。</summary>
+        <value>电子邮件地址的集合。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" />属性代表操作将邮件重定向到指定的收件人。重定向的邮件保留原始的发件人和收件人。</para>
+          <para>要禁用重定向的消息，空<see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" />属性。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.RedirectToRecipients" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为非空<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressCollection" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendSMSAlertToRecipients">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.MobilePhone&gt; SendSMSAlertToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.MobilePhone&gt; SendSMSAlertToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SendSMSAlertToRecipients As Collection(Of MobilePhone)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::MobilePhone ^&gt; ^ SendSMSAlertToRecipients { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::MobilePhone ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.MobilePhone&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个短信服务 (SMS) 通知应发送到的移动电话号码。</summary>
+        <value>移动电话号码的集合。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" />属性表示向指定的收件人发送通知的操作。</para>
+          <para>若要禁用的传入邮件发送的短信通知，清空<see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" />列表。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.SendSMSAlertToRecipients" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为移动电话号码的非空集合。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerReplyWithMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ServerReplyWithMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ServerReplyWithMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServerReplyWithMessage As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ServerReplyWithMessage { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置应为对传入邮件的回复发送模板消息的 ID。</summary>
+        <value>用于答复消息标识符。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" />属性代表的答复邮件操作。</para>
+          <para>当您回复到邮件中，答复邮件模板时使用。<see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" />属性返回指定模板的唯一标识符。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.ServerReplyWithMessage" />属性返回与<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，此属性将为非空。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopProcessingRules">
+      <MemberSignature Language="C#" Value="public bool StopProcessingRules { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool StopProcessingRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleActions.StopProcessingRules" />
+      <MemberSignature Language="VB.NET" Value="Public Property StopProcessingRules As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StopProcessingRules { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否应计算后续规则。</summary>
+        <value>
+          <b>true</b>如果电子邮件的规则处理停止;否则为<b>false</b>。 默认值为 <b>false</b> 。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.StopProcessingRules" />属性代表的停止处理的规则操作。</para>
+          <para>添加每个规则使用此操作，以禁止后续规则处理邮件的规则处理。如果您希望多个规则处理邮件时，不添加此属性与早期的规则。</para>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RuleActions.StopProcessingRules" />属性返回<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类无论是否与此关联的规则<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />类定义了这样的规则操作。如果规则具有定义且启用了这样的规则操作，则此属性将为<b>true</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

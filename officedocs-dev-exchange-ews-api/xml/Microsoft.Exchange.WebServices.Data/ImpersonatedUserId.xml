@@ -1,0 +1,108 @@
+<Type Name="ImpersonatedUserId" FullName="Microsoft.Exchange.WebServices.Data.ImpersonatedUserId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="32a0500701cd44034b84c9a5c2e8d4fc0f5033e4" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623396" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ImpersonatedUserId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ImpersonatedUserId extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImpersonatedUserId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImpersonatedUserId sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表一个模拟的用户 id。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImpersonatedUserId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImpersonatedUserId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 ImpersonatedUserId 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImpersonatedUserId (Microsoft.Exchange.WebServices.Data.ConnectingIdType idType, string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType idType, string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId.#ctor(Microsoft.Exchange.WebServices.Data.ConnectingIdType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (idType As ConnectingIdType, id As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImpersonatedUserId(Microsoft::Exchange::WebServices::Data::ConnectingIdType idType, System::String ^ id);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="idType" Type="Microsoft.Exchange.WebServices.Data.ConnectingIdType" />
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="idType">ConnectingIdType 枚举值之一。</param>
+        <param name="id">用户 id。</param>
+        <summary>初始化与指定的用户 ID 的 ImpersonatedUserId 类的新实例</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用户 id。</summary>
+        <value>用户 id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConnectingIdType IdType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType IdType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId.IdType" />
+      <MemberSignature Language="VB.NET" Value="Public Property IdType As ConnectingIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConnectingIdType IdType { Microsoft::Exchange::WebServices::Data::ConnectingIdType get(); void set(Microsoft::Exchange::WebServices::Data::ConnectingIdType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectingIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的类型 id。</summary>
+        <value>ConnectingIdType 枚举值之一。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

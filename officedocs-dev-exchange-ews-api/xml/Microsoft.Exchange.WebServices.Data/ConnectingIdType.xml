@@ -1,0 +1,85 @@
+<Type Name="ConnectingIdType" FullName="Microsoft.Exchange.WebServices.Data.ConnectingIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c2d0afab9cf97fe7b717fee823d5e3cfde69c14a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623389" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ConnectingIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConnectingIdType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConnectingIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConnectingIdType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConnectingIdType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义用于进行连接的标识符的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PrincipalName">
+      <MemberSignature Language="C#" Value="PrincipalName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType PrincipalName = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConnectingIdType.PrincipalName" />
+      <MemberSignature Language="VB.NET" Value="PrincipalName" />
+      <MemberSignature Language="C++ CLI" Value="PrincipalName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectingIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>标识符是主体的名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SID">
+      <MemberSignature Language="C#" Value="SID" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType SID = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConnectingIdType.SID" />
+      <MemberSignature Language="VB.NET" Value="SID" />
+      <MemberSignature Language="C++ CLI" Value="SID" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectingIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>标识符是 SID。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="SmtpAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType SmtpAddress = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConnectingIdType.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="SmtpAddress" />
+      <MemberSignature Language="C++ CLI" Value="SmtpAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectingIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>标识符是 SMTP 电子邮件地址。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

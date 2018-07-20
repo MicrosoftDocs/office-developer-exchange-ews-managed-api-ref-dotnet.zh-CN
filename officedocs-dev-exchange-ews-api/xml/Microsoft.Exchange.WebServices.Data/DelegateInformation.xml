@@ -1,0 +1,69 @@
+<Type Name="DelegateInformation" FullName="Microsoft.Exchange.WebServices.Data.DelegateInformation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a18e3f7a6f63db34fbdeac5c82c0121cb768b0dd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623392" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DelegateInformation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegateInformation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegateInformation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegateInformation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegateInformation sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表返回邮箱委派用户操作的结果。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DelegateUserResponses">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.DelegateUserResponse&gt; DelegateUserResponses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.DelegateUserResponse&gt; DelegateUserResponses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateInformation.DelegateUserResponses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DelegateUserResponses As Collection(Of DelegateUserResponse)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::DelegateUserResponse ^&gt; ^ DelegateUserResponses { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::DelegateUserResponse ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.DelegateUserResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取每个代理操作中所涉及的用户响应的列表。</summary>
+        <value>包含有关操作时涉及的委托用户信息的响应对象的集合。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestsDeliveryScope">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope MeetingRequestsDeliveryScope { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope MeetingRequestsDeliveryScope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateInformation.MeetingRequestsDeliveryScope" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingRequestsDeliveryScope As MeetingRequestsDeliveryScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingRequestsDeliveryScope MeetingRequestsDeliveryScope { Microsoft::Exchange::WebServices::Data::MeetingRequestsDeliveryScope get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否以及如何会议请求都传递给代理人。</summary>
+        <value>指示是否代理人都会收到会议请求的 MeetingRequestsDeliveryScope 枚举值之一。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

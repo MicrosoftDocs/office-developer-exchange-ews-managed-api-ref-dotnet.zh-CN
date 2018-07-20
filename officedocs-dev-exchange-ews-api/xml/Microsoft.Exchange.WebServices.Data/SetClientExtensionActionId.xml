@@ -1,0 +1,85 @@
+<Type Name="SetClientExtensionActionId" FullName="Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7741183580a9e1dc5bdbb2800c770c64f19ae7bf" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622693" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SetClientExtensionActionId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SetClientExtensionActionId extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SetClientExtensionActionId" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SetClientExtensionActionId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义集客户端扩展操作标识符的类型。             <see cref="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Configure">
+      <MemberSignature Language="C#" Value="Configure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId Configure = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId.Configure" />
+      <MemberSignature Language="VB.NET" Value="Configure" />
+      <MemberSignature Language="C++ CLI" Value="Configure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>配置客户端应用程序。             <see cref="F:Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId.Configure" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Install">
+      <MemberSignature Language="C#" Value="Install" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId Install = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId.Install" />
+      <MemberSignature Language="VB.NET" Value="Install" />
+      <MemberSignature Language="C++ CLI" Value="Install" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>安装客户端应用程序。             <see cref="F:Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId.Install" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Uninstall">
+      <MemberSignature Language="C#" Value="Uninstall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId Uninstall = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId.Uninstall" />
+      <MemberSignature Language="VB.NET" Value="Uninstall" />
+      <MemberSignature Language="C++ CLI" Value="Uninstall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>卸载的客户端应用程序。             <see cref="F:Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId.Uninstall" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

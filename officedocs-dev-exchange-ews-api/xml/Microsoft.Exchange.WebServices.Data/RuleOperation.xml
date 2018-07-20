@@ -1,0 +1,28 @@
+<Type Name="RuleOperation" FullName="Microsoft.Exchange.WebServices.Data.RuleOperation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f44075f2cd51ca377515e8b62034f08a4251fc86" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623437" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class RuleOperation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit RuleOperation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class RuleOperation&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleOperation abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表收件箱规则操作的派生类的基类。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

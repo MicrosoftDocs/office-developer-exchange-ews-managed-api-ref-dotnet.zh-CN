@@ -1,0 +1,374 @@
+<Type Name="EmailMessageSchema" FullName="Microsoft.Exchange.WebServices.Data.EmailMessageSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fc25aec52cfe0ba8c659efe4413893b920299bab" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623238" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class EmailMessageSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailMessageSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailMessageSchema&#xA;Inherits ItemSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailMessageSchema : Microsoft::Exchange::WebServices::Data::ItemSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表电子邮件的架构。</summary>
+    <remarks>
+      <para>此枚举包含一组属性可供<see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessage" />对象。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApprovalRequestData">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ApprovalRequestData;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ApprovalRequestData" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ApprovalRequestData" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ApprovalRequestData As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ApprovalRequestData;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ApprovalRequestData" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition BccRecipients;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition BccRecipients" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BccRecipients As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ BccRecipients;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.BccRecipients" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition CcRecipients;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition CcRecipients" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CcRecipients As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ CcRecipients;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.CcRecipients" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationIndex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationIndex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConversationIndex As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConversationIndex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationIndex" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationTopic;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConversationTopic" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConversationTopic As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConversationTopic;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationTopic" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition From;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition From" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.From" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly From As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ From;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition InternetMessageId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition InternetMessageId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InternetMessageId As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ InternetMessageId;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.InternetMessageId" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeliveryReceiptRequested">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsDeliveryReceiptRequested;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsDeliveryReceiptRequested" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.IsDeliveryReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsDeliveryReceiptRequested As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsDeliveryReceiptRequested;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsDeliveryReceiptRequested" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRead;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRead" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRead As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsRead;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsRead" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequested">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsReadReceiptRequested;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsReadReceiptRequested" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.IsReadReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsReadReceiptRequested As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsReadReceiptRequested;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsReadReceiptRequested" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequested">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsResponseRequested;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsResponseRequested" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.IsResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsResponseRequested As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsResponseRequested;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsResponseRequested" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedBy">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ReceivedBy;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ReceivedBy" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ReceivedBy" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReceivedBy As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ReceivedBy;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedRepresenting">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ReceivedRepresenting;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ReceivedRepresenting" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ReceivedRepresenting" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReceivedRepresenting As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ReceivedRepresenting;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="References">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition References;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition References" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.References" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly References As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ References;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.References" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyTo">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ReplyTo;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ReplyTo" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ReplyTo As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ReplyTo;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReplyTo" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Sender;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Sender" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Sender As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Sender;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.Sender" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ToRecipients;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ToRecipients" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ToRecipients As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ToRecipients;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ToRecipients" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VotingInformation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition VotingInformation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition VotingInformation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.VotingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly VotingInformation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ VotingInformation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>标识<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.VotingInformation" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

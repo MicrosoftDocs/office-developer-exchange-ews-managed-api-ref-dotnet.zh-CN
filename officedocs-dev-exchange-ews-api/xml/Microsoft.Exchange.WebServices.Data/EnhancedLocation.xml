@@ -1,0 +1,154 @@
+<Type Name="EnhancedLocation" FullName="Microsoft.Exchange.WebServices.Data.EnhancedLocation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a528f95fe26d1d44daf95c5a2f033dd34824d958" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622851" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class EnhancedLocation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EnhancedLocation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EnhancedLocation&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EnhancedLocation sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含日历项目的增强的位置信息。             <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnhancedLocation (string displayName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string displayName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (displayName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EnhancedLocation(System::String ^ displayName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">位置的显示名称。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" />类使用提供的显示名称。             <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnhancedLocation (string displayName, string annotation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string displayName, string annotation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (displayName As String, annotation As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EnhancedLocation(System::String ^ displayName, System::String ^ annotation);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="annotation" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">位置的显示名称。</param>
+        <param name="annotation">在位置批注。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" />使用提供的显示名称和日历项注释的类。 <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnhancedLocation (string displayName, string annotation, Microsoft.Exchange.WebServices.Data.PersonaPostalAddress personaPostalAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string displayName, string annotation, class Microsoft.Exchange.WebServices.Data.PersonaPostalAddress personaPostalAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String,Microsoft.Exchange.WebServices.Data.PersonaPostalAddress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EnhancedLocation(System::String ^ displayName, System::String ^ annotation, Microsoft::Exchange::WebServices::Data::PersonaPostalAddress ^ personaPostalAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="annotation" Type="System.String" />
+        <Parameter Name="personaPostalAddress" Type="Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">位置的显示名称。</param>
+        <param name="annotation">在位置批注。</param>
+        <param name="personaPostalAddress">个人邮寄地址。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" />使用提供的显示名称、 日历项注释和个人邮政地址的类。  <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String,Microsoft.Exchange.WebServices.Data.PersonaPostalAddress)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Annotation">
+      <MemberSignature Language="C#" Value="public string Annotation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Annotation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.Annotation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Annotation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Annotation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置与日历项相关联的注释。             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.Annotation" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>位置批注。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置与日历项关联的显示名称。             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.DisplayName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>位置的显示名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonaPostalAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PersonaPostalAddress PersonaPostalAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PersonaPostalAddress PersonaPostalAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.PersonaPostalAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PersonaPostalAddress As PersonaPostalAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PersonaPostalAddress ^ PersonaPostalAddress { Microsoft::Exchange::WebServices::Data::PersonaPostalAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::PersonaPostalAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PersonaPostalAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的邮政地址为相关联的角色。             <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.PersonaPostalAddress" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>个人邮寄地址。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

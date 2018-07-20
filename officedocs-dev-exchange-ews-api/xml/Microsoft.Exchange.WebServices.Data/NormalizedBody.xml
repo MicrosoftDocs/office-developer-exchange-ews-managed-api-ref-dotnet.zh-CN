@@ -1,0 +1,135 @@
+<Type Name="NormalizedBody" FullName="Microsoft.Exchange.WebServices.Data.NormalizedBody">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5768ff2e98993be5216bd6a7a4012b3b854a92a6" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622709" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class NormalizedBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NormalizedBody extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NormalizedBody" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NormalizedBody&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NormalizedBody sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表已转换为规范化值的邮件正文。             <see cref="T:Microsoft.Exchange.WebServices.Data.NormalizedBody" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BodyType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.BodyType BodyType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.BodyType BodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.BodyType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BodyType As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::BodyType BodyType { Microsoft::Exchange::WebServices::Data::BodyType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示邮件的正文是否以 HTML 或文本格式。             <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.BodyType" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>规范化的正文文本的类型。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTruncated">
+      <MemberSignature Language="C#" Value="public bool IsTruncated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTruncated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.IsTruncated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTruncated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTruncated { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，指示邮件正文中的文本是否被截断。             <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.IsTruncated" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果正文会被截断;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator string (Microsoft.Exchange.WebServices.Data.NormalizedBody messageBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Microsoft.Exchange.WebServices.Data.NormalizedBody messageBody) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NormalizedBody.op_Implicit(Microsoft.Exchange.WebServices.Data.NormalizedBody)~System.String" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (messageBody As NormalizedBody) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Exchange::WebServices::Data::NormalizedBody ^ messageBody);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="messageBody" Type="Microsoft.Exchange.WebServices.Data.NormalizedBody" />
+      </Parameters>
+      <Docs>
+        <param name="messageBody">要转换的 NormalizedBody 对象。</param>
+        <summary>定义的隐式转换<see cref="T:Microsoft.Exchange.WebServices.Data.NormalizedBody" />对象转换为字符串。 <see cref="M:Microsoft.Exchange.WebServices.Data.NormalizedBody.op_Implicit(Microsoft.Exchange.WebServices.Data.NormalizedBody)~System.String" />运算符同样适用的客户端的目标 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本。</summary>
+        <returns>正文的文本。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.Text" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取邮件正文的文本。 <see cref="P:Microsoft.Exchange.WebServices.Data.NormalizedBody.Text" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>规范化正文的文本。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NormalizedBody.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>当前对象转换为一个字符串值。 <see cref="M:Microsoft.Exchange.WebServices.Data.NormalizedBody.ToString" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <returns>一个字符串，表示当前对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

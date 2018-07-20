@@ -1,0 +1,1587 @@
+<Type Name="ContactSchema" FullName="Microsoft.Exchange.WebServices.Data.ContactSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0e216c6854ffa720b93d7b5810b0d4140674a32" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623390" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ContactSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactSchema&#xA;Inherits ItemSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactSchema : Microsoft::Exchange::WebServices::Data::ItemSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示联系人的架构。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alias">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Alias;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Alias" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Alias" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Alias As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Alias;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义别名属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AssistantName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AssistantName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.AssistantName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AssistantName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AssistantName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 AssistantName 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition AssistantPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition AssistantPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.AssistantPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AssistantPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ AssistantPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 AssistantPhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Birthday">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Birthday;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Birthday" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Birthday" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Birthday As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Birthday;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Birthday 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressCity">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressCity;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressCity" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressCity" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressCity As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressCity;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BusinessAddressCity 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressCountryOrRegion">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressCountryOrRegion;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressCountryOrRegion" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressCountryOrRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressCountryOrRegion As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressCountryOrRegion;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BusinessAddressCountryOrRegion 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressPostalCode">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressPostalCode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressPostalCode" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressPostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressPostalCode As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressPostalCode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BusinessAddressPostalCode 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressState">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressState" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressState As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressState;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BusinessAddressState 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressStreet">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressStreet;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressStreet" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressStreet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressStreet As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressStreet;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BusinessAddressStreet 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessFax">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessFax;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessFax" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessFax" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessFax As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessFax;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义商务传真属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessHomePage">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition BusinessHomePage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition BusinessHomePage" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessHomePage" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessHomePage As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ BusinessHomePage;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BusinessHomePage 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BusinessPhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessPhone2">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessPhone2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessPhone2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessPhone2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessPhone2 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessPhone2;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 BusinessPhone2 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Callback">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Callback;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Callback" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Callback" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Callback As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ Callback;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义回调属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CarPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition CarPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition CarPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.CarPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CarPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ CarPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 CarPhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Children;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Children" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Children" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Children As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Children;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Children 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Companies;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Companies" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Companies As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Companies;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义公司属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyMainPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition CompanyMainPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition CompanyMainPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.CompanyMainPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CompanyMainPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ CompanyMainPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 CompanyMainPhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition CompanyName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition CompanyName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CompanyName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ CompanyName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 CompanyName 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition CompleteName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition CompleteName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.CompleteName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CompleteName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ CompleteName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 CompleteName 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSource">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ContactSource;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ContactSource" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ContactSource" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContactSource As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ContactSource;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 ContactSource 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Department">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Department;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Department" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Department" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Department As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Department;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义的部门属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryId">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DirectoryId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DirectoryId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.DirectoryId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DirectoryId As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DirectoryId;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 DirectoryId 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectReports">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DirectReports;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DirectReports" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.DirectReports" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DirectReports As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DirectReports;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 DirectReports 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DisplayName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DisplayName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DisplayName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DisplayName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义的 DisplayName 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress1">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress1" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.EmailAddress1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddress1 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ EmailAddress1;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 EmailAddress1 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress2">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.EmailAddress2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddress2 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ EmailAddress2;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 EmailAddress2 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress3">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress3;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress3" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.EmailAddress3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddress3 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ EmailAddress3;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 EmailAddress3 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition EmailAddresses;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition EmailAddresses" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddresses As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ EmailAddresses;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 EmailAddresses 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAs">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition FileAs;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition FileAs" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.FileAs" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FileAs As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ FileAs;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 FileAs 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAsMapping">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition FileAsMapping;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition FileAsMapping" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.FileAsMapping" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FileAsMapping As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ FileAsMapping;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 FileAsMapping 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Generation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Generation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Generation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Generation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Generation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Generation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义生成属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GivenName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GivenName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.GivenName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GivenName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GivenName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 GivenName 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasPicture">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition HasPicture;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition HasPicture" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HasPicture" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasPicture As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ HasPicture;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HasPicture 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressCity">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressCity;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressCity" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressCity" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressCity As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressCity;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HomeAddressCity 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressCountryOrRegion">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressCountryOrRegion;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressCountryOrRegion" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressCountryOrRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressCountryOrRegion As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressCountryOrRegion;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HomeAddressCountryOrRegion 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressPostalCode">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressPostalCode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressPostalCode" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressPostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressPostalCode As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressPostalCode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HomeAddressPostalCode 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressState">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressState" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressState As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressState;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HomeAddressState 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressStreet">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressStreet;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressStreet" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressStreet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressStreet As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressStreet;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HomeAddressStreet 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeFax">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeFax;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeFax" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeFax" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeFax As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeFax;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HomeFax 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomePhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomePhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomePhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomePhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomePhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomePhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HomePhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomePhone2">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomePhone2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomePhone2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomePhone2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomePhone2 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomePhone2;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 HomePhone2 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress1">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress1" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ImAddress1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImAddress1 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ ImAddress1;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 ImAddress1 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress2">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ImAddress2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImAddress2 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ ImAddress2;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 ImAddress2 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress3">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress3;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress3" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ImAddress3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImAddress3 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ ImAddress3;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 ImAddress3 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddresses">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ImAddresses;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ImAddresses" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ImAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImAddresses As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ImAddresses;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 ImAddresses 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Initials;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Initials" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Initials As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Initials;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义首字母缩写属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Isdn">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Isdn;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Isdn" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Isdn" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Isdn As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ Isdn;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Isdn 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTitle">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition JobTitle;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition JobTitle" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.JobTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly JobTitle As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ JobTitle;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 JobTitle 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Manager">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Manager;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Manager" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Manager" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Manager As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Manager;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义管理器属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagerMailbox">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ManagerMailbox;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ManagerMailbox" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ManagerMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ManagerMailbox As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ManagerMailbox;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 ManagerMailbox 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition MiddleName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition MiddleName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MiddleName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ MiddleName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 MiddleName 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Mileage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Mileage" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Mileage As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Mileage;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Mileage 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MobilePhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition MobilePhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition MobilePhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.MobilePhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MobilePhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ MobilePhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 MobilePhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MSExchangeCertificate">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition MSExchangeCertificate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition MSExchangeCertificate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.MSExchangeCertificate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MSExchangeCertificate As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ MSExchangeCertificate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 MSExchangeCertificate 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NickName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition NickName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition NickName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.NickName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NickName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ NickName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义昵称属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Notes;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Notes" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Notes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Notes As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Notes;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Notes 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfficeLocation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition OfficeLocation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition OfficeLocation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OfficeLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OfficeLocation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ OfficeLocation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 OfficeLocation 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressCity">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressCity;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressCity" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressCity" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressCity As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressCity;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 OtherAddressCity 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressCountryOrRegion">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressCountryOrRegion;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressCountryOrRegion" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressCountryOrRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressCountryOrRegion As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressCountryOrRegion;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 OtherAddressCountryOrRegion 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressPostalCode">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressPostalCode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressPostalCode" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressPostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressPostalCode As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressPostalCode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 OtherAddressPostalCode 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressState">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressState" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressState As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressState;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 OtherAddressState 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressStreet">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressStreet;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressStreet" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressStreet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressStreet As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressStreet;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 OtherAddressStreet 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherFax">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherFax;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherFax" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherFax" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherFax As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherFax;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 OtherFax 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherTelephone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherTelephone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherTelephone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherTelephone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherTelephone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherTelephone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 OtherTelephone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pager">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Pager;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Pager" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Pager" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Pager As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ Pager;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义页导航属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneNumbers;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhoneNumbers As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhoneNumbers;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义的 PhoneNumbers 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticFirstName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticFirstName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticFirstName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhoneticFirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhoneticFirstName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhoneticFirstName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 PhoneticFirstName 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticFullName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticFullName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticFullName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhoneticFullName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhoneticFullName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhoneticFullName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 PhoneticFullName 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticLastName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticLastName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticLastName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhoneticLastName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhoneticLastName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhoneticLastName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 PhoneticLastName 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Photo">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Photo;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Photo" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Photo" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Photo As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Photo;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义照片属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhysicalAddresses">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhysicalAddresses;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhysicalAddresses" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhysicalAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhysicalAddresses As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhysicalAddresses;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 PhysicalAddresses 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalAddressIndex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PostalAddressIndex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PostalAddressIndex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PostalAddressIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PostalAddressIndex As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PostalAddressIndex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 PostalAddressIndex 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimaryPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition PrimaryPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition PrimaryPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PrimaryPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PrimaryPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ PrimaryPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 PrimaryPhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Profession">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Profession;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Profession" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Profession" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Profession As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Profession;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Profession 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadioPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition RadioPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition RadioPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.RadioPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RadioPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ RadioPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 RadioPhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpouseName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition SpouseName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition SpouseName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.SpouseName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SpouseName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ SpouseName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义配偶姓名属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surname">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Surname;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Surname" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Surname" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Surname As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Surname;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义姓属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Telex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Telex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Telex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Telex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Telex As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ Telex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义电报属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TtyTddPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition TtyTddPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition TtyTddPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.TtyTddPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TtyTddPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ TtyTddPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 TtyTddPhone 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSMIMECertificate">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition UserSMIMECertificate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition UserSMIMECertificate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.UserSMIMECertificate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UserSMIMECertificate As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ UserSMIMECertificate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 UserSMIMECertificate 属性。 此值是在 Exchange Server 2010 SP2 和 Exchange Web Services (EWS) 托管 API 1.2 中引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WeddingAnniversary">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition WeddingAnniversary;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition WeddingAnniversary" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.WeddingAnniversary" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WeddingAnniversary As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ WeddingAnniversary;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 WeddingAnniversary 属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

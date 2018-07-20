@@ -1,0 +1,93 @@
+<Type Name="ManagementRoles" FullName="Microsoft.Exchange.WebServices.Data.ManagementRoles">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="332fd6c4c3387f07ca73e1dfc2d042d4c898c824" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623162" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ManagementRoles" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ManagementRoles extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ManagementRoles" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ManagementRoles sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含用于限制访问根据组成员身份的用户和应用程序角色。            <see cref="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagementRoles (string userRole);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string userRole) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userRole As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ManagementRoles(System::String ^ userRole);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userRole" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userRole">用户角色。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" />与关联的用户角色的类。             <see cref="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagementRoles (string userRole, string applicationRole);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string userRole, string applicationRole) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userRole As String, applicationRole As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ManagementRoles(System::String ^ userRole, System::String ^ applicationRole);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userRole" Type="System.String" />
+        <Parameter Name="applicationRole" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userRole">用户角色。</param>
+        <param name="applicationRole">应用程序角色。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" />类关联的用户角色和应用程序角色。             <see cref="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String,System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagementRoles (string[] userRoles, string[] applicationRoles);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string[] userRoles, string[] applicationRoles) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String[],System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userRoles As String(), applicationRoles As String())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ManagementRoles(cli::array &lt;System::String ^&gt; ^ userRoles, cli::array &lt;System::String ^&gt; ^ applicationRoles);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userRoles" Type="System.String[]" />
+        <Parameter Name="applicationRoles" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="userRoles">用户角色。</param>
+        <param name="applicationRoles">应用程序角色中。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" />类的用户和应用程序角色关联的集合。             <see cref="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String[],System.String[])" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

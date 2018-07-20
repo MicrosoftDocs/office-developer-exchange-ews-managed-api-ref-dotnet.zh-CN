@@ -1,0 +1,52 @@
+<Type Name="CancelMeetingMessage" FullName="Microsoft.Exchange.WebServices.Data.CancelMeetingMessage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="df8d6e2e1b8755827859e2ab47e7efc43bcec8ab" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622859" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CancelMeetingMessage : Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;Microsoft.Exchange.WebServices.Data.MeetingCancellation&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CancelMeetingMessage extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1&lt;class Microsoft.Exchange.WebServices.Data.MeetingCancellation&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CancelMeetingMessage" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CancelMeetingMessage&#xA;Inherits CalendarResponseMessageBase(Of MeetingCancellation)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CancelMeetingMessage sealed : Microsoft::Exchange::WebServices::Data::CalendarResponseMessageBase&lt;Microsoft::Exchange::WebServices::Data::MeetingCancellation ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;Microsoft.Exchange.WebServices.Data.MeetingCancellation&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TMessage">Microsoft.Exchange.WebServices.Data.MeetingCancellation</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表会议取消消息。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MessageBody Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MessageBody Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CancelMeetingMessage.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MessageBody ^ Body { Microsoft::Exchange::WebServices::Data::MessageBody ^ get(); void set(Microsoft::Exchange::WebServices::Data::MessageBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置响应的正文。</summary>
+        <value>对响应正文。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,218 @@
+<Type Name="UserConfigurationDictionaryObjectType" FullName="Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f78993777954b6726d5070bfe71247ac7ad1d1b5" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623549" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum UserConfigurationDictionaryObjectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UserConfigurationDictionaryObjectType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UserConfigurationDictionaryObjectType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class UserConfigurationDictionaryObjectType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>标识的用户配置词典键和值类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Boolean">
+      <MemberSignature Language="C#" Value="Boolean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType Boolean = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.Boolean" />
+      <MemberSignature Language="VB.NET" Value="Boolean" />
+      <MemberSignature Language="C++ CLI" Value="Boolean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>一个 Boolean 类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Byte">
+      <MemberSignature Language="C#" Value="Byte" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType Byte = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.Byte" />
+      <MemberSignature Language="VB.NET" Value="Byte" />
+      <MemberSignature Language="C++ CLI" Value="Byte" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Byte 类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ByteArray">
+      <MemberSignature Language="C#" Value="ByteArray" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType ByteArray = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.ByteArray" />
+      <MemberSignature Language="VB.NET" Value="ByteArray" />
+      <MemberSignature Language="C++ CLI" Value="ByteArray" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Byte 数组类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTime">
+      <MemberSignature Language="C#" Value="DateTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType DateTime = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.DateTime" />
+      <MemberSignature Language="VB.NET" Value="DateTime" />
+      <MemberSignature Language="C++ CLI" Value="DateTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>DateTime 类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Integer32">
+      <MemberSignature Language="C#" Value="Integer32" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType Integer32 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.Integer32" />
+      <MemberSignature Language="VB.NET" Value="Integer32" />
+      <MemberSignature Language="C++ CLI" Value="Integer32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>32 位整数类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Integer64">
+      <MemberSignature Language="C#" Value="Integer64" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType Integer64 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.Integer64" />
+      <MemberSignature Language="VB.NET" Value="Integer64" />
+      <MemberSignature Language="C++ CLI" Value="Integer64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>64 位整数类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="String">
+      <MemberSignature Language="C#" Value="String" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType String = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.String" />
+      <MemberSignature Language="VB.NET" Value="String" />
+      <MemberSignature Language="C++ CLI" Value="String" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>String 类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StringArray">
+      <MemberSignature Language="C#" Value="StringArray" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType StringArray = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.StringArray" />
+      <MemberSignature Language="VB.NET" Value="StringArray" />
+      <MemberSignature Language="C++ CLI" Value="StringArray" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>字符串数组类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnsignedInteger32">
+      <MemberSignature Language="C#" Value="UnsignedInteger32" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType UnsignedInteger32 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.UnsignedInteger32" />
+      <MemberSignature Language="VB.NET" Value="UnsignedInteger32" />
+      <MemberSignature Language="C++ CLI" Value="UnsignedInteger32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>32 位无符号的整数类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnsignedInteger64">
+      <MemberSignature Language="C#" Value="UnsignedInteger64" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType UnsignedInteger64 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType.UnsignedInteger64" />
+      <MemberSignature Language="VB.NET" Value="UnsignedInteger64" />
+      <MemberSignature Language="C++ CLI" Value="UnsignedInteger64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionaryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>64 位无符号的整数类型。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

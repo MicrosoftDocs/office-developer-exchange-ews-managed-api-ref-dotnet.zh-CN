@@ -1,0 +1,163 @@
+<Type Name="AlternateId" FullName="Microsoft.Exchange.WebServices.Data.AlternateId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d8eb84c9da9e6afc49e95c01b57b6723f64f9861" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623330" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AlternateId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternateId extends Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternateId" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternateId&#xA;Inherits AlternateIdBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateId : Microsoft::Exchange::WebServices::Data::AlternateIdBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.AlternateIdBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示的特定格式表示的标识符。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" />类。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId (Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, id As String, mailbox As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ id, System::String ^ mailbox);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="mailbox" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="format">要转换的标识符标识符格式。</param>
+        <param name="id">要转换的标识符。</param>
+        <param name="mailbox">包含要转换的标识符邮箱的 SMTP 地址。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" />使用提供的格式、 标识符和邮箱 SMTP 地址的类。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId (Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox, bool isArchive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox, bool isArchive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, id As String, mailbox As String, isArchive As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ id, System::String ^ mailbox, bool isArchive);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="isArchive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="format">要转换的标识符标识符格式。</param>
+        <param name="id">要转换的标识符。</param>
+        <param name="mailbox">包含要转换的标识符邮箱的 SMTP 地址。</param>
+        <param name="isArchive">一个指示标识符是否从存档项目的标志。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" />使用提供的格式、 标识符、 邮箱 SMTP 地址，类和存档入标识符标志。</summary>
+        <remarks>
+          <para>适用于目标版本的 Microsoft Exchange Server 开头 Exchange Server 2010 Service Pack 1 (SP1) 的客户端此重载。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，该值指示标识符是否表示存档项目或文件夹标识符。</summary>
+        <value>
+          <b>true</b>如果标识符表示存档项目或文件夹。否则为<b>false</b>。</value>
+        <remarks>
+          <para>此属性是适用于目标版本的 Microsoft Exchange Server 开头 Exchange Server 2010 Service Pack 1 (SP1) 的客户端。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置包含要转换的标识符的邮箱的 SMTP 地址。</summary>
+        <value>SMTP 地址。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueId">
+      <MemberSignature Language="C#" Value="public string UniqueId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.UniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UniqueId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置要转换的标识符。</summary>
+        <value>文件夹或项标识符。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

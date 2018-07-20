@@ -1,0 +1,1871 @@
+<Type Name="UserSettingName" FullName="Microsoft.Exchange.WebServices.Autodiscover.UserSettingName">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8e9fe640d527b15368374c3b855135fa7ecc529d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623511" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum UserSettingName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UserSettingName extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UserSettingName" />
+  <TypeSignature Language="C++ CLI" Value="public enum class UserSettingName" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>标识要在 Exchange Web Services (EWS) 自动发现操作中返回的用户设置。 由返回这些设置<see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" />方法调用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveDirectoryServer">
+      <MemberSignature Language="C#" Value="ActiveDirectoryServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ActiveDirectoryServer = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ActiveDirectoryServer" />
+      <MemberSignature Language="VB.NET" Value="ActiveDirectoryServer" />
+      <MemberSignature Language="C++ CLI" Value="ActiveDirectoryServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>Active Directory （目录服务） 服务器的名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlternateMailboxes">
+      <MemberSignature Language="C#" Value="AlternateMailboxes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName AlternateMailboxes = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AlternateMailboxes" />
+      <MemberSignature Language="VB.NET" Value="AlternateMailboxes" />
+      <MemberSignature Language="C++ CLI" Value="AlternateMailboxes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary>备用邮箱的集合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoDiscoverSMTPAddress">
+      <MemberSignature Language="C#" Value="AutoDiscoverSMTPAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName AutoDiscoverSMTPAddress = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" />
+      <MemberSignature Language="VB.NET" Value="AutoDiscoverSMTPAddress" />
+      <MemberSignature Language="C++ CLI" Value="AutoDiscoverSMTPAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary>自动发现简单邮件传输协议 (SMTP) 地址。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CasVersion">
+      <MemberSignature Language="C#" Value="CasVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName CasVersion = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.CasVersion" />
+      <MemberSignature Language="VB.NET" Value="CasVersion" />
+      <MemberSignature Language="C++ CLI" Value="CasVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary>为请求提供服务指定 (例如，14.XX 客户端访问服务器版本。YYY。ZZZ)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CertPrincipalName">
+      <MemberSignature Language="C#" Value="CertPrincipalName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName CertPrincipalName = int32(95)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.CertPrincipalName" />
+      <MemberSignature Language="VB.NET" Value="CertPrincipalName" />
+      <MemberSignature Language="C++ CLI" Value="CertPrincipalName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>95</MemberValue>
+      <Docs>
+        <summary>需要使用 SSL 连接到 Exchange SSL 证书主体名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossOrganizationSharingEnabled">
+      <MemberSignature Language="C#" Value="CrossOrganizationSharingEnabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName CrossOrganizationSharingEnabled = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.CrossOrganizationSharingEnabled" />
+      <MemberSignature Language="VB.NET" Value="CrossOrganizationSharingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="CrossOrganizationSharingEnabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>指示已跨组织共享为指定的用户启用的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentSharingLocations">
+      <MemberSignature Language="C#" Value="DocumentSharingLocations" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName DocumentSharingLocations = int32(77)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" />
+      <MemberSignature Language="VB.NET" Value="DocumentSharingLocations" />
+      <MemberSignature Language="C++ CLI" Value="DocumentSharingLocations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>77</MemberValue>
+      <Docs>
+        <summary>包含的 URL 和文档共享 web 服务相关联的元数据。            <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpConnectUrlFragment">
+      <MemberSignature Language="C#" Value="EcpConnectUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpConnectUrlFragment = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpConnectUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpConnectUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>管理社交网络订阅的 Exchange 控制面板页面的 URL 子字符串。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpDeliveryReportUrlFragment">
+      <MemberSignature Language="C#" Value="EcpDeliveryReportUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpDeliveryReportUrlFragment = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpDeliveryReportUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpDeliveryReportUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpDeliveryReportUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>用于管理送达报告 Exchange 控制面板页的 URL 子字符串。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpEmailSubscriptionsUrlFragment">
+      <MemberSignature Language="C#" Value="EcpEmailSubscriptionsUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpEmailSubscriptionsUrlFragment = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpEmailSubscriptionsUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpEmailSubscriptionsUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpEmailSubscriptionsUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>URL 字符串的子字符串 Exchange 控制面板页上的电子邮件订阅。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpExtensionInstallationUrlFragment">
+      <MemberSignature Language="C#" Value="EcpExtensionInstallationUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpExtensionInstallationUrlFragment = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpExtensionInstallationUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpExtensionInstallationUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>安装客户端扩展 Exchange 控制面板页的 URL 子字符串。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpPhotoUrlFragment">
+      <MemberSignature Language="C#" Value="EcpPhotoUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpPhotoUrlFragment = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpPhotoUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpPhotoUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>用于管理照片 Exchange 控制面板页的 URL 子字符串。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpPublishingUrlFragment">
+      <MemberSignature Language="C#" Value="EcpPublishingUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpPublishingUrlFragment = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPublishingUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpPublishingUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpPublishingUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>发布的 Exchange 控制面板页的 URL 子字符串。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpRetentionPolicyTagsUrlFragment">
+      <MemberSignature Language="C#" Value="EcpRetentionPolicyTagsUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpRetentionPolicyTagsUrlFragment = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpRetentionPolicyTagsUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpRetentionPolicyTagsUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpRetentionPolicyTagsUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>用于管理保留策略标记 Exchange 控制面板页的 URL 子字符串。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpTeamMailboxCreatingUrlFragment">
+      <MemberSignature Language="C#" Value="EcpTeamMailboxCreatingUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpTeamMailboxCreatingUrlFragment = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpTeamMailboxCreatingUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpTeamMailboxCreatingUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>创建站点邮箱的 Exchange 控制面板页的 URL 子字符串。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpTeamMailboxEditingUrlFragment">
+      <MemberSignature Language="C#" Value="EcpTeamMailboxEditingUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpTeamMailboxEditingUrlFragment = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpTeamMailboxEditingUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpTeamMailboxEditingUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>URL 字符串的子字符串用于编辑站点邮箱的 Exchange 控制面板页面。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpTeamMailboxUrlFragment">
+      <MemberSignature Language="C#" Value="EcpTeamMailboxUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpTeamMailboxUrlFragment = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpTeamMailboxUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpTeamMailboxUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>管理网站邮箱的 Exchange 控制面板页的 URL 子字符串。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpTextMessagingUrlFragment">
+      <MemberSignature Language="C#" Value="EcpTextMessagingUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpTextMessagingUrlFragment = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTextMessagingUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpTextMessagingUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpTextMessagingUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>短信服务的 Exchange 控制面板页的 URL 子字符串。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpVoicemailUrlFragment">
+      <MemberSignature Language="C#" Value="EcpVoicemailUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpVoicemailUrlFragment = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpVoicemailUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpVoicemailUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpVoicemailUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>语音邮件的自定义的 Exchange 控制面板页的 URL 子字符串。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsPartnerUrl">
+      <MemberSignature Language="C#" Value="EwsPartnerUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EwsPartnerUrl = int32(94)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" />
+      <MemberSignature Language="VB.NET" Value="EwsPartnerUrl" />
+      <MemberSignature Language="C++ CLI" Value="EwsPartnerUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>94</MemberValue>
+      <Docs>
+        <summary>Exchange Web Services (EWS) 合作伙伴 URL。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsSupportedSchemas">
+      <MemberSignature Language="C#" Value="EwsSupportedSchemas" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EwsSupportedSchemas = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsSupportedSchemas" />
+      <MemberSignature Language="VB.NET" Value="EwsSupportedSchemas" />
+      <MemberSignature Language="C++ CLI" Value="EwsSupportedSchemas" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary>架构版本支持的 EWS 的以逗号分隔列表。 架构版本值是 ExchangeVersion 枚举的值相同。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeRpcUrl">
+      <MemberSignature Language="C#" Value="ExchangeRpcUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExchangeRpcUrl = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExchangeRpcUrl" />
+      <MemberSignature Language="VB.NET" Value="ExchangeRpcUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExchangeRpcUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary>版本的 Exchange Server 开头 Exchange Server 2010 的远程过程调用 (RPC) 接口的 URL。 此 URL 是内部服务器，并且无法由客户端使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpConnectUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpConnectUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpConnectUrl = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpConnectUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpConnectUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>用于管理社交网络订阅 Exchange 控制面板页上的外部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpDeliveryReportUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpDeliveryReportUrl = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpDeliveryReportUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>送达报告的 Exchange 控制面板页上的外部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpEmailSubscriptionsUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpEmailSubscriptionsUrl = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpEmailSubscriptionsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>外部电子邮件订阅的 Exchange 控制面板页的 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpExtensionInstallationUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpExtensionInstallationUrl = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpExtensionInstallationUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary>安装客户端扩展 Exchange 控制面板页上的外部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpPhotoUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpPhotoUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpPhotoUrl = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpPhotoUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpPhotoUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>外部 URL 的 Exchange 控制面板页的照片。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpPublishingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpPublishingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpPublishingUrl = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPublishingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpPublishingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpPublishingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>外部发布的 Exchange 控制面板页的 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpRetentionPolicyTagsUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpRetentionPolicyTagsUrl = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpRetentionPolicyTagsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>用于管理保留策略标记 Exchange 控制面板页上的外部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTeamMailboxCreatingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTeamMailboxCreatingUrl = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTeamMailboxCreatingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>创建站点邮箱的 Exchange 控制面板页外部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTeamMailboxEditingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTeamMailboxEditingUrl = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTeamMailboxEditingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary>编辑网站邮箱的 Exchange 控制面板页外部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTeamMailboxHidingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTeamMailboxHidingUrl = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTeamMailboxHidingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary>隐藏站点邮箱的 Exchange 控制面板页外部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTeamMailboxUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTeamMailboxUrl = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTeamMailboxUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>管理网站邮箱的 Exchange 控制面板页外部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTextMessagingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTextMessagingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTextMessagingUrl = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTextMessagingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTextMessagingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTextMessagingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>Exchange 控制面板页的短信服务的外部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpUrl = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>Exchange 控制面板外部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpVoicemailUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpVoicemailUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpVoicemailUrl = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpVoicemailUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpVoicemailUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpVoicemailUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>外部语音邮件的自定义的 Exchange 控制面板页的 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEmwsUrl">
+      <MemberSignature Language="C#" Value="ExternalEmwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEmwsUrl = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEmwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEmwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary>Exchange 管理 Web 服务的外部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEwsUrl">
+      <MemberSignature Language="C#" Value="ExternalEwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEwsUrl = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEwsUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary>外部 URL 的 Exchange Web Services (EWS)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEwsVersion">
+      <MemberSignature Language="C#" Value="ExternalEwsVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEwsVersion = int32(75)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEwsVersion" />
+      <MemberSignature Language="VB.NET" Value="ExternalEwsVersion" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEwsVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>75</MemberValue>
+      <Docs>
+        <summary>外部 Exchange Web Services (EWS) 服务器的版本。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalImap4Connections">
+      <MemberSignature Language="C#" Value="ExternalImap4Connections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalImap4Connections = int32(71)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalImap4Connections" />
+      <MemberSignature Language="VB.NET" Value="ExternalImap4Connections" />
+      <MemberSignature Language="C++ CLI" Value="ExternalImap4Connections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>71</MemberValue>
+      <Docs>
+        <summary>IMAP4 协议连接的外部连接设置的列表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMailboxServer">
+      <MemberSignature Language="C#" Value="ExternalMailboxServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalMailboxServer = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalMailboxServer" />
+      <MemberSignature Language="VB.NET" Value="ExternalMailboxServer" />
+      <MemberSignature Language="C++ CLI" Value="ExternalMailboxServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>RPC 转移 HTTP 外部邮箱服务器的名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMailboxServerAuthenticationMethods">
+      <MemberSignature Language="C#" Value="ExternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalMailboxServerAuthenticationMethods = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="VB.NET" Value="ExternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="C++ CLI" Value="ExternalMailboxServerAuthenticationMethods" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>RPC 转移 HTTP 外部服务器所支持的身份验证方法。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMailboxServerRequiresSSL">
+      <MemberSignature Language="C#" Value="ExternalMailboxServerRequiresSSL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalMailboxServerRequiresSSL = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalMailboxServerRequiresSSL" />
+      <MemberSignature Language="VB.NET" Value="ExternalMailboxServerRequiresSSL" />
+      <MemberSignature Language="C++ CLI" Value="ExternalMailboxServerRequiresSSL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>一个值，指示 RPC 转移 HTTP 外部服务器是否需要安全套接字层 (SSL) 协议。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalOABUrl">
+      <MemberSignature Language="C#" Value="ExternalOABUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalOABUrl = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalOABUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalOABUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalOABUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary>脱机通讯簿 (OAB) 的外部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalPhotosUrl">
+      <MemberSignature Language="C#" Value="ExternalPhotosUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalPhotosUrl = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalPhotosUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalPhotosUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary>的照片页上的外部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalPop3Connections">
+      <MemberSignature Language="C#" Value="ExternalPop3Connections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalPop3Connections = int32(69)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPop3Connections" />
+      <MemberSignature Language="VB.NET" Value="ExternalPop3Connections" />
+      <MemberSignature Language="C++ CLI" Value="ExternalPop3Connections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>69</MemberValue>
+      <Docs>
+        <summary>POP3 协议连接的外部连接设置的列表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalServerExclusiveConnect">
+      <MemberSignature Language="C#" Value="ExternalServerExclusiveConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalServerExclusiveConnect = int32(86)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" />
+      <MemberSignature Language="VB.NET" Value="ExternalServerExclusiveConnect" />
+      <MemberSignature Language="C++ CLI" Value="ExternalServerExclusiveConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>86</MemberValue>
+      <Docs>
+        <summary>一个用于连接到 Exchange 服务器从用户的组织外部的引用。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalSmtpConnections">
+      <MemberSignature Language="C#" Value="ExternalSmtpConnections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalSmtpConnections = int32(73)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalSmtpConnections" />
+      <MemberSignature Language="VB.NET" Value="ExternalSmtpConnections" />
+      <MemberSignature Language="C++ CLI" Value="ExternalSmtpConnections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>73</MemberValue>
+      <Docs>
+        <summary>SMTP 协议连接的外部连接设置的列表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalUMUrl">
+      <MemberSignature Language="C#" Value="ExternalUMUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalUMUrl = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalUMUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalUMUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalUMUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary>统一消息服务的外部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalWebClientUrls">
+      <MemberSignature Language="C#" Value="ExternalWebClientUrls" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalWebClientUrls = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalWebClientUrls" />
+      <MemberSignature Language="VB.NET" Value="ExternalWebClientUrls" />
+      <MemberSignature Language="C++ CLI" Value="ExternalWebClientUrls" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary>Exchange Web 客户端的外部 Url。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupingInformation">
+      <MemberSignature Language="C#" Value="GroupingInformation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName GroupingInformation = int32(96)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.GroupingInformation" />
+      <MemberSignature Language="VB.NET" Value="GroupingInformation" />
+      <MemberSignature Language="C++ CLI" Value="GroupingInformation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>96</MemberValue>
+      <Docs>
+        <summary>用于组跨多个邮箱订阅通知时保持关联的用户的邮箱分组值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpConnectUrl">
+      <MemberSignature Language="C#" Value="InternalEcpConnectUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpConnectUrl = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpConnectUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpConnectUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>用于管理社交网络订阅 Exchange 控制面板页的内部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpDeliveryReportUrl">
+      <MemberSignature Language="C#" Value="InternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpDeliveryReportUrl = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpDeliveryReportUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>送达报告的 Exchange 控制面板页的内部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpEmailSubscriptionsUrl">
+      <MemberSignature Language="C#" Value="InternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpEmailSubscriptionsUrl = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpEmailSubscriptionsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>电子邮件订阅的 Exchange 控制面板页面内部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpExtensionInstallationUrl">
+      <MemberSignature Language="C#" Value="InternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpExtensionInstallationUrl = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpExtensionInstallationUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>安装客户端扩展 Exchange 控制面板页上的内部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpPhotoUrl">
+      <MemberSignature Language="C#" Value="InternalEcpPhotoUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpPhotoUrl = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpPhotoUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpPhotoUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>内部 URL 的 Exchange 控制面板页的照片。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpPublishingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpPublishingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpPublishingUrl = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPublishingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpPublishingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpPublishingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>内部发布的 Exchange 控制面板页的 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpRetentionPolicyTagsUrl">
+      <MemberSignature Language="C#" Value="InternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpRetentionPolicyTagsUrl = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpRetentionPolicyTagsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>保留策略标记的 Exchange 控制面板页面内部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTeamMailboxCreatingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTeamMailboxCreatingUrl = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTeamMailboxCreatingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>创建站点邮箱的 Exchange 控制面板页面内部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTeamMailboxEditingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTeamMailboxEditingUrl = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTeamMailboxEditingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>编辑网站邮箱的 Exchange 控制面板页面内部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTeamMailboxHidingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTeamMailboxHidingUrl = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTeamMailboxHidingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>隐藏站点邮箱的 Exchange 控制面板页面内部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTeamMailboxUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTeamMailboxUrl = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTeamMailboxUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>管理网站邮箱的 Exchange 控制面板页面内部 URL。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTextMessagingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTextMessagingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTextMessagingUrl = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTextMessagingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTextMessagingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTextMessagingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Exchange 控制面板页的短信服务的内部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpUrl">
+      <MemberSignature Language="C#" Value="InternalEcpUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpUrl = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Exchange 控制面板该内部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpVoicemailUrl">
+      <MemberSignature Language="C#" Value="InternalEcpVoicemailUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpVoicemailUrl = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpVoicemailUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpVoicemailUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpVoicemailUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>语音邮件的自定义的 Exchange 控制面板页的内部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEmwsUrl">
+      <MemberSignature Language="C#" Value="InternalEmwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEmwsUrl = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEmwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEmwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>Exchange 管理 Web 服务的内部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEwsUrl">
+      <MemberSignature Language="C#" Value="InternalEwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEwsUrl = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEwsUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>内部 URL 的 Exchange Web Services (EWS)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalImap4Connections">
+      <MemberSignature Language="C#" Value="InternalImap4Connections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalImap4Connections = int32(70)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalImap4Connections" />
+      <MemberSignature Language="VB.NET" Value="InternalImap4Connections" />
+      <MemberSignature Language="C++ CLI" Value="InternalImap4Connections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>70</MemberValue>
+      <Docs>
+        <summary>IMAP4 协议连接的内部连接设置的列表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalMailboxServer">
+      <MemberSignature Language="C#" Value="InternalMailboxServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalMailboxServer = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServer" />
+      <MemberSignature Language="VB.NET" Value="InternalMailboxServer" />
+      <MemberSignature Language="C++ CLI" Value="InternalMailboxServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>内部邮箱服务器完全限定域名 (FQDN)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalMailboxServerAuthenticationMethods">
+      <MemberSignature Language="C#" Value="InternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalMailboxServerAuthenticationMethods = int32(79)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="VB.NET" Value="InternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="C++ CLI" Value="InternalMailboxServerAuthenticationMethods" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>79</MemberValue>
+      <Docs>
+        <summary>RPC 客户端服务支持的身份验证方法。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalMailboxServerDN">
+      <MemberSignature Language="C#" Value="InternalMailboxServerDN" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalMailboxServerDN = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerDN" />
+      <MemberSignature Language="VB.NET" Value="InternalMailboxServerDN" />
+      <MemberSignature Language="C++ CLI" Value="InternalMailboxServerDN" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>内部邮箱服务器的旧的可分辨的名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalOABUrl">
+      <MemberSignature Language="C#" Value="InternalOABUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalOABUrl = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalOABUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalOABUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalOABUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>脱机通讯簿 (OAB) 的内部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalPhotosUrl">
+      <MemberSignature Language="C#" Value="InternalPhotosUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalPhotosUrl = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalPhotosUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalPhotosUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>照片服务的内部 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalPop3Connections">
+      <MemberSignature Language="C#" Value="InternalPop3Connections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalPop3Connections = int32(68)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPop3Connections" />
+      <MemberSignature Language="VB.NET" Value="InternalPop3Connections" />
+      <MemberSignature Language="C++ CLI" Value="InternalPop3Connections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>68</MemberValue>
+      <Docs>
+        <summary>POP3 协议连接的内部连接设置的列表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRpcClientServer">
+      <MemberSignature Language="C#" Value="InternalRpcClientServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalRpcClientServer = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcClientServer" />
+      <MemberSignature Language="VB.NET" Value="InternalRpcClientServer" />
+      <MemberSignature Language="C++ CLI" Value="InternalRpcClientServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>RPC 客户端服务器完全限定域名 (FQDN)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRpcHttpAuthenticationMethod">
+      <MemberSignature Language="C#" Value="InternalRpcHttpAuthenticationMethod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalRpcHttpAuthenticationMethod = int32(85)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" />
+      <MemberSignature Language="VB.NET" Value="InternalRpcHttpAuthenticationMethod" />
+      <MemberSignature Language="C++ CLI" Value="InternalRpcHttpAuthenticationMethod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>85</MemberValue>
+      <Docs>
+        <summary>内部的 RPC/HTTP 连接使用的身份验证方法。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRpcHttpConnectivityRequiresSsl">
+      <MemberSignature Language="C#" Value="InternalRpcHttpConnectivityRequiresSsl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalRpcHttpConnectivityRequiresSsl = int32(84)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" />
+      <MemberSignature Language="VB.NET" Value="InternalRpcHttpConnectivityRequiresSsl" />
+      <MemberSignature Language="C++ CLI" Value="InternalRpcHttpConnectivityRequiresSsl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>84</MemberValue>
+      <Docs>
+        <summary>指示是否需要对内部的 RPC/HTTP 连接 SSL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRpcHttpServer">
+      <MemberSignature Language="C#" Value="InternalRpcHttpServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalRpcHttpServer = int32(83)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" />
+      <MemberSignature Language="VB.NET" Value="InternalRpcHttpServer" />
+      <MemberSignature Language="C++ CLI" Value="InternalRpcHttpServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>83</MemberValue>
+      <Docs>
+        <summary>内部的 RPC/HTTP 连接使用的服务器的完全限定的域名。          <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalServerExclusiveConnect">
+      <MemberSignature Language="C#" Value="InternalServerExclusiveConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalServerExclusiveConnect = int32(74)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" />
+      <MemberSignature Language="VB.NET" Value="InternalServerExclusiveConnect" />
+      <MemberSignature Language="C++ CLI" Value="InternalServerExclusiveConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>74</MemberValue>
+      <Docs>
+        <summary>一个用于连接到 Exchange 服务器从用户的组织内部的引用。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalSmtpConnections">
+      <MemberSignature Language="C#" Value="InternalSmtpConnections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalSmtpConnections = int32(72)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalSmtpConnections" />
+      <MemberSignature Language="VB.NET" Value="InternalSmtpConnections" />
+      <MemberSignature Language="C++ CLI" Value="InternalSmtpConnections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>72</MemberValue>
+      <Docs>
+        <summary>SMTP 协议连接的内部连接设置的列表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalUMUrl">
+      <MemberSignature Language="C#" Value="InternalUMUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalUMUrl = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalUMUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalUMUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalUMUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>统一消息服务的内部 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalWebClientUrls">
+      <MemberSignature Language="C#" Value="InternalWebClientUrls" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalWebClientUrls = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalWebClientUrls" />
+      <MemberSignature Language="VB.NET" Value="InternalWebClientUrls" />
+      <MemberSignature Language="C++ CLI" Value="InternalWebClientUrls" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>Exchange Web 客户端的内部 url 集合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InteropExternalEwsUrl">
+      <MemberSignature Language="C#" Value="InteropExternalEwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InteropExternalEwsUrl = int32(90)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" />
+      <MemberSignature Language="VB.NET" Value="InteropExternalEwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InteropExternalEwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>90</MemberValue>
+      <Docs>
+        <summary>互操作性外部 Exchange Web Services (EWS) URL。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InteropExternalEwsVersion">
+      <MemberSignature Language="C#" Value="InteropExternalEwsVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InteropExternalEwsVersion = int32(91)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" />
+      <MemberSignature Language="VB.NET" Value="InteropExternalEwsVersion" />
+      <MemberSignature Language="C++ CLI" Value="InteropExternalEwsVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>91</MemberValue>
+      <Docs>
+        <summary>互操作性外部 Exchange Web 服务版本。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxDN">
+      <MemberSignature Language="C#" Value="MailboxDN" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName MailboxDN = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxDN" />
+      <MemberSignature Language="VB.NET" Value="MailboxDN" />
+      <MemberSignature Language="C++ CLI" Value="MailboxDN" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>用户的邮箱的邮箱数据库的可分辨的名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxVersion">
+      <MemberSignature Language="C#" Value="MailboxVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName MailboxVersion = int32(80)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" />
+      <MemberSignature Language="VB.NET" Value="MailboxVersion" />
+      <MemberSignature Language="C++ CLI" Value="MailboxVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>80</MemberValue>
+      <Docs>
+        <summary>承载用户邮箱的 Exchange 服务器的版本。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MobileMailboxPolicy">
+      <MemberSignature Language="C#" Value="MobileMailboxPolicy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName MobileMailboxPolicy = int32(76)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MobileMailboxPolicy" />
+      <MemberSignature Language="VB.NET" Value="MobileMailboxPolicy" />
+      <MemberSignature Language="C++ CLI" Value="MobileMailboxPolicy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>76</MemberValue>
+      <Docs>
+        <summary>移动邮箱策略设置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicFolderInformation">
+      <MemberSignature Language="C#" Value="PublicFolderInformation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName PublicFolderInformation = int32(92)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" />
+      <MemberSignature Language="VB.NET" Value="PublicFolderInformation" />
+      <MemberSignature Language="C++ CLI" Value="PublicFolderInformation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>92</MemberValue>
+      <Docs>
+        <summary>公用文件夹的信息。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicFolderServer">
+      <MemberSignature Language="C#" Value="PublicFolderServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName PublicFolderServer = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderServer" />
+      <MemberSignature Language="VB.NET" Value="PublicFolderServer" />
+      <MemberSignature Language="C++ CLI" Value="PublicFolderServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>公用文件夹服务器的名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectUrl">
+      <MemberSignature Language="C#" Value="RedirectUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName RedirectUrl = int32(93)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" />
+      <MemberSignature Language="VB.NET" Value="RedirectUrl" />
+      <MemberSignature Language="C++ CLI" Value="RedirectUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>93</MemberValue>
+      <Docs>
+        <summary>重定向 URL。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowGalAsDefaultView">
+      <MemberSignature Language="C#" Value="ShowGalAsDefaultView" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ShowGalAsDefaultView = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" />
+      <MemberSignature Language="VB.NET" Value="ShowGalAsDefaultView" />
+      <MemberSignature Language="C++ CLI" Value="ShowGalAsDefaultView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary>全局地址列表 (GAL) 用作默认视图。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SiteMailboxCreationURL">
+      <MemberSignature Language="C#" Value="SiteMailboxCreationURL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName SiteMailboxCreationURL = int32(82)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" />
+      <MemberSignature Language="VB.NET" Value="SiteMailboxCreationURL" />
+      <MemberSignature Language="C++ CLI" Value="SiteMailboxCreationURL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>82</MemberValue>
+      <Docs>
+        <summary>创建站点邮箱的 URL。 <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SPMySiteHostURL">
+      <MemberSignature Language="C#" Value="SPMySiteHostURL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName SPMySiteHostURL = int32(81)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" />
+      <MemberSignature Language="VB.NET" Value="SPMySiteHostURL" />
+      <MemberSignature Language="C++ CLI" Value="SPMySiteHostURL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>81</MemberValue>
+      <Docs>
+        <summary>为我的网站个人网站主机 URL。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDeploymentId">
+      <MemberSignature Language="C#" Value="UserDeploymentId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName UserDeploymentId = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserDeploymentId" />
+      <MemberSignature Language="VB.NET" Value="UserDeploymentId" />
+      <MemberSignature Language="C++ CLI" Value="UserDeploymentId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>用户的部署标识符。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDisplayName">
+      <MemberSignature Language="C#" Value="UserDisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName UserDisplayName = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserDisplayName" />
+      <MemberSignature Language="VB.NET" Value="UserDisplayName" />
+      <MemberSignature Language="C++ CLI" Value="UserDisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>用户的显示名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDN">
+      <MemberSignature Language="C#" Value="UserDN" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName UserDN = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserDN" />
+      <MemberSignature Language="VB.NET" Value="UserDN" />
+      <MemberSignature Language="C++ CLI" Value="UserDN" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>用户的旧的可分辨的名称。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserMSOnline">
+      <MemberSignature Language="C#" Value="UserMSOnline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName UserMSOnline = int32(78)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" />
+      <MemberSignature Language="VB.NET" Value="UserMSOnline" />
+      <MemberSignature Language="C++ CLI" Value="UserMSOnline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>78</MemberValue>
+      <Docs>
+        <summary>指示用户帐户是否为联机服务帐户。             <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

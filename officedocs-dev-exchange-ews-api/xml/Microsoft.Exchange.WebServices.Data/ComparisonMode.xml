@@ -1,0 +1,104 @@
+<Type Name="ComparisonMode" FullName="Microsoft.Exchange.WebServices.Data.ComparisonMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="65afa651bddfe0bb092b9b4b59a89c7db5e58b53" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623006" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ComparisonMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ComparisonMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ComparisonMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ComparisonMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ComparisonMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义值进行比较中搜索筛选器的方式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exact">
+      <MemberSignature Language="C#" Value="Exact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode Exact = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ComparisonMode.Exact" />
+      <MemberSignature Language="VB.NET" Value="Exact" />
+      <MemberSignature Language="C++ CLI" Value="Exact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>精确比较。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreCase">
+      <MemberSignature Language="C#" Value="IgnoreCase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode IgnoreCase = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ComparisonMode.IgnoreCase" />
+      <MemberSignature Language="VB.NET" Value="IgnoreCase" />
+      <MemberSignature Language="C++ CLI" Value="IgnoreCase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>比较忽略大小写。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreCaseAndNonSpacingCharacters">
+      <MemberSignature Language="C#" Value="IgnoreCaseAndNonSpacingCharacters" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode IgnoreCaseAndNonSpacingCharacters = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ComparisonMode.IgnoreCaseAndNonSpacingCharacters" />
+      <MemberSignature Language="VB.NET" Value="IgnoreCaseAndNonSpacingCharacters" />
+      <MemberSignature Language="C++ CLI" Value="IgnoreCaseAndNonSpacingCharacters" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>比较忽略大小写和占位字符。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreNonSpacingCharacters">
+      <MemberSignature Language="C#" Value="IgnoreNonSpacingCharacters" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode IgnoreNonSpacingCharacters = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ComparisonMode.IgnoreNonSpacingCharacters" />
+      <MemberSignature Language="VB.NET" Value="IgnoreNonSpacingCharacters" />
+      <MemberSignature Language="C++ CLI" Value="IgnoreNonSpacingCharacters" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>比较忽略占位字符。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

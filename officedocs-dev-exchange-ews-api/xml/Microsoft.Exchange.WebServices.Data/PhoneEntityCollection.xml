@@ -1,0 +1,36 @@
+<Type Name="PhoneEntityCollection" FullName="Microsoft.Exchange.WebServices.Data.PhoneEntityCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c270b9ce2e530c128d98ca7d35f6fb9aea3c4d13" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623436" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PhoneEntityCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.PhoneEntity&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhoneEntityCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.PhoneEntity&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneEntityCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhoneEntityCollection&#xA;Inherits ComplexPropertyCollection(Of PhoneEntity)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PhoneEntityCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::PhoneEntity ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.PhoneEntity&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.PhoneEntity</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>包含消息部分从提取的电话号码实体的集合。             <see cref="T:Microsoft.Exchange.WebServices.Data.PhoneEntityCollection" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

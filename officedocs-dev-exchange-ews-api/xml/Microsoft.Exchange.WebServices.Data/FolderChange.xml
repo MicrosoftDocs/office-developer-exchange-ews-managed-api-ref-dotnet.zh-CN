@@ -1,0 +1,72 @@
+<Type Name="FolderChange" FullName="Microsoft.Exchange.WebServices.Data.FolderChange">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9d79f971348ac2d6c7b329dc767443f129243b5c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622649" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderChange : Microsoft.Exchange.WebServices.Data.Change" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderChange extends Microsoft.Exchange.WebServices.Data.Change" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderChange" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderChange&#xA;Inherits Change" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderChange sealed : Microsoft::Exchange::WebServices::Data::Change" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Change</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示由同步操作返回的文件夹的更改。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Folder">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Folder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Folder Folder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderChange.Folder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Folder As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Folder ^ Folder { Microsoft::Exchange::WebServices::Data::Folder ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取更改应用于的文件夹。</summary>
+        <value>更改应用于文件夹。</value>
+        <remarks>
+          <para>文件夹属性时为空引用 (在 Visual Basic 中为 Nothing)<see cref="P:Microsoft.Exchange.WebServices.Data.Change.ChangeType" />属性的值为<b>ChangeType.Delete</b>。在这种情况下，使用<see cref="P:Microsoft.Exchange.WebServices.Data.FolderChange.FolderId" />属性检索的文件夹的已删除的标识符。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId FolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId FolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderChange.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ FolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取文件夹的更改应用于的标识符。</summary>
+        <value>更改应用于的文件夹的 ID。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

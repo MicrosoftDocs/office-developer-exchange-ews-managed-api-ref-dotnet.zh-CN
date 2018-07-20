@@ -1,0 +1,85 @@
+<Type Name="ResponseMessageType" FullName="Microsoft.Exchange.WebServices.Data.ResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3c94456005196969dd7a1ca895f770ae9dd40b80" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622705" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResponseMessageType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义 ResponseMessage 对象的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="Forward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ResponseMessageType Forward = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ResponseMessageType.Forward" />
+      <MemberSignature Language="VB.NET" Value="Forward" />
+      <MemberSignature Language="C++ CLI" Value="Forward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>ResponseMessage 是转发。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="Reply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ResponseMessageType Reply = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ResponseMessageType.Reply" />
+      <MemberSignature Language="VB.NET" Value="Reply" />
+      <MemberSignature Language="C++ CLI" Value="Reply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>ResponseMessage 是对消息的发件人的回复。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAll">
+      <MemberSignature Language="C#" Value="ReplyAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ResponseMessageType ReplyAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ResponseMessageType.ReplyAll" />
+      <MemberSignature Language="VB.NET" Value="ReplyAll" />
+      <MemberSignature Language="C++ CLI" Value="ReplyAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>ResponseMessage 是邮件的对发件人和所有收件人的回复。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

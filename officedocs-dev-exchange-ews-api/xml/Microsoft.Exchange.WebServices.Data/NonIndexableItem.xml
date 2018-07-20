@@ -1,0 +1,228 @@
+<Type Name="NonIndexableItem" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="889e417283e485dbbf8dbec12b3b5262d0d76a37" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622710" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class NonIndexableItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItem sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含有关其中索引尝试失败的邮箱中的项目的信息。             <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NonIndexableItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NonIndexableItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NonIndexableItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />类。 <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalInfo">
+      <MemberSignature Language="C#" Value="public string AdditionalInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AdditionalInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalInfo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdditionalInfo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置有关索引尝试失败的邮箱的其他信息。           <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>其他信息。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttemptCount">
+      <MemberSignature Language="C#" Value="public int AttemptCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AttemptCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttemptCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AttemptCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置索引目标邮箱的尝试次数。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>尝试计数中。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIndexError ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemIndexError ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCode As ItemIndexError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIndexError ErrorCode { Microsoft::Exchange::WebServices::Data::ItemIndexError get(); void set(Microsoft::Exchange::WebServices::Data::ItemIndexError value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIndexError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置失败的索引尝试的错误代码。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>错误代码。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorDescription">
+      <MemberSignature Language="C#" Value="public string ErrorDescription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorDescription { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置错误说明的失败的索引尝试。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>错误描述。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPartiallyIndexed">
+      <MemberSignature Language="C#" Value="public bool IsPartiallyIndexed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPartiallyIndexed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPartiallyIndexed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPartiallyIndexed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置是否已在其中索引尝试成功部分的邮箱项目。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果部分编制索引;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPermanentFailure">
+      <MemberSignature Language="C#" Value="public bool IsPermanentFailure { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPermanentFailure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPermanentFailure As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPermanentFailure { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置目标邮箱上的索引尝试是否永久失败。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果它是永久的失败;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置索引试图对其中邮箱中的项的 ID。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>项目 id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastAttemptTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastAttemptTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastAttemptTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastAttemptTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; LastAttemptTime { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置建立上次尝试索引目标邮箱的时间。             <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>上次尝试时间。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortValue">
+      <MemberSignature Language="C#" Value="public string SortValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortValue { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用于对项目排序项目索引尝试的值。            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>排序值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

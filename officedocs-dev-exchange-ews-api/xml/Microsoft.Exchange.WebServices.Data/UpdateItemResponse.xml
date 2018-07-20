@@ -1,0 +1,72 @@
+<Type Name="UpdateItemResponse" FullName="Microsoft.Exchange.WebServices.Data.UpdateItemResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f72712ee4165f37c93e5d883a5c004c8872fda83" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623135" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class UpdateItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UpdateItemResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UpdateItemResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UpdateItemResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateItemResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表对单个项目更新操作的响应。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConflictCount">
+      <MemberSignature Language="C#" Value="public int ConflictCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConflictCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UpdateItemResponse.ConflictCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConflictCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConflictCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取属性冲突更新操作过程中已解决的数目。</summary>
+        <value>一个包含属性冲突数的整数值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnedItem">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item ReturnedItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Item ReturnedItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UpdateItemResponse.ReturnedItem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReturnedItem As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Item ^ ReturnedItem { Microsoft::Exchange::WebServices::Data::Item ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取更新操作返回的项。</summary>
+        <value>一个项目的对象。</value>
+        <remarks>
+          <para>仅当一个周期性任务标记为已完成或其定期模式更改时设置 ReturnedItem。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

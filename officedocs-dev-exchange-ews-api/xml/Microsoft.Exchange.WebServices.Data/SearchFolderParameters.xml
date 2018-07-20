@@ -1,0 +1,154 @@
+<Type Name="SearchFolderParameters" FullName="Microsoft.Exchange.WebServices.Data.SearchFolderParameters">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f14ad3595fc45cd2bbb7bb7e94b82f2066782002" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623043" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchFolderParameters : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchFolderParameters extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFolderParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFolderParameters&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchFolderParameters sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>定义与搜索文件夹关联的参数。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="RootFolderIds">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderIdCollection RootFolderIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderIdCollection RootFolderIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFolderParameters.RootFolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RootFolderIds As FolderIdCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderIdCollection ^ RootFolderIds { Microsoft::Exchange::WebServices::Data::FolderIdCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderIdCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的搜索的根文件夹的列表。</summary>
+        <value>搜索的根文件夹的集合。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchFilter">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter SearchFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter SearchFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFolderParameters.SearchFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchFilter As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ SearchFilter { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(); void set(Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置与搜索文件夹关联的搜索筛选器。</summary>
+        <value>与搜索文件夹关联的搜索筛选器。</value>
+        <remarks>
+          <para>以下是可用的搜索筛选器类：</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFolderTraversal Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SearchFolderTraversal Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFolderParameters.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As SearchFolderTraversal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFolderTraversal Traversal { Microsoft::Exchange::WebServices::Data::SearchFolderTraversal get(); void set(Microsoft::Exchange::WebServices::Data::SearchFolderTraversal value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFolderTraversal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置为搜索文件夹的遍历模式。</summary>
+        <value>SearchFolderTraversalenumeration 值之一。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

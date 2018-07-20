@@ -1,0 +1,229 @@
+<Type Name="RetentionPolicyTag" FullName="Microsoft.Exchange.WebServices.Data.RetentionPolicyTag">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="68516c957f2caf0b6685cc8fc426f21f25c12a1d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623439" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RetentionPolicyTag" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RetentionPolicyTag extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RetentionPolicyTag" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RetentionPolicyTag sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含与文件夹、 邮箱或项目关联的保留策略信息。             <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetentionPolicyTag ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RetentionPolicyTag();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" />类。 <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置保留策略标记的说明。             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>保留策略标记说明。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的保留策略元素的描述性名称。             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>保留策略标记显示名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置是否标记包含有关 message 对象的存档策略的信息。             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果标签存档标记;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置是否可由用户看到标记。            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果可见，则标签否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptedInto">
+      <MemberSignature Language="C#" Value="public bool OptedInto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OptedInto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" />
+      <MemberSignature Language="VB.NET" Value="Public Property OptedInto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OptedInto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置是否此保留策略标记已由用户设置。             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果用户设置此标记;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RetentionActionType RetentionAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType RetentionAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionAction As RetentionActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RetentionActionType RetentionAction { Microsoft::Exchange::WebServices::Data::RetentionActionType get(); void set(Microsoft::Exchange::WebServices::Data::RetentionActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的保留策略根据执行的操作。             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>保留操作。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionId">
+      <MemberSignature Language="C#" Value="public Guid RetentionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid RetentionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionId As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid RetentionId { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的保留策略元素的标识符。             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>保留标识符。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionPeriod">
+      <MemberSignature Language="C#" Value="public int RetentionPeriod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RetentionPeriod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionPeriod As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RetentionPeriod { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个项目上执行操作之前的时间长度。             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>保持期，以时间跨度。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ElcFolderType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As ElcFolderType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ElcFolderType Type { Microsoft::Exchange::WebServices::Data::ElcFolderType get(); void set(Microsoft::Exchange::WebServices::Data::ElcFolderType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置是否存档或删除的已标记的对象。             <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>保留类型。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

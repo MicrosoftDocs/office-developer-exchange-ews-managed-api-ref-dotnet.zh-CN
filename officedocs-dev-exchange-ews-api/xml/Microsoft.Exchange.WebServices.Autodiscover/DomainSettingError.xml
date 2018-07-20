@@ -1,0 +1,93 @@
+<Type Name="DomainSettingError" FullName="Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="06371306bd3a29cf40d17dc2ea1ed97f58a09d29" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623266" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DomainSettingError" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DomainSettingError extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DomainSettingError" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DomainSettingError sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表 GetDomainSettings 请求中的错误。</summary>
+    <remarks>
+      <para>
+        <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError" />类包含有关由返回的错误的信息<see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings(System.String,System.Nullable{Microsoft.Exchange.WebServices.Data.ExchangeVersion},Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[])" />方法。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As AutodiscoverErrorCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverErrorCode ErrorCode { Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverErrorCode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取请求返回的错误代码。</summary>
+        <value>指定该请求错误的枚举值之一。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取与域设置错误相关联的错误消息。</summary>
+        <value>错误消息。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SettingName">
+      <MemberSignature Language="C#" Value="public string SettingName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SettingName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DomainSettingError.SettingName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SettingName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SettingName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取将导致出错的域设置的名称。</summary>
+        <value>导致出错的域设置的名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

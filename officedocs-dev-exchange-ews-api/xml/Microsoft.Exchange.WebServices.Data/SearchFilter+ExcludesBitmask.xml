@@ -1,0 +1,88 @@
+<Type Name="SearchFilter+ExcludesBitmask" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+ExcludesBitmask">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7e94e88511ff1192ce62e35aafc1595f8217b8d6" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623296" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.ExcludesBitmask : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/ExcludesBitmask extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.ExcludesBitmask&#xA;Inherits SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::ExcludesBitmask sealed : Microsoft::Exchange::WebServices::Data::SearchFilter::PropertyBasedFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+PropertyBasedFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示位掩码排除搜索筛选器。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcludesBitmask ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExcludesBitmask();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 SearchFilter.ExcludesBitmask 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcludesBitmask (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, int bitmask);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, int32 bitmask) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, bitmask As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExcludesBitmask(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, int bitmask);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="bitmask" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">正在比较属性的定义。</param>
+        <param name="bitmask">要比较的位掩码。</param>
+        <summary>初始化与指定的属性定义和位掩码的 SearchFilter.ExcludesBitmask 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bitmask">
+      <MemberSignature Language="C#" Value="public int Bitmask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Bitmask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask.Bitmask" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bitmask As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Bitmask { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置与属性进行比较的位掩码。</summary>
+        <value>要比较的属性的位图。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

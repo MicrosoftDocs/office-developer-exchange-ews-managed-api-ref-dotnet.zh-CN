@@ -1,0 +1,104 @@
+<Type Name="DisableReasonType" FullName="Microsoft.Exchange.WebServices.Data.DisableReasonType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fb0aeb88c49b4467b67933ff3ffb0ed75f76fb64" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622703" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DisableReasonType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DisableReasonType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DisableReasonType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DisableReasonType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DisableReasonType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指示要禁用扩展的原因。            <see cref="T:Microsoft.Exchange.WebServices.Data.DisableReasonType" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MobileClientPerformance">
+      <MemberSignature Language="C#" Value="MobileClientPerformance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DisableReasonType MobileClientPerformance = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DisableReasonType.MobileClientPerformance" />
+      <MemberSignature Language="VB.NET" Value="MobileClientPerformance" />
+      <MemberSignature Language="C++ CLI" Value="MobileClientPerformance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DisableReasonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>出于性能原因而移动 Outlook Web App 中已禁用。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 MobileClientPerformance 字段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoReason">
+      <MemberSignature Language="C#" Value="NoReason" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DisableReasonType NoReason = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DisableReasonType.NoReason" />
+      <MemberSignature Language="VB.NET" Value="NoReason" />
+      <MemberSignature Language="C++ CLI" Value="NoReason" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DisableReasonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>与没有理由已禁用。            适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 NoReason 字段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookClientPerformance">
+      <MemberSignature Language="C#" Value="OutlookClientPerformance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DisableReasonType OutlookClientPerformance = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DisableReasonType.OutlookClientPerformance" />
+      <MemberSignature Language="VB.NET" Value="OutlookClientPerformance" />
+      <MemberSignature Language="C++ CLI" Value="OutlookClientPerformance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DisableReasonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>从 Outlook 出于性能原因而被禁用。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 OutlookClientPerformance 字段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OWAClientPerformance">
+      <MemberSignature Language="C#" Value="OWAClientPerformance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DisableReasonType OWAClientPerformance = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DisableReasonType.OWAClientPerformance" />
+      <MemberSignature Language="VB.NET" Value="OWAClientPerformance" />
+      <MemberSignature Language="C++ CLI" Value="OWAClientPerformance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DisableReasonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>从 Outlook Web Access，出于性能原因而被禁用。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 OWAClientPerformance 字段。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

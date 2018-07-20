@@ -1,0 +1,1484 @@
+<Type Name="Item" FullName="Microsoft.Exchange.WebServices.Data.Item">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623201" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Item extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="VB.NET" Value="Public Class Item&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Item : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表泛型项。 在项目可用的属性中定义<see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" />类。<see cref="T:Microsoft.Exchange.WebServices.Data.Item" />类型是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowedResponseActions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.AllowedResponseActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowedResponseActions As ResponseActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ResponseActions AllowedResponseActions { Microsoft::Exchange::WebServices::Data::ResponseActions get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，指示哪些响应操作允许按此项。 响应操作的示例是答复和转发。</summary>
+        <value>一个 ResponseActions 枚举值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As ArchiveTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ArchiveTag ^ ArchiveTag { Microsoft::Exchange::WebServices::Data::ArchiveTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::ArchiveTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置存档标记。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>存档标记中。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As AttachmentCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ Attachments { Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此项的附件的列表。</summary>
+        <value>AttachmentCollection 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">要使用绑定到项的服务。</param>
+        <param name="id">绑定到项的 ID。</param>
+        <summary>将绑定到现有项目，无论其实际类型，并加载其第一类的属性。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>表示与指定 ID 相对应的项目项实例</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">有关此异常详细信息，请参阅<see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />。</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">要使用绑定到项的服务。</param>
+        <param name="id">绑定到项的 ID。</param>
+        <param name="propertySet">要加载的属性集。</param>
+        <summary>将绑定到现有项目，无论其实际类型，并加载指定的属性集。</summary>
+        <returns>项目实例表示指定 ID 所对应的项</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">有关此异常详细信息，请参阅<see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />。</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MessageBody Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MessageBody Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MessageBody ^ Body { Microsoft::Exchange::WebServices::Data::MessageBody ^ get(); void set(Microsoft::Exchange::WebServices::Data::MessageBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此项目的正文。</summary>
+        <value>一个 MessageBody 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置与此项关联的类别列表。</summary>
+        <value>一个 StringList 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取对话的此项的 ID。</summary>
+        <value>ConversationId 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">要在其中创建该项目的副本的文件夹的 ID。</param>
+        <summary>在指定文件夹中创建此项的一个的副本。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>一个项目的对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">要在其中创建该项目的副本的文件夹的名称。</param>
+        <summary>在指定文件夹中创建此项的一个的副本。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>一个项目的对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public string Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Culture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Culture { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置与此项目相关联的区域性。</summary>
+        <value>指示项目的区域性的字符串。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeCreated">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeCreated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeCreated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeCreated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeCreated As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeCreated { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的日期和时间从中创建此项。</summary>
+        <value>指示的日期和时间的 DateTime 值创建的项。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeReceived">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeReceived { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeReceived" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeReceived" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeReceived As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeReceived { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取时收到此项的时间。</summary>
+        <value>项目的接收指示的日期和时间的 DateTime 值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeSent">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeSent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeSent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeSent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeSent As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeSent { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的日期和时间在发送此项。</summary>
+        <value>指示的日期和时间的 DateTime 值发送项目。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">删除模式中。</param>
+        <summary>删除的项。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">删除模式中。</param>
+        <param name="suppressReadReceipts">
+          <b>true</b>如果读取如果项被删除，不应发送回执已请求已读的回执;否则为<b>false</b>。</param>
+        <summary>删除的项。 将调用 EWS 调用此方法的结果。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayCc">
+      <MemberSignature Language="C#" Value="public string DisplayCc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayCc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayCc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayCc As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayCc { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取列出此项的抄送收件人的文本字符串。</summary>
+        <value>一个字符串值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayTo">
+      <MemberSignature Language="C#" Value="public string DisplayTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayTo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayTo { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取列出此项的收件人的文本字符串。</summary>
+        <value>一个字符串值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveRights As EffectiveRights" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EffectiveRights EffectiveRights { Microsoft::Exchange::WebServices::Data::EffectiveRights get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示当前经过身份验证的用户对此项的有效权限。</summary>
+        <value>EffectiveRights 枚举值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntityExtractionResult">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntityExtractionResult As EntityExtractionResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ EntityExtractionResult { Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EntityExtractionResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取项上的实体提取信息。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>提取的实体。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取在此项定义的扩展属性的列表。</summary>
+        <value>ExtendedPropertyCollection 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Flag Flag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Flag Flag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Flag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Flag As Flag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Flag ^ Flag { Microsoft::Exchange::WebServices::Data::Flag ^ get(); void set(Microsoft::Exchange::WebServices::Data::Flag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Flag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个标志值，指示的状态、 开始日期、 截止日期或为某个项目的完成日期。   <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>此项的标记值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，指示项目是否有附件。</summary>
+        <value>项目的附件; 如果为 true否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex IconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex IconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex IconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的图标索引。 <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>图标索引。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此项的 ID。</summary>
+        <value>ItemId 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); void set(Microsoft::Exchange::WebServices::Data::Importance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此项的重要性。</summary>
+        <value>指示项目的重要性的重要性枚举值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InReplyTo">
+      <MemberSignature Language="C#" Value="public string InReplyTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InReplyTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property InReplyTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InReplyTo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此项中的回复引用。</summary>
+        <value>一个字符串值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public byte[] InstanceKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InstanceKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKey As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ InstanceKey { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取项实例键。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>项目实例键。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageHeaders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InternetMessageHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternetMessageHeaders As InternetMessageHeaderCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ InternetMessageHeaders { Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此项 Internet 标头的列表。 若要获取的 Internet 邮件头的整个集合，请使用 PR_TRANSPORT_MESSAGE_HEADERS 属性。</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" />对象。</value>
+        <remarks>
+          <para>下面是扩展属性 PR_TRANSPORT_MESSAGE_HEADERS 的定义。</para>
+          <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+          <para>可以添加到此属性定义<see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" />对象获取 Internet 邮件头。</para>
+          <para>有关 EWS 和 Internet 邮件头，有关详细信息，请参阅<a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS、 MIME 和缺少的 Internet 邮件头</a>中"入门 Internet 邮件头"</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociated">
+      <MemberSignature Language="C#" Value="public bool IsAssociated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociated { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否关联的项目。</summary>
+        <value>如果这是一个关联的项目;否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAttachment">
+      <MemberSignature Language="C#" Value="public bool IsAttachment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAttachment { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示项目是否为附件。</summary>
+        <value>项目包含附件; 如果为 true否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDraft">
+      <MemberSignature Language="C#" Value="public bool IsDraft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDraft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsDraft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDraft As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDraft { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示项目是否草稿。 项目时尚未发送草稿。</summary>
+        <value>如果此项是草稿;否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFromMe">
+      <MemberSignature Language="C#" Value="public bool IsFromMe { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFromMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsFromMe" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFromMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMe { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否已由当前经过身份验证的用户发送项目。</summary>
+        <value>如果当前经过身份验证用户; 发送项目否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNew">
+      <MemberSignature Language="C#" Value="public override bool IsNew { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNew" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsNew" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsNew As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsNew { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否实际存储项目或本地对象具有尚未保存此对象。</summary>
+        <value>如果以前未保存项目;否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReminderSet">
+      <MemberSignature Language="C#" Value="public bool IsReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReminderSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否为此项设置提醒。</summary>
+        <value>为特定提醒设置; 如果为 true否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResend">
+      <MemberSignature Language="C#" Value="public bool IsResend { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResend" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsResend" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsResend As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResend { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示项目是否为另一项的重新发送。</summary>
+        <value>如果该项目是重新发送;否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSubmitted">
+      <MemberSignature Language="C#" Value="public bool IsSubmitted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSubmitted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsSubmitted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSubmitted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSubmitted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否已提交邮件发送。</summary>
+        <value>如果项目已提交;否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUnmodified">
+      <MemberSignature Language="C#" Value="public bool IsUnmodified { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUnmodified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsUnmodified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUnmodified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUnmodified { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，指示项目创建以来，它是否已被修改过。</summary>
+        <value>如果尚未修改项目;否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此项目的自定义类名称。</summary>
+        <value>指示自定义类名称的字符串值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedName">
+      <MemberSignature Language="C#" Value="public string LastModifiedName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastModifiedName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastModifiedName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取上次修改此项的用户的名称。</summary>
+        <value>指示上次修改项目的用户的字符串值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的日期和时间的上次修改此项。</summary>
+        <value>指示的日期和时间的 DateTime 值上次修改项目。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MimeContent">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MimeContent MimeContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MimeContent MimeContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.MimeContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property MimeContent As MimeContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MimeContent ^ MimeContent { Microsoft::Exchange::WebServices::Data::MimeContent ^ get(); void set(Microsoft::Exchange::WebServices::Data::MimeContent ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MimeContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 MIME 此项的内容。</summary>
+        <value>一个 MimeContent 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">要将此项目移到的文件夹的 ID。</param>
+        <summary>将此项目移动到指定的文件夹。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>一个项目的对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">要将此项目移到的文件夹的名称。</param>
+        <summary>将此项目移动到指定的文件夹。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>一个项目的对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalizedBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NormalizedBody As NormalizedBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::NormalizedBody ^ NormalizedBody { Microsoft::Exchange::WebServices::Data::NormalizedBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.NormalizedBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取已转换为规范化值的项目的邮件正文。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>规范化项目的正文。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此项的父文件夹的 ID。</summary>
+        <value>一个文件夹 Id 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As PolicyTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PolicyTag ^ PolicyTag { Microsoft::Exchange::WebServices::Data::PolicyTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::PolicyTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的保留策略值。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>保留策略值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取项预览。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>项目预览。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderDueBy">
+      <MemberSignature Language="C#" Value="public DateTime ReminderDueBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReminderDueBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderDueBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderDueBy As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReminderDueBy { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的日期和提醒到期针对此项目的时间。</summary>
+        <value>指示的日期和时间的 DateTime 值提醒的到期。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderMinutesBeforeStart">
+      <MemberSignature Language="C#" Value="public int ReminderMinutesBeforeStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReminderMinutesBeforeStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderMinutesBeforeStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderMinutesBeforeStart As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ReminderMinutesBeforeStart { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此项应触发提醒开始之前的分钟数。</summary>
+        <value>指示的分钟数的整数值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveExtendedProperty">
+      <MemberSignature Language="C#" Value="public bool RemoveExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.RemoveExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">扩展的属性定义。</param>
+        <summary>删除扩展的属性。</summary>
+        <returns>属性已删除; 如果为 true否则为为 false。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; RetentionDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; RetentionDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; RetentionDate { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取项必须保留的截止日期。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>保留日期。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>基于项目的类型的默认文件夹中保存此项。 调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。 多个调用 EWS 可能成为，如果已添加附件。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderId">要在其中保存此项的文件夹的 ID。</param>
+        <summary>在特定文件夹中保存此项。 调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。 多个调用 EWS 可能成为，如果已添加附件。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderName">要在其中保存此项的文件夹的名称。</param>
+        <summary>在特定文件夹中保存此项。 调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。 多个调用 EWS 可能成为，如果已添加附件。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Sensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Sensitivity Sensitivity { Microsoft::Exchange::WebServices::Data::Sensitivity get(); void set(Microsoft::Exchange::WebServices::Data::Sensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此项目的敏感度。</summary>
+        <value>一个敏感度对象中。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedProperty">
+      <MemberSignature Language="C#" Value="public void SetExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.SetExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">要设置的扩展的属性。</param>
+        <param name="value">要设置的扩展属性的值。</param>
+        <summary>设置指定的扩展属性设为指定的值。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此项目的大小。</summary>
+        <value>指示项目的大小的整数值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreEntryId">
+      <MemberSignature Language="C#" Value="public byte[] StoreEntryId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] StoreEntryId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreEntryId As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ StoreEntryId { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取承载项目的存储的条目 ID。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>存储条目 id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此项目的主题。</summary>
+        <value>指示项目的主题的字符串值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TextBody TextBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TextBody TextBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextBody As TextBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TextBody ^ TextBody { Microsoft::Exchange::WebServices::Data::TextBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取项的文本正文。             <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>项目的文本正文。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueBody As UniqueBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UniqueBody ^ UniqueBody { Microsoft::Exchange::WebServices::Data::UniqueBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UniqueBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取对对话的此项是唯一的正文部分。</summary>
+        <value>一个 UniqueBody 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">冲突解决模式。</param>
+        <summary>应用到此项所做的本地更改。 调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。 如果已添加或删除附件，则可能进行多次调用 EWS。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">冲突解决模式。</param>
+        <param name="suppressReadReceipts">
+          <b>true</b>如果读取项正在更新，不应发送回执已请求已读的回执;否则为<b>false</b>。</param>
+        <summary>应用到此项所做的本地更改。 调用此方法将导致至少一次调用 EWS。 多 EWS 调用可能成为，如果已添加或删除附件。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientEditFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientEditFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientEditFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientEditFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientEditFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientEditFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取可附加到 Outlook Web App 的 URL 在 web 浏览器中打开此项的查询字符串。</summary>
+        <value>一个字符串值。</value>
+        <remarks>
+          <para>此属性适用于 Exchange 2010。使用中的信息<see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />打开 Outlook Web App 中的草稿项，然后使用 UI 编辑草稿项的属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientReadFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientReadFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientReadFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientReadFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientReadFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取应追加到 web 浏览器中使用适当的阅读窗体打开此项的 Exchange web 客户端 URL 的查询字符串。</summary>
+        <value>一个字符串值。</value>
+        <remarks>
+          <para>Outlook Web App 的 URL 的项标识符的项的 EWS 标识符。可以对 URL 进行编码的 EWS 项标识符并将其追加到查询字符串以获取项目的 Outlook Web App 的 URL。</para>
+          <para>版本差异</para>
+          <para>版本的 Exchange 主要版本 15 开头和结尾 15.00.775.009 不返回正确的查询字符串片段中<see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />属性。</para>
+          <para>在 Exchange 版本早于主要版本 15，Outlook Web App 的 URL 的项标识符是 Outlook Web App 标识符。如果您面向的以前版本的 Exchange 15 的主要版本，则必须使用<see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" />方法将转换标识符。</para>
+          <para />
+        </remarks>
+        <example>
+          <code>    /// &amp;lt;summary&amp;gt;
+    /// Demonstrates how to open an item in Outlook Web App.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name="service"&amp;gt;An ExchangeService object that has already had credentials set and contains a valid service URL.&amp;lt;/param&amp;gt;
+    static void OpenOWAFromWebClientReadFormQueryString(ExchangeService service)
+    {
+      // Create a view that will return the identifier for the first item in a folder.
+      ItemView itemView = new ItemView(1);
+      itemView.PropertySet = new PropertySet(BasePropertySet.IdOnly);
+
+      // Make a call to EWS to get one item from the mailbox folder.
+      FindItemsResults&amp;lt;Item&amp;gt; results = service.FindItems(WellKnownFolderName.Drafts, itemView);
+
+      // Get the item identifier of the item to open in Outlook Web App.
+      ItemId itemId = results.Items[0].Id;
+
+      ExchangeServerInfo serverInfo = service.ServerInfo;
+      var owaReadFormQueryString = string.Empty;
+      var ewsIdentifer = itemId.UniqueId;
+
+      try
+      {
+        // Make a call to EWS to bind to the item returned by the FindItems method.
+        EmailMessage msg = EmailMessage.Bind(service, itemId);
+        msg.Load(new PropertySet(BasePropertySet.IdOnly, EmailMessageSchema.WebClientReadFormQueryString));
+
+        // Versions of Exchange starting with major version 15 and ending with Exchange Server 2013 build 15.0.775.09
+        // returned a different query string fragment. This optional check is not required for applications that
+        // target Exchange Online.
+        if ((serverInfo.MajorVersion == 15) &amp;amp;&amp;amp; (serverInfo.MajorBuildNumber &amp;lt; 775) &amp;amp;&amp;amp;(serverInfo.MinorBuildNumber &amp;lt; 09))
+        {
+          // If your client is connected to an Exchange 2013 server that has not been updated to CU3,
+          // this query string will be returned.
+          owaReadFormQueryString = string.Format("#viewmodel=_y.$Ep&amp;amp;ItemID={0}",
+            System.Web.HttpUtility.UrlEncode(ewsIdentifer, Encoding.UTF8));
+        }
+        else
+        {
+          // If your client is connected to an Exchanger 2010, Exchange 2013 CU3, or Exchange Online server,
+          // the WebClientReadFormQueryString is used.
+          owaReadFormQueryString = msg.WebClientReadFormQueryString;
+        }
+
+        // Create the URL that Outlook Web App uses to open the email message.
+        Uri url = service.Url;
+        string owaReadAccessUrl = string.Format("{0}://{1}/owa/{2}",
+          url.Scheme, url.Host, owaReadFormQueryString);
+
+        if (!string.IsNullOrEmpty(owaReadAccessUrl))
+        {
+          System.Diagnostics.Process.Start("IEXPLORE.EXE", owaReadAccessUrl);
+        }
+      }
+      catch (System.ComponentModel.Win32Exception ex)
+      {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("ERRROR: Internet Explorer cannot be found.");
+      }
+    }</code>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

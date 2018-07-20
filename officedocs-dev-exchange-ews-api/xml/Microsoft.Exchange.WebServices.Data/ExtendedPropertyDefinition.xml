@@ -1,0 +1,431 @@
+<Type Name="ExtendedPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="02c5b5ea716a26f84fef6fd1d95894a2a6f39535" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623105" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ExtendedPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExtendedPropertyDefinition extends Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExtendedPropertyDefinition&#xA;Inherits PropertyDefinitionBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExtendedPropertyDefinition sealed : Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示扩展属性的定义。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (int tag, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 tag, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(System.Int32,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (tag As Integer, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(int tag, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="tag" Type="System.Int32" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="tag">扩展属性的标记。</param>
+        <param name="mapiType">MAPI 扩展属性的类型。</param>
+        <summary>初始化具有指定标记的 ExtendedPropertyDefinition 类的新实例<paramref name="tag" />指定的 MAPI 类型和<paramref name="mapiType" />。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet propertySet, int id, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet propertySet, int32 id, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet,System.Int32,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertySet As DefaultExtendedPropertySet, id As Integer, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(Microsoft::Exchange::WebServices::Data::DefaultExtendedPropertySet propertySet, int id, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="propertySet">该属性设置的扩展属性。</param>
+        <param name="id">扩展属性的 ID。</param>
+        <param name="mapiType">MAPI 扩展属性的类型。</param>
+        <summary>初始化已将属性设置指定的 ExtendedPropertyDefinition 类的新实例<paramref name="propertySet" />，通过指定的标识符<paramref name="id" />，并指定的 MAPI 类型<paramref name="mapiType" />。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet propertySet, string name, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet propertySet, string name, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet,System.String,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertySet As DefaultExtendedPropertySet, name As String, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(Microsoft::Exchange::WebServices::Data::DefaultExtendedPropertySet propertySet, System::String ^ name, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="propertySet">扩展属性的设置的扩展的属性。</param>
+        <param name="name">扩展属性的名称。</param>
+        <param name="mapiType">MAPI 扩展属性的类型。</param>
+        <summary>初始化已将属性设置指定的 ExtendedPropertyDefinition 类的新实例<paramref name="propertySet" />，指定名称的<paramref name="name" />，并指定的 MAPI 类型<paramref name="mapiType" />。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (Guid propertySetId, int id, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid propertySetId, int32 id, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(System.Guid,System.Int32,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertySetId As Guid, id As Integer, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(Guid propertySetId, int id, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertySetId" Type="System.Guid" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="propertySetId">该属性设置的扩展属性的 ID。</param>
+        <param name="id">扩展属性的 ID。</param>
+        <param name="mapiType">MAPI 扩展属性的类型。</param>
+        <summary>初始化属性 ExtendedPropertyDefinition 类的新实例设置指定的标识符<paramref name="propertySetId" />，通过指定的标识符<paramref name="id" />，并指定的 MAPI 类型<paramref name="mapiType" />。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (Guid propertySetId, string name, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid propertySetId, string name, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(System.Guid,System.String,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertySetId As Guid, name As String, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(Guid propertySetId, System::String ^ name, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertySetId" Type="System.Guid" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="propertySetId">该属性设置的扩展属性的 ID。</param>
+        <param name="name">扩展属性的名称。</param>
+        <param name="mapiType">MAPI 扩展属性的类型。</param>
+        <summary>初始化属性 ExtendedPropertyDefinition 类的新实例设置指定的标识符<paramref name="propertySetId" />，指定名称的<paramref name="name" />，并指定的 MAPI 类型<paramref name="mapiType" />。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">要检查相等的对象。</param>
+        <summary>确定给定的扩展的属性定义是否等于此扩展的属性定义。</summary>
+        <returns>如果为<b>true</b>的属性定义定义相同的扩展属性。否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回 ExtendedPropertyDefinition 对象的哈希代码。</summary>
+        <returns>ExtendedPropertyDefinition 对象的哈希代码。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJsonType">
+      <MemberSignature Language="C#" Value="protected override string GetJsonType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetJsonType() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.GetJsonType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetJsonType () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetJsonType();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; Id { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取扩展属性的 ID。</summary>
+        <value>
+          <b>可以为 null</b>值，包含扩展属性的标识符。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapiType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MapiPropertyType MapiType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType MapiType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.MapiType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MapiType As MapiPropertyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MapiPropertyType MapiType { Microsoft::Exchange::WebServices::Data::MapiPropertyType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MapiPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 MAPI 类型的扩展属性。</summary>
+        <value>MapiPropertyType 的扩展的属性类型。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取扩展属性的名称。</summary>
+        <value>扩展属性的名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef1, Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef1, class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.op_Equality(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (extPropDef1 As ExtendedPropertyDefinition, extPropDef2 As ExtendedPropertyDefinition) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extPropDef1, Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extPropDef2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extPropDef1" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="extPropDef2" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extPropDef1">第一个扩展的属性定义。</param>
+        <param name="extPropDef2">第二个扩展属性定义。</param>
+        <summary>确定的 ExtendedPropertyDefinition 两个指定的实例。</summary>
+        <returns>
+          <b>true</b>如果扩展的属性定义相等，则否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef1, Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef1, class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.op_Inequality(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (extPropDef1 As ExtendedPropertyDefinition, extPropDef2 As ExtendedPropertyDefinition) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extPropDef1, Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extPropDef2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extPropDef1" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="extPropDef2" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extPropDef1">第一个扩展的属性定义。</param>
+        <param name="extPropDef2">第二个扩展属性定义。</param>
+        <summary>确定 ExtendedPropertyDefinition 的两个指定的实例是否不相等。</summary>
+        <returns>
+          <b>true</b>如果扩展的属性定义不相等;否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertySet">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet&gt; PropertySet { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet&gt; PropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.PropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertySet As Nullable(Of DefaultExtendedPropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::DefaultExtendedPropertySet&gt; PropertySet { Nullable&lt;Microsoft::Exchange::WebServices::Data::DefaultExtendedPropertySet&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取属性集的扩展属性。</summary>
+        <value>
+          <b>可以为 null</b>值，包含扩展属性的属性集。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertySetId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; PropertySetId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; PropertySetId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.PropertySetId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertySetId As Nullable(Of Guid)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Guid&gt; PropertySetId { Nullable&lt;Guid&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的属性集 ID 扩展属性。</summary>
+        <value>
+          <b>可以为 null</b>值包含该属性设置的扩展属性的标识符。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Tag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; Tag { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>扩展属性获取的标记。</summary>
+        <value>
+          <b>可以为 null</b>值，包含扩展属性的标记。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public override Type Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Type As Type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Type ^ Type { Type ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的属性类型。</summary>
+        <value>属性类型。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public override Microsoft.Exchange.WebServices.Data.ExchangeVersion Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Version As ExchangeVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Exchange::WebServices::Data::ExchangeVersion Version { Microsoft::Exchange::WebServices::Data::ExchangeVersion get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的最小的 Exchange 版本支持此扩展的属性。</summary>
+        <value>ExchangeVersion 枚举值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

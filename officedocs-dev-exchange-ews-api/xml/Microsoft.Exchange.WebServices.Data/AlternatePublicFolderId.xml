@@ -1,0 +1,88 @@
+<Type Name="AlternatePublicFolderId" FullName="Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6339316712afd340e0078a89ca5da2991f1cace2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623479" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AlternatePublicFolderId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternatePublicFolderId extends Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternatePublicFolderId&#xA;Inherits AlternateIdBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternatePublicFolderId : Microsoft::Exchange::WebServices::Data::AlternateIdBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.AlternateIdBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示一个公用文件夹，以特定格式表示的标识符。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 AlternatePublicFolderId 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderId (Microsoft.Exchange.WebServices.Data.IdFormat format, string folderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string folderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, folderId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ folderId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="folderId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="format">公用文件夹标识符格式。</param>
+        <param name="folderId">公用文件夹标识符。</param>
+        <summary>使用提供的公用文件夹标识符格式和公用文件夹标识符初始化 AlternatePublicFolderId 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderId">
+      <MemberSignature Language="C#" Value="public string FolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的公用文件夹标识符。</summary>
+        <value>一个公用文件夹的标识符。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

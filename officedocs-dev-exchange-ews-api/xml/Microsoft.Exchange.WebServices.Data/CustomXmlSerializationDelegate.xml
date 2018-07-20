@@ -1,0 +1,33 @@
+<Type Name="CustomXmlSerializationDelegate" FullName="Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b820964b5a758322a3c384f680b781825dcdc892" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623152" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void CustomXmlSerializationDelegate(XmlWriter writer);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CustomXmlSerializationDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub CustomXmlSerializationDelegate(writer As XmlWriter)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void CustomXmlSerializationDelegate(XmlWriter ^ writer);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="writer" Type="System.Xml.XmlWriter" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="writer">用于发出的自定义 XML XmlWriter。</param>
+    <summary>表示应用程序可用于发出 SOAP 请求发送到 Exchange Web Services (EWS) 中的自定义 XML 的方法。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

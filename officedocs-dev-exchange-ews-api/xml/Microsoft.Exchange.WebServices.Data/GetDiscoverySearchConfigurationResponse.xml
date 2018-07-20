@@ -1,0 +1,49 @@
+<Type Name="GetDiscoverySearchConfigurationResponse" FullName="Microsoft.Exchange.WebServices.Data.GetDiscoverySearchConfigurationResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3acf41b6b856c138a6dc4983e5c4b1a543981e0d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623015" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetDiscoverySearchConfigurationResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetDiscoverySearchConfigurationResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetDiscoverySearchConfigurationResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetDiscoverySearchConfigurationResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetDiscoverySearchConfigurationResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含电子数据展示搜索配置请求的响应。             <see cref="T:Microsoft.Exchange.WebServices.Data.GetDiscoverySearchConfigurationResponse" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DiscoverySearchConfigurations">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration[] DiscoverySearchConfigurations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration[] DiscoverySearchConfigurations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetDiscoverySearchConfigurationResponse.DiscoverySearchConfigurations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DiscoverySearchConfigurations As DiscoverySearchConfiguration()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::DiscoverySearchConfiguration ^&gt; ^ DiscoverySearchConfigurations { cli::array &lt;Microsoft::Exchange::WebServices::Data::DiscoverySearchConfiguration ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取电子数据展示搜索配置，其中包括搜索 ID、 查询、 目标邮箱、 就地保留 ID 和管理组织。             <see cref="P:Microsoft.Exchange.WebServices.Data.GetDiscoverySearchConfigurationResponse.DiscoverySearchConfigurations" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>发现搜索配置。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

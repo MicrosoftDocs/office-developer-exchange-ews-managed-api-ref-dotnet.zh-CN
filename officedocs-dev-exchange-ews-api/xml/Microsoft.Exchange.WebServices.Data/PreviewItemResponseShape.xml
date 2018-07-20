@@ -1,0 +1,108 @@
+<Type Name="PreviewItemResponseShape" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0e487e723d798a0374218e146d9d70c1f8e28d09" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623081" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PreviewItemResponseShape" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreviewItemResponseShape extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewItemResponseShape" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PreviewItemResponseShape sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含预览项和扩展的属性名称的集合。             <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemResponseShape ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemResponseShape();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" />类。             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemResponseShape (Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape baseShape, Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape baseShape, class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (baseShape As PreviewItemBaseShape, additionalProperties As ExtendedPropertyDefinition())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemResponseShape(Microsoft::Exchange::WebServices::Data::PreviewItemBaseShape baseShape, cli::array &lt;Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="baseShape" Type="Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" />
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[]" />
+      </Parameters>
+      <Docs>
+        <param name="baseShape">预览项目的基本形状。</param>
+        <param name="additionalProperties">（必须扩展属性的窗体中） 的其他属性。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" />类与集合的扩展的属性名称和扩展的属性定义关联的集合。             <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[] AdditionalProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[] AdditionalProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalProperties As ExtendedPropertyDefinition()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^&gt; ^ AdditionalProperties { cli::array &lt;Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的扩展的属性名称的集合。             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>其他属性。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape BaseShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape BaseShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseShape As PreviewItemBaseShape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PreviewItemBaseShape BaseShape { Microsoft::Exchange::WebServices::Data::PreviewItemBaseShape get(); void set(Microsoft::Exchange::WebServices::Data::PreviewItemBaseShape value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的包含预览项目的邮箱 ID。             <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>邮箱 id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

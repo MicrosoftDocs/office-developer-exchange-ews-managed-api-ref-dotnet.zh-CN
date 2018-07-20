@@ -1,0 +1,69 @@
+<Type Name="GetClientExtensionResponse" FullName="Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4c56fa739e8ac0de6728fcf0df672d5f777a5f48" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622654" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetClientExtensionResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetClientExtensionResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetClientExtensionResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetClientExtensionResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含对<b>GetClientExtension</b>操作的响应。            <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClientExtensions">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.ClientExtension&gt; ClientExtensions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.ClientExtension&gt; ClientExtensions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse.ClientExtensions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientExtensions As Collection(Of ClientExtension)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::ClientExtension ^&gt; ^ ClientExtensions { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::ClientExtension ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.ClientExtension&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取返回的所有客户端扩展。            <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse.ClientExtensions" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>客户端扩展对象的引用的集合。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawMasterTableXml">
+      <MemberSignature Language="C#" Value="public string RawMasterTableXml { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RawMasterTableXml" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse.RawMasterTableXml" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawMasterTableXml As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RawMasterTableXml { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取组织主表中原始 XML 格式。     <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientExtensionResponse.RawMasterTableXml" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>组织主表中。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

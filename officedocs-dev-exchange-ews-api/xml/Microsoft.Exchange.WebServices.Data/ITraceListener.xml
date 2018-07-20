@@ -1,0 +1,51 @@
+<Type Name="ITraceListener" FullName="Microsoft.Exchange.WebServices.Data.ITraceListener">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c55a54bdf3cad06d044406e8288333642145ad62" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622629" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ITraceListener" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITraceListener" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ITraceListener" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITraceListener" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ITraceListener" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>提供启用 Exchange 邮件跟踪的接口。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Trace">
+      <MemberSignature Language="C#" Value="public void Trace (string traceType, string traceMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Trace(string traceType, string traceMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ITraceListener.Trace(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Trace (traceType As String, traceMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Trace(System::String ^ traceType, System::String ^ traceMessage);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="traceType" Type="System.String" />
+        <Parameter Name="traceMessage" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="traceType">跟踪消息的类型。</param>
+        <param name="traceMessage">跟踪消息的内容。</param>
+        <summary>定义处理跟踪消息的方法。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

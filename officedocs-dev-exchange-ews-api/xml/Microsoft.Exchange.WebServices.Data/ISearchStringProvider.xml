@@ -1,0 +1,47 @@
+<Type Name="ISearchStringProvider" FullName="Microsoft.Exchange.WebServices.Data.ISearchStringProvider">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3ef3ecdaf28d778bc4eb0e2c9761512a40ef7572" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622884" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ISearchStringProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISearchStringProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISearchStringProvider" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISearchStringProvider" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>生成的字符串表示形式为在搜索筛选器中使用的对象。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetSearchString">
+      <MemberSignature Language="C#" Value="public string GetSearchString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetSearchString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSearchString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetSearchString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>用于搜索筛选器中获取此对象的字符串表示形式。</summary>
+        <returns>您可以使用中的搜索筛选器此对象的表示形式。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

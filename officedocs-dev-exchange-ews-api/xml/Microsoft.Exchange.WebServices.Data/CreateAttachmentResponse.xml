@@ -1,0 +1,28 @@
+<Type Name="CreateAttachmentResponse" FullName="Microsoft.Exchange.WebServices.Data.CreateAttachmentResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="03759ec5124465ceea2dc529adf7d019dfdbcc3b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622640" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CreateAttachmentResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CreateAttachmentResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CreateAttachmentResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CreateAttachmentResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateAttachmentResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表对单个 CreateAttachment 操作的响应。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,167 @@
+<Type Name="ContactGroup" FullName="Microsoft.Exchange.WebServices.Data.ContactGroup">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="24ba485449f70a9c5e544c7f50df60efd4c32fe3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622704" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ContactGroup : Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactGroup extends Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactGroup" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactGroup&#xA;Inherits Item" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactGroup : Microsoft::Exchange::WebServices::Data::Item" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表一组联系人。 位于联系人组的属性由定义<see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroupSchema" />类。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactGroup (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactGroup.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactGroup(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />对象传递给联系人组绑定。</param>
+        <summary>初始化未保存的本地实例<see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" />类。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactGroup Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactGroup Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactGroup.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As ContactGroup" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactGroup ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />对象传递给联系人组绑定。</param>
+        <param name="id">要将绑定到的联系人组的标识符。</param>
+        <summary>绑定<see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" />类对象与特定的现有联系人组，并加载其第一类的属性。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>
+          <see cref="M:Microsoft.Exchange.WebServices.Data.ContactGroup.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />方法返回<see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" />绑定到指定的联系人组的实例。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactGroup Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactGroup Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactGroup.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactGroup ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />对象传递给联系人组绑定。</param>
+        <param name="id">联系人组的标识符。</param>
+        <param name="propertySet">要加载的联系人组属性集。</param>
+        <summary>绑定<see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" />到特定的现有联系人组和加载指定的属性的对象。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>
+          <see cref="M:Microsoft.Exchange.WebServices.Data.ContactGroup.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />方法返回<see cref="T:Microsoft.Exchange.WebServices.Data.ContactGroup" />绑定到指定的联系人组的实例。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactGroup.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置联系人的组的显示名称。</summary>
+        <value>值<see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.DisplayName" />属性为<a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAs">
+      <MemberSignature Language="C#" Value="public string FileAs { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileAs" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactGroup.FileAs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileAs As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileAs { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取在其下字段此联系人组的名称。</summary>
+        <value>值<see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.FileAs" />属性为<a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Members">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupMemberCollection Members { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.GroupMemberCollection Members" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactGroup.Members" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Members As GroupMemberCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::GroupMemberCollection ^ Members { Microsoft::Exchange::WebServices::Data::GroupMemberCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupMemberCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取联系人的组的成员。</summary>
+        <value>值<see cref="P:Microsoft.Exchange.WebServices.Data.ContactGroup.Members" />属性是<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" />类对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

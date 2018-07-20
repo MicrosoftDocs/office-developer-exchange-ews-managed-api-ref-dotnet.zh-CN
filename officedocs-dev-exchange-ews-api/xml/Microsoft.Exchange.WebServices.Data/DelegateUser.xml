@@ -1,0 +1,167 @@
+<Type Name="DelegateUser" FullName="Microsoft.Exchange.WebServices.Data.DelegateUser">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8ccf70eccaab42ff8bdfdc57bd4d579c686adcc7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622662" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DelegateUser : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegateUser extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegateUser" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegateUser&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegateUser sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示代理用户。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUser ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DelegateUser.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUser();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 DelegateUser 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUser (Microsoft.Exchange.WebServices.Data.StandardUser standardUser);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.StandardUser standardUser) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DelegateUser.#ctor(Microsoft.Exchange.WebServices.Data.StandardUser)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUser(Microsoft::Exchange::WebServices::Data::StandardUser standardUser);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
+      </Parameters>
+      <Docs>
+        <param name="standardUser">标准委托用户。</param>
+        <summary>初始化 DelegateUser 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUser (string primarySmtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string primarySmtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DelegateUser.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (primarySmtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUser(System::String ^ primarySmtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="primarySmtpAddress">委派用户的主 SMTP 电子邮件地址。</param>
+        <summary>初始化 DelegateUser 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permissions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegatePermissions Permissions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.DelegatePermissions Permissions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateUser.Permissions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Permissions As DelegatePermissions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegatePermissions ^ Permissions { Microsoft::Exchange::WebServices::Data::DelegatePermissions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegatePermissions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的代理人的列表用户的权限。</summary>
+        <value>代理人的主体的文件夹的权限。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveCopiesOfMeetingMessages">
+      <MemberSignature Language="C#" Value="public bool ReceiveCopiesOfMeetingMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReceiveCopiesOfMeetingMessages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateUser.ReceiveCopiesOfMeetingMessages" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceiveCopiesOfMeetingMessages As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReceiveCopiesOfMeetingMessages { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否委托用户应收到会议请求的副本。</summary>
+        <value>
+          <b>true</b>如果委托应接收主体; 会议请求的副本否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UserId UserId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UserId UserId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateUser.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserId As UserId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UserId ^ UserId { Microsoft::Exchange::WebServices::Data::UserId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取代理用户的标识符。</summary>
+        <value>包含有关代理用户标识信息的对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItems">
+      <MemberSignature Language="C#" Value="public bool ViewPrivateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewPrivateItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateUser.ViewPrivateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewPrivateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewPrivateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，该值指示是否应能够查看的主体的专用项目的代理用户。</summary>
+        <value>
+          <b>true</b>如果代理可以查看的主体已标记专用; 项目否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

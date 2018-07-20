@@ -1,0 +1,106 @@
+<Type Name="OnlineMeetingSettings" FullName="Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="cc620f0dca0ccbefb0a57c13a37955c71ba2226f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622627" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class OnlineMeetingSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnlineMeetingSettings extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class OnlineMeetingSettings&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OnlineMeetingSettings : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表联机会议设置。             <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OnlineMeetingSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OnlineMeetingSettings();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" />类。 <see cref="M:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel AccessLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel AccessLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.AccessLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccessLevel As OnlineMeetingAccessLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OnlineMeetingAccessLevel AccessLevel { Microsoft::Exchange::WebServices::Data::OnlineMeetingAccessLevel get(); void set(Microsoft::Exchange::WebServices::Data::OnlineMeetingAccessLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置介绍参加会议的访问权限的联机会议设置。             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.AccessLevel" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>介绍对会议的访问权限设置。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LobbyBypass">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LobbyBypass LobbyBypass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LobbyBypass LobbyBypass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.LobbyBypass" />
+      <MemberSignature Language="VB.NET" Value="Public Property LobbyBypass As LobbyBypass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LobbyBypass LobbyBypass { Microsoft::Exchange::WebServices::Data::LobbyBypass get(); void set(Microsoft::Exchange::WebServices::Data::LobbyBypass value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LobbyBypass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置是否通过电话拨入的用户需要等待在联机等待区域在加入会议之前介绍的联机会议设置。             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.LobbyBypass" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>描述是否通过电话拨入的用户需要等待在联机等待区域设置。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Presenters">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Presenters Presenters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Presenters Presenters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.Presenters" />
+      <MemberSignature Language="VB.NET" Value="Public Property Presenters As Presenters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Presenters Presenters { Microsoft::Exchange::WebServices::Data::Presenters get(); void set(Microsoft::Exchange::WebServices::Data::Presenters value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Presenters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置定义会议主持人的联机会议设置。             <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.Presenters" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>定义会议主持人的设置。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

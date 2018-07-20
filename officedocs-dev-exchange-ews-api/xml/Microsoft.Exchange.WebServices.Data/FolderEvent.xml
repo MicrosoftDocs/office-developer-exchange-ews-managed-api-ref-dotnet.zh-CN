@@ -1,0 +1,95 @@
+<Type Name="FolderEvent" FullName="Microsoft.Exchange.WebServices.Data.FolderEvent">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d4bea49952eae4173cc461686ae1f0aaf1b4cf75" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622656" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FolderEvent : Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FolderEvent extends Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Class FolderEvent&#xA;Inherits NotificationEvent" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderEvent : Microsoft::Exchange::WebServices::Data::NotificationEvent" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.NotificationEvent</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示适用于文件夹的事件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId FolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId FolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderEvent.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ FolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此事件适用于文件夹的 Id。</summary>
+        <value>包含受影响的文件夹的标识符的文件夹 Id 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId OldFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId OldFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderEvent.OldFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ OldFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取已移动或复制的文件夹的 Id。</summary>
+        <value>一个包含已移动或复制的文件夹的标识符的文件夹 Id 对象。</value>
+        <remarks>
+          <para>当 EventType 等于 EventType.Moved 或 EventType.Copied OldFolderId 才有意义。对于所有其他事件类型，OldFolderId 为 null。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; UnreadCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; UnreadCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderEvent.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadCount As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; UnreadCount { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取新的未读邮件数。</summary>
+        <value>整数文件夹中的未读项目数。 该属性可以为 null。</value>
+        <remarks>
+          <para>等于 EventType.Modified EventType 时，这是仅有意义。对于所有其他事件类型，UnreadCount 为 null。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

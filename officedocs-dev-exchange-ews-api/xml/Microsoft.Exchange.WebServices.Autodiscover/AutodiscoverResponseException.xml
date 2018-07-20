@@ -1,0 +1,52 @@
+<Type Name="AutodiscoverResponseException" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8ee886a808712a6c1415b8094b9475ba6f3d375f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623326" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AutodiscoverResponseException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AutodiscoverResponseException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseException" />
+  <TypeSignature Language="VB.NET" Value="Public Class AutodiscoverResponseException&#xA;Inherits ServiceRemoteException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AutodiscoverResponseException : Microsoft::Exchange::WebServices::Data::ServiceRemoteException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceRemoteException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示从自动发现错误响应引发的异常。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseException.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As AutodiscoverErrorCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverErrorCode ErrorCode { Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverErrorCode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取异常错误代码。</summary>
+        <value>表示的错误代码的枚举值之一。</value>
+        <remarks>
+          <para>错误代码代表由自动发现服务返回的错误。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

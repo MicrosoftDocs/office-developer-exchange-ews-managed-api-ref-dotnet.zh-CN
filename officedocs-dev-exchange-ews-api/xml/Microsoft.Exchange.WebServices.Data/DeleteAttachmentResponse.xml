@@ -1,0 +1,28 @@
+<Type Name="DeleteAttachmentResponse" FullName="Microsoft.Exchange.WebServices.Data.DeleteAttachmentResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fac067e3d4078aaf3bf319e97604032e762f33bf" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623268" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DeleteAttachmentResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeleteAttachmentResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteAttachmentResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeleteAttachmentResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteAttachmentResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表对单个 DeleteAttachment 操作的响应。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

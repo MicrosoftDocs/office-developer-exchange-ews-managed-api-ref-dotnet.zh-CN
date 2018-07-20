@@ -1,0 +1,89 @@
+<Type Name="Suggestion" FullName="Microsoft.Exchange.WebServices.Data.Suggestion">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="67ff01b1690f959f23dbcafcd068800a1c340edd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622857" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Suggestion : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Suggestion extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Suggestion" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Suggestion&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Suggestion sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示会议建议特定日期。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Date">
+      <MemberSignature Language="C#" Value="public DateTime Date { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Date" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Suggestion.Date" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Date As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Date { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取会议建议特定日期的日期。</summary>
+        <value>值<see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.Date" />属性是<a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quality">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SuggestionQuality Quality { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SuggestionQuality Quality" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Suggestion.Quality" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Quality As SuggestionQuality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SuggestionQuality Quality { Microsoft::Exchange::WebServices::Data::SuggestionQuality get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取建议的会议日期的质量。</summary>
+        <value>值<see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.Quality" />属性是<see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" />对象，表示质量的建议的会议的日期。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeSuggestions">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.TimeSuggestion&gt; TimeSuggestions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.TimeSuggestion&gt; TimeSuggestions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Suggestion.TimeSuggestions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeSuggestions As Collection(Of TimeSuggestion)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::TimeSuggestion ^&gt; ^ TimeSuggestions { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::TimeSuggestion ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.TimeSuggestion&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取建议的会议日期的建议的会议时间内的集合。</summary>
+        <value>值<see cref="P:Microsoft.Exchange.WebServices.Data.Suggestion.TimeSuggestions" />属性是<a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collection.ObjectMode.Collection&lt;T&gt; </a><see cref="T:Microsoft.Exchange.WebServices.Data.TimeSuggestion" />分别表示建议的会议时间的对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

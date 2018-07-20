@@ -1,0 +1,177 @@
+<Type Name="SeekToConditionItemView" FullName="Microsoft.Exchange.WebServices.Data.SeekToConditionItemView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="73a2185cf0fbf717f4260616c40a8225164d3174" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622666" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SeekToConditionItemView : Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SeekToConditionItemView extends Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SeekToConditionItemView&#xA;Inherits ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SeekToConditionItemView sealed : Microsoft::Exchange::WebServices::Data::ViewBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ViewBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表文件夹搜索操作中的视图设置。             <see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SeekToConditionItemView (Microsoft.Exchange.WebServices.Data.SearchFilter condition, int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter condition, int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (condition As SearchFilter, pageSize As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SeekToConditionItemView(Microsoft::Exchange::WebServices::Data::SearchFilter ^ condition, int pageSize);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="condition" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="condition">要查找时使用的条件。</param>
+        <param name="pageSize">搜索操作应返回的元素的最大数目。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" />的搜索筛选器与页面大小的类。             <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SeekToConditionItemView (Microsoft.Exchange.WebServices.Data.SearchFilter condition, int pageSize, Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter condition, int32 pageSize, valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SeekToConditionItemView(Microsoft::Exchange::WebServices::Data::SearchFilter ^ condition, int pageSize, Microsoft::Exchange::WebServices::Data::OffsetBasePoint offsetBasePoint);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="condition" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
+      </Parameters>
+      <Docs>
+        <param name="condition">要查找时使用的条件。</param>
+        <param name="pageSize">搜索操作应返回的元素的最大数目。</param>
+        <param name="offsetBasePoint">从用来测量偏移项目视图中的位置。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView" />的搜索筛选器、 页面大小，与偏移量的基点类。             <see cref="M:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Condition">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter Condition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter Condition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" />
+      <MemberSignature Language="VB.NET" Value="Public Property Condition As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ Condition { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(); void set(Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置 seek 的搜索筛选器。 <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Condition" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Seek 的条件。</value>
+        <remarks>
+          <para>可用的搜索筛选器类包括 SearchFilter.IsEqualTo、 SearchFilter.ContainsSubstring 和 SearchFilter.SearchFilterCollection。如果 SearchFilter 空引用 (在 Visual Basic 中为 Nothing)，将不应用任何搜索筛选器。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OffsetBasePoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OffsetBasePoint OffsetBasePoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint OffsetBasePoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property OffsetBasePoint As OffsetBasePoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OffsetBasePoint OffsetBasePoint { Microsoft::Exchange::WebServices::Data::OffsetBasePoint get(); void set(Microsoft::Exchange::WebServices::Data::OffsetBasePoint value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OffsetBasePoint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用来测量偏移项目视图中的位置。 基本点位于开头或结尾项视图。             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OffsetBasePoint" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>偏移量的基准数据点。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OrderBy As OrderByCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OrderByCollection ^ OrderBy { Microsoft::Exchange::WebServices::Data::OrderByCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取返回的项应排序依据的属性。 <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.OrderBy" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>返回的项应排序依据的属性。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public int PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置搜索操作应返回的项或文件夹的最大数目。             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.PageSize" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>搜索操作应返回的项或文件夹的最大数量。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemTraversal Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As ItemTraversal" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemTraversal Traversal { Microsoft::Exchange::WebServices::Data::ItemTraversal get(); void set(Microsoft::Exchange::WebServices::Data::ItemTraversal value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemTraversal</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置搜索遍历的模式。 默认为 <see cref="F:Microsoft.Exchange.WebServices.Data.ItemTraversal.Shallow" />。             <see cref="P:Microsoft.Exchange.WebServices.Data.SeekToConditionItemView.Traversal" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>搜索遍历模式。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

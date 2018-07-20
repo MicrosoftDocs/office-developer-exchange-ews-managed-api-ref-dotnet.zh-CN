@@ -1,0 +1,104 @@
+<Type Name="TeamMailboxLifecycleState" FullName="Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f75bdda2a84501f2b715804cad8a0725e163c395" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622846" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum TeamMailboxLifecycleState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TeamMailboxLifecycleState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TeamMailboxLifecycleState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TeamMailboxLifecycleState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义站点邮箱生命周期的状态。             <see cref="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Active = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="C++ CLI" Value="Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>站点邮箱是正在使用中。             <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Closed">
+      <MemberSignature Language="C#" Value="Closed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Closed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" />
+      <MemberSignature Language="VB.NET" Value="Closed" />
+      <MemberSignature Language="C++ CLI" Value="Closed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>网站邮箱是已关闭，并且不再处于活动状态。             <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PendingDelete">
+      <MemberSignature Language="C#" Value="PendingDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState PendingDelete = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" />
+      <MemberSignature Language="VB.NET" Value="PendingDelete" />
+      <MemberSignature Language="C++ CLI" Value="PendingDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>站点邮箱关闭和当前删除未决。             <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unlinked">
+      <MemberSignature Language="C#" Value="Unlinked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Unlinked = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" />
+      <MemberSignature Language="VB.NET" Value="Unlinked" />
+      <MemberSignature Language="C++ CLI" Value="Unlinked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>站点邮箱未链接到的基于 web 的协作环境。             <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

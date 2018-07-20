@@ -1,0 +1,117 @@
+<Type Name="ConversationId" FullName="Microsoft.Exchange.WebServices.Data.ConversationId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0a5e7fbe2f429ae6d7a9b7079b8c05e75b4dcced" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623372" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ConversationId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConversationId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationId" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationId&#xA;Inherits ServiceId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationId : Microsoft::Exchange::WebServices::Data::ServiceId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示对话标识符。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniqueId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationId(System::String ^ uniqueId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">用于初始化 ConversationId 唯一标识符。</param>
+        <summary>初始化 ConversationId 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator string (Microsoft.Exchange.WebServices.Data.ConversationId conversationId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Microsoft.Exchange.WebServices.Data.ConversationId conversationId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationId.op_Implicit(Microsoft.Exchange.WebServices.Data.ConversationId)~System.String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Exchange::WebServices::Data::ConversationId ^ conversationId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conversationId" Type="Microsoft.Exchange.WebServices.Data.ConversationId" />
+      </Parameters>
+      <Docs>
+        <param name="conversationId">要转换为字符串的唯一标识符。</param>
+        <summary>执行隐式 ConversationId 对象和字符串之间的转换。</summary>
+        <returns>初始化与指定的唯一标识符的 ConversationId 对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.ConversationId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.ConversationId op_Implicit(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniqueId As String) As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::ConversationId ^(System::String ^ uniqueId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">要转换为 ConversationId 对象的唯一标识符。</param>
+        <summary>执行字符串和 ConversationId 对象之间的隐式转换。</summary>
+        <returns>对话的标识符对象。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>获取一个 ConversationId 对象的字符串表示形式。</summary>
+        <returns>对话标识符的字符串表示形式。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

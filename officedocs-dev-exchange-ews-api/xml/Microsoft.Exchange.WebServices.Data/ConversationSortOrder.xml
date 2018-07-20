@@ -1,0 +1,104 @@
+<Type Name="ConversationSortOrder" FullName="Microsoft.Exchange.WebServices.Data.ConversationSortOrder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f4edc4124fe2cb829f8cd3b5bc6e3e7f7b357026" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622862" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ConversationSortOrder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationSortOrder extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationSortOrder" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversationSortOrder" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConversationSortOrder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义的对话中应由返回节点的顺序<see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetConversationItems(Microsoft.Exchange.WebServices.Data.ConversationId,Microsoft.Exchange.WebServices.Data.PropertySet,System.String,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.FolderId},System.Nullable{Microsoft.Exchange.WebServices.Data.ConversationSortOrder})" />方法。 <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSortOrder" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DateOrderAscending">
+      <MemberSignature Language="C#" Value="DateOrderAscending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationSortOrder DateOrderAscending = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSortOrder.DateOrderAscending" />
+      <MemberSignature Language="VB.NET" Value="DateOrderAscending" />
+      <MemberSignature Language="C++ CLI" Value="DateOrderAscending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>基于节点树中的最后一个日期时间的顺序。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 DateOrderAscending 字段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DateOrderDescending">
+      <MemberSignature Language="C#" Value="DateOrderDescending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationSortOrder DateOrderDescending = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSortOrder.DateOrderDescending" />
+      <MemberSignature Language="VB.NET" Value="DateOrderDescending" />
+      <MemberSignature Language="C++ CLI" Value="DateOrderDescending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>逆序基于节点树中的最后一个日期。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 DateOrderDescending 字段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TreeOrderAscending">
+      <MemberSignature Language="C#" Value="TreeOrderAscending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationSortOrder TreeOrderAscending = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSortOrder.TreeOrderAscending" />
+      <MemberSignature Language="VB.NET" Value="TreeOrderAscending" />
+      <MemberSignature Language="C++ CLI" Value="TreeOrderAscending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>树顺序升序基于节点树中的位置。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 TreeOrderAscending 字段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TreeOrderDescending">
+      <MemberSignature Language="C#" Value="TreeOrderDescending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationSortOrder TreeOrderDescending = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSortOrder.TreeOrderDescending" />
+      <MemberSignature Language="VB.NET" Value="TreeOrderDescending" />
+      <MemberSignature Language="C++ CLI" Value="TreeOrderDescending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>树顺序为降序基于节点树中的位置。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 TreeOrderDescending 字段。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

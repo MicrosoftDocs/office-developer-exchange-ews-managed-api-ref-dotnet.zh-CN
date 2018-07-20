@@ -1,0 +1,185 @@
+<Type Name="CalendarResponseMessage&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;TMessage&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="924940ce507f06cc1ba7a5dee215d0fbfdf5538d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622978" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class CalendarResponseMessage&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;TMessage&gt; where TMessage : EmailMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CalendarResponseMessage`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase`1&lt;!TMessage&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CalendarResponseMessage(Of TMessage)&#xA;Inherits CalendarResponseMessageBase(Of TMessage)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TMessage&gt;&#xA; where TMessage : EmailMessagepublic ref class CalendarResponseMessage abstract : Microsoft::Exchange::WebServices::Data::CalendarResponseMessageBase&lt;TMessage&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TMessage">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.EmailMessage</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.CalendarResponseMessageBase&lt;TMessage&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TMessage">TMessage</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TMessage">保存此响应消息时创建的消息的类型。</typeparam>
+    <summary>代表与日历相关响应的所有邮件的基类。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As AttachmentCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ Attachments { Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此响应的附件的列表。</summary>
+        <value>到响应的附件的列表。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection BccRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection BccRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BccRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ BccRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此响应将作为密件抄送发送到的收件人的列表。</summary>
+        <value>响应将作为密件抄送发送到的收件人列表。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MessageBody Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MessageBody Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MessageBody ^ Body { Microsoft::Exchange::WebServices::Data::MessageBody ^ get(); void set(Microsoft::Exchange::WebServices::Data::MessageBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此响应的正文。</summary>
+        <value>对响应正文。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection CcRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection CcRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CcRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ CcRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此响应将作为抄送发送到的收件人的列表。</summary>
+        <value>响应将作为抄送发送到的收件人列表。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Sender" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ Sender { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此响应发件人。</summary>
+        <value>响应的发件人。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Sensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Sensitivity Sensitivity { Microsoft::Exchange::WebServices::Data::Sensitivity get(); void set(Microsoft::Exchange::WebServices::Data::Sensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置此响应的敏感度。</summary>
+        <value>区分大小写的响应。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此响应将发送到的收件人的列表。</summary>
+        <value>响应将发送到的收件人列表。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

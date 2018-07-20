@@ -1,0 +1,86 @@
+<Type Name="NonIndexableItemDetailsResult" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8d65a0c4205e656b0419f30405ebf04e03714539" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622668" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class NonIndexableItemDetailsResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItemDetailsResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItemDetailsResult" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItemDetailsResult sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>在无法索引的目标邮箱中获取项目的信息。            <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NonIndexableItemDetailsResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NonIndexableItemDetailsResult();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化<see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult" />对象。<see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[] FailedMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[] FailedMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.FailedMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailedMailboxes As FailedSearchMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ FailedMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的索引操作失败，其中的邮箱。 <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.FailedMailboxes" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>一套索引操作失败，其中的邮箱。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.NonIndexableItem[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.NonIndexableItem[] Items" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As NonIndexableItem()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::NonIndexableItem ^&gt; ^ Items { cli::array &lt;Microsoft::Exchange::WebServices::Data::NonIndexableItem ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::NonIndexableItem ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.NonIndexableItem[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置无法索引的项集。    <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemDetailsResult.Items" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>一组无法索引的项。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,89 @@
+<Type Name="DeleteMode" FullName="Microsoft.Exchange.WebServices.Data.DeleteMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e957ca807d52993db7a17f7f2146841e4469df62" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623217" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DeleteMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeleteMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DeleteMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DeleteMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>表示删除模式。</summary>
+    <remarks>
+      <para>MoveToDeletedItems 和 HardDelete 选项是事务性的这意味着 web 服务调用完成时，数据库已移至已删除邮件文件夹的项目或从 Exchange 数据库中永久删除项目。</para>
+      <para>SoftDelete 选项的不同的目标版本的 Exchange Server 的工作方式。Exchange 2007 SoftDelete 在表示项目将移至 Exchange 数据库的项目上设置位转储程序文件夹的将来确定的时间。启动与 Exchange 2010，包括 Exchange Online 的 Exchange 版本 SoftDelete 立即移动到的项转储程序。SoftDelete 不为文件夹删除选项。项目和文件夹的 SoftDelete 遍历搜索不会返回任何结果。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HardDelete">
+      <MemberSignature Language="C#" Value="HardDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode HardDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.HardDelete" />
+      <MemberSignature Language="VB.NET" Value="HardDelete" />
+      <MemberSignature Language="C++ CLI" Value="HardDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>将被永久删除项目或文件夹。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode MoveToDeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>文件夹的项目将被移动到邮箱的已删除邮件文件夹。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDelete">
+      <MemberSignature Language="C#" Value="SoftDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode SoftDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.SoftDelete" />
+      <MemberSignature Language="VB.NET" Value="SoftDelete" />
+      <MemberSignature Language="C++ CLI" Value="SoftDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>项目或文件夹将移至转储程序。 中项目和文件夹转储程序可以恢复。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

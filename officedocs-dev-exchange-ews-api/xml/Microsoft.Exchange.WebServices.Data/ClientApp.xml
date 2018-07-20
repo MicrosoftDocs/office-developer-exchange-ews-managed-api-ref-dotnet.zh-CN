@@ -1,0 +1,69 @@
+<Type Name="ClientApp" FullName="Microsoft.Exchange.WebServices.Data.ClientApp">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5e2e2fb7c8aec56e16a28a00f28cf990578ee59e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622839" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ClientApp : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientApp extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientApp" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientApp&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientApp sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表邮件应用程序中的<see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetAppManifests(System.String,System.String)" />响应。<see cref="T:Microsoft.Exchange.WebServices.Data.ClientApp" />类是适用于 Exchange Online 和 Exchange 开头 15.00.0847.032 版本的目标设定的客户端</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Manifest">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlDocument Manifest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlDocument Manifest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientApp.Manifest" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Manifest As XmlDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::XmlDocument ^ Manifest { System::Xml::XmlDocument ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlDocument</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>邮件应用程序的清单。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Metadata">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientAppMetadata Metadata { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ClientAppMetadata Metadata" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientApp.Metadata" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Metadata As ClientAppMetadata" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientAppMetadata ^ Metadata { Microsoft::Exchange::WebServices::Data::ClientAppMetadata ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAppMetadata</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>有关邮件应用程序的元数据。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

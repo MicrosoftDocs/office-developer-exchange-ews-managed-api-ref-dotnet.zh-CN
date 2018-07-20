@@ -1,0 +1,37 @@
+<Type Name="DictionaryEntryProperty&lt;TKey&gt;" FullName="Microsoft.Exchange.WebServices.Data.DictionaryEntryProperty&lt;TKey&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6e659b4be3342d9765113f4552b5f6f2c9c7e0c9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623424" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class DictionaryEntryProperty&lt;TKey&gt; : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DictionaryEntryProperty`1&lt;TKey&gt; extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DictionaryEntryProperty`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DictionaryEntryProperty(Of TKey)&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TKey&gt;&#xA;public ref class DictionaryEntryProperty abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TKey" />
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TKey"></typeparam>
+    <summary>代表 DictionaryProperty 对象中的一个条目。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

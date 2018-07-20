@@ -1,0 +1,116 @@
+<Type Name="Recurrence+WeeklyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+WeeklyPattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a59d8350b941f58ba1177b1b9f80cb90ccda6477" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623487" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Recurrence.WeeklyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/WeeklyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.WeeklyPattern&#xA;Inherits Recurrence.IntervalPattern" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::WeeklyPattern sealed : Microsoft::Exchange::WebServices::Data::Recurrence::IntervalPattern" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示在其中每次发生在特定日期特定的上一周数的定期模式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WeeklyPattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WeeklyPattern();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 RelativeYearlyPattern 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WeeklyPattern (DateTime startDate, int interval, params Microsoft.Exchange.WebServices.Data.DayOfTheWeek[] daysOfTheWeek);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, int32 interval, valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek[] daysOfTheWeek) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern.#ctor(System.DateTime,System.Int32,Microsoft.Exchange.WebServices.Data.DayOfTheWeek[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startDate As DateTime, interval As Integer, ParamArray daysOfTheWeek As DayOfTheWeek())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WeeklyPattern(DateTime startDate, int interval, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::DayOfTheWeek&gt; ^ daysOfTheWeek);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="interval" Type="System.Int32" />
+        <Parameter Name="daysOfTheWeek" Type="Microsoft.Exchange.WebServices.Data.DayOfTheWeek[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="startDate">定期模式的开始日期。</param>
+        <param name="interval">匹配项之间的间隔。</param>
+        <param name="daysOfTheWeek">指示上一周的哪几天，事件将重复的 DayOfTheWeek 枚举值的数组。</param>
+        <summary>初始化与指定值的 RelativeYearlyPattern 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaysOfTheWeek">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection DaysOfTheWeek { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection DaysOfTheWeek" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern.DaysOfTheWeek" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DaysOfTheWeek As DayOfTheWeekCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DayOfTheWeekCollection ^ DaysOfTheWeek { Microsoft::Exchange::WebServices::Data::DayOfTheWeekCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取该事件在重现的星期数。</summary>
+        <value>一个包含事件在重现的星期数 DayOfTheWeekCollection 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstDayOfWeek">
+      <MemberSignature Language="C#" Value="public DayOfWeek FirstDayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DayOfWeek FirstDayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern.FirstDayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstDayOfWeek As DayOfWeek" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DayOfWeek FirstDayOfWeek { DayOfWeek get(); void set(DayOfWeek value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DayOfWeek</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此定期周的第一天。</summary>
+        <value>DayOfTheWeek 枚举值之一。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

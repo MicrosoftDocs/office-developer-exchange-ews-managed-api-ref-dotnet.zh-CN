@@ -1,0 +1,237 @@
+<Type Name="ResponseObject&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.ResponseObject&lt;TMessage&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2f1e12974fef9cb8f2d2e7228a6ed5d1bef41d5e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622835" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ResponseObject&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.ServiceObject where TMessage : EmailMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ResponseObject`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseObject`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ResponseObject(Of TMessage)&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TMessage&gt;&#xA; where TMessage : EmailMessagepublic ref class ResponseObject abstract : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TMessage">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.EmailMessage</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TMessage">EmailMessage 对象。</typeparam>
+    <summary>表示可以发送的所有响应的基类。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsDeliveryReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsDeliveryReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeliveryReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ResponseObject`1.IsDeliveryReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDeliveryReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDeliveryReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否应为发件人发送送达回执。</summary>
+        <value>如果传送回执将请求;否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsReadReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ResponseObject`1.IsReadReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，该值是否读回执将从收件人的此响应请求。</summary>
+        <value>True 如果读取将请求回执;否则为为 false。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save () As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>在草稿文件夹中保存响应。 将调用 EWS 调用此方法的结果。</summary>
+        <returns>代表响应 TMessage。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (destinationFolderId As FolderId) As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">要在其中保存响应的文件夹的 Id。</param>
+        <summary>在指定文件夹中保存响应。 将调用 EWS 调用此方法的结果。</summary>
+        <returns>代表响应 TMessage。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (destinationFolderName As WellKnownFolderName) As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">要在其中保存响应的文件夹的名称。</param>
+        <summary>在指定文件夹中保存响应。 将调用 EWS 调用此方法的结果。</summary>
+        <returns>代表响应 TMessage。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="public void Send ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Send() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Send" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Send ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Send();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>而不保存副本发送此响应。 将调用 EWS 调用此方法的结果。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>发送此响应并在已发送邮件文件夹中保存一个副本。 将调用 EWS 调用此方法的结果。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">要在其中保存邮件的副本的文件夹的 Id。</param>
+        <summary>发送此响应自动化网络存储在指定文件夹中保存一个副本。 将调用 EWS 调用此方法的结果。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">要在其中保存邮件的副本的文件夹的名称。</param>
+        <summary>发送此响应并在指定文件夹中保存一个副本。 将调用 EWS 调用此方法的结果。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

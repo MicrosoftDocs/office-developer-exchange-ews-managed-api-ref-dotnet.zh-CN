@@ -1,0 +1,160 @@
+<Type Name="ConversationIndexedItemView" FullName="Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e62f76a1dfa4fbcc011fd11ed8c40a44b66613ee" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622996" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ConversationIndexedItemView : Microsoft.Exchange.WebServices.Data.PagedView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationIndexedItemView extends Microsoft.Exchange.WebServices.Data.PagedView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationIndexedItemView&#xA;Inherits PagedView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationIndexedItemView sealed : Microsoft::Exchange::WebServices::Data::PagedView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.PagedView</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含在文件夹搜索操作中的对话视图设置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationIndexedItemView (int pageSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.#ctor(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pageSize As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationIndexedItemView(int pageSize);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">最大搜索操作应返回的对话数。</param>
+        <summary>使用提供的页面大小初始化 ConversationIndexedItemView 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationIndexedItemView (int pageSize, int offset);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize, int32 offset) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.#ctor(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pageSize As Integer, offset As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationIndexedItemView(int pageSize, int offset);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">最大搜索操作应返回的对话数。</param>
+        <param name="offset">从第一个对话的偏移量。 标识返回对话的页面将位置开始。</param>
+        <summary>使用提供的页面大小和偏移量初始化 ConversationIndexedItemView 类的新实例。</summary>
+        <remarks>
+          <para>此构造函数假定基点开始的一组对话的开头。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationIndexedItemView (int pageSize, int offset, Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 pageSize, int32 offset, valuetype Microsoft.Exchange.WebServices.Data.OffsetBasePoint offsetBasePoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.#ctor(System.Int32,System.Int32,Microsoft.Exchange.WebServices.Data.OffsetBasePoint)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationIndexedItemView(int pageSize, int offset, Microsoft::Exchange::WebServices::Data::OffsetBasePoint offsetBasePoint);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageSize" Type="System.Int32" />
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="offsetBasePoint" Type="Microsoft.Exchange.WebServices.Data.OffsetBasePoint" />
+      </Parameters>
+      <Docs>
+        <param name="pageSize">最大搜索操作应返回的对话数。</param>
+        <param name="offset">从基本点的偏移量。 标识返回对话的页面将位置开始。</param>
+        <param name="offsetBasePoint">偏移量的基准数据点。</param>
+        <summary>使用提供的页面大小、 偏移量和基本点初始化 ConversationIndexedItemView 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrderBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OrderByCollection OrderBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.OrderBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OrderBy As OrderByCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OrderByCollection ^ OrderBy { Microsoft::Exchange::WebServices::Data::OrderByCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OrderByCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取返回的项应排序依据的属性。</summary>
+        <value>排序的属性定义的集合。</value>
+        <remarks>
+          <para>用于排序支持的唯一属性<see cref="F:Microsoft.Exchange.WebServices.Data.ConversationSchema.LastDeliveryTime" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal&gt; Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal&gt; Traversal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As Nullable(Of ConversationQueryTraversal)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::ConversationQueryTraversal&gt; Traversal { Nullable&lt;Microsoft::Exchange::WebServices::Data::ConversationQueryTraversal&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::ConversationQueryTraversal&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置对话查询遍历模式。              <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.Traversal" />属性是适用于 Exchange Online 和 Exchange startingwith Exchange Server 2013 的版本的目标设定的客户端。</summary>
+        <value>对话查询遍历模式。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewFilter">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.ViewFilter&gt; ViewFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.ViewFilter&gt; ViewFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.ViewFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewFilter As Nullable(Of ViewFilter)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::ViewFilter&gt; ViewFilter { Nullable&lt;Microsoft::Exchange::WebServices::Data::ViewFilter&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::ViewFilter&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ViewFilter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置指定要返回的项的类型的视图筛选器。              <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationIndexedItemView.ViewFilter" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>视图筛选器。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

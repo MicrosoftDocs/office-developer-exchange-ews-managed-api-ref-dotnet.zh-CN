@@ -1,0 +1,111 @@
+<Type Name="KeywordStatisticsSearchResult" FullName="Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9059a58824cff0ea5a21080c4644cae40d02a585" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622814" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class KeywordStatisticsSearchResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit KeywordStatisticsSearchResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class KeywordStatisticsSearchResult" />
+  <TypeSignature Language="C++ CLI" Value="public ref class KeywordStatisticsSearchResult sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含与电子数据展示搜索相关的统计信息。             <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KeywordStatisticsSearchResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; KeywordStatisticsSearchResult();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>创建的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" />类。 <see cref="M:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemHits">
+      <MemberSignature Language="C#" Value="public int ItemHits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ItemHits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.ItemHits" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemHits As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ItemHits { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一套邮箱中包含的消息中的搜索值显示的总次数。             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.ItemHits" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>项目命中数。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Keyword">
+      <MemberSignature Language="C#" Value="public string Keyword { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Keyword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Keyword" />
+      <MemberSignature Language="VB.NET" Value="Public Property Keyword As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Keyword { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置电子数据展示搜索的搜索值。             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Keyword" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>关键字搜索值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public ulong Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 Size { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一套包含搜索值的邮箱中的项目数。             <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Size" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>总大小。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

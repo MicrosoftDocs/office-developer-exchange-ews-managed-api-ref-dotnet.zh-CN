@@ -1,0 +1,66 @@
+<Type Name="ClientExtensionProvidedTo" FullName="Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a3a747d44b2071d7283909f50f5ccbe980e70229" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622688" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ClientExtensionProvidedTo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClientExtensionProvidedTo extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ClientExtensionProvidedTo" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ClientExtensionProvidedTo" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定为其提供客户端扩展的用户。            <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Everyone">
+      <MemberSignature Language="C#" Value="Everyone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo Everyone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo.Everyone" />
+      <MemberSignature Language="VB.NET" Value="Everyone" />
+      <MemberSignature Language="C++ CLI" Value="Everyone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Everyone 组的全局地址列表中。             适用于客户端针对 Exchange Online 和版本的 Exchange 开头 Exchange Server 2013 中的所有人字段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecificUsers">
+      <MemberSignature Language="C#" Value="SpecificUsers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo SpecificUsers = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo.SpecificUsers" />
+      <MemberSignature Language="VB.NET" Value="SpecificUsers" />
+      <MemberSignature Language="C++ CLI" Value="SpecificUsers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>用户指定从全局地址列表集。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 SpecificUsers 字段。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

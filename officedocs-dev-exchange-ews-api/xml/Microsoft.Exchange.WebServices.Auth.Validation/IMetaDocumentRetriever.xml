@@ -1,0 +1,54 @@
+<Type Name="IMetaDocumentRetriever" FullName="Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b30bd8a4df5878f19ebfde9555b6783508c32892" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623063" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IMetaDocumentRetriever" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMetaDocumentRetriever" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IMetaDocumentRetriever" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMetaDocumentRetriever" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>定义从服务器中检索身份验证元数据文档的界面。 <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" />接口是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetData">
+      <MemberSignature Language="C#" Value="public void GetData (Uri url, bool bypassCache, out string publicKeyDocument);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetData(class System.Uri url, bool bypassCache, [out] string&amp; publicKeyDocument) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever.GetData(System.Uri,System.Boolean,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetData (url As Uri, bypassCache As Boolean, ByRef publicKeyDocument As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetData(Uri ^ url, bool bypassCache, [Runtime::InteropServices::Out] System::String ^ % publicKeyDocument);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="url" Type="System.Uri" />
+        <Parameter Name="bypassCache" Type="System.Boolean" />
+        <Parameter Name="publicKeyDocument" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="url">元数据文档所在的位置的 URL。</param>
+        <param name="bypassCache">
+          <b>true</b>以绕过缓存的版本的元数据文档中;<b>false</b>使用缓存的文档，如果可用。</param>
+        <param name="publicKeyDocument">公共密钥文档。</param>
+        <summary>从指定的位置获取身份验证元数据文档。 <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever.GetData(System.Uri,System.Boolean,System.String@)" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

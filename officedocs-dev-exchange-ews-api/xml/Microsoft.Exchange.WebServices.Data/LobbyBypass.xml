@@ -1,0 +1,66 @@
+<Type Name="LobbyBypass" FullName="Microsoft.Exchange.WebServices.Data.LobbyBypass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d9a53b56606d7f25fa5fa495e06fb64f70c870c0" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622647" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum LobbyBypass" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LobbyBypass extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.LobbyBypass" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LobbyBypass" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LobbyBypass" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>确定是否加入联机会议时，电话参与者必须联机临时区域中等待。             <see cref="T:Microsoft.Exchange.WebServices.Data.LobbyBypass" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LobbyBypass Disabled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.Disabled" />
+      <MemberSignature Language="VB.NET" Value="Disabled" />
+      <MemberSignature Language="C++ CLI" Value="Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LobbyBypass</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>等待电话参与者。             <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.Disabled" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EnabledForGatewayParticipants">
+      <MemberSignature Language="C#" Value="EnabledForGatewayParticipants" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LobbyBypass EnabledForGatewayParticipants = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.EnabledForGatewayParticipants" />
+      <MemberSignature Language="VB.NET" Value="EnabledForGatewayParticipants" />
+      <MemberSignature Language="C++ CLI" Value="EnabledForGatewayParticipants" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LobbyBypass</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>网关参与者可以加入联机会议直接。             <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.EnabledForGatewayParticipants" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

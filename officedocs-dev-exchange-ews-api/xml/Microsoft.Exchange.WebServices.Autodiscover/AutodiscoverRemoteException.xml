@@ -1,0 +1,115 @@
+<Type Name="AutodiscoverRemoteException" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRemoteException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="cd1bf6722ab97c258cfa59d407d1c44d238adfe6" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623319" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AutodiscoverRemoteException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AutodiscoverRemoteException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRemoteException" />
+  <TypeSignature Language="VB.NET" Value="Public Class AutodiscoverRemoteException&#xA;Inherits ServiceRemoteException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AutodiscoverRemoteException : Microsoft::Exchange::WebServices::Data::ServiceRemoteException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceRemoteException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示自动发现服务返回出错时引发的异常。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverRemoteException (Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError error);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError error) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRemoteException.#ctor(Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (error As AutodiscoverError)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverRemoteException(Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverError ^ error);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="error" Type="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError" />
+      </Parameters>
+      <Docs>
+        <param name="error">相关联的异常错误。</param>
+        <summary>初始化 AutodiscoverRemoteException 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverRemoteException (string message, Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError error);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError error) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRemoteException.#ctor(System.String,Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, error As AutodiscoverError)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverRemoteException(System::String ^ message, Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverError ^ error);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="error" Type="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError" />
+      </Parameters>
+      <Docs>
+        <param name="message">一个字符串，表示引发此异常的原因。</param>
+        <param name="error">相关联的异常错误。</param>
+        <summary>初始化与其消息字符串设置为给定的消息 AutodiscoverRemoteException 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverRemoteException (string message, Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError error, Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError error, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRemoteException.#ctor(System.String,Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, error As AutodiscoverError, innerException As Exception)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverRemoteException(System::String ^ message, Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverError ^ error, Exception ^ innerException);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="error" Type="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">一个字符串，表示引发此异常的原因。</param>
+        <param name="error">相关联的异常错误。</param>
+        <param name="innerException">当前异常导致异常。</param>
+        <summary>初始化使用其消息字符串设置为给定的消息和引用来引发此异常内部异常 AutodiscoverRemoteException 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError Error { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError Error" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRemoteException.Error" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Error As AutodiscoverError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverError ^ Error { Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverError ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取自动发现服务和引发异常返回的错误。</summary>
+        <value>相关联的异常错误。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

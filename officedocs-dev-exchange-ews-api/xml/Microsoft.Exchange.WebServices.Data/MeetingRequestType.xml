@@ -1,0 +1,161 @@
+<Type Name="MeetingRequestType" FullName="Microsoft.Exchange.WebServices.Data.MeetingRequestType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9741e7aeb504ecf33e254a8f7d0b5646ad914df3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622917" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MeetingRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MeetingRequestType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MeetingRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MeetingRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定用于定义的会议请求的类型常量。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FullUpdate">
+      <MemberSignature Language="C#" Value="FullUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType FullUpdate = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.FullUpdate" />
+      <MemberSignature Language="VB.NET" Value="FullUpdate" />
+      <MemberSignature Language="C++ CLI" Value="FullUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>对原始会议请求的更新。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InformationalUpdate">
+      <MemberSignature Language="C#" Value="InformationalUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType InformationalUpdate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.InformationalUpdate" />
+      <MemberSignature Language="VB.NET" Value="InformationalUpdate" />
+      <MemberSignature Language="C++ CLI" Value="InformationalUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>更新的信息。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMeetingRequest">
+      <MemberSignature Language="C#" Value="NewMeetingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType NewMeetingRequest = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.NewMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="NewMeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="NewMeetingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>新的会议请求。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>会议请求中未定义类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Outdated">
+      <MemberSignature Language="C#" Value="Outdated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType Outdated = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.Outdated" />
+      <MemberSignature Language="VB.NET" Value="Outdated" />
+      <MemberSignature Language="C++ CLI" Value="Outdated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>过时的会议请求。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrincipalWantsCopy">
+      <MemberSignature Language="C#" Value="PrincipalWantsCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType PrincipalWantsCopy = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.PrincipalWantsCopy" />
+      <MemberSignature Language="VB.NET" Value="PrincipalWantsCopy" />
+      <MemberSignature Language="C++ CLI" Value="PrincipalWantsCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>将会议请求转发给代理人，并且信息性此副本。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SilentUpdate">
+      <MemberSignature Language="C#" Value="SilentUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType SilentUpdate = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.SilentUpdate" />
+      <MemberSignature Language="VB.NET" Value="SilentUpdate" />
+      <MemberSignature Language="C++ CLI" Value="SilentUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>向现有会议无提示更新。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

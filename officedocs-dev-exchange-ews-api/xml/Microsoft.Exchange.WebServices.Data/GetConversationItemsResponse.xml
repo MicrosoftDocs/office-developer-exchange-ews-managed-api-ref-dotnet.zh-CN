@@ -1,0 +1,49 @@
+<Type Name="GetConversationItemsResponse" FullName="Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ad1349c076045a6d7dc696b663b710911d7fbfea" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622919" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetConversationItemsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetConversationItemsResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetConversationItemsResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetConversationItemsResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含结果的尝试的邮箱中返回对话的内容。             <see cref="T:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Conversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationResponse Conversation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationResponse Conversation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse.Conversation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Conversation As ConversationResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationResponse ^ Conversation { Microsoft::Exchange::WebServices::Data::ConversationResponse ^ get(); void set(Microsoft::Exchange::WebServices::Data::ConversationResponse ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationResponse</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置<see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" />对象。             <see cref="P:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse.Conversation" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>对话。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

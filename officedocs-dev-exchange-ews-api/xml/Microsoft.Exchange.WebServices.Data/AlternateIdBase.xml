@@ -1,0 +1,49 @@
+<Type Name="AlternateIdBase" FullName="Microsoft.Exchange.WebServices.Data.AlternateIdBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0555aaeed4a4e758f89b5a454f573b20a9370151" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623375" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class AlternateIdBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AlternateIdBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AlternateIdBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateIdBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示的特定格式表示的标识符的基类。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IdFormat Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IdFormat Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateIdBase.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As IdFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IdFormat Format { Microsoft::Exchange::WebServices::Data::IdFormat get(); void set(Microsoft::Exchange::WebServices::Data::IdFormat value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置为项目或文件夹 identifier 标识符格式。</summary>
+        <value>一项或文件夹标识符格式。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

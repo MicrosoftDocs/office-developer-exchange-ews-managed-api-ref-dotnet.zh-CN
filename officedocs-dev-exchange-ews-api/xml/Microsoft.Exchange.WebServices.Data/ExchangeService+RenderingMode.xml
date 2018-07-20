@@ -1,0 +1,66 @@
+<Type Name="ExchangeService+RenderingMode" FullName="Microsoft.Exchange.WebServices.Data.ExchangeService+RenderingMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="61fffe69e11997774dd341c95c1b00f16d62577d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623104" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ExchangeService.RenderingMode" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed ExchangeService/RenderingMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExchangeService.RenderingMode" />
+  <TypeSignature Language="C++ CLI" Value="public: enum class ExchangeService::RenderingMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定要使用的数据序列化模式。             <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="JSON">
+      <MemberSignature Language="C#" Value="JSON" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeService/RenderingMode JSON = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode.JSON" />
+      <MemberSignature Language="VB.NET" Value="JSON" />
+      <MemberSignature Language="C++ CLI" Value="JSON" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService+RenderingMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>数据序列化 JavaScript 对象表示法 (JSON)。             适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端的 JSON 字段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Xml">
+      <MemberSignature Language="C#" Value="Xml" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeService/RenderingMode Xml = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeService.RenderingMode.Xml" />
+      <MemberSignature Language="VB.NET" Value="Xml" />
+      <MemberSignature Language="C++ CLI" Value="Xml" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService+RenderingMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>作为 XML 序列化的数据。             适用于客户端针对 Exchange Online 和版本的 Exchange 开头 Exchange Server 2013 中的 Xml 域。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

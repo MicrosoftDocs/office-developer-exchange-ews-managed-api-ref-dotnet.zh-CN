@@ -1,0 +1,195 @@
+<Type Name="DocumentSharingLocation" FullName="Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c25254c8371336f418073386c200a37d7f4fd84a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623481" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DocumentSharingLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DocumentSharingLocation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DocumentSharingLocation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DocumentSharingLocation sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含的位置 (URL) 和文档共享 web 服务相关联的元数据。             <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AnonymousAccessAllowed">
+      <MemberSignature Language="C#" Value="public bool AnonymousAccessAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AnonymousAccessAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnonymousAccessAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AnonymousAccessAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取是否匿名用户可以访问共享的文档。             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果匿名用户可以访问共享文档;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanModifyPermissions">
+      <MemberSignature Language="C#" Value="public bool CanModifyPermissions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanModifyPermissions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanModifyPermissions As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanModifyPermissions { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取用户是否可以更改共享位置的文档的权限。 <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>如果为<b>true</b>的用户可以更改权限设置;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取共享位置向用户显示的文档的名称。   <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>共享位置的文档的名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalAccessAllowed">
+      <MemberSignature Language="C#" Value="public bool ExternalAccessAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExternalAccessAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalAccessAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExternalAccessAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取是否组织外部的用户可以查看共享的文档。 <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果外部用户可以查看文档;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDefault">
+      <MemberSignature Language="C#" Value="public bool IsDefault { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDefault" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDefault As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDefault { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取是否共享位置本文档是用户的默认位置。 <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果此网站是用户的默认;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationUrl">
+      <MemberSignature Language="C#" Value="public string LocationUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LocationUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocationUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LocationUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取共享位置的文档的 URL。             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>该网站的 URL。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceUrl">
+      <MemberSignature Language="C#" Value="public string ServiceUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServiceUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ServiceUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取管理共享的文档的 web 服务的 URL。       <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Web 服务的 URL。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedFileExtensions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; SupportedFileExtensions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; SupportedFileExtensions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportedFileExtensions As IEnumerable(Of String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ SupportedFileExtensions { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取确定哪些文件类型可能存储在文档共享位置处的文件扩展名列表。             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>支持的文件扩展名列表。</value>
+        <remarks>
+          <para>支持的文档类型的列表的示例:"docx pptx 和 xlsx"。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

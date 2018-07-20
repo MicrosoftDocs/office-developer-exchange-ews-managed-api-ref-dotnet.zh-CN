@@ -1,0 +1,169 @@
+<Type Name="ContactEntity" FullName="Microsoft.Exchange.WebServices.Data.ContactEntity">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8a956e92635ccb6f58424dc385beba2ba1c3959b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622897" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ContactEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ContactEntity extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactEntity" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ContactEntity&#xA;Inherits ExtractedEntity" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactEntity sealed : Microsoft::Exchange::WebServices::Data::ExtractedEntity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ExtractedEntity</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>定义的 contact 实体对象。             <see cref="T:Microsoft.Exchange.WebServices.Data.ContactEntity" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Addresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Addresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Addresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Addresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Addresses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Addresses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 contact 实体的地址。             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Addresses" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Contact 实体地址。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessName">
+      <MemberSignature Language="C#" Value="public string BusinessName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BusinessName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.BusinessName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BusinessName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BusinessName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 contact 实体的业务名称。             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.BusinessName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Contact 实体与关联的业务名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactString">
+      <MemberSignature Language="C#" Value="public string ContactString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContactString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.ContactString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContactString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 contact 实体的显示名称。             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.ContactString" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Contact 实体显示名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList EmailAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddresses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ EmailAddresses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 contact 实体的电子邮件地址。             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.EmailAddresses" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Contact 实体与关联的电子邮件地址。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonName">
+      <MemberSignature Language="C#" Value="public string PersonName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PersonName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PersonName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PersonName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PersonName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 contact 实体的人员的姓名。             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PersonName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Contact 实体相关联的联系人的姓名。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection PhoneNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneNumbers As ContactPhoneEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ContactPhoneEntityCollection ^ PhoneNumbers { Microsoft::Exchange::WebServices::Data::ContactPhoneEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 contact 实体的电话号码。             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PhoneNumbers" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Contact 实体与关联的电话号码。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Urls">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Urls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Urls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Urls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Urls As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Urls { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取 contact 实体的 Url。             <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Urls" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>Contact 实体的 Url。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

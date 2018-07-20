@@ -1,0 +1,651 @@
+<Type Name="PropertySet" FullName="Microsoft.Exchange.WebServices.Data.PropertySet">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a66eac0127ccc25e96b2f298bdaf6b5b1bac5dc7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623085" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PropertySet : System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PropertySet extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertySet" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PropertySet&#xA;Implements IEnumerable(Of PropertyDefinitionBase)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PropertySet sealed : System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>代表一组项目或文件夹的属性。</summary>
+    <remarks>
+      <para>属性集用于指示应绑定到现有项目或文件夹时或加载项或文件夹的属性时加载项或文件夹的属性。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化的新实例的属性集类基于 id。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">基属性设置为基本设置的属性。</param>
+        <summary>初始化基于指定的基本属性集的属性集类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ParamArray additionalProperties As PropertyDefinitionBase())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">要设置的属性中包含的其他属性。 属性定义可为静态成员从架构类 （例如，EmailMessageSchema.Subject、 AppointmentSchema.Start、 ContactSchema.GivenName，等等）。</param>
+        <summary>初始化根据 ID 和指定的其他属性的属性集类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (additionalProperties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">要设置的属性中包含的其他属性。 属性定义可为静态成员从架构类 （例如，EmailMessageSchema.Subject、 AppointmentSchema.Start、 ContactSchema.GivenName，等等）。</param>
+        <summary>初始化基于 ID 和指定的其他属性集合的属性集类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">基属性设置为基本设置的属性。</param>
+        <param name="additionalProperties">要设置的属性中包含的其他属性。</param>
+        <summary>初始化与指定的基属性集和其他属性的属性集类的新实例。</summary>
+        <remarks>
+          <para>属性定义可为从架构类 （例如，EmailMessageSchema.Subject、 AppointmentSchema.Start、 ContactSchema.GivenName，等等） 的静态成员</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.#ctor(Microsoft.Exchange.WebServices.Data.BasePropertySet,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PropertySet(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">基属性设置为基本设置的属性。</param>
+        <param name="additionalProperties">要设置的属性中包含的其他属性。 属性定义可为静态成员从架构类 （例如，EmailMessageSchema.Subject、 AppointmentSchema.Start、 ContactSchema.GivenName，等。）</param>
+        <summary>初始化与指定的基属性集和其他属性的集合的属性集类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Add(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (property As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">要添加的属性。</param>
+        <summary>将指定的属性添加到的属性集。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddBlankTargetToLinks">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; AddBlankTargetToLinks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AddBlankTargetToLinks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" />
+      <MemberSignature Language="VB.NET" Value="Public Property AddBlankTargetToLinks As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; AddBlankTargetToLinks { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置值，该值指示是否将空白的目标属性添加到定位链接。             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.AddBlankTargetToLinks" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>以向定位链接，则添加一个空白的目标属性否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (properties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="properties">要添加的属性。</param>
+        <summary>将指定的属性添加到的属性集。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BasePropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.BasePropertySet BasePropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet BasePropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.BasePropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property BasePropertySet As BasePropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::BasePropertySet BasePropertySet { Microsoft::Exchange::WebServices::Data::BasePropertySet get(); void set(Microsoft::Exchange::WebServices::Data::BasePropertySet value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BasePropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的属性集基于的基本属性集。</summary>
+        <value>基属性设置基于属性集。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockExternalImages">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; BlockExternalImages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; BlockExternalImages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlockExternalImages As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; BlockExternalImages { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置值，该值指示是否将转换指向到内联图像的图像文件的 Url。             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.BlockExternalImages" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果图像文件的点的 Url 应转换为内嵌图像;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除的属性集的所有显式添加的属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Contains(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (property As PropertyDefinitionBase) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">该属性。</param>
+        <summary>确定是否显式已指定的属性添加到使用添加或 AddRange 方法设置此属性。</summary>
+        <returns>
+          <b>true</b>如果设置此属性包含的指定的属性。否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertHtmlCodePageToUTF8">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ConvertHtmlCodePageToUTF8 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ConvertHtmlCodePageToUTF8" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.ConvertHtmlCodePageToUTF8" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConvertHtmlCodePageToUTF8 As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; ConvertHtmlCodePageToUTF8 { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示服务器是否应将 HTML 代码页转换为 UTF8 编码。</summary>
+        <value>
+          <b>true</b>如果服务器应将 HTML 代码页转换为 UTF9;否则为<b>false</b>。 此属性可能为空引用 (在 Visual Basic 中为 Nothing)。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此集中显式添加了属性的数目。</summary>
+        <value>显式添加属性中指定的属性集的数目。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterHtmlContent">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; FilterHtmlContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; FilterHtmlContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.FilterHtmlContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilterHtmlContent As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; FilterHtmlContent { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置从邮件正文的值，该值指示是否筛选存在安全隐患的 HTML 内容。</summary>
+        <value>
+          <b>true</b>以筛选存在安全隐患的 HTML 内容;否则为<b>false</b>。 此属性可以是空引用 (在 Visual Basic 中为 Nothing)。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstClassProperties">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertySet FirstClassProperties;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertySet FirstClassProperties" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FirstClassProperties As PropertySet " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertySet ^ FirstClassProperties;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>一个预定义的属性集，包括项目或文件夹的一类的属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回循环访问集合的枚举。</summary>
+        <returns>一个 IEnumerator 对象，可用于循环访问集合。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdOnly">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertySet IdOnly;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertySet IdOnly" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PropertySet.IdOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IdOnly As PropertySet " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertySet ^ IdOnly;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>仅包含的 ID 属性的预定义的属性集。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlineImageUrlTemplate">
+      <MemberSignature Language="C#" Value="public string InlineImageUrlTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InlineImageUrlTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property InlineImageUrlTemplate As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InlineImageUrlTemplate { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置要使用内联图像的模板的 URL。             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.InlineImageUrlTemplate" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>使用内联图像的模板的 URL。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ default[int] { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">请求属性设置的属性中的索引。</param>
+        <summary>获取指定索引处的项。            <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.Item(System.Int32)" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>指定索引处的项。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumBodySize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaximumBodySize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaximumBodySize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumBodySize As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; MaximumBodySize { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置要检索的正文的最大大小。             <see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.MaximumBodySize" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>正文要检索的最大大小。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.PropertySet (Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.PropertySet op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet basePropertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.op_Implicit(Microsoft.Exchange.WebServices.Data.BasePropertySet)~Microsoft.Exchange.WebServices.Data.PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::PropertySet ^(Microsoft::Exchange::WebServices::Data::BasePropertySet basePropertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="basePropertySet" Type="Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="basePropertySet">要转换从 BasePropertySet 值。</param>
+        <summary>实现隐式属性集类和 BasePropertySet 类之间的转换。</summary>
+        <returns>基于指定的基本属性集属性集实例。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase property) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.Remove(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (property As PropertyDefinitionBase) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="property" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="property">要删除的属性。</param>
+        <summary>从一组中删除指定的属性。</summary>
+        <returns>
+          <b>true</b>如果属性已成功移除;否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置项目的正文应加载的类型。</summary>
+        <value>BodyType 枚举值之一。 此属性可以是空引用 (在 Visual Basic 中为 Nothing)。</value>
+        <remarks>
+          <para>如果<see cref="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedBodyType" />属性为空引用 （Nothing 在 Visual Basic)，如果可用，则 HTML 作为返回项目的正文否则，正文将返回为纯文本。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedNormalizedBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedNormalizedBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedNormalizedBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedNormalizedBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedNormalizedBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedNormalizedBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置应为加载的正文的类型<see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />上的项目的属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果为空，<see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />属性将具有同一类型<see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" />属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedUniqueBodyType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedUniqueBodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.BodyType&gt; RequestedUniqueBodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertySet.RequestedUniqueBodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedUniqueBodyType As Nullable(Of BodyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; RequestedUniqueBodyType { Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::BodyType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.BodyType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置应为加载的正文的类型<see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />上的项目的属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果为空，<see cref="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />属性将具有同一类型<see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" />属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回循环访问集合的枚举。            <see cref="M:Microsoft.Exchange.WebServices.Data.PropertySet.System#Collections#IEnumerable#GetEnumerator" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <returns>一个循环访问集合中的元素的枚举。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

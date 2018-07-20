@@ -1,0 +1,172 @@
+<Type Name="Conflict" FullName="Microsoft.Exchange.WebServices.Data.Conflict">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b2924a6aaca27b01b1a495410e1c6c400956209b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623100" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Conflict : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Conflict extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Conflict" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Conflict&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Conflict sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示一个会议中的冲突时间建议。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConflictType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConflictType ConflictType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ConflictType ConflictType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConflictType As ConflictType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConflictType ConflictType { Microsoft::Exchange::WebServices::Data::ConflictType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取报告的冲突的类型。</summary>
+        <value>之一<see cref="T:Microsoft.Exchange.WebServices.Data.ConflictType" />，指示冲突的类型的枚举值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus FreeBusyStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus FreeBusyStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.FreeBusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FreeBusyStatus As LegacyFreeBusyStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus FreeBusyStatus { Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取冲突的与会者的忙/闲状态。</summary>
+        <value>之一<see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" />指示的忙/闲状态的枚举值。</value>
+        <remarks>
+          <para>此属性的值才有意义<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" />属性设置为<see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.IndividualAttendeeConflict" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembers">
+      <MemberSignature Language="C#" Value="public int NumberOfMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfMembers As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembers { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取发生冲突的组中的用户、 资源和聊天室的数量。</summary>
+        <value>
+          <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a>
+        </value>
+        <remarks>
+          <para>值<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembers" />属性才有意义<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" />属性设置为<see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersAvailable">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfMembersAvailable As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersAvailable { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取正在可用 （其状态为忙） 发生冲突的组的成员的数目。</summary>
+        <value>
+          <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a>
+        </value>
+        <remarks>
+          <para>值<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersAvailable" />属性才有意义<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" />属性设置为<see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersWithConflict">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersWithConflict { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersWithConflict" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithConflict" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfMembersWithConflict As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersWithConflict { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取中发生冲突的组的成员有冲突 （其状态为忙碌、 OOF 或暂定） 的数量。</summary>
+        <value>
+          <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a>
+        </value>
+        <remarks>
+          <para>值<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithConflict" />属性才有意义<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" />属性设置为<see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersWithNoData">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersWithNoData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersWithNoData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithNoData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfMembersWithNoData As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersWithNoData { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取在发生冲突的组中没有已发布忙/闲数据的成员的数目。</summary>
+        <value>
+          <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a>
+        </value>
+        <remarks>
+          <para>值<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithNoData" />属性才有意义<see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" />属性设置为<see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

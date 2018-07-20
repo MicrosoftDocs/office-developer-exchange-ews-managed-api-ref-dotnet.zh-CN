@@ -1,0 +1,90 @@
+<Type Name="SearchFilter+IsEqualTo" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+IsEqualTo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9b5783f8a74f5f9a8e4a3d9e2f8c9e08232ddd43" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623090" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.IsEqualTo : Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/IsEqualTo extends Microsoft.Exchange.WebServices.Data.SearchFilter/RelationalFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.IsEqualTo&#xA;Inherits SearchFilter.RelationalFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::IsEqualTo sealed : Microsoft::Exchange::WebServices::Data::SearchFilter::RelationalFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+RelationalFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表确定询问属性等于给定的值或其他属性的搜索筛选器。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsEqualTo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsEqualTo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 SearchFilter.IsEqualTo 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsEqualTo (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase otherPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase otherPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, otherPropertyDefinition As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsEqualTo(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ otherPropertyDefinition);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="otherPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">正在比较属性的定义。</param>
+        <param name="otherPropertyDefinition">正在比较属性的定义。</param>
+        <summary>初始化与指定的属性定义 SearchFilter.IsEqualTo 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsEqualTo (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsEqualTo(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, System::Object ^ value);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">正在比较属性的定义。</param>
+        <param name="value">要比较的属性的值。</param>
+        <summary>初始化与指定的属性定义和值进行比较的 SearchFilter.IsEqualTo 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,79 @@
+<Type Name="RulePredicateDateRange" FullName="Microsoft.Exchange.WebServices.Data.RulePredicateDateRange">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d92e6ab5bf5a147153e5eae764193203f1df390b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623079" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RulePredicateDateRange : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicateDateRange extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicateDateRange&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RulePredicateDateRange sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示在其中收到邮件的日期和时间范围。</summary>
+    <remarks>
+      <para>
+        <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />属性检查此<see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" />和<see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" />属性。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; End { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的范围的结束日期和时间。</summary>
+        <value>日期范围的末尾。</value>
+        <remarks>
+          <para>如果<see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" />属性设置为空，无结束日期适用。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; Start { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的范围的开始日期和时间。</summary>
+        <value>日期范围的起点。</value>
+        <remarks>
+          <para>如果<see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" />属性设置为 null，无开始日期适用。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

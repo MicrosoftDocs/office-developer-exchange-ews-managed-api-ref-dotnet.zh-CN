@@ -1,0 +1,266 @@
+<Type Name="ServiceObject" FullName="Microsoft.Exchange.WebServices.Data.ServiceObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3d02a59c610ad9d60b7c5fca770338d559e67b8a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623184" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceObject extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceObject abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示对所有项、 文件夹、 对话和公告项目答复类型的抽象基类。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetLoadedPropertyDefinitions">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetLoadedPropertyDefinitions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetLoadedPropertyDefinitions() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.GetLoadedPropertyDefinitions" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLoadedPropertyDefinitions () As Collection(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ GetLoadedPropertyDefinitions();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>提供 loaded 的属性定义的集合。</summary>
+        <returns>属性定义的集合。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDirty">
+      <MemberSignature Language="C#" Value="public bool IsDirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.IsDirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否已修改对象。</summary>
+        <value>
+          <b>true</b>如果对象已被修改;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNew">
+      <MemberSignature Language="C#" Value="public virtual bool IsNew { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNew" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.IsNew" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsNew As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsNew { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>指示此对象是否存在 Exchange 数据库中或者如果它是尚未保存到 Exchange 数据库的本地对象。</summary>
+        <value>
+          <b>true</b>如果对象是新并且尚未保存到 Exchange 数据库;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Item(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(propertyDefinition As PropertyDefinitionBase) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^] { System::Object ^ get(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">要获取的属性的定义。</param>
+        <summary>此实例中获取指定的属性的值。</summary>
+        <value>该属性。</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Exchange.WebServices.Data.ServiceVersionException">该属性需要更高版本的 Exchange 版本。</exception>
+        <exception cref="T:Microsoft.Exchange.WebServices.Data.PropertyException">未分配或加载属性。 -或-无法更新或删除属性。</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.Load" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>加载一类的属性。</summary>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+          <para />
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">有关此异常详细信息，请参阅<see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />。</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.Load(Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="propertySet">设置要加载的属性。</param>
+        <summary>加载指定的属性集。</summary>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+          <para />
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">有关此异常详细信息，请参阅<see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />。</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Schema">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceObjectSchema Schema { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ServiceObjectSchema Schema" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Schema" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Schema As ServiceObjectSchema" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceObjectSchema ^ Schema { Microsoft::Exchange::WebServices::Data::ServiceObjectSchema ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceObjectSchema</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取与此类型的对象相关联的架构。</summary>
+        <value>服务对象架构。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Service">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeService Service { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeService Service" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Service" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Service As ExchangeService" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeService ^ Service { Microsoft::Exchange::WebServices::Data::ExchangeService ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取此对象的 Exchange 服务。</summary>
+        <value>Exchange 服务对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetProperty">
+      <MemberSignature Language="C#" Value="public bool TryGetProperty (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, out object propertyValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetProperty(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, [out] object&amp; propertyValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.TryGetProperty(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetProperty (propertyDefinition As PropertyDefinitionBase, ByRef propertyValue As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetProperty(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, [Runtime::InteropServices::Out] System::Object ^ % propertyValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="propertyValue" Type="System.Object&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">在属性定义中。</param>
+        <param name="propertyValue">该属性值。</param>
+        <summary>尝试获取指定的属性的值。</summary>
+        <returns>
+          <b>true</b>如果检索了属性;否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetProperty&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public bool TryGetProperty&lt;T&gt; (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, out T propertyValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetProperty&lt;T&gt;(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, [out] !!T&amp; propertyValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.TryGetProperty``1(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,``0@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetProperty(Of T) (propertyDefinition As PropertyDefinitionBase, ByRef propertyValue As T) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; bool TryGetProperty(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, [Runtime::InteropServices::Out] T % propertyValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="propertyValue" Type="T&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">预期的属性值的类型。</typeparam>
+        <param name="propertyDefinition">在属性定义中。</param>
+        <param name="propertyValue">该属性值。</param>
+        <summary>尝试获取指定的属性的值。</summary>
+        <returns>
+          <b>true</b>如果检索了属性;否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

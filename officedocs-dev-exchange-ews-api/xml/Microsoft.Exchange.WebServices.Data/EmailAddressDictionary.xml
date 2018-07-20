@@ -1,0 +1,106 @@
+<Type Name="EmailAddressDictionary" FullName="Microsoft.Exchange.WebServices.Data.EmailAddressDictionary">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3ba1e5e11959330cd31e40d7cf4f6e60c8c834d6" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622977" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class EmailAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.EmailAddressKey,Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailAddressDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey, class Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailAddressDictionary&#xA;Inherits DictionaryProperty(Of EmailAddressKey, EmailAddressEntry)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddressDictionary sealed : Microsoft::Exchange::WebServices::Data::DictionaryProperty&lt;Microsoft::Exchange::WebServices::Data::EmailAddressKey, Microsoft::Exchange::WebServices::Data::EmailAddressEntry ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.EmailAddressKey,Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TKey">Microsoft.Exchange.WebServices.Data.EmailAddressKey</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TEntry">Microsoft.Exchange.WebServices.Data.EmailAddressEntry</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表电子邮件地址的字典。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddressDictionary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddressDictionary();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 EmailAddressDictionary 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress this[Microsoft.Exchange.WebServices.Data.EmailAddressKey key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Item(valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary.Item(Microsoft.Exchange.WebServices.Data.EmailAddressKey)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As EmailAddressKey) As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ default[Microsoft::Exchange::WebServices::Data::EmailAddressKey] { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(Microsoft::Exchange::WebServices::Data::EmailAddressKey key); void set(Microsoft::Exchange::WebServices::Data::EmailAddressKey key, Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
+      </Parameters>
+      <Docs>
+        <param name="key">获取或设置电子邮件地址与关联的键。</param>
+        <summary>获取或设置为指定的键对应的电子邮件地址。</summary>
+        <value>指定键与对应的电子邮件地址。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (Microsoft.Exchange.WebServices.Data.EmailAddressKey key, out Microsoft.Exchange.WebServices.Data.EmailAddress emailAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey key, [out] class Microsoft.Exchange.WebServices.Data.EmailAddress&amp; emailAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary.TryGetValue(Microsoft.Exchange.WebServices.Data.EmailAddressKey,Microsoft.Exchange.WebServices.Data.EmailAddress@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As EmailAddressKey, ByRef emailAddress As EmailAddress) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Exchange::WebServices::Data::EmailAddressKey key, [Runtime::InteropServices::Out] Microsoft::Exchange::WebServices::Data::EmailAddress ^ % emailAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
+        <Parameter Name="emailAddress" Type="Microsoft.Exchange.WebServices.Data.EmailAddress&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">与电子邮件地址关联的键。</param>
+        <param name="emailAddress">如果找到指定的键，包含与指定的键的关联的电子邮件地址否则，一个空引用 (在 Visual Basic 中为 Nothing)。 此参数传递未初始化。</param>
+        <summary>尝试获取与指定的键关联的电子邮件地址。</summary>
+        <returns>
+          <b>true</b>如果字典包含与指定的键的关联的电子邮件地址否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

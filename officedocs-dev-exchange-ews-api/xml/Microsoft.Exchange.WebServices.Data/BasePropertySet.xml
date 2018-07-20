@@ -1,0 +1,66 @@
+<Type Name="BasePropertySet" FullName="Microsoft.Exchange.WebServices.Data.BasePropertySet">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a24ce3a1c44a91368a5e8d4eed2380bf1c22c03a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623331" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum BasePropertySet" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BasePropertySet extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.BasePropertySet" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BasePropertySet" />
+  <TypeSignature Language="C++ CLI" Value="public enum class BasePropertySet" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义用作自定义属性集的基线的基本属性集。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FirstClassProperties">
+      <MemberSignature Language="C#" Value="FirstClassProperties" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet FirstClassProperties = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.BasePropertySet.FirstClassProperties" />
+      <MemberSignature Language="VB.NET" Value="FirstClassProperties" />
+      <MemberSignature Language="C++ CLI" Value="FirstClassProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BasePropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>包括项目和文件夹的所有第一类的属性。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IdOnly">
+      <MemberSignature Language="C#" Value="IdOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.BasePropertySet IdOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.BasePropertySet.IdOnly" />
+      <MemberSignature Language="VB.NET" Value="IdOnly" />
+      <MemberSignature Language="C++ CLI" Value="IdOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BasePropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>只包括项目和文件夹的 Id。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

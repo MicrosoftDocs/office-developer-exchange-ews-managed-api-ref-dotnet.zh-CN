@@ -1,0 +1,69 @@
+<Type Name="PropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.PropertyDefinition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0c57d6744c7316d00db03c5d6aa41fc619ce4854" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622683" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class PropertyDefinition : Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit PropertyDefinition extends Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertyDefinition" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class PropertyDefinition&#xA;Inherits ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PropertyDefinition abstract : Microsoft::Exchange::WebServices::Data::ServiceObjectPropertyDefinition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表文件夹或项目属性的定义。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertyDefinition.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取属性的名称。</summary>
+        <value>一个字符串值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public override Microsoft.Exchange.WebServices.Data.ExchangeVersion Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertyDefinition.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Version As ExchangeVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Exchange::WebServices::Data::ExchangeVersion Version { Microsoft::Exchange::WebServices::Data::ExchangeVersion get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取支持此属性的最小 Exchange 版本。</summary>
+        <value>ExchangeVersion 枚举值之一。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

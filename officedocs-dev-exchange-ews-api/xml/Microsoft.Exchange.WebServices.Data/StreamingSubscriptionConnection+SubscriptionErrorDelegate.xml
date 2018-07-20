@@ -1,0 +1,36 @@
+<Type Name="StreamingSubscriptionConnection+SubscriptionErrorDelegate" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+SubscriptionErrorDelegate">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6567ae4c946c2c1a1dc6341634a9c0a25073942a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623048" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void StreamingSubscriptionConnection.SubscriptionErrorDelegate(object sender, SubscriptionErrorEventArgs args);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed StreamingSubscriptionConnection/SubscriptionErrorDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection.SubscriptionErrorDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub StreamingSubscriptionConnection.SubscriptionErrorDelegate(sender As Object, args As SubscriptionErrorEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public: delegate void StreamingSubscriptionConnection::SubscriptionErrorDelegate(System::Object ^ sender, SubscriptionErrorEventArgs ^ args);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="args" Type="Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">
+      <see cref="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection" />实例中发生错误。</param>
+    <param name="args">事件数据。</param>
+    <summary>表示流式订阅连接中出现错误时调用的委托。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

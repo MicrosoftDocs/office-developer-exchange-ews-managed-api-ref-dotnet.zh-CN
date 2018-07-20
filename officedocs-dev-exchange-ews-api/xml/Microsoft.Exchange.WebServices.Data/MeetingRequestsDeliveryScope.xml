@@ -1,0 +1,104 @@
+<Type Name="MeetingRequestsDeliveryScope" FullName="Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="feac933dada1bed7559257c0e9d6f9fbe1c79b98" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622660" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MeetingRequestsDeliveryScope" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MeetingRequestsDeliveryScope extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MeetingRequestsDeliveryScope" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MeetingRequestsDeliveryScope" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定用于定义会议请求的代理人的邮箱的处理方式的常量。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DelegatesAndMe">
+      <MemberSignature Language="C#" Value="DelegatesAndMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope DelegatesAndMe = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.DelegatesAndMe" />
+      <MemberSignature Language="VB.NET" Value="DelegatesAndMe" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesAndMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>将会议请求发送给代理人和邮箱的所有者。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatesAndSendInformationToMe">
+      <MemberSignature Language="C#" Value="DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope DelegatesAndSendInformationToMe = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="VB.NET" Value="DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesAndSendInformationToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>会议请求发送至代理人和为该邮箱的所有者信息性消息。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatesOnly">
+      <MemberSignature Language="C#" Value="DelegatesOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope DelegatesOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.DelegatesOnly" />
+      <MemberSignature Language="VB.NET" Value="DelegatesOnly" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>向代理人仅发送会议请求。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoForward">
+      <MemberSignature Language="C#" Value="NoForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope NoForward = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.NoForward" />
+      <MemberSignature Language="VB.NET" Value="NoForward" />
+      <MemberSignature Language="C++ CLI" Value="NoForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>向代理人不发送会议请求。 <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.NoForward" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

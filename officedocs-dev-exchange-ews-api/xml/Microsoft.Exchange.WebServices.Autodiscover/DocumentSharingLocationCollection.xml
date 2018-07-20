@@ -1,0 +1,49 @@
+<Type Name="DocumentSharingLocationCollection" FullName="Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ea893a8ec862f2db8f489d4bc90f852b8970ccbc" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623329" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DocumentSharingLocationCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DocumentSharingLocationCollection extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DocumentSharingLocationCollection" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DocumentSharingLocationCollection sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含文档共享位置的集合。 <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Entries">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation&gt; Entries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation&gt; Entries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection.Entries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Entries As List(Of DocumentSharingLocation)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Autodiscover::DocumentSharingLocation ^&gt; ^ Entries { System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Autodiscover::DocumentSharingLocation ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取共享位置的文档的集合。             <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocationCollection.Entries" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>共享 Url 的文档的集合。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

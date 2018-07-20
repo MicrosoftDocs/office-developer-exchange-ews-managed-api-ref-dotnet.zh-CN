@@ -1,0 +1,143 @@
+<Type Name="MeetingCancellationSchema" FullName="Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="75a5713c920d13bda8ddbd30c3e3823310b1f63e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622817" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MeetingCancellationSchema : Microsoft.Exchange.WebServices.Data.MeetingMessageSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingCancellationSchema extends Microsoft.Exchange.WebServices.Data.MeetingMessageSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class MeetingCancellationSchema&#xA;Inherits MeetingMessageSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MeetingCancellationSchema : Microsoft::Exchange::WebServices::Data::MeetingMessageSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.MeetingMessageSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含有关已取消会议信息。             <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AppointmentType">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.AppointmentType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AppointmentType As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AppointmentType;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 AppointmentType 属性。             <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.AppointmentType" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition End;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition End" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.End" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly End As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ End;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 End 属性。             <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.End" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedLocation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition EnhancedLocation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition EnhancedLocation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.EnhancedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EnhancedLocation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ EnhancedLocation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 EnhancedLocation 属性。             <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.EnhancedLocation" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Location;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Location" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Location As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Location;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义的 Location 属性。             <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.Location" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Recurrence;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Recurrence" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Recurrence As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Recurrence;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义的定期属性。             <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.Recurrence" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Start;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Start" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Start As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Start;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义 Start 属性。             <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingCancellationSchema.Start" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

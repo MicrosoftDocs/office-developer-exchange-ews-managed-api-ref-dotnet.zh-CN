@@ -1,0 +1,259 @@
+<Type Name="FolderId" FullName="Microsoft.Exchange.WebServices.Data.FolderId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8ab5db187cd522e45470a443353a0dfbbcd8ff89" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623236" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderId&#xA;Inherits ServiceId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderId sealed : Microsoft::Exchange::WebServices::Data::ServiceId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示的文件夹的 ID。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (folderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">用于初始化文件夹 Id 类文件夹名称。</param>
+        <summary>初始化文件夹 Id 类具有已知文件夹名称的新实例。</summary>
+        <remarks>
+          <para>使用此构造函数将此文件夹 ID 链接到已知文件夹 （例如，收件箱、 日历或联系人）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniqueId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(System::String ^ uniqueId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">用于初始化文件夹 Id 类的唯一 ID。</param>
+        <summary>初始化文件夹 Id 类的新实例。</summary>
+        <remarks>
+          <para>使用此构造函数将此文件夹 Id 类链接到现有文件夹。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName, Microsoft.Exchange.WebServices.Data.Mailbox mailbox);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName, class Microsoft.Exchange.WebServices.Data.Mailbox mailbox) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.Mailbox)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName, Microsoft::Exchange::WebServices::Data::Mailbox ^ mailbox);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="mailbox" Type="Microsoft.Exchange.WebServices.Data.Mailbox" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">用于初始化文件夹 Id 类文件夹名称。</param>
+        <param name="mailbox">用于初始化文件夹 Id 类的邮箱。</param>
+        <summary>初始化与指定的文件夹名称和邮箱文件夹 Id 类的新实例。</summary>
+        <remarks>
+          <para>使用此构造函数将此文件夹 ID 链接到特定邮箱中的已知文件夹 （例如，收件箱、 日历或联系人）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">要比较将当前文件夹的文件夹。</param>
+        <summary>确定是否等于当前文件夹指定的文件夹。</summary>
+        <returns>
+          <b>true</b>如果指定的文件夹是等于当前文件夹中。否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NullReferenceException">
+          <paramref name="obj" />参数为空引用 (在 Visual Basic 中为 Nothing)。</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderName">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; FolderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; FolderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderId.FolderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderName As Nullable(Of WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; FolderName { Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取与文件夹 ID 相关联的文件夹的名称</summary>
+        <value>与文件夹 ID 相关联的<b>nullable</b>已知文件夹名称</value>
+        <remarks>
+          <para>已知文件夹名称和文件夹 ID 相互排斥;如果设置，另一个是空引用 (在 Visual Basic 中为 Nothing)。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>充当特定类型的哈希函数。</summary>
+        <returns>当前文件夹哈希代码。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Mailbox Mailbox { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Mailbox Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderId.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mailbox As Mailbox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Mailbox ^ Mailbox { Microsoft::Exchange::WebServices::Data::Mailbox ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Mailbox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取文件夹的邮箱。 FolderName 设置时，才设置邮箱。</summary>
+        <value>文件夹的邮箱。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.FolderId op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.op_Implicit(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)~Microsoft.Exchange.WebServices.Data.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (folderName As WellKnownFolderName) As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::FolderId ^(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">文件夹名称以将转换为一个文件夹 id。</param>
+        <summary>定义隐式转换之间已知文件夹名称和文件夹 id。</summary>
+        <returns>初始化与指定的文件夹名文件夹 ID。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.FolderId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.FolderId op_Implicit(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniqueId As String) As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::FolderId ^(System::String ^ uniqueId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">要转换为文件夹 ID 的唯一 ID</param>
+        <summary>定义隐式字符串和文件夹 id。 之间的转换</summary>
+        <returns>具有指定 ID 的唯一初始化文件夹 ID</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回一个字符串，表示当前文件夹。</summary>
+        <returns>当前文件夹的名称。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

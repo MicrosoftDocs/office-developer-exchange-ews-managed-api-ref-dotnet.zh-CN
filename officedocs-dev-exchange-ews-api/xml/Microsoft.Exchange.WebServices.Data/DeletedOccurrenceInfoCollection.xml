@@ -1,0 +1,36 @@
+<Type Name="DeletedOccurrenceInfoCollection" FullName="Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9c48249c2b60205b7400514507e94028bee03b0f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623220" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DeletedOccurrenceInfoCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfo&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeletedOccurrenceInfoCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfo&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeletedOccurrenceInfoCollection&#xA;Inherits ComplexPropertyCollection(Of DeletedOccurrenceInfo)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeletedOccurrenceInfoCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::DeletedOccurrenceInfo ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfo&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfo</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>表示已删除发生的定期约会的集合。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

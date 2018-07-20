@@ -1,0 +1,32 @@
+<Type Name="SyncFolderHierarchyResponse" FullName="Microsoft.Exchange.WebServices.Data.SyncFolderHierarchyResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1c118f7dcf79eb2572fa91278d19ec2bb975628c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622845" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SyncFolderHierarchyResponse : Microsoft.Exchange.WebServices.Data.SyncResponse&lt;Microsoft.Exchange.WebServices.Data.Folder,Microsoft.Exchange.WebServices.Data.FolderChange&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SyncFolderHierarchyResponse extends Microsoft.Exchange.WebServices.Data.SyncResponse`2&lt;class Microsoft.Exchange.WebServices.Data.Folder, class Microsoft.Exchange.WebServices.Data.FolderChange&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SyncFolderHierarchyResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SyncFolderHierarchyResponse&#xA;Inherits SyncResponse(Of Folder, FolderChange)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderHierarchyResponse sealed : Microsoft::Exchange::WebServices::Data::SyncResponse&lt;Microsoft::Exchange::WebServices::Data::Folder ^, Microsoft::Exchange::WebServices::Data::FolderChange ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SyncResponse&lt;Microsoft.Exchange.WebServices.Data.Folder,Microsoft.Exchange.WebServices.Data.FolderChange&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TServiceObject">Microsoft.Exchange.WebServices.Data.Folder</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TChange">Microsoft.Exchange.WebServices.Data.FolderChange</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表对文件夹同步操作的响应。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

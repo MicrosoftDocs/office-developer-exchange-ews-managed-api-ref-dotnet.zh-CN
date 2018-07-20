@@ -1,0 +1,179 @@
+<Type Name="CalendarFolder" FullName="Microsoft.Exchange.WebServices.Data.CalendarFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="98a14ce66be6f0811ade9e9ef383937c628e7ea3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623334" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CalendarFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CalendarFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarFolder&#xA;Inherits Folder" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarFolder : Microsoft::Exchange::WebServices::Data::Folder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Folder</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示包含约会的文件夹。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarFolder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarFolder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">日历文件夹将绑定到 ExchangeService 类对象。</param>
+        <summary>初始化未保存本地 CalendarFolder 类的实例。 若要将绑定到现有的日历文件夹，使用绑定方法。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As CalendarFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">要使用将绑定到日历文件夹的服务。</param>
+        <param name="id">要将绑定到日历文件夹的 ID。</param>
+        <summary>绑定到现有的日历文件夹，并加载其第一类的属性。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>表示指定 ID 的日历文件夹对应的 CalendarFolder 类的实例</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As CalendarFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">要使用将绑定到日历文件夹的服务。</param>
+        <param name="name">将绑定到的日历文件夹的名称。</param>
+        <summary>绑定到现有的日历文件夹，并加载其第一类的属性。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>代表日历文件夹具有指定名称 CalendarFolder 类的实例。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">要使用将绑定到日历文件夹的服务。</param>
+        <param name="id">要将绑定到日历文件夹的 ID。</param>
+        <param name="propertySet">要加载的属性集。</param>
+        <summary>绑定到现有的日历文件夹，并加载指定的属性集。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>CalendarFolder 实例表示指定 ID 的对应的日历文件夹</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">要使用将绑定到日历文件夹的服务。</param>
+        <param name="name">将绑定到的日历文件夹的名称。</param>
+        <param name="propertySet">要加载的属性集。</param>
+        <summary>绑定到现有的日历文件夹，并加载指定的属性集。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>代表日历文件夹具有指定名称 CalendarFolder 类的实例。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindAppointments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt; FindAppointments (Microsoft.Exchange.WebServices.Data.CalendarView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Appointment&gt; FindAppointments(class Microsoft.Exchange.WebServices.Data.CalendarView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.FindAppointments(Microsoft.Exchange.WebServices.Data.CalendarView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindAppointments (view As CalendarView) As FindItemsResults(Of Appointment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ FindAppointments(Microsoft::Exchange::WebServices::Data::CalendarView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.CalendarView" />
+      </Parameters>
+      <Docs>
+        <param name="view">控制的约会返回的范围的视图。</param>
+        <summary>通过搜索此文件夹的内容并定期约会的执行定期扩展获取约会的列表。 呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</summary>
+        <returns>一个对象，表示搜索操作的结果。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

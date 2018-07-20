@@ -1,0 +1,33 @@
+<Type Name="ResponseHeadersCapturedHandler" FullName="Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="943f62eff3855f8ca54c198299213795d15248ed" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622881" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void ResponseHeadersCapturedHandler(WebHeaderCollection responseHeaders);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResponseHeadersCapturedHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ResponseHeadersCapturedHandler(responseHeaders As WebHeaderCollection)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void ResponseHeadersCapturedHandler(WebHeaderCollection ^ responseHeaders);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="responseHeaders" Type="System.Net.WebHeaderCollection" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="responseHeaders">HTTP 响应标头。</param>
+    <summary>定义用于通知的服务对象已被修改代理人。             <see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" />委托是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

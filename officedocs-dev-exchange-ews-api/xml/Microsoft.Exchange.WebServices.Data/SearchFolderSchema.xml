@@ -1,0 +1,65 @@
+<Type Name="SearchFolderSchema" FullName="Microsoft.Exchange.WebServices.Data.SearchFolderSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="47f8675173827062922a1dfd626c72e3a7c05593" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623209" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SearchFolderSchema : Microsoft.Exchange.WebServices.Data.FolderSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchFolderSchema extends Microsoft.Exchange.WebServices.Data.FolderSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFolderSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchFolderSchema&#xA;Inherits FolderSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchFolderSchema : Microsoft::Exchange::WebServices::Data::FolderSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.FolderSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>定义搜索文件夹的架构。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFolderSchema ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFolderSchema.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFolderSchema();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 SearchFolderSchema 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchParameters">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition SearchParameters;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition SearchParameters" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SearchFolderSchema.SearchParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchParameters As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ SearchParameters;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>定义<see cref="P:Microsoft.Exchange.WebServices.Data.SearchFolder.SearchParameters" />属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

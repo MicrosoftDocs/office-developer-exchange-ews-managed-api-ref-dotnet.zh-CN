@@ -1,0 +1,35 @@
+<Type Name="AutodiscoverRedirectionUrlValidationCallback" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRedirectionUrlValidationCallback">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="933e3e2a4b2a5a8629619dccf31dea301d3f638e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623309" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate bool AutodiscoverRedirectionUrlValidationCallback(string redirectionUrl);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AutodiscoverRedirectionUrlValidationCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRedirectionUrlValidationCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Function AutodiscoverRedirectionUrlValidationCallback(redirectionUrl As String) As Boolean " />
+  <TypeSignature Language="C++ CLI" Value="public delegate bool AutodiscoverRedirectionUrlValidationCallback(System::String ^ redirectionUrl);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="redirectionUrl" Type="System.String" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Boolean</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="redirectionUrl">自动发现是使用重定向 URL。</param>
+    <summary>定义委托 AutodiscoverService 类用于确定是否可以使用重定向 URL。</summary>
+    <returns>
+      <b>true</b>如果启用了自动发现，使用此 URL;否则为<b>false</b>。</returns>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

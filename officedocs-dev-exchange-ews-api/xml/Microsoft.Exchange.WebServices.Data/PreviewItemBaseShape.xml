@@ -1,0 +1,66 @@
+<Type Name="PreviewItemBaseShape" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aa9c24126b7cd0ebfe708c50db4d00a249b5298d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623240" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum PreviewItemBaseShape" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreviewItemBaseShape extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PreviewItemBaseShape" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PreviewItemBaseShape" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>确定是否可以使用其所有属性预览邮箱中的项目或压缩其视图。             <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Compact">
+      <MemberSignature Language="C#" Value="Compact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape Compact = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" />
+      <MemberSignature Language="VB.NET" Value="Compact" />
+      <MemberSignature Language="C++ CLI" Value="Compact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>仅一套与项目关联的核心属性可以预览。             <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>可以预览与项目关联的所有属性。             <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

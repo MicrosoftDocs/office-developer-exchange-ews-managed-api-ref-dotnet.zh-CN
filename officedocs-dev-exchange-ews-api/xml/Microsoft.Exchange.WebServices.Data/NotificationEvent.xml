@@ -1,0 +1,113 @@
+<Type Name="NotificationEvent" FullName="Microsoft.Exchange.WebServices.Data.NotificationEvent">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="45e1276875ebddfc45db7ea891e6ac8cba8bbf13" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623018" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class NotificationEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit NotificationEvent extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NotificationEvent" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class NotificationEvent" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NotificationEvent abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示公开推送和请求的通知的事件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EventType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EventType EventType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EventType EventType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventType As EventType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EventType EventType { Microsoft::Exchange::WebServices::Data::EventType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取该事件的类型。</summary>
+        <value>EventType 枚举值之一。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId OldParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId OldParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.OldParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OldParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ OldParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取项目或文件夹的此事件适用于旧的父文件夹的标识符。</summary>
+        <value>一个标识的项目或文件夹，此事件适用于旧的父文件夹的文件夹 Id 对象。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.OldParentFolderId" />属性才有意义<see cref="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.EventType" />属性设置为<see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" />或<see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Copied" />。对于所有其他事件类型，此属性为空引用 (在 Visual Basic 中为 Nothing)。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取父文件夹标识符的项或此事件适用于文件夹的父文件夹。</summary>
+        <value>包含此事件适用于文件夹的项目的父文件夹的父文件夹标识符文件夹 Id 对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeStamp">
+      <MemberSignature Language="C#" Value="public DateTime TimeStamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime TimeStamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NotificationEvent.TimeStamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeStamp As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime TimeStamp { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取事件的时间戳。</summary>
+        <value>包含的日期和事件发生的时间的 DateTime 值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

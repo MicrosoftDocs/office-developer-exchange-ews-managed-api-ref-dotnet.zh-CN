@@ -1,0 +1,89 @@
+<Type Name="TextBody" FullName="Microsoft.Exchange.WebServices.Data.TextBody">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="973b685ede9a3f83e640627181517ce3d14d408d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623449" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class TextBody : Microsoft.Exchange.WebServices.Data.MessageBody" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TextBody extends Microsoft.Exchange.WebServices.Data.MessageBody" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TextBody" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TextBody&#xA;Inherits MessageBody" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TextBody sealed : Microsoft::Exchange::WebServices::Data::MessageBody" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.MessageBody</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含邮件的正文。             <see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextBody ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TextBody();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" />类。             <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextBody (string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TextBody(System::String ^ text);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">邮件正文的文本。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" />用文本等于传入的值。 <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.#ctor(System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.TextBody (string textBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.TextBody op_Implicit(string textBody) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::TextBody ^(System::String ^ textBody);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="textBody" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="textBody">要转换为字符串<see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" />对象。 源字符串假定采用 HTML 格式。</param>
+        <summary>定义字符串和邮件正文之间隐式转换。             <see cref="M:Microsoft.Exchange.WebServices.Data.TextBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.TextBody" />运算符同样适用的客户端的目标 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本。</summary>
+        <returns>A<see cref="T:Microsoft.Exchange.WebServices.Data.TextBody" />初始化与指定的字符串。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

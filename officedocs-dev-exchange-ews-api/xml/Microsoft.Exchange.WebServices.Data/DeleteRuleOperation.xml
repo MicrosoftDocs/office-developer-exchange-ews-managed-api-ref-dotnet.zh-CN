@@ -1,0 +1,112 @@
+<Type Name="DeleteRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.DeleteRuleOperation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4849cf7491586006e5275c9ef6a0a8c876a82551" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623244" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DeleteRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeleteRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeleteRuleOperation&#xA;Inherits RuleOperation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteRuleOperation sealed : Microsoft::Exchange::WebServices::Data::RuleOperation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RuleOperation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表要删除收件箱规则操作。</summary>
+    <remarks>
+      <para>您可以删除现有<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />类对象使用此类。</para>
+      <para>此类派生<see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" />类。</para>
+      <para />
+    </remarks>
+    <example>
+      <para>下面的示例搜索<see cref="T:Microsoft.Exchange.WebServices.Data.RuleCollection" />类来查找现有<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />名称为"MoveInterestingToJunk"从用户的邮箱对象。如果<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />存在，<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />时删除该服务。执行 UpdateInboxRules (新 RuleOperation [] {setRuleOperation}，则返回 true) 行。</para>
+      <code>// Create the DeleteRuleOperation.
+// Delete the rule "MoveInterestingToJunk", if it exists.
+// Get the RuleCollection.
+RuleCollection ruleCollection = service.GetInboxRules("User1@Contoso.com");
+foreach (Rule ruleinCollection in ruleCollection)
+{
+    if (ruleinCollection.DisplayName == "MoveInterestingToJunk")
+    {
+        DeleteRuleOperation deleteRuleOperation = new DeleteRuleOperation(ruleinCollection.Id);
+        service.UpdateInboxRules(new RuleOperation[] { deleteRuleOperation }, true);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteRuleOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteRuleOperation();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 DeleteRuleOperation 类的新实例。</summary>
+        <remarks>
+          <para>此方法将删除<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />中特定邮箱的类对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteRuleOperation (string ruleId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string ruleId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ruleId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteRuleOperation(System::String ^ ruleId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="ruleId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ruleId">删除和发送到邮件服务器的规则的标识符。</param>
+        <summary>初始化与指定的规则标识符的 DeleteRuleOperation 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleId">
+      <MemberSignature Language="C#" Value="public string RuleId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RuleId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RuleId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RuleId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置要删除的规则的唯一标识符。</summary>
+        <value>规则标识符。</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Exchange.WebServices.Data.DeleteRuleOperation.RuleId" />属性是的唯一标识符<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />是要删除的类对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

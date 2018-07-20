@@ -1,0 +1,109 @@
+<Type Name="FindConversationResults" FullName="Microsoft.Exchange.WebServices.Data.FindConversationResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9fcdbd02816ebfcc8a32b13a9a1f32bdcb99c391" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623442" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FindConversationResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindConversationResults extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindConversationResults" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FindConversationResults sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含文件夹中查找的对话的尝试的结果。             <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Conversations">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conversation&gt; Conversations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.Conversation&gt; Conversations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversations As Collection(Of Conversation)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conversation ^&gt; ^ Conversations { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conversation ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conversation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取找到搜索操作的对话。             <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>发现搜索操作的对话。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightTerms">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt; HighlightTerms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.HighlightTerm&gt; HighlightTerms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighlightTerms As Collection(Of HighlightTerm)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::HighlightTerm ^&gt; ^ HighlightTerms { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::HighlightTerm ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取返回搜索操作的突出显示的术语。  <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>返回搜索操作的突出显示的术语。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedOffset">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; IndexedOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; IndexedOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IndexedOffset As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; IndexedOffset { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的已编制索引的偏移量搜索操作所返回的第一个对话。       <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>搜索操作所返回的第一个对话索引偏移量。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TotalCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TotalCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCount As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; TotalCount { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取搜索操作所返回的对话的数。             <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>对话视图中的总计数。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

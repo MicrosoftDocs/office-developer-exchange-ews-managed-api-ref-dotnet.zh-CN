@@ -1,0 +1,233 @@
+<Type Name="ManagedFolderInformation" FullName="Microsoft.Exchange.WebServices.Data.ManagedFolderInformation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ebf44e74fac14ba45a75a4bfa6bcdc83d0cd743f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622644" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ManagedFolderInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ManagedFolderInformation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ManagedFolderInformation&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ManagedFolderInformation sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示托管文件夹的信息。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CanDelete">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; CanDelete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; CanDelete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.CanDelete" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanDelete As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; CanDelete { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，指示用户是否可以删除文件夹中的对象。</summary>
+        <value>
+          <b>true</b>如果可以删除该文件夹中的对象，则否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanRenameOrMove">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; CanRenameOrMove { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; CanRenameOrMove" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.CanRenameOrMove" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanRenameOrMove As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; CanRenameOrMove { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，指示用户是否可以重命名或移动的文件夹中的对象。</summary>
+        <value>如果为<b>true</b>可重命名或移动; 文件夹中的对象否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Comment">
+      <MemberSignature Language="C#" Value="public string Comment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Comment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.Comment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Comment As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Comment { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取与托管文件夹关联的注释。</summary>
+        <value>与托管文件夹关联的注释。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderSize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; FolderSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; FolderSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.FolderSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderSize As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; FolderSize { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取托管文件夹中的所有内容的总大小。</summary>
+        <value>托管文件夹的内容的大小。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasQuota">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; HasQuota { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; HasQuota" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.HasQuota" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasQuota As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; HasQuota { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，指示文件夹是否具有配额。</summary>
+        <value>
+          <b>true</b>如果文件夹具有配额;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomePage">
+      <MemberSignature Language="C#" Value="public string HomePage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HomePage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.HomePage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HomePage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HomePage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取将托管文件夹默认主页的 URL。</summary>
+        <value>默认主页 URL。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsManagedFoldersRoot">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsManagedFoldersRoot { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsManagedFoldersRoot" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.IsManagedFoldersRoot" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsManagedFoldersRoot As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; IsManagedFoldersRoot { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否托管的文件夹层次结构的根文件夹。</summary>
+        <value>
+          <b>true</b>如果文件夹是根文件夹;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedFolderId">
+      <MemberSignature Language="C#" Value="public string ManagedFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ManagedFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.ManagedFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedFolderId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ManagedFolderId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取文件夹的托管的文件夹 ID。</summary>
+        <value>托管的文件夹 id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MustDisplayComment">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; MustDisplayComment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; MustDisplayComment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.MustDisplayComment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MustDisplayComment As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; MustDisplayComment { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，指示客户端应用程序必须向用户显示的 Comment 属性。</summary>
+        <value>
+          <b>true</b>如果客户端应用程序必须向用户; 显示注释属性否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageQuota">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; StorageQuota { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; StorageQuota" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.StorageQuota" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StorageQuota As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; StorageQuota { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取文件夹的存储配额。</summary>
+        <value>托管文件夹存储大小限制。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

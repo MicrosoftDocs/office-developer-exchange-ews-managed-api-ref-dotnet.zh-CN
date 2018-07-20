@@ -1,0 +1,68 @@
+<Type Name="Recurrence+DailyRegenerationPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+DailyRegenerationPattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e22554659729767d0836a1921440aaf116ca12ee" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622684" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Recurrence.DailyRegenerationPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/DailyRegenerationPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyRegenerationPattern" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.DailyRegenerationPattern&#xA;Inherits Recurrence.IntervalPattern" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::DailyRegenerationPattern sealed : Microsoft::Exchange::WebServices::Data::Recurrence::IntervalPattern" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示再生模式中，用于定期任务，其中每个出现发生后完成上一指定的天数。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DailyRegenerationPattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.DailyRegenerationPattern.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DailyRegenerationPattern();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 Microsoft.Exchange.WebServices.Data.Recurrence.DailyRegenerationPattern 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DailyRegenerationPattern (DateTime startDate, int interval);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, int32 interval) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.DailyRegenerationPattern.#ctor(System.DateTime,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startDate As DateTime, interval As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DailyRegenerationPattern(DateTime startDate, int interval);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="interval" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">日期和定期开始的时间。</param>
+        <param name="interval">当前的匹配项和下，当前的匹配项完毕后之间天数。</param>
+        <summary>初始化 Microsoft.Exchange.WebServices.Data.Recurrence.DailyRegenerationPattern 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

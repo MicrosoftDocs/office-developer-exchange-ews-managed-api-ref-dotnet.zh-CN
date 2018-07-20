@@ -1,0 +1,384 @@
+<Type Name="UserConfiguration" FullName="Microsoft.Exchange.WebServices.Data.UserConfiguration">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fcd20e4229fcedad2f9dcff4e9037d3b7f2113d7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623371" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UserConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UserConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserConfiguration" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserConfiguration" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>创建并访问用户定义的配置设置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserConfiguration (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserConfiguration(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">将绑定到 Exchange 服务器对象。</param>
+        <summary>初始化与服务对象的<b>UserConfiguration</b>类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BinaryData">
+      <MemberSignature Language="C#" Value="public byte[] BinaryData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] BinaryData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.BinaryData" />
+      <MemberSignature Language="VB.NET" Value="Public Property BinaryData As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ BinaryData { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用户配置的二进制数据。</summary>
+        <value>二进制数据的字节数组。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.UserConfiguration Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, Microsoft.Exchange.WebServices.Data.FolderId parentFolderId, Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.UserConfiguration Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId, valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,System.String,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As String, parentFolderId As FolderId, properties As UserConfigurationProperties) As UserConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::UserConfiguration ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, System::String ^ name, Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId, Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfiguration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="service">用户配置绑定到服务。</param>
+        <param name="name">用户配置的名称。</param>
+        <param name="parentFolderId">包含用户配置的文件夹的标识符。</param>
+        <param name="properties">要加载的属性。</param>
+        <summary>将绑定到现有用户配置，基于用户配置名称、 文件夹标识符和指定的用户的配置属性。</summary>
+        <returns>用户配置实例。</returns>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.UserConfiguration Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName, Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.UserConfiguration Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName, valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,System.String,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As String, parentFolderName As WellKnownFolderName, properties As UserConfigurationProperties) As UserConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::UserConfiguration ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, System::String ^ name, Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName, Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfiguration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="service">用户配置绑定到服务。</param>
+        <param name="name">用户配置的名称。</param>
+        <param name="parentFolderName">包含用户配置的文件夹的标识符。</param>
+        <param name="properties">要加载的属性。</param>
+        <summary>将绑定到现有用户配置基于用户配置名称、 文件夹名称和指定的用户的配置属性。</summary>
+        <returns>用户配置实例。</returns>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除用户的配置。</summary>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。A<see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" />可通过调用此方法，因为删除用户配置项目移至触发邮箱事件通知转储程序。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dictionary">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary Dictionary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary Dictionary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.Dictionary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dictionary As UserConfigurationDictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UserConfigurationDictionary ^ Dictionary { Microsoft::Exchange::WebServices::Data::UserConfigurationDictionary ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取用户配置的词典。</summary>
+        <value>用户配置词典。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDirty">
+      <MemberSignature Language="C#" Value="public bool IsDirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.IsDirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否已修改用户配置对象。</summary>
+        <value>
+          <b>true</b>如果已修改的用户配置对象;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取用户配置的标识符。</summary>
+        <value>项目 id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Load(Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (properties As UserConfigurationProperties)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="properties">要加载的用户配置属性。</param>
+        <summary>加载指定的用户配置属性。</summary>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取用户配置的名称。</summary>
+        <value>用户配置名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取包含用户配置的文件夹的标识符。</summary>
+        <value>一个文件夹 id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (string name, Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(string name, class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Save(System.String,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (name As String, parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ name, Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="name">用户配置对象的名称。</param>
+        <param name="parentFolderId">标识将包含已保存的用户配置对象的文件夹的文件夹标识符。</param>
+        <summary>通过设置配置用户名和包含用户配置的文件夹的文件夹标识符保存的用户配置。</summary>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用方法结果。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (string name, Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(string name, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Save(System.String,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (name As String, parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ name, Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="name">用户配置对象的名称。</param>
+        <param name="parentFolderName">标识将包含已保存的用户配置对象的文件夹的已知文件夹名称。</param>
+        <summary>通过设置配置用户名和包含用户配置的文件夹的已知文件夹名称保存的用户配置。</summary>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用方法结果。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>更新服务器上的用户配置对象。</summary>
+        <remarks>
+          <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlData">
+      <MemberSignature Language="C#" Value="public byte[] XmlData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] XmlData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.XmlData" />
+      <MemberSignature Language="VB.NET" Value="Public Property XmlData As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ XmlData { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用户配置的 XML 数据。</summary>
+        <value>XML 数据的字节数组。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

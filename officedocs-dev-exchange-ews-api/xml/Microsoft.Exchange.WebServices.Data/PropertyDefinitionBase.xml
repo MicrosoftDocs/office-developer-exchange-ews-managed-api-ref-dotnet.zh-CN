@@ -1,0 +1,111 @@
+<Type Name="PropertyDefinitionBase" FullName="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ad75e65d512ec7db789beb5c146d7a724a4b6307" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623118" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class PropertyDefinitionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit PropertyDefinitionBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class PropertyDefinitionBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PropertyDefinitionBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>定义属性定义的基类。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetJsonType">
+      <MemberSignature Language="C#" Value="protected abstract string GetJsonType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance string GetJsonType() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.GetJsonType" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function GetJsonType () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract System::String ^ GetJsonType();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>获取相关联的属性，例如<b>字符串</b>、<b>数字</b>、<b>对象</b>、<b>数组</b>，或<b>Boolean</b>的 JavaScript 对象表示法 (JSON) 变量类型。             <see cref="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.GetJsonType" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <returns>JSON 变量类型。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>返回<see cref="T:System.String" />，它表示当前<see cref="T:System.Object" />。</summary>
+        <returns>A <see cref="T:System.String" /> ，它表示当前<see cref="T:System.Object" />。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public abstract Type Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.Type" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Type As Type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property Type ^ Type { Type ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取属性的类型。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.Exchange.WebServices.Data.ExchangeVersion Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase.Version" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Version As ExchangeVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property Microsoft::Exchange::WebServices::Data::ExchangeVersion Version { Microsoft::Exchange::WebServices::Data::ExchangeVersion get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取支持此属性的最小 Exchange 版本。</summary>
+        <value>ExchangeVersion 枚举值之一。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

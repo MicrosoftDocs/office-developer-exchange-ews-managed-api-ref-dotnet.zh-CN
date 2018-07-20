@@ -1,0 +1,54 @@
+<Type Name="Recurrence+IntervalPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9a322ee0a7ad778bad11c9e905845376f8094a19" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622680" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class Recurrence.IntervalPattern : Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit Recurrence/IntervalPattern extends Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Recurrence.IntervalPattern&#xA;Inherits Recurrence" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::IntervalPattern abstract : Microsoft::Exchange::WebServices::Data::Recurrence" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>表示每个出现在上一后发生特定的时间间隔的其中的定期模式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Interval">
+      <MemberSignature Language="C#" Value="public int Interval { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Interval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern.Interval" />
+      <MemberSignature Language="VB.NET" Value="Public Property Interval As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Interval { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置匹配项之间的间隔。</summary>
+        <value>一个整数值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

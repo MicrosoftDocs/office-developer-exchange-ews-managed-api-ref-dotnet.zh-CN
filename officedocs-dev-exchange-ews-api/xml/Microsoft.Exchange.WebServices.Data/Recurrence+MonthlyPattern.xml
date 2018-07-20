@@ -1,0 +1,93 @@
+<Type Name="Recurrence+MonthlyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+MonthlyPattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bccbfec5b8cc5be888af2512804155d9ebb7f961" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622827" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Recurrence.MonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/MonthlyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.MonthlyPattern&#xA;Inherits Recurrence.IntervalPattern" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::MonthlyPattern sealed : Microsoft::Exchange::WebServices::Data::Recurrence::IntervalPattern" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表其中每个出现发生在特定日期特定后先前的月数的定期模式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MonthlyPattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MonthlyPattern();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MonthlyPattern (DateTime startDate, int interval, int dayOfMonth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, int32 interval, int32 dayOfMonth) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern.#ctor(System.DateTime,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startDate As DateTime, interval As Integer, dayOfMonth As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MonthlyPattern(DateTime startDate, int interval, int dayOfMonth);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="interval" Type="System.Int32" />
+        <Parameter Name="dayOfMonth" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">日期和定期开始的时间。</param>
+        <param name="interval">每个匹配项之间的月数。</param>
+        <param name="dayOfMonth">每次发生相应月份的日期。</param>
+        <summary>初始化 Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfMonth">
+      <MemberSignature Language="C#" Value="public int DayOfMonth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DayOfMonth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern.DayOfMonth" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfMonth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DayOfMonth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置每次发生的情况月的天。</summary>
+        <value>一个整数值。</value>
+        <remarks>
+          <para>DayOfMonth 必须介于 1 和 31 之间。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

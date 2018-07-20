@@ -1,0 +1,52 @@
+<Type Name="SetClientExtensionAction" FullName="Microsoft.Exchange.WebServices.Data.SetClientExtensionAction">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e16e0f4bddd698ae55466e4782a1884dfccb476a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622659" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SetClientExtensionAction : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetClientExtensionAction extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetClientExtensionAction&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetClientExtensionAction sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>定义要管理客户端应用程序的操作。             <see cref="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetClientExtensionAction (Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId setClientExtensionActionId, string extensionId, Microsoft.Exchange.WebServices.Data.ClientExtension clientExtension);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId setClientExtensionActionId, string extensionId, class Microsoft.Exchange.WebServices.Data.ClientExtension clientExtension) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction.#ctor(Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId,System.String,Microsoft.Exchange.WebServices.Data.ClientExtension)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetClientExtensionAction(Microsoft::Exchange::WebServices::Data::SetClientExtensionActionId setClientExtensionActionId, System::String ^ extensionId, Microsoft::Exchange::WebServices::Data::ClientExtension ^ clientExtension);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="setClientExtensionActionId" Type="Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId" />
+        <Parameter Name="extensionId" Type="System.String" />
+        <Parameter Name="clientExtension" Type="Microsoft.Exchange.WebServices.Data.ClientExtension" />
+      </Parameters>
+      <Docs>
+        <param name="setClientExtensionActionId">集操作，如安装、 卸载和配置。</param>
+        <param name="extensionId">在扩展标识符所需的配置和卸载操作。</param>
+        <param name="clientExtension">配置操作所需的扩展数据对象。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" />类。 <see cref="M:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction.#ctor(Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId,System.String,Microsoft.Exchange.WebServices.Data.ClientExtension)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

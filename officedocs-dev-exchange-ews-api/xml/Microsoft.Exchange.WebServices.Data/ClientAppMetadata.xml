@@ -1,0 +1,93 @@
+<Type Name="ClientAppMetadata" FullName="Microsoft.Exchange.WebServices.Data.ClientAppMetadata">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="41cbe259770a0f17b5105567bfecc4d957b51d8d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622678" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ClientAppMetadata : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientAppMetadata extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientAppMetadata" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientAppMetadata&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientAppMetadata sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示邮件应用程序的元数据的 Outlook.The<see cref="T:Microsoft.Exchange.WebServices.Data.ClientAppMetadata" />类是适用于 Exchange Online 和 Exchange 开头 15.00.0847.032 版本的目标设定的客户端。</summary>
+    <remarks>
+      <para>
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAppMetadata" />中使用类<see cref="P:Microsoft.Exchange.WebServices.Data.ClientApp.Metadata" />属性。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActionUrl">
+      <MemberSignature Language="C#" Value="public string ActionUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActionUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAppMetadata.ActionUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActionUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ActionUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>用户可以访问对邮件应用程序执行操作的 URL。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppStatus">
+      <MemberSignature Language="C#" Value="public string AppStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AppStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAppMetadata.AppStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppStatus As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AppStatus { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>表示一个状态代码，指示邮件应用程序的当前状态的字符串。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndNodeUrl">
+      <MemberSignature Language="C#" Value="public string EndNodeUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EndNodeUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAppMetadata.EndNodeUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndNodeUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EndNodeUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>市场中的邮件应用程序的 URL。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

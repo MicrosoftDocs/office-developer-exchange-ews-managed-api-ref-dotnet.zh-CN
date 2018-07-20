@@ -1,0 +1,106 @@
+<Type Name="PhysicalAddressDictionary" FullName="Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ca42ae0f517b5a7845485af1b0fdf577e924189c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623112" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PhysicalAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressKey,Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhysicalAddressDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressKey, class Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhysicalAddressDictionary&#xA;Inherits DictionaryProperty(Of PhysicalAddressKey, PhysicalAddressEntry)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PhysicalAddressDictionary sealed : Microsoft::Exchange::WebServices::Data::DictionaryProperty&lt;Microsoft::Exchange::WebServices::Data::PhysicalAddressKey, Microsoft::Exchange::WebServices::Data::PhysicalAddressEntry ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressKey,Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TKey">Microsoft.Exchange.WebServices.Data.PhysicalAddressKey</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TEntry">Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>表示物理地址。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PhysicalAddressDictionary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PhysicalAddressDictionary();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 PhysicalAddressDictionary 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry this[Microsoft.Exchange.WebServices.Data.PhysicalAddressKey key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry Item(valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressKey)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary.Item(Microsoft.Exchange.WebServices.Data.PhysicalAddressKey)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As PhysicalAddressKey) As PhysicalAddressEntry" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PhysicalAddressEntry ^ default[Microsoft::Exchange::WebServices::Data::PhysicalAddressKey] { Microsoft::Exchange::WebServices::Data::PhysicalAddressEntry ^ get(Microsoft::Exchange::WebServices::Data::PhysicalAddressKey key); void set(Microsoft::Exchange::WebServices::Data::PhysicalAddressKey key, Microsoft::Exchange::WebServices::Data::PhysicalAddressEntry ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.PhysicalAddressKey" />
+      </Parameters>
+      <Docs>
+        <param name="key">获取或设置的物理地址与关联的键。</param>
+        <summary>获取或设置为指定的键对应的物理地址。</summary>
+        <value>为指定的键对应的物理地址。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (Microsoft.Exchange.WebServices.Data.PhysicalAddressKey key, out Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry physicalAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressKey key, [out] class Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&amp; physicalAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PhysicalAddressDictionary.TryGetValue(Microsoft.Exchange.WebServices.Data.PhysicalAddressKey,Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As PhysicalAddressKey, ByRef physicalAddress As PhysicalAddressEntry) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Exchange::WebServices::Data::PhysicalAddressKey key, [Runtime::InteropServices::Out] Microsoft::Exchange::WebServices::Data::PhysicalAddressEntry ^ % physicalAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.PhysicalAddressKey" />
+        <Parameter Name="physicalAddress" Type="Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">与物理地址关联的键。</param>
+        <param name="physicalAddress">如果找到指定的键，包含与指定的键的关联的物理地址否则，一个空引用 (在 Visual Basic 中为 Nothing)。 此参数传递未初始化。</param>
+        <summary>尝试获取与指定的键关联的物理地址。</summary>
+        <returns>
+          <b>true</b>如果字典包含与指定的键的关联的物理地址否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

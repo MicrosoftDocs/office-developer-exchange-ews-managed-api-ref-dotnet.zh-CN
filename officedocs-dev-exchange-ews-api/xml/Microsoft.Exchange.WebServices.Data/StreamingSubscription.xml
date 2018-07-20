@@ -1,0 +1,138 @@
+<Type Name="StreamingSubscription" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscription">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2d3ac55ddb01c5a970d51f0cff5c0cdea1c4718f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622847" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class StreamingSubscription : Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StreamingSubscription extends Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StreamingSubscription&#xA;Inherits SubscriptionBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StreamingSubscription sealed : Microsoft::Exchange::WebServices::Data::SubscriptionBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SubscriptionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表流式订阅。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginUnsubscribe">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginUnsubscribe (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginUnsubscribe(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StreamingSubscription.BeginUnsubscribe(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginUnsubscribe (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginUnsubscribe(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">异步回调操作委托。</param>
+        <param name="state">包含此请求的状态信息的对象。</param>
+        <summary>开始异步请求取消订阅。此方法是在 Microsoft Exchange Web Services (EWS) 托管 API 1.2 引入的。</summary>
+        <returns>引用异步请求 IAsyncResult。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndUnsubscribe">
+      <MemberSignature Language="C#" Value="public void EndUnsubscribe (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndUnsubscribe(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StreamingSubscription.EndUnsubscribe(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndUnsubscribe (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndUnsubscribe(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">引用异步请求 IAsyncResult。</param>
+        <summary>结束要取消订阅的异步请求。此方法是在 Microsoft Exchange Web Services (EWS) 托管 API 1.2 引入的。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Service">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeService Service { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeService Service" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.StreamingSubscription.Service" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Service As ExchangeService" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeService ^ Service { Microsoft::Exchange::WebServices::Data::ExchangeService ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取用于创建此订阅的服务。</summary>
+        <value>一个对象，表示 Exchange 服务。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unsubscribe">
+      <MemberSignature Language="C#" Value="public void Unsubscribe ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Unsubscribe() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StreamingSubscription.Unsubscribe" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Unsubscribe ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Unsubscribe();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>取消订阅的流式订阅。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsesWatermark">
+      <MemberSignature Language="C#" Value="protected override bool UsesWatermark { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UsesWatermark" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.StreamingSubscription.UsesWatermark" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property UsesWatermark As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property bool UsesWatermark { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

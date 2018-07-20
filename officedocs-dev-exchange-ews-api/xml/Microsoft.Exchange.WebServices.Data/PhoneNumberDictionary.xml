@@ -1,0 +1,106 @@
+<Type Name="PhoneNumberDictionary" FullName="Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ecebd79910ede1d8b6c9a051eac917c3e9875c77" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622826" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PhoneNumberDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.PhoneNumberKey,Microsoft.Exchange.WebServices.Data.PhoneNumberEntry&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhoneNumberDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.PhoneNumberKey, class Microsoft.Exchange.WebServices.Data.PhoneNumberEntry&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhoneNumberDictionary&#xA;Inherits DictionaryProperty(Of PhoneNumberKey, PhoneNumberEntry)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PhoneNumberDictionary sealed : Microsoft::Exchange::WebServices::Data::DictionaryProperty&lt;Microsoft::Exchange::WebServices::Data::PhoneNumberKey, Microsoft::Exchange::WebServices::Data::PhoneNumberEntry ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.PhoneNumberKey,Microsoft.Exchange.WebServices.Data.PhoneNumberEntry&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TKey">Microsoft.Exchange.WebServices.Data.PhoneNumberKey</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TEntry">Microsoft.Exchange.WebServices.Data.PhoneNumberEntry</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>表示的电话号码。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PhoneNumberDictionary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PhoneNumberDictionary();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化 PhoneNumberDictionary 类的新实例。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this[Microsoft.Exchange.WebServices.Data.PhoneNumberKey key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(valuetype Microsoft.Exchange.WebServices.Data.PhoneNumberKey)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary.Item(Microsoft.Exchange.WebServices.Data.PhoneNumberKey)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As PhoneNumberKey) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default[Microsoft::Exchange::WebServices::Data::PhoneNumberKey] { System::String ^ get(Microsoft::Exchange::WebServices::Data::PhoneNumberKey key); void set(Microsoft::Exchange::WebServices::Data::PhoneNumberKey key, System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.PhoneNumberKey" />
+      </Parameters>
+      <Docs>
+        <param name="key">要获取或设置的电话号码所对应的键。</param>
+        <summary>获取或设置为指定的键对应的电话号码。</summary>
+        <value>指定键与对应的电话号码。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (Microsoft.Exchange.WebServices.Data.PhoneNumberKey key, out string phoneNumber);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(valuetype Microsoft.Exchange.WebServices.Data.PhoneNumberKey key, [out] string&amp; phoneNumber) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PhoneNumberDictionary.TryGetValue(Microsoft.Exchange.WebServices.Data.PhoneNumberKey,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As PhoneNumberKey, ByRef phoneNumber As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Exchange::WebServices::Data::PhoneNumberKey key, [Runtime::InteropServices::Out] System::String ^ % phoneNumber);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.PhoneNumberKey" />
+        <Parameter Name="phoneNumber" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">与该电话号码相关联的键。</param>
+        <param name="phoneNumber">如果找到指定的键，包含与指定的键的关联的电话号码否则，一个空引用 (在 Visual Basic 中为 Nothing)。 此参数传递未初始化。</param>
+        <summary>尝试获取与指定的键关联的电话号码。</summary>
+        <returns>
+          <b>true</b>如果字典包含与指定的键的关联的电话号码否则为<b>false</b>。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

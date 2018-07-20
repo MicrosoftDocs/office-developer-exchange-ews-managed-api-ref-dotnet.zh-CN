@@ -1,0 +1,492 @@
+<Type Name="ExchangeServiceBase" FullName="Microsoft.Exchange.WebServices.Data.ExchangeServiceBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="63d0d68023245176fa907a3b57644b570a105ebe" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623012" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ExchangeServiceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExchangeServiceBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExchangeServiceBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExchangeServiceBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>表示抽象绑定到 Exchange 服务。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcceptGzipEncoding">
+      <MemberSignature Language="C#" Value="public bool AcceptGzipEncoding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AcceptGzipEncoding" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property AcceptGzipEncoding As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AcceptGzipEncoding { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否应接受 GZip 压缩编码。</summary>
+        <value>
+          <b>true</b>如果应接受 GZip 压缩编码;否则为<b>false</b>。</value>
+        <remarks>
+          <para>设置<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.AcceptGzipEncoding" />属性值指示服务器客户端是否可以处理 GZip 压缩编码。如果已配置为这样做，则服务器将只发送 GZip 压缩的内容。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientRequestId">
+      <MemberSignature Language="C#" Value="public string ClientRequestId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ClientRequestId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClientRequestId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ClientRequestId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置请求 id。             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ClientRequestId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>请求 id。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionGroupName">
+      <MemberSignature Language="C#" Value="public string ConnectionGroupName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectionGroupName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConnectionGroupName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConnectionGroupName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置请求的连接组的名称。              <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ConnectionGroupName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>连接组的名称。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CookieContainer">
+      <MemberSignature Language="C#" Value="public System.Net.CookieContainer CookieContainer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.CookieContainer CookieContainer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.CookieContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Property CookieContainer As CookieContainer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::CookieContainer ^ CookieContainer { System::Net::CookieContainer ^ get(); void set(System::Net::CookieContainer ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.CookieContainer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置 cookie 容器。</summary>
+        <value>A<see cref="T:System.Net.CookieContainer" />对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credentials">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeCredentials Credentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeCredentials Credentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />
+      <MemberSignature Language="VB.NET" Value="Public Property Credentials As ExchangeCredentials" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ Credentials { Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ get(); void set(Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeCredentials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用于验证与 Exchange Web Services (EWS) 的凭据。</summary>
+        <value>用于通过 EWS 进行身份验证凭据。</value>
+        <remarks>
+          <para>设置<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />属性自动设置<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" />属性设为<b>false</b>。</para>
+          <para>
+            <b>警告</b>： 注意不要更改<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />属性后的<see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />对象已绑定到 Web 服务。更改凭据将导致后续 Web 服务操作失败。若要更改<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />属性<see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />对象，您必须创建的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />对象所需的凭据。如果用户的邮箱位于 Exchange Online 或 Exchange Online 中作为 Office 365 的一部分，则无法使用登录用户的默认凭据。用户的凭据必须在 Exchange Online 的用户主体名称 (UPN) 窗体中。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HttpHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; HttpHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; HttpHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HttpHeaders As IDictionary(Of String, String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ HttpHeaders { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取请求到 Exchange Web Services (EWS) 相关联的 HTTP 标头的列表。</summary>
+        <value>以键/值对的形式组织请求相关联的 HTTP 标头的列表。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HttpResponseHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; HttpResponseHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; HttpResponseHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HttpResponseHeaders As IDictionary(Of String, String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ HttpResponseHeaders { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取从最后一个响应 HTTP 标头的集合。             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.HttpResponseHeaders" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>HTTP 标头的集合。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeepAlive">
+      <MemberSignature Language="C#" Value="public bool KeepAlive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool KeepAlive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeepAlive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KeepAlive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置是否请求应包含 keep-alive 标头。             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.KeepAlive" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果请求应包含 keep-alive 标头;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnResponseHeadersCaptured">
+      <MemberSignature Language="C#" Value="public event Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler OnResponseHeadersCaptured;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler OnResponseHeadersCaptured" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event OnResponseHeadersCaptured As ResponseHeadersCapturedHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Exchange::WebServices::Data::ResponseHeadersCapturedHandler ^ OnResponseHeadersCaptured;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>呼叫<see cref="T:Microsoft.Exchange.WebServices.Data.ResponseHeadersCapturedHandler" />处理程序。             <see cref="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnResponseHeadersCaptured" />事件仅适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSerializeCustomSoapHeaders">
+      <MemberSignature Language="C#" Value="public event Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate OnSerializeCustomSoapHeaders;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate OnSerializeCustomSoapHeaders" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.OnSerializeCustomSoapHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event OnSerializeCustomSoapHeaders As CustomXmlSerializationDelegate " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Exchange::WebServices::Data::CustomXmlSerializationDelegate ^ OnSerializeCustomSoapHeaders;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>表示调用，以使应用程序能够发出的请求发送到 Microsoft Exchange Server 的自定义的 SOAP 标头的事件。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreAuthenticate">
+      <MemberSignature Language="C#" Value="public bool PreAuthenticate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PreAuthenticate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.PreAuthenticate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreAuthenticate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PreAuthenticate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否应执行 HTTP 预身份验证。</summary>
+        <value>
+          <b>true</b>如果应执行 HTTP 预身份验证;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedServerVersion">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeVersion RequestedServerVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion RequestedServerVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.RequestedServerVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequestedServerVersion As ExchangeVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeVersion RequestedServerVersion { Microsoft::Exchange::WebServices::Data::ExchangeVersion get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取请求的服务器版本。</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />枚举对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnClientRequestId">
+      <MemberSignature Language="C#" Value="public bool ReturnClientRequestId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnClientRequestId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReturnClientRequestId As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnClientRequestId { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个标志，指示客户端需要响应以包含请求 id。             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ReturnClientRequestId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果客户端要求响应以包括请求 ID;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendClientLatencies">
+      <MemberSignature Language="C#" Value="public bool SendClientLatencies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SendClientLatencies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendClientLatencies As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SendClientLatencies { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置是否必须由客户端发送客户端延迟信息。             <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.SendClientLatencies" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>
+          <b>true</b>如果客户端延迟信息是必需的;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeServerInfo ServerInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeServerInfo ServerInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServerInfo As ExchangeServerInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeServerInfo ^ ServerInfo { Microsoft::Exchange::WebServices::Data::ExchangeServerInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeServerInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取与已处理的最新的请求的服务器相关联的信息。</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" />对象。</value>
+        <remarks>
+          <para>值<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.ServerInfo" />属性为空引用 (在 Visual Basic 中为 Nothing)，如果没有请求已处理。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timeout">
+      <MemberSignature Language="C#" Value="public int Timeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Timeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property Timeout As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Timeout { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用于发送 HTTP 请求时，收到 HTTP 响应，以毫秒为单位时超时。</summary>
+        <value>HTTP 请求和响应，以毫秒为单位的时间。</value>
+        <remarks>
+          <para>默认值的<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Timeout" />属性是 100000。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceEnabled">
+      <MemberSignature Language="C#" Value="public bool TraceEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TraceEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TraceEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否启用跟踪。</summary>
+        <value>已启用<b>，则返回 true</b>如果跟踪;否则为<b>false</b>。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceFlags">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TraceFlags TraceFlags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.TraceFlags TraceFlags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceFlags" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceFlags As TraceFlags" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TraceFlags TraceFlags { Microsoft::Exchange::WebServices::Data::TraceFlags get(); void set(Microsoft::Exchange::WebServices::Data::TraceFlags value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置跟踪标志。</summary>
+        <value>之一<see cref="T:Microsoft.Exchange.WebServices.Data.TraceFlags" />值。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraceListener">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ITraceListener TraceListener { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ITraceListener TraceListener" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.TraceListener" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraceListener As ITraceListener" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ITraceListener ^ TraceListener { Microsoft::Exchange::WebServices::Data::ITraceListener ^ get(); void set(Microsoft::Exchange::WebServices::Data::ITraceListener ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ITraceListener</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置跟踪侦听器。</summary>
+        <value>
+          <see cref="T:Microsoft.Exchange.WebServices.Data.ITraceListener" />对象。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseDefaultCredentials">
+      <MemberSignature Language="C#" Value="public bool UseDefaultCredentials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseDefaultCredentials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseDefaultCredentials As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseDefaultCredentials { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置一个值，指示是否应使用的用户的当前已登录到 Windows 凭据进行身份验证与 Exchange Web Services (EWS)。</summary>
+        <value>
+          <b>true</b>如果应使用当前登录用户的凭据，则否则为<b>false</b>。</value>
+        <remarks>
+          <para>设置<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UseDefaultCredentials" />属性设置为<b>true</b>会自动设置<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />属性为空引用 (在 Visual Basic 中为 Nothing)。</para>如果用户的邮箱，则无法使用登录用户的默认凭据的
+          <para>承载在 Exchange Online 或 Exchange Online 作为 Office 365 的一部分。而是使用<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.Credentials" />属性来设置用户的凭据。用户的凭据必须在 Exchange Online 的用户主体名称 (UPN) 窗体中。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserAgent">
+      <MemberSignature Language="C#" Value="public string UserAgent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserAgent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.UserAgent" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserAgent As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UserAgent { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置用户代理。</summary>
+        <value>A<see cref="T:System.String" />对象，表示用户代理。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebProxy">
+      <MemberSignature Language="C#" Value="public System.Net.IWebProxy WebProxy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IWebProxy WebProxy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServiceBase.WebProxy" />
+      <MemberSignature Language="VB.NET" Value="Public Property WebProxy As IWebProxy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::IWebProxy ^ WebProxy { System::Net::IWebProxy ^ get(); void set(System::Net::IWebProxy ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.IWebProxy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的 Web 代理服务器的处理请求。</summary>
+        <value>处理的 Web 代理服务器请求的发送到 Exchange 服务器。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

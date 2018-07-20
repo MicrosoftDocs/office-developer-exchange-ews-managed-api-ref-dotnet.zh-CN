@@ -1,0 +1,85 @@
+<Type Name="EmailAddressKey" FullName="Microsoft.Exchange.WebServices.Data.EmailAddressKey">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="622a07f5f2f8284058900a1aef15b64056ee2488" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623422" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum EmailAddressKey" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EmailAddressKey extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EmailAddressKey" />
+  <TypeSignature Language="C++ CLI" Value="public enum class EmailAddressKey" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定用于定义联系人的电子邮件地址条目的常量。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EmailAddress1">
+      <MemberSignature Language="C#" Value="EmailAddress1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey EmailAddress1 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailAddressKey.EmailAddress1" />
+      <MemberSignature Language="VB.NET" Value="EmailAddress1" />
+      <MemberSignature Language="C++ CLI" Value="EmailAddress1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>第一个电子邮件地址。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress2">
+      <MemberSignature Language="C#" Value="EmailAddress2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey EmailAddress2 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailAddressKey.EmailAddress2" />
+      <MemberSignature Language="VB.NET" Value="EmailAddress2" />
+      <MemberSignature Language="C++ CLI" Value="EmailAddress2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>第二个电子邮件地址。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress3">
+      <MemberSignature Language="C#" Value="EmailAddress3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey EmailAddress3 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailAddressKey.EmailAddress3" />
+      <MemberSignature Language="VB.NET" Value="EmailAddress3" />
+      <MemberSignature Language="C++ CLI" Value="EmailAddress3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>第三个电子邮件地址。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

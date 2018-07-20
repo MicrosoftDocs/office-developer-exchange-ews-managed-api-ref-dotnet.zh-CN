@@ -1,0 +1,276 @@
+<Type Name="SearchMailboxesResult" FullName="Microsoft.Exchange.WebServices.Data.SearchMailboxesResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5e0f7c185ddcd14f166ffcbfdcc1374145c058d9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623095" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchMailboxesResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchMailboxesResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchMailboxesResult" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchMailboxesResult sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>包含搜索结果以及中电子数据展示搜索查询响应的统计信息。             <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchMailboxesResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchMailboxesResult();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult" />类。 <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[] FailedMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[] FailedMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.FailedMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailedMailboxes As FailedSearchMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ FailedMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置位置的搜索查询失败的邮箱的集合。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.FailedMailboxes" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>搜索查询的失败其中邮箱。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemCount">
+      <MemberSignature Language="C#" Value="public long ItemCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 ItemCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ItemCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemCount As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long ItemCount { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置搜索结果中的总项目数。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ItemCount" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>项目计数中。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeywordStats">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult[] KeywordStats { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult[] KeywordStats" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.KeywordStats" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeywordStats As KeywordStatisticsSearchResult()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::KeywordStatisticsSearchResult ^&gt; ^ KeywordStats { cli::array &lt;Microsoft::Exchange::WebServices::Data::KeywordStatisticsSearchResult ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::KeywordStatisticsSearchResult ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置搜索结果中的关键字统计信息。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.KeywordStats" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>关键字统计信息搜索结果。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxStats">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem[] MailboxStats { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem[] MailboxStats" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.MailboxStats" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxStats As MailboxStatisticsItem()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxStatisticsItem ^&gt; ^ MailboxStats { cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxStatisticsItem ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxStatisticsItem ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的集合<see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" />与搜索结果关联的对象。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.MailboxStats" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>邮箱统计信息。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageItemCount">
+      <MemberSignature Language="C#" Value="public int PageItemCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageItemCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageItemCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageItemCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置在搜索结果分页中返回的页面的数量。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemCount" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>页面项的计数。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageItemSize">
+      <MemberSignature Language="C#" Value="public ulong PageItemSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 PageItemSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageItemSize As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 PageItemSize { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置在搜索结果分页中返回的项数。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PageItemSize" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>总页面项目大小。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviewItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchPreviewItem[] PreviewItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchPreviewItem[] PreviewItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PreviewItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreviewItems As SearchPreviewItem()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchPreviewItem ^&gt; ^ PreviewItems { cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchPreviewItem ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchPreviewItem ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPreviewItem[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置可用于预览的项的集合。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.PreviewItems" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>搜索预览项目。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refiners">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchRefinerItem[] Refiners { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchRefinerItem[] Refiners" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Refiners" />
+      <MemberSignature Language="VB.NET" Value="Public Property Refiners As SearchRefinerItem()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchRefinerItem ^&gt; ^ Refiners { cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchRefinerItem ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchRefinerItem ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchRefinerItem[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的查询精简程序组。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Refiners" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>优化器。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResultType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchResultType ResultType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SearchResultType ResultType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ResultType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResultType As SearchResultType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchResultType ResultType { Microsoft::Exchange::WebServices::Data::SearchResultType get(); void set(Microsoft::Exchange::WebServices::Data::SearchResultType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchResultType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置确定搜索是否统计或预览搜索的值。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.ResultType" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>结果类型。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchQueries">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MailboxQuery[] SearchQueries { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MailboxQuery[] SearchQueries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.SearchQueries" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchQueries As MailboxQuery()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ SearchQueries { cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxQuery[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置搜索查询。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.SearchQueries" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>搜索查询中。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public ulong Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 Size { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置的大小，以字节为单位的项目。             <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesResult.Size" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>总大小。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

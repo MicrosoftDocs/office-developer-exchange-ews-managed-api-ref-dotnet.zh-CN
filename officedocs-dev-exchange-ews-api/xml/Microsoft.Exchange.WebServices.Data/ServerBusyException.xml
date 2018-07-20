@@ -1,0 +1,69 @@
+<Type Name="ServerBusyException" FullName="Microsoft.Exchange.WebServices.Data.ServerBusyException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0701fded77a3cc968432fb03c52ca0eade48d8b2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623373" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ServerBusyException : Microsoft.Exchange.WebServices.Data.ServiceResponseException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServerBusyException extends Microsoft.Exchange.WebServices.Data.ServiceResponseException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServerBusyException" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServerBusyException&#xA;Inherits ServiceResponseException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServerBusyException : Microsoft::Exchange::WebServices::Data::ServiceResponseException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponseException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>代表一个服务器繁忙例外项服务响应中找到。     <see cref="T:Microsoft.Exchange.WebServices.Data.ServerBusyException" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServerBusyException (Microsoft.Exchange.WebServices.Data.ServiceResponse response);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ServiceResponse response) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServerBusyException.#ctor(Microsoft.Exchange.WebServices.Data.ServiceResponse)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (response As ServiceResponse)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServerBusyException(Microsoft::Exchange::WebServices::Data::ServiceResponse ^ response);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="response" Type="Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+      </Parameters>
+      <Docs>
+        <param name="response">包含有关异常的信息的响应对象。</param>
+        <summary>初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ServerBusyException" />类。            <see cref="M:Microsoft.Exchange.WebServices.Data.ServerBusyException.#ctor(Microsoft.Exchange.WebServices.Data.ServiceResponse)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackOffMilliseconds">
+      <MemberSignature Language="C#" Value="public int BackOffMilliseconds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BackOffMilliseconds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServerBusyException.BackOffMilliseconds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackOffMilliseconds As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BackOffMilliseconds { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取建议再次尝试一个请求之前要等待的毫秒数。 如果为零，没有任何建议的后关闭时间。          <see cref="P:Microsoft.Exchange.WebServices.Data.ServerBusyException.BackOffMilliseconds" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</summary>
+        <value>要等待的毫秒数。</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

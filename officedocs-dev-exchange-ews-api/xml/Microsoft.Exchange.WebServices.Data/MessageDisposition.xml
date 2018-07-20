@@ -1,0 +1,85 @@
+<Type Name="MessageDisposition" FullName="Microsoft.Exchange.WebServices.Data.MessageDisposition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6c36f602862ff2844b56af723d89f53ef26d549a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622696" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MessageDisposition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MessageDisposition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MessageDisposition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MessageDisposition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MessageDisposition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>定义的创建和更新项操作确定如何处理邮件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SaveOnly">
+      <MemberSignature Language="C#" Value="SaveOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MessageDisposition SaveOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MessageDisposition.SaveOnly" />
+      <MemberSignature Language="VB.NET" Value="SaveOnly" />
+      <MemberSignature Language="C++ CLI" Value="SaveOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageDisposition</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>邮件已保存，但不是发送。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MessageDisposition SendAndSaveCopy = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MessageDisposition.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageDisposition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>邮件发送和保存副本。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendOnly">
+      <MemberSignature Language="C#" Value="SendOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MessageDisposition SendOnly = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MessageDisposition.SendOnly" />
+      <MemberSignature Language="VB.NET" Value="SendOnly" />
+      <MemberSignature Language="C++ CLI" Value="SendOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageDisposition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>发送消息，但没有副本保存。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
