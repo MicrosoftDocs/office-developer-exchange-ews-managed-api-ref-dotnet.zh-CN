@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "Microsoft.IdentityModel",
+    "Microsoft.IdentityModel.Extensions"
+  ],
+  "exchange-ews-api": [
+    "Microsoft.Exchange.WebServices.Auth",
+    "Microsoft.Exchange.WebServices"
+  ]
+}
