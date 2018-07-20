@@ -1,0 +1,108 @@
+<Type Name="AccountIsLockedException" FullName="Microsoft.Exchange.WebServices.Data.AccountIsLockedException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="14ae680b2f01dce77480d22e316d5c7f7d08f4ed" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623388" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AccountIsLockedException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AccountIsLockedException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AccountIsLockedException" />
+  <TypeSignature Language="VB.NET" Value="Public Class AccountIsLockedException&#xA;Inherits ServiceRemoteException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AccountIsLockedException : Microsoft::Exchange::WebServices::Data::ServiceRemoteException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceRemoteException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="713d1-101">代表正在访问的帐户已被锁定且需要用户交互解除锁定时发生的错误。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="713d1-101">Represents an error that occurs when the account that is being accessed is locked and requires user interaction to be unlocked.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AccountIsLockedException (string message, Uri accountUnlockUrl, Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Uri accountUnlockUrl, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AccountIsLockedException.#ctor(System.String,System.Uri,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, accountUnlockUrl As Uri, innerException As Exception)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AccountIsLockedException(System::String ^ message, Uri ^ accountUnlockUrl, Exception ^ innerException);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="accountUnlockUrl" Type="System.Uri" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <span data-ttu-id="713d1-102">错误消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="713d1-102">An error message.</span>
+          </span>
+        </param>
+        <param name="accountUnlockUrl">
+          <span data-ttu-id="713d1-103">客户端导航解锁帐户的 URL。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="713d1-103">The URL that the client navigates to unlock an account.</span>
+          </span>
+        </param>
+        <param name="innerException">
+          <span data-ttu-id="713d1-104">内部异常。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="713d1-104">The inner exception.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="713d1-105">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.AccountIsLockedException" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="713d1-105">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AccountIsLockedException" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccountUnlockUrl">
+      <MemberSignature Language="C#" Value="public Uri AccountUnlockUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri AccountUnlockUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AccountIsLockedException.AccountUnlockUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccountUnlockUrl As Uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ AccountUnlockUrl { Uri ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="713d1-106">获取客户端可以导航解锁其帐户的网页的 URL。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="713d1-106">Gets the URL of a Web page that clients can navigate to unlock their account.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="713d1-107">A<see cref="T:System.Uri" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="713d1-107">A <see cref="T:System.Uri" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,267 @@
+<Type Name="AttendeeInfo" FullName="Microsoft.Exchange.WebServices.Data.AttendeeInfo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fc6b59ddf5361e7e2fab94a64243fc7d28cf122a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623256" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AttendeeInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttendeeInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttendeeInfo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttendeeInfo" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttendeeInfo sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="9a9d7-101">表示有关与会者其请求可用性信息的信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9a9d7-101">Represents information about an attendee for whom to request availability information.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttendeeInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttendeeInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttendeeInfo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="9a9d7-102">初始化 AttendeeInfo 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-102">Initializes a new instance of the AttendeeInfo class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttendeeInfo (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttendeeInfo.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttendeeInfo(System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="9a9d7-103">与会者的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-103">The SMTP e-mail address of the attendee.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9a9d7-104">使用指定的 SMTP 电子邮件地址初始化 AttendeeInfo 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-104">Initializes a new instance of the AttendeeInfo class by using the specified SMTP e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttendeeInfo (string smtpAddress, Microsoft.Exchange.WebServices.Data.MeetingAttendeeType attendeeType, bool excludeConflicts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress, valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType attendeeType, bool excludeConflicts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttendeeInfo.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MeetingAttendeeType,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String, attendeeType As MeetingAttendeeType, excludeConflicts As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttendeeInfo(System::String ^ smtpAddress, Microsoft::Exchange::WebServices::Data::MeetingAttendeeType attendeeType, bool excludeConflicts);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+        <Parameter Name="attendeeType" Type="Microsoft.Exchange.WebServices.Data.MeetingAttendeeType" />
+        <Parameter Name="excludeConflicts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="9a9d7-105">与会者 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-105">The SMTP address of the attendee.</span>
+          </span>
+        </param>
+        <param name="attendeeType">
+          <span data-ttu-id="9a9d7-106">MeetingAttendeeType 之一指定的与会者的类型的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-106">One of MeetingAttendeeType the enumeration values that specifies the type of the attendee.</span>
+          </span>
+        </param>
+        <param name="excludeConflicts">
+          <span data-ttu-id="9a9d7-107">指示是否排除 attendee 冲突。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-107">Indicates whether to exclude attendee conflicts.</span>
+          </span>
+          <span data-ttu-id="9a9d7-108">
+            <b>true</b>表示，排除该与会者不可用的时间;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-108">
+              <b>true</b> to indicate that times when the attendee is not available are excluded; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9a9d7-109">使用指定的 SMTP 地址、 与会者类型和冲突排除初始化 AttendeeInfo 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-109">Initializes a new instance of the AttendeeInfo class by using the specified SMTP address, attendee type, and conflict exclusions.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttendeeType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingAttendeeType AttendeeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType AttendeeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AttendeeInfo.AttendeeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttendeeType As MeetingAttendeeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingAttendeeType AttendeeType { Microsoft::Exchange::WebServices::Data::MeetingAttendeeType get(); void set(Microsoft::Exchange::WebServices::Data::MeetingAttendeeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9a9d7-110">获取或设置会议与会者的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-110">Gets or sets the type of meeting attendee.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9a9d7-111">MeetingAttendeeType 之一指定的与会者的类型的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-111">One of MeetingAttendeeType the enumeration values that specifies the type of the attendee.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeConflicts">
+      <MemberSignature Language="C#" Value="public bool ExcludeConflicts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeConflicts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AttendeeInfo.ExcludeConflicts" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeConflicts As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExcludeConflicts { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9a9d7-112">获取或设置一个值，指示是否应返回 attendee 不可用的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-112">Gets or sets a value that indicates whether times when the attendee is not available should be returned.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9a9d7-113">
+            <b>true</b>如果 attendee 不可用的时间要排除;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-113">
+              <b>true</b> if times when the attendee is not available are to be excluded; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.AttendeeInfo (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.AttendeeInfo op_Implicit(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttendeeInfo.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.AttendeeInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (smtpAddress As String) As AttendeeInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::AttendeeInfo ^(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="9a9d7-114">SMTP 电子邮件地址的字符串表示形式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-114">A string representation of an SMTP e-mail address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9a9d7-115">定义一个字符串，表示 SMTP 电子邮件地址和 AttendeeInfo 对象之间的隐式转换。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-115">Defines an implicit conversion between a string that represents an SMTP e-mail address and an AttendeeInfo object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="9a9d7-116">AttendeeInfo 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-116">An AttendeeInfo object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AttendeeInfo.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9a9d7-117">获取或设置与会者的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-117">Gets or sets the SMTP e-mail address of the attendee.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9a9d7-118">与会者的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a9d7-118">The SMTP e-mail address of the attendee.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

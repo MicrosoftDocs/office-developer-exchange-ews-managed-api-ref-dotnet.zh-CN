@@ -1,0 +1,469 @@
+<Type Name="EmailAddress" FullName="Microsoft.Exchange.WebServices.Data.EmailAddress">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c19082b6933e779737526c3c806ef57295d05b08" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623254" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class EmailAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty, Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailAddress extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailAddress&#xA;Inherits ComplexProperty&#xA;Implements ISearchStringProvider" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddress : Microsoft::Exchange::WebServices::Data::ComplexProperty, Microsoft::Exchange::WebServices::Data::ISearchStringProvider" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Exchange.WebServices.Data.ISearchStringProvider</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+      <span data-ttu-id="82e46-101">代表电子邮件地址。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="82e46-101">Represents an email address.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="82e46-102">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress(System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="82e46-103">SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-103">An SMTP address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="82e46-104">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />简单邮件传输协议 (SMTP) 地址的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> class with a Simple Mail Transfer Protocol (SMTP) address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress (string name, string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress(System::String ^ name, System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="82e46-105">邮箱用户的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-105">The name of a mailbox user.</span>
+          </span>
+        </param>
+        <param name="smtpAddress">
+          <span data-ttu-id="82e46-106">SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-106">An SMTP address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="82e46-107">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />类具有一个用户名和简单邮件传输协议 (SMTP) 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> class with a user name and a Simple Mail Transfer Protocol (SMTP) address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress (string name, string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress(System::String ^ name, System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="82e46-108">邮箱用户的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-108">The name of a mailbox user.</span>
+          </span>
+        </param>
+        <param name="address">
+          <span data-ttu-id="82e46-109">SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-109">An SMTP address.</span>
+          </span>
+        </param>
+        <param name="routingType">
+          <span data-ttu-id="82e46-110">传送的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-110">A routing type.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="82e46-111">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />用用户名、 传送类型和简单邮件传输协议 (SMTP) 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-111">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> class with a user name, routing type, and a Simple Mail Transfer Protocol (SMTP) address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public string Address { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Address" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" />
+      <MemberSignature Language="VB.NET" Value="Public Property Address As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Address { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="82e46-112">获取或设置电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-112">Gets or sets the email address.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="82e46-113">电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-113">An email address.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="82e46-114">
+            <para>键入的<see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" />属性必须匹配指定的路由类型。如果<see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" />属性未设置的值<see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" />假定属性是一个简单邮件传输协议 (SMTP) 地址。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-114">
+              <para>The type of the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> property must match the specified routing type. If the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" /> property is not set, the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> property is assumed to be a Simple Mail Transfer Protocol (SMTP) address.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="82e46-115">获取或设置表示的电子邮件地址的联系人标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-115">Gets or sets the contact identifier that the email address represents.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="82e46-116">联系人的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-116">A contact identifier.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="82e46-117">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" />属性应设置为空引用 (在 Visual Basic 中为 Nothing) 时<see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Id" />使用属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-117">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> property should be set to a null reference (Nothing in Visual Basic) when the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Id" /> property is used.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.MailboxType&gt; MailboxType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.MailboxType&gt; MailboxType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.MailboxType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxType As Nullable(Of MailboxType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::MailboxType&gt; MailboxType { Nullable&lt;Microsoft::Exchange::WebServices::Data::MailboxType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::MailboxType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.MailboxType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="82e46-118">获取或设置电子邮件地址的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-118">Gets or sets the type of the email address.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="82e46-119">邮箱类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-119">A mailbox type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString">
+      <MemberSignature Language="C#" Value="string ISearchStringProvider.GetSearchString ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" />
+      <MemberSignature Language="VB.NET" Value="Function GetSearchString () As String Implements ISearchStringProvider.GetSearchString" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::String ^ Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString() = Microsoft::Exchange::WebServices::Data::ISearchStringProvider::GetSearchString;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="82e46-120">搜索筛选器中返回的字符串表示形式用于此实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-120">Returns a string representation of this instance for use in a search filter.</span>
+          </span>
+          <span data-ttu-id="82e46-121">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.EmailAddress.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-121">The <see cref="M:Microsoft.Exchange.WebServices.Data.EmailAddress.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="82e46-122">字符串表示形式<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-122">A string representation of this <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> instance.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="82e46-123">获取或设置与电子邮件地址关联的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-123">Gets or sets the name that is associated with the email address.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="82e46-124">一个名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-124">A name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.EmailAddress (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.EmailAddress op_Implicit(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.EmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (smtpAddress As String) As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::EmailAddress ^(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="82e46-125">要转换的 SMTP 地址<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-125">The SMTP address to convert to the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> type.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="82e46-126">定义一个字符串，表示简单邮件传输协议 (SMTP) 地址之间的隐式转换和<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-126">Defines an implicit conversion between a string that represents a Simple Mail Transfer Protocol (SMTP) address and an <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="82e46-127">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />的初始化指定 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-127">An <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> that is initialized with the specified SMTP address.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoutingType">
+      <MemberSignature Language="C#" Value="public string RoutingType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RoutingType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoutingType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RoutingType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="82e46-128">获取或设置与电子邮件地址关联的路由类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-128">Gets or sets the routing type that is associated with the email address.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="82e46-129">传送的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-129">A routing type.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="82e46-130">
+            <para>如果<see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" />属性未设置，使用"SMTP"的默认值。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-130">
+              <para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" /> property is not set, the default value of "SMTP" is used. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="82e46-131">返回一个 string 类型值，该值代表此<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-131">Returns a string that represents this <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="82e46-132">电子邮件地址的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-132">The text of the email address.</span>
+          </span>
+          <span data-ttu-id="82e46-133">例如，"user1@contoso.com"。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="82e46-133">For example, "user1@contoso.com".</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,207 @@
+<Type Name="FileAttachment" FullName="Microsoft.Exchange.WebServices.Data.FileAttachment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f47388fb91f29c380d97e33fb21ec32be7a91afe" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623226" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FileAttachment : Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FileAttachment extends Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FileAttachment" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FileAttachment&#xA;Inherits Attachment" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FileAttachment sealed : Microsoft::Exchange::WebServices::Data::Attachment" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Attachment</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="9a16b-101">表示的文件附件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9a16b-101">Represents a file attachment.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public byte[] Content { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Content" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.Content" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Content As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ Content { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9a16b-102">在内存中获取附件的内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-102">Gets the content of the attachment in memory.</span>
+          </span>
+          <span data-ttu-id="9a16b-103">仅当调用 Load 方法时设置的内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-103">Content is set only when the Load method is called.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9a16b-104">字节数组形式附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-104">The attachment as an array of bytes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9a16b-105">获取附件链接到的文件的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-105">Gets the name of the file that the attachment is linked to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9a16b-106">附件链接到的文件的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-106">The name of the file that the attachment is linked to.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContactPhoto">
+      <MemberSignature Language="C#" Value="public bool IsContactPhoto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsContactPhoto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.IsContactPhoto" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsContactPhoto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContactPhoto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9a16b-107">获取或设置一个值，指示附件是否是联系人的照片。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-107">Gets or sets a value that indicates whether the attachment is the contact's photo.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9a16b-108">
+            <b>true</b>如果附件是联系人的照片;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-108">
+              <b>true</b> if the attachment is the contact's photo; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (System.IO.Stream stream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(class System.IO.Stream stream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FileAttachment.Load(System.IO.Stream)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::IO::Stream ^ stream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="stream">
+          <span data-ttu-id="9a16b-109">要加载到的附件的内容的流。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-109">The stream to load the content of the attachment into.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9a16b-110">将文件附件的内容加载到指定的流。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-110">Loads the content of the file attachment into the specified stream.</span>
+          </span>
+          <span data-ttu-id="9a16b-111">呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-111">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FileAttachment.Load(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (fileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::String ^ fileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">
+          <span data-ttu-id="9a16b-112">要加载到的附件的内容的文件的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-112">The name of the file to load the content of the attachment into.</span>
+          </span>
+          <span data-ttu-id="9a16b-113">如果文件已存在，则覆盖。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-113">If the file already exists, it is overwritten.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="9a16b-114">将文件附件的内容加载到指定的文件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-114">Loads the content of the file attachment into the specified file.</span>
+          </span>
+          <span data-ttu-id="9a16b-115">呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9a16b-115">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

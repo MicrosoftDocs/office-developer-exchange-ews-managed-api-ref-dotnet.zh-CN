@@ -1,0 +1,125 @@
+<Type Name="MailboxSearchLocation" FullName="Microsoft.Exchange.WebServices.Data.MailboxSearchLocation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2d01f74b369c7e10edbde49f6185bd913a66416c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622936" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MailboxSearchLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MailboxSearchLocation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MailboxSearchLocation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MailboxSearchLocation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ef867-101">指定的电子数据展示搜索查询目标主邮箱、 存档邮箱，或两者。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ef867-101">Specifies whether a query for an eDiscovery search targets a primary mailbox, an archive mailbox, or both.</span>
+      </span>
+      <span data-ttu-id="ef867-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ef867-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MailboxSearchLocation All = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef867-103">主邮箱和存档邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef867-103">Both the primary mailbox and the archive mailbox.</span>
+          </span>
+          <span data-ttu-id="ef867-104">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.All" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef867-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.All" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveOnly">
+      <MemberSignature Language="C#" Value="ArchiveOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MailboxSearchLocation ArchiveOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.ArchiveOnly" />
+      <MemberSignature Language="VB.NET" Value="ArchiveOnly" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef867-105">仅存档邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef867-105">The archive mailbox only.</span>
+          </span>
+          <span data-ttu-id="ef867-106">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.ArchiveOnly" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef867-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.ArchiveOnly" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimaryOnly">
+      <MemberSignature Language="C#" Value="PrimaryOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MailboxSearchLocation PrimaryOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.PrimaryOnly" />
+      <MemberSignature Language="VB.NET" Value="PrimaryOnly" />
+      <MemberSignature Language="C++ CLI" Value="PrimaryOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef867-107">仅主邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef867-107">The primary mailbox only.</span>
+          </span>
+          <span data-ttu-id="ef867-108">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.PrimaryOnly" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef867-108">The <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.PrimaryOnly" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,154 @@
+<Type Name="WorkingHours" FullName="Microsoft.Exchange.WebServices.Data.WorkingHours">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e90cbc66ee097f77367aa3f9ba84a096fe30c5f0" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623212" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class WorkingHours : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit WorkingHours extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.WorkingHours" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class WorkingHours&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WorkingHours sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="b1365-101">表示特定时区的工作时间。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b1365-101">Represents the working hours for a specific time zone.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DaysOfTheWeek">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt; DaysOfTheWeek { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt; DaysOfTheWeek" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.WorkingHours.DaysOfTheWeek" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DaysOfTheWeek As Collection(Of DayOfTheWeek)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::DayOfTheWeek&gt; ^ DaysOfTheWeek { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::DayOfTheWeek&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1365-102">获取 attendee 的工作日。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1365-102">Gets the working days of the attendee.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b1365-103">值<see cref="P:Microsoft.Exchange.WebServices.Data.WorkingHours.DaysOfTheWeek" />属性是<a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collections.ObjectModel.Collection&lt;T&gt; </a><see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />枚举值指示当参与者运行正常。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1365-103">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.WorkingHours.DaysOfTheWeek" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collections.ObjectModel.Collection&lt;T&gt;</a><see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration values that indicate when the attendee is working.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public TimeSpan EndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.WorkingHours.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTime As TimeSpan" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan EndTime { TimeSpan get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1365-104">获取一天的时间与会者停止工作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1365-104">Gets the time of day that the attendee stops working.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b1365-105">值<see cref="P:Microsoft.Exchange.WebServices.Data.WorkingHours.EndTime" />属性是<a href="http://go.microsoft.com/fwlink/?LinkId=162636">的</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1365-105">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.WorkingHours.EndTime" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=162636">T:System.Timespan</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public TimeSpan StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.WorkingHours.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As TimeSpan" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan StartTime { TimeSpan get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1365-106">获取参与者启动工作的一天的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1365-106">Gets the time of day that the attendee starts working.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b1365-107">值<see cref="P:Microsoft.Exchange.WebServices.Data.WorkingHours.StartTime" />属性是<a href="http://go.microsoft.com/fwlink/?LinkId=162636">的</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1365-107">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.WorkingHours.StartTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkId=162636">T:System.Timespan</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZone">
+      <MemberSignature Language="C#" Value="public TimeZoneInfo TimeZone { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.TimeZoneInfo TimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.WorkingHours.TimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeZone As TimeZoneInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeZoneInfo ^ TimeZone { TimeZoneInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeZoneInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1365-108">获取对其应用的工作时间的时区。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1365-108">Gets the time zone to which the working hours apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b1365-109">值<see cref="P:Microsoft.Exchange.WebServices.Data.WorkingHours.TimeZone" />属性是<a href="http://go.microsoft.com/fwlink/?LinkID=164063">化</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1365-109">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.WorkingHours.TimeZone" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=164063">T:System.TimeZoneInfo</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

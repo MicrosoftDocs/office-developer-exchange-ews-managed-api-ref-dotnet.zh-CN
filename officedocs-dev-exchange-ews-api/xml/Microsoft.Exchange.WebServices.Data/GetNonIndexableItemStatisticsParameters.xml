@@ -1,0 +1,61 @@
+<Type Name="GetNonIndexableItemStatisticsParameters" FullName="Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="744760637dca0eb681078e026623fb10d2b2a9bc" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622914" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemStatisticsParameters : Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetNonIndexableItemStatisticsParameters extends Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetNonIndexableItemStatisticsParameters&#xA;Inherits NonIndexableItemParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetNonIndexableItemStatisticsParameters sealed : Microsoft::Exchange::WebServices::Data::NonIndexableItemParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="64233-101">获取要中传递的参数集<see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" />请求。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="64233-101">Gets the set of parameters to pass in a <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" /> request.</span>
+      </span>
+      <span data-ttu-id="64233-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="64233-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetNonIndexableItemStatisticsParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetNonIndexableItemStatisticsParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="64233-103">创建实例<see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters" />类。<see cref="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="64233-103">Creates an instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

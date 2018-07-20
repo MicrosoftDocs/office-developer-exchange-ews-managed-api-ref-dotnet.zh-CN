@@ -1,0 +1,241 @@
+<Type Name="RetentionActionType" FullName="Microsoft.Exchange.WebServices.Data.RetentionActionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="af0b27caa106fb12f27c8f4767bbfa00c350642f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622820" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum RetentionActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RetentionActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RetentionActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RetentionActionType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1ef34-101">定义的过期项目的保留策略操作的集合。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1ef34-101">Defines the set of retention policy actions for expired items.</span>
+      </span>
+      <span data-ttu-id="1ef34-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionActionType" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1ef34-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionActionType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeleteAndAllowRecovery">
+      <MemberSignature Language="C#" Value="DeleteAndAllowRecovery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType DeleteAndAllowRecovery = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.DeleteAndAllowRecovery" />
+      <MemberSignature Language="VB.NET" Value="DeleteAndAllowRecovery" />
+      <MemberSignature Language="C++ CLI" Value="DeleteAndAllowRecovery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1ef34-103">将软删除过期的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-103">Expired items will be soft deleted.</span>
+          </span>
+          <span data-ttu-id="1ef34-104">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.DeleteAndAllowRecovery" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.DeleteAndAllowRecovery" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsPastRetentionLimit">
+      <MemberSignature Language="C#" Value="MarkAsPastRetentionLimit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType MarkAsPastRetentionLimit = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MarkAsPastRetentionLimit" />
+      <MemberSignature Language="VB.NET" Value="MarkAsPastRetentionLimit" />
+      <MemberSignature Language="C++ CLI" Value="MarkAsPastRetentionLimit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1ef34-105">过期的项目标记为已过期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-105">Expired items will be tagged as expired.</span>
+          </span>
+          <span data-ttu-id="1ef34-106">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MarkAsPastRetentionLimit" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MarkAsPastRetentionLimit" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToArchive">
+      <MemberSignature Language="C#" Value="MoveToArchive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType MoveToArchive = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToArchive" />
+      <MemberSignature Language="VB.NET" Value="MoveToArchive" />
+      <MemberSignature Language="C++ CLI" Value="MoveToArchive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1ef34-107">过期的项目将移动到存档中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-107">Expired items will be moved to the archive.</span>
+          </span>
+          <span data-ttu-id="1ef34-108">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToArchive" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-108">The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToArchive" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType MoveToDeletedItems = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1ef34-109">过期的项目将移动到已删除邮件文件夹中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-109">Expired items will be moved to the Deleted Items folder.</span>
+          </span>
+          <span data-ttu-id="1ef34-110">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToDeletedItems" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-110">The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToDeletedItems" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToFolder">
+      <MemberSignature Language="C#" Value="MoveToFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType MoveToFolder = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="MoveToFolder" />
+      <MemberSignature Language="C++ CLI" Value="MoveToFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1ef34-111">过期的项目将移动到目标文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-111">Expired items will be moved to a target folder.</span>
+          </span>
+          <span data-ttu-id="1ef34-112">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToFolder" />成员是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-112">The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToFolder" /> member is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1ef34-113">没有指定的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-113">No action specified.</span>
+          </span>
+          <span data-ttu-id="1ef34-114">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.None" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-114">The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.None" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PermanentlyDelete">
+      <MemberSignature Language="C#" Value="PermanentlyDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType PermanentlyDelete = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.PermanentlyDelete" />
+      <MemberSignature Language="VB.NET" Value="PermanentlyDelete" />
+      <MemberSignature Language="C++ CLI" Value="PermanentlyDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1ef34-115">将硬删除过期的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-115">Expired items will be hard deleted.</span>
+          </span>
+          <span data-ttu-id="1ef34-116">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.PermanentlyDelete" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1ef34-116">The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.PermanentlyDelete" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

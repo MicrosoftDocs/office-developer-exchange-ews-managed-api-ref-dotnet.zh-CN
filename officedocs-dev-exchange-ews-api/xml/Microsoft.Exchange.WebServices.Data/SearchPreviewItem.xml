@@ -1,0 +1,810 @@
+<Type Name="SearchPreviewItem" FullName="Microsoft.Exchange.WebServices.Data.SearchPreviewItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a1da90c0754be96dcd1385c6275c739cdc9214c8" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622714" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchPreviewItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchPreviewItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchPreviewItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchPreviewItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchPreviewItem sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a56ec-101">包含的属性和方法所需预览电子数据展示搜索结果中的项目。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a56ec-101">Contains the properties and methods required to preview an item in an eDiscovery search result.</span>
+      </span>
+      <span data-ttu-id="a56ec-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.SearchPreviewItem" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a56ec-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchPreviewItem" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchPreviewItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchPreviewItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.SearchPreviewItem" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchPreviewItem" /> class.</span>
+          </span>
+          <span data-ttu-id="a56ec-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public string[] BccRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] BccRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property BccRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ BccRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-105">获取或设置都不可见项目的其他收件人的地址列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-105">Gets or sets the list of addresses that were not visible to other recipients of the item.</span>
+          </span>
+          <span data-ttu-id="a56ec-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.BccRecipients" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.BccRecipients" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-107">密件抄送收件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-107">The Bcc recipients list.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public string[] CcRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] CcRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property CcRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ CcRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-108">获取或设置收件人接收项目，但不需要执行任何操作的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-108">Gets or sets the list of addressees that received the item but were not expected to take any action.</span>
+          </span>
+          <span data-ttu-id="a56ec-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CcRecipients" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CcRecipients" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-110">抄送收件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-110">The Cc recipients list.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedTime">
+      <MemberSignature Language="C#" Value="public DateTime CreatedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreatedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CreatedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreatedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreatedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-111">获取或设置的编写项目时。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-111">Gets or sets the time the item was written.</span>
+          </span>
+          <span data-ttu-id="a56ec-112">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CreatedTime" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CreatedTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-113">创建的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-113">The created time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); void set(Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-114">获取或设置项上的扩展的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-114">Gets or sets the extended properties on the item.</span>
+          </span>
+          <span data-ttu-id="a56ec-115">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ExtendedProperties" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ExtendedProperties" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-116">扩展的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-116">The extended properties.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachment">
+      <MemberSignature Language="C#" Value="public bool HasAttachment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.HasAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachment { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-117">获取或设置是否项目的附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-117">Gets or sets whether the item has attachments.</span>
+          </span>
+          <span data-ttu-id="a56ec-118">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.HasAttachment" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.HasAttachment" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-119">
+            <b>true</b>如果项目具有附件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-119">
+              <b>true</b> if the item has attachments; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-120">获取或设置项目的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-120">Gets or sets the identifier of the item.</span>
+          </span>
+          <span data-ttu-id="a56ec-121">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Id" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Id" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-122">项标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-122">The item identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); void set(Microsoft::Exchange::WebServices::Data::Importance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-123">获取或设置项目的紧迫级别。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-123">Gets or sets the urgency level of the item.</span>
+          </span>
+          <span data-ttu-id="a56ec-124">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Importance" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Importance" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-125">重要性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-125">The importance.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-126">获取或设置预览项目的消息类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-126">Gets or sets the message class of the preview item.</span>
+          </span>
+          <span data-ttu-id="a56ec-127">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ItemClass" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ItemClass" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-128">项类中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-128">The item class.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PreviewItemMailbox Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PreviewItemMailbox Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As PreviewItemMailbox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PreviewItemMailbox ^ Mailbox { Microsoft::Exchange::WebServices::Data::PreviewItemMailbox ^ get(); void set(Microsoft::Exchange::WebServices::Data::PreviewItemMailbox ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemMailbox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-129">获取或设置邮箱包含预览项目的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-129">Gets or sets the identifier for the mailbox that contains the preview item.</span>
+          </span>
+          <span data-ttu-id="a56ec-130">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Mailbox" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Mailbox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-131">邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-131">The mailbox.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OwaLink">
+      <MemberSignature Language="C#" Value="public string OwaLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OwaLink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.OwaLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property OwaLink As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OwaLink { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-132">获取或设置到 Outlook Web Access 的链接。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-132">Gets or sets the link to Outlook Web Access.</span>
+          </span>
+          <span data-ttu-id="a56ec-133">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.OwaLink" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-133">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.OwaLink" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-134">Outlook Web Access 的链接。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-134">The Outlook Web Access link.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ParentId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ParentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ParentId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ParentId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-135">获取或设置预览项的父级的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-135">Gets or sets the identifier of the preview item's parent.</span>
+          </span>
+          <span data-ttu-id="a56ec-136">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ParentId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-136">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ParentId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-137">父项标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-137">The parent item identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-138">此值不使用，并且始终返回一个空字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-138">This value is not used and always returns an empty string.</span>
+          </span>
+          <span data-ttu-id="a56ec-139">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Preview" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-139">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-140">一个空字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-140">An empty string.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public bool Read { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Read" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Read" />
+      <MemberSignature Language="VB.NET" Value="Public Property Read As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Read { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-141">获取或设置是否已阅读该项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-141">Gets or sets whether the item has been read.</span>
+          </span>
+          <span data-ttu-id="a56ec-142">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Read" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-142">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Read" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-143">
+            <b>true</b>如果尚未阅读该项目;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-143">
+              <b>true</b> if the item has been read; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedTime">
+      <MemberSignature Language="C#" Value="public DateTime ReceivedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReceivedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ReceivedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceivedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReceivedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-144">获取或设置项目到达的邮箱中的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-144">Gets or sets the time the item arrived in the mailbox.</span>
+          </span>
+          <span data-ttu-id="a56ec-145">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ReceivedTime" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-145">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ReceivedTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-146">接收的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-146">The received time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public string Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Sender" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Sender { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-147">获取或设置该项目已从发送的地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-147">Gets or sets the address that the item was sent from.</span>
+          </span>
+          <span data-ttu-id="a56ec-148">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Sender" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-148">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Sender" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-149">发件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-149">The sender.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentTime">
+      <MemberSignature Language="C#" Value="public DateTime SentTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SentTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SentTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime SentTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-150">获取或设置该项目已发送的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-150">Gets or sets the time the item was sent.</span>
+          </span>
+          <span data-ttu-id="a56ec-151">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SentTime" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-151">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SentTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-152">发送的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-152">The sent time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public ulong Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 Size { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-153">获取或设置项目的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-153">Gets or sets the size of the item.</span>
+          </span>
+          <span data-ttu-id="a56ec-154">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Size" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-154">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Size" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-155">项目大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-155">The item size.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortValue">
+      <MemberSignature Language="C#" Value="public string SortValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SortValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortValue { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-156">获取或设置用于排序搜索结果中的项的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-156">Gets or sets the value used to sort the item in a search result.</span>
+          </span>
+          <span data-ttu-id="a56ec-157">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SortValue" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-157">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SortValue" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-158">排序值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-158">The sort value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-159">获取或设置项目的主题位置中的信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-159">Gets or sets the information in the subject position of the item.</span>
+          </span>
+          <span data-ttu-id="a56ec-160">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Subject" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-160">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Subject" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-161">主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-161">The subject.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public string[] ToRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] ToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property ToRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ ToRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-162">获取或设置的该项目已发送到的地址列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-162">Gets or sets the list of addresses the item was sent to.</span>
+          </span>
+          <span data-ttu-id="a56ec-163">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ToRecipients" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-163">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ToRecipients" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-164">收件人收件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-164">The To recipients list.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueHash">
+      <MemberSignature Language="C#" Value="public string UniqueHash { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueHash" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.UniqueHash" />
+      <MemberSignature Language="VB.NET" Value="Public Property UniqueHash As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueHash { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a56ec-165">获取或设置用于确定并消除在电子数据展示搜索查询中的重复项的唯一的哈希值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-165">Gets or sets the unique hash value used to identify and eliminate duplicates in an eDiscovery search query.</span>
+          </span>
+          <span data-ttu-id="a56ec-166">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.UniqueHash" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-166">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.UniqueHash" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a56ec-167">唯一的哈希。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a56ec-167">The unique hash.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

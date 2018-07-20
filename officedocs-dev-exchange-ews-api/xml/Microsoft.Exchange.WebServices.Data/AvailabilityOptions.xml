@@ -1,0 +1,364 @@
+<Type Name="AvailabilityOptions" FullName="Microsoft.Exchange.WebServices.Data.AvailabilityOptions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="df9a6d8c671ff4f4d48feb796e79338abeba86a8" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623430" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AvailabilityOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AvailabilityOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AvailabilityOptions" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AvailabilityOptions sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="60b99-101">代表可用性请求的选项。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="60b99-101">Represents the options for an availability request.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AvailabilityOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AvailabilityOptions();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-102">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentMeetingTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CurrentMeetingTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CurrentMeetingTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentMeetingTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; CurrentMeetingTime { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-103">获取或设置会议更新与建议的会议时间的开始时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-103">Gets or sets the start time of a meeting to update with suggested meeting times.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-104">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" />属性是<a href="http://go.microsoft.com/fwlink/?LinkID=162789">t:system.nullable ' 1</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-104">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162789">T:System.Nullable\`1</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DetailedSuggestionsWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TimeWindow DetailedSuggestionsWindow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TimeWindow DetailedSuggestionsWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Property DetailedSuggestionsWindow As TimeWindow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TimeWindow ^ DetailedSuggestionsWindow { Microsoft::Exchange::WebServices::Data::TimeWindow ^ get(); void set(Microsoft::Exchange::WebServices::Data::TimeWindow ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TimeWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-105">属性获取或设置应为其返回有关建议的会议时间的详细的信息的时间段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-105">Property gets or sets the time period for which detailed information about suggested meeting times should be returned.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-106">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" />属性是<see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" />类对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-106">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> class object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalObjectId">
+      <MemberSignature Language="C#" Value="public string GlobalObjectId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GlobalObjectId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" />
+      <MemberSignature Language="VB.NET" Value="Public Property GlobalObjectId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GlobalObjectId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-107">获取或设置的全局会议要返回的数据的修改标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-107">Gets or sets the global identifier of a meeting to be modified by the returned data.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-108">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" />属性为<a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-108">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoodSuggestionThreshold">
+      <MemberSignature Language="C#" Value="public int GoodSuggestionThreshold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GoodSuggestionThreshold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public Property GoodSuggestionThreshold As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GoodSuggestionThreshold { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-109">获取或设置必须打开若要成为合格的良好建议的会议时间的时间段的时间段的与会者的百分比。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-109">Gets or sets the percentage of attendees that must have the time period open for the time period to qualify as a good suggested meeting time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-110">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" />属性为<a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-110">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumNonWorkHoursSuggestionsPerDay">
+      <MemberSignature Language="C#" Value="public int MaximumNonWorkHoursSuggestionsPerDay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumNonWorkHoursSuggestionsPerDay" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumNonWorkHoursSuggestionsPerDay As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumNonWorkHoursSuggestionsPerDay { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-111">获取或设置的应非每天的常规工作时间发出建议的会议次数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-111">Gets or sets the number of meeting times that should be suggested outside of regular working hours per day.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-112">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" />属性为<a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-112">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumSuggestionsPerDay">
+      <MemberSignature Language="C#" Value="public int MaximumSuggestionsPerDay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumSuggestionsPerDay" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumSuggestionsPerDay As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumSuggestionsPerDay { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-113">获取或设置应每天建议的会议时间最大数目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-113">Gets or sets the maximum number of meeting times that should be suggested per day.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-114">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" />属性为<a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-114">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingDuration">
+      <MemberSignature Language="C#" Value="public int MeetingDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MeetingDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingDuration As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MeetingDuration { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-115">获取或设置持续时间，以分钟为单位，为其获取建议会议。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-115">Gets or sets the duration, in minutes, of the meeting for which to obtain suggestions.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-116">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" />属性为<a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-116">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedFreeBusyInterval">
+      <MemberSignature Language="C#" Value="public int MergedFreeBusyInterval { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MergedFreeBusyInterval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" />
+      <MemberSignature Language="VB.NET" Value="Public Property MergedFreeBusyInterval As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MergedFreeBusyInterval { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-117">获取或设置之间的忙/闲信息的合并视图中的两个连续的会议时间的时差。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-117">Gets or sets the time difference between two successive meeting times in a merged free/busy view.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-118">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" />属性为<a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-118">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumSuggestionQuality">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SuggestionQuality MinimumSuggestionQuality { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SuggestionQuality MinimumSuggestionQuality" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumSuggestionQuality As SuggestionQuality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SuggestionQuality MinimumSuggestionQuality { Microsoft::Exchange::WebServices::Data::SuggestionQuality get(); void set(Microsoft::Exchange::WebServices::Data::SuggestionQuality value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-119">获取或设置的建议返回最低质量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-119">Gets or sets the minimum quality of suggestions to return.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-120">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" />属性是<see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" />枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-120">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" /> property is a  <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> enumeration value.</span>
+          </span>
+          <span data-ttu-id="60b99-121">默认值是<see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-121">The default value is <see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedFreeBusyView">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FreeBusyViewType RequestedFreeBusyView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FreeBusyViewType RequestedFreeBusyView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedFreeBusyView As FreeBusyViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FreeBusyViewType RequestedFreeBusyView { Microsoft::Exchange::WebServices::Data::FreeBusyViewType get(); void set(Microsoft::Exchange::WebServices::Data::FreeBusyViewType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60b99-122">获取或设置忙/闲视图的请求的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-122">Gets or sets the requested type of free/busy view.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60b99-123">值<see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" />属性是<see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" />枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-123">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" /> property is a  <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> enumeration value.</span>
+          </span>
+          <span data-ttu-id="60b99-124">默认值是<see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60b99-124">The default value is <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

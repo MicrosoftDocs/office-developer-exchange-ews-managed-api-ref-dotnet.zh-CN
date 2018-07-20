@@ -1,0 +1,2225 @@
+<Type Name="RuleProperty" FullName="Microsoft.Exchange.WebServices.Data.RuleProperty">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d181ce972a9f39cc05086697b31e3a2a1144cdf9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623263" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum RuleProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RuleProperty extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RuleProperty" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RuleProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6b3c2-101">定义规则可用的属性。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6b3c2-101">Defines the properties that are available on a rule.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActionCategories">
+      <MemberSignature Language="C#" Value="ActionCategories" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionCategories = int32(74)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionCategories" />
+      <MemberSignature Language="VB.NET" Value="ActionCategories" />
+      <MemberSignature Language="C++ CLI" Value="ActionCategories" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>74</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-102">在规则中的类别属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-102">The Categories property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCopyToFolder">
+      <MemberSignature Language="C#" Value="ActionCopyToFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionCopyToFolder = int32(75)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionCopyToFolder" />
+      <MemberSignature Language="VB.NET" Value="ActionCopyToFolder" />
+      <MemberSignature Language="C++ CLI" Value="ActionCopyToFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>75</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-103">在规则的 CopyToFolder 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-103">The CopyToFolder property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionDelete">
+      <MemberSignature Language="C#" Value="ActionDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionDelete = int32(76)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionDelete" />
+      <MemberSignature Language="VB.NET" Value="ActionDelete" />
+      <MemberSignature Language="C++ CLI" Value="ActionDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>76</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-104">在规则的删除属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-104">The Delete property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionForwardAsAttachmentToRecipients">
+      <MemberSignature Language="C#" Value="ActionForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionForwardAsAttachmentToRecipients = int32(77)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="VB.NET" Value="ActionForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="C++ CLI" Value="ActionForwardAsAttachmentToRecipients" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>77</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-105">在规则的 ForwardAsAttachmentToRecipients 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-105">The ForwardAsAttachmentToRecipients property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionForwardToRecipients">
+      <MemberSignature Language="C#" Value="ActionForwardToRecipients" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionForwardToRecipients = int32(78)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionForwardToRecipients" />
+      <MemberSignature Language="VB.NET" Value="ActionForwardToRecipients" />
+      <MemberSignature Language="C++ CLI" Value="ActionForwardToRecipients" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>78</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-106">在规则的 ForwardToRecipients 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-106">The ForwardToRecipients property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionImportance">
+      <MemberSignature Language="C#" Value="ActionImportance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionImportance = int32(79)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionImportance" />
+      <MemberSignature Language="VB.NET" Value="ActionImportance" />
+      <MemberSignature Language="C++ CLI" Value="ActionImportance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>79</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-107">在规则的重要性属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-107">The Importance property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionMarkAsRead">
+      <MemberSignature Language="C#" Value="ActionMarkAsRead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionMarkAsRead = int32(80)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionMarkAsRead" />
+      <MemberSignature Language="VB.NET" Value="ActionMarkAsRead" />
+      <MemberSignature Language="C++ CLI" Value="ActionMarkAsRead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>80</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-108">在规则的 MarkAsRead 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-108">The MarkAsRead property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionMoveToFolder">
+      <MemberSignature Language="C#" Value="ActionMoveToFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionMoveToFolder = int32(81)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionMoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="ActionMoveToFolder" />
+      <MemberSignature Language="C++ CLI" Value="ActionMoveToFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>81</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-109">在规则的 MoveToFolder 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-109">The MoveToFolder property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionPermanentDelete">
+      <MemberSignature Language="C#" Value="ActionPermanentDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionPermanentDelete = int32(82)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionPermanentDelete" />
+      <MemberSignature Language="VB.NET" Value="ActionPermanentDelete" />
+      <MemberSignature Language="C++ CLI" Value="ActionPermanentDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>82</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-110">在规则的 PermanentDelete 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-110">The PermanentDelete property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionRedirectToRecipients">
+      <MemberSignature Language="C#" Value="ActionRedirectToRecipients" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionRedirectToRecipients = int32(83)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionRedirectToRecipients" />
+      <MemberSignature Language="VB.NET" Value="ActionRedirectToRecipients" />
+      <MemberSignature Language="C++ CLI" Value="ActionRedirectToRecipients" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>83</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-111">在规则的 RedirectToRecipients 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-111">The RedirectToRecipients property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="Actions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty Actions = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.Actions" />
+      <MemberSignature Language="VB.NET" Value="Actions" />
+      <MemberSignature Language="C++ CLI" Value="Actions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-112">规则操作属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-112">The Actions property of a rule.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionSendSMSAlertToRecipients">
+      <MemberSignature Language="C#" Value="ActionSendSMSAlertToRecipients" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionSendSMSAlertToRecipients = int32(84)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionSendSMSAlertToRecipients" />
+      <MemberSignature Language="VB.NET" Value="ActionSendSMSAlertToRecipients" />
+      <MemberSignature Language="C++ CLI" Value="ActionSendSMSAlertToRecipients" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>84</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-113">在规则的 SendSMSAlertToRecipients 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-113">The SendSMSAlertToRecipients property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionServerReplyWithMessage">
+      <MemberSignature Language="C#" Value="ActionServerReplyWithMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionServerReplyWithMessage = int32(85)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionServerReplyWithMessage" />
+      <MemberSignature Language="VB.NET" Value="ActionServerReplyWithMessage" />
+      <MemberSignature Language="C++ CLI" Value="ActionServerReplyWithMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>85</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-114">在规则的 ServerReplyWithMessage 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-114">The ServerReplyWithMessage property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionStopProcessingRules">
+      <MemberSignature Language="C#" Value="ActionStopProcessingRules" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ActionStopProcessingRules = int32(86)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ActionStopProcessingRules" />
+      <MemberSignature Language="VB.NET" Value="ActionStopProcessingRules" />
+      <MemberSignature Language="C++ CLI" Value="ActionStopProcessingRules" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>86</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-115">在规则的 StopProcessingRules 属性的设置的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-115">The StopProcessingRules property in a rule's set of actions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionCategories">
+      <MemberSignature Language="C#" Value="ConditionCategories" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionCategories = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionCategories" />
+      <MemberSignature Language="VB.NET" Value="ConditionCategories" />
+      <MemberSignature Language="C++ CLI" Value="ConditionCategories" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-116">规则类别属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-116">The Categories property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsBodyStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsBodyStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionContainsBodyStrings = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionContainsBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsBodyStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsBodyStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-117">规则的 ContainsBodyStrings 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-117">The ContainsBodyStrings property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsHeaderStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsHeaderStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionContainsHeaderStrings = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionContainsHeaderStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsHeaderStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsHeaderStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-118">规则的 ContainsHeaderStrings 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-118">The ContainsHeaderStrings property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsRecipientStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsRecipientStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionContainsRecipientStrings = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionContainsRecipientStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsRecipientStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsRecipientStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-119">规则的 ContainsRecipientStrings 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-119">The ContainsRecipientStrings property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsSenderStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsSenderStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionContainsSenderStrings = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionContainsSenderStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsSenderStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsSenderStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-120">规则的 ContainsSenderStrings 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-120">The ContainsSenderStrings property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsSubjectOrBodyStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionContainsSubjectOrBodyStrings = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsSubjectOrBodyStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-121">规则的 ContainsSubjectOrBodyStrings 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-121">The ContainsSubjectOrBodyStrings property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsSubjectStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsSubjectStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionContainsSubjectStrings = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionContainsSubjectStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsSubjectStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsSubjectStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-122">规则的 ContainsSubjectStrings 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-122">The ContainsSubjectStrings property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionFlaggedForAction">
+      <MemberSignature Language="C#" Value="ConditionFlaggedForAction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionFlaggedForAction = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionFlaggedForAction" />
+      <MemberSignature Language="VB.NET" Value="ConditionFlaggedForAction" />
+      <MemberSignature Language="C++ CLI" Value="ConditionFlaggedForAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-123">规则的 FlaggedForAction 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-123">The FlaggedForAction property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionFromAddresses">
+      <MemberSignature Language="C#" Value="ConditionFromAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionFromAddresses = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionFromAddresses" />
+      <MemberSignature Language="VB.NET" Value="ConditionFromAddresses" />
+      <MemberSignature Language="C++ CLI" Value="ConditionFromAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-124">规则的 FromAddresses 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-124">The FromAddresses property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionFromConnectedAccounts">
+      <MemberSignature Language="C#" Value="ConditionFromConnectedAccounts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionFromConnectedAccounts = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionFromConnectedAccounts" />
+      <MemberSignature Language="VB.NET" Value="ConditionFromConnectedAccounts" />
+      <MemberSignature Language="C++ CLI" Value="ConditionFromConnectedAccounts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-125">规则的 FromConnectedAccounts 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-125">The FromConnectedAccounts property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionHasAttachments">
+      <MemberSignature Language="C#" Value="ConditionHasAttachments" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionHasAttachments = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionHasAttachments" />
+      <MemberSignature Language="VB.NET" Value="ConditionHasAttachments" />
+      <MemberSignature Language="C++ CLI" Value="ConditionHasAttachments" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-126">规则的 HasAttachments 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-126">The HasAttachments property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionImportance">
+      <MemberSignature Language="C#" Value="ConditionImportance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionImportance = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionImportance" />
+      <MemberSignature Language="VB.NET" Value="ConditionImportance" />
+      <MemberSignature Language="C++ CLI" Value="ConditionImportance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-127">规则的重要性属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-127">The Importance property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsApprovalRequest">
+      <MemberSignature Language="C#" Value="ConditionIsApprovalRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsApprovalRequest = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsApprovalRequest" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsApprovalRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-128">规则的 IsApprovalRequest 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-128">The IsApprovalRequest property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsAutomaticForward">
+      <MemberSignature Language="C#" Value="ConditionIsAutomaticForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsAutomaticForward = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsAutomaticForward" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsAutomaticForward" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsAutomaticForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-129">规则的 IsAutomaticForward 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-129">The IsAutomaticForward property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsAutomaticReply">
+      <MemberSignature Language="C#" Value="ConditionIsAutomaticReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsAutomaticReply = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsAutomaticReply" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsAutomaticReply" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsAutomaticReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-130">规则的 IsAutomaticReply 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-130">The IsAutomaticReply property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsEncrypted">
+      <MemberSignature Language="C#" Value="ConditionIsEncrypted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsEncrypted = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsEncrypted" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsEncrypted" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsEncrypted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-131">规则进行加密属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-131">The IsEncrypted property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsMeetingRequest">
+      <MemberSignature Language="C#" Value="ConditionIsMeetingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsMeetingRequest = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsMeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsMeetingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-132">规则的 IsMeetingRequest 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-132">The IsMeetingRequest property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsMeetingResponse">
+      <MemberSignature Language="C#" Value="ConditionIsMeetingResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsMeetingResponse = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsMeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsMeetingResponse" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsMeetingResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-133">规则的 IsMeetingResponse 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-133">The IsMeetingResponse property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsNonDeliveryReport">
+      <MemberSignature Language="C#" Value="ConditionIsNonDeliveryReport" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsNonDeliveryReport = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsNonDeliveryReport" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsNonDeliveryReport" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsNonDeliveryReport" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-134">规则的 IsNonDeliveryReport 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-134">The IsNonDeliveryReport property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsPermissionControlled">
+      <MemberSignature Language="C#" Value="ConditionIsPermissionControlled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsPermissionControlled = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsPermissionControlled" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsPermissionControlled" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsPermissionControlled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-135">规则的 IsPermissionControlled 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-135">The IsPermissionControlled property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsRead">
+      <MemberSignature Language="C#" Value="ConditionIsRead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsRead = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsRead" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsRead" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsRead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-136">规则的 IsRead 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-136">The IsRead property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsReadReceipt">
+      <MemberSignature Language="C#" Value="ConditionIsReadReceipt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsReadReceipt = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsReadReceipt" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsReadReceipt" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsReadReceipt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-137">规则的 IsReadReceipt 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-137">The IsReadReceipt property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsSigned">
+      <MemberSignature Language="C#" Value="ConditionIsSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsSigned = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsSigned" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsSigned" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-138">规则的 IsSigned 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-138">The IsSigned property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsVoicemail">
+      <MemberSignature Language="C#" Value="ConditionIsVoicemail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionIsVoicemail = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionIsVoicemail" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsVoicemail" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsVoicemail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-139">规则的 IsVoicemail 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-139">The IsVoicemail property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionItemClasses">
+      <MemberSignature Language="C#" Value="ConditionItemClasses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionItemClasses = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionItemClasses" />
+      <MemberSignature Language="VB.NET" Value="ConditionItemClasses" />
+      <MemberSignature Language="C++ CLI" Value="ConditionItemClasses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-140">规则的 ItemClasses 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-140">The ItemClasses property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionMessageClassifications">
+      <MemberSignature Language="C#" Value="ConditionMessageClassifications" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionMessageClassifications = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionMessageClassifications" />
+      <MemberSignature Language="VB.NET" Value="ConditionMessageClassifications" />
+      <MemberSignature Language="C++ CLI" Value="ConditionMessageClassifications" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-141">规则的 MessageClassifications 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-141">The MessageClassifications property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionNotSentToMe">
+      <MemberSignature Language="C#" Value="ConditionNotSentToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionNotSentToMe = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionNotSentToMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionNotSentToMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionNotSentToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-142">规则的 NotSentToMe 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-142">The NotSentToMe property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Conditions">
+      <MemberSignature Language="C#" Value="Conditions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty Conditions = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.Conditions" />
+      <MemberSignature Language="VB.NET" Value="Conditions" />
+      <MemberSignature Language="C++ CLI" Value="Conditions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-143">规则条件属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-143">The Conditions property of a rule.</span>
+          </span>
+          <span data-ttu-id="6b3c2-144">此字段包含所有的规则条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-144">This field contains all conditions of the rule.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSensitivity">
+      <MemberSignature Language="C#" Value="ConditionSensitivity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionSensitivity = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionSensitivity" />
+      <MemberSignature Language="VB.NET" Value="ConditionSensitivity" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSensitivity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-145">规则的 Sensitivity 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-145">The Sensitivity property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentCcMe">
+      <MemberSignature Language="C#" Value="ConditionSentCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionSentCcMe = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionSentCcMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-146">规则的 SentCcMe 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-146">The SentCcMe property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentOnlyToMe">
+      <MemberSignature Language="C#" Value="ConditionSentOnlyToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionSentOnlyToMe = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionSentOnlyToMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentOnlyToMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentOnlyToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-147">规则的 SentOnlyToMe 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-147">The SentOnlyToMe property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentToAddresses">
+      <MemberSignature Language="C#" Value="ConditionSentToAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionSentToAddresses = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionSentToAddresses" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentToAddresses" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentToAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-148">规则的 SentToAddresses 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-148">The SentToAddresses property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentToMe">
+      <MemberSignature Language="C#" Value="ConditionSentToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionSentToMe = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionSentToMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentToMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-149">规则的 SentToMe 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-149">The SentToMe property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentToOrCcMe">
+      <MemberSignature Language="C#" Value="ConditionSentToOrCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionSentToOrCcMe = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionSentToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentToOrCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentToOrCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-150">规则的 SentToOrCcMe 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-150">The SentToOrCcMe property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionWithinDateRange">
+      <MemberSignature Language="C#" Value="ConditionWithinDateRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionWithinDateRange = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionWithinDateRange" />
+      <MemberSignature Language="VB.NET" Value="ConditionWithinDateRange" />
+      <MemberSignature Language="C++ CLI" Value="ConditionWithinDateRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-151">规则的 WithinDateRange 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-151">The WithinDateRange property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionWithinSizeRange">
+      <MemberSignature Language="C#" Value="ConditionWithinSizeRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ConditionWithinSizeRange = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ConditionWithinSizeRange" />
+      <MemberSignature Language="VB.NET" Value="ConditionWithinSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="ConditionWithinSizeRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-152">规则的 WithinSizeRange 属性的设置的条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-152">The WithinSizeRange property of a rule's set of conditions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="DisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty DisplayName = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="DisplayName" />
+      <MemberSignature Language="C++ CLI" Value="DisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-153">规则的 DisplayName 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-153">The DisplayName property of a rule.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionCategories">
+      <MemberSignature Language="C#" Value="ExceptionCategories" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionCategories = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionCategories" />
+      <MemberSignature Language="VB.NET" Value="ExceptionCategories" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionCategories" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-154">规则类别属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-154">The Categories property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsBodyStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsBodyStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionContainsBodyStrings = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionContainsBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsBodyStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsBodyStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-155">规则的 ContainsBodyStrings 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-155">The ContainsBodyStrings property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsHeaderStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsHeaderStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionContainsHeaderStrings = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionContainsHeaderStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsHeaderStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsHeaderStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-156">规则的 ContainsHeaderStrings 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-156">The ContainsHeaderStrings property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsRecipientStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsRecipientStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionContainsRecipientStrings = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionContainsRecipientStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsRecipientStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsRecipientStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-157">规则的 ContainsRecipientStrings 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-157">The ContainsRecipientStrings property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsSenderStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsSenderStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionContainsSenderStrings = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionContainsSenderStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsSenderStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsSenderStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-158">规则的 ContainsSenderStrings 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-158">The ContainsSenderStrings property of rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsSubjectOrBodyStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionContainsSubjectOrBodyStrings = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsSubjectOrBodyStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-159">规则的 ContainsSubjectOrBodyStrings 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-159">The ContainsSubjectOrBodyStrings property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsSubjectStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsSubjectStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionContainsSubjectStrings = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionContainsSubjectStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsSubjectStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsSubjectStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-160">规则的 ContainsSubjectStrings 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-160">The ContainsSubjectStrings property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionFlaggedForAction">
+      <MemberSignature Language="C#" Value="ExceptionFlaggedForAction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionFlaggedForAction = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionFlaggedForAction" />
+      <MemberSignature Language="VB.NET" Value="ExceptionFlaggedForAction" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionFlaggedForAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-161">规则的 FlaggedForAction 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-161">The FlaggedForAction property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionFromAddresses">
+      <MemberSignature Language="C#" Value="ExceptionFromAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionFromAddresses = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionFromAddresses" />
+      <MemberSignature Language="VB.NET" Value="ExceptionFromAddresses" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionFromAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-162">规则的 FromAddresses 属性的设置的 erxceptions。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-162">The FromAddresses property of a rule's set of erxceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionFromConnectedAccounts">
+      <MemberSignature Language="C#" Value="ExceptionFromConnectedAccounts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionFromConnectedAccounts = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionFromConnectedAccounts" />
+      <MemberSignature Language="VB.NET" Value="ExceptionFromConnectedAccounts" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionFromConnectedAccounts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-163">规则的 FromConnectedAccounts 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-163">The FromConnectedAccounts property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionHasAttachments">
+      <MemberSignature Language="C#" Value="ExceptionHasAttachments" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionHasAttachments = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionHasAttachments" />
+      <MemberSignature Language="VB.NET" Value="ExceptionHasAttachments" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionHasAttachments" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-164">规则的 HasAttachments 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-164">The HasAttachments property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionImportance">
+      <MemberSignature Language="C#" Value="ExceptionImportance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionImportance = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionImportance" />
+      <MemberSignature Language="VB.NET" Value="ExceptionImportance" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionImportance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-165">规则的重要性属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-165">The Importance property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsApprovalRequest">
+      <MemberSignature Language="C#" Value="ExceptionIsApprovalRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsApprovalRequest = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsApprovalRequest" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsApprovalRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-166">规则的 IsApprovalRequest 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-166">The IsApprovalRequest property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsAutomaticForward">
+      <MemberSignature Language="C#" Value="ExceptionIsAutomaticForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsAutomaticForward = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsAutomaticForward" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsAutomaticForward" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsAutomaticForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-167">规则的 IsAutomaticForward 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-167">The IsAutomaticForward property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsAutomaticReply">
+      <MemberSignature Language="C#" Value="ExceptionIsAutomaticReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsAutomaticReply = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsAutomaticReply" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsAutomaticReply" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsAutomaticReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-168">规则的 IsAutomaticReply 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-168">The IsAutomaticReply property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsEncrypted">
+      <MemberSignature Language="C#" Value="ExceptionIsEncrypted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsEncrypted = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsEncrypted" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsEncrypted" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsEncrypted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-169">规则进行加密属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-169">The IsEncrypted property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsMeetingRequest">
+      <MemberSignature Language="C#" Value="ExceptionIsMeetingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsMeetingRequest = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsMeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsMeetingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-170">规则的 IsMeetingRequest 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-170">The IsMeetingRequest property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsMeetingResponse">
+      <MemberSignature Language="C#" Value="ExceptionIsMeetingResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsMeetingResponse = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsMeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsMeetingResponse" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsMeetingResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-171">规则的 IsMeetingResponse 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-171">The IsMeetingResponse property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsNonDeliveryReport">
+      <MemberSignature Language="C#" Value="ExceptionIsNonDeliveryReport" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsNonDeliveryReport = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsNonDeliveryReport" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsNonDeliveryReport" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsNonDeliveryReport" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-172">规则的 IsNonDeliveryReport 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-172">The IsNonDeliveryReport property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsPermissionControlled">
+      <MemberSignature Language="C#" Value="ExceptionIsPermissionControlled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsPermissionControlled = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsPermissionControlled" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsPermissionControlled" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsPermissionControlled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-173">规则的 IsPermissionControlled 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-173">The IsPermissionControlled property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsRead">
+      <MemberSignature Language="C#" Value="ExceptionIsRead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsRead = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsRead" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsRead" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsRead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-174">规则的 IsRead 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-174">The IsRead property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsSigned">
+      <MemberSignature Language="C#" Value="ExceptionIsSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsSigned = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsSigned" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsSigned" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-175">规则的 IsSigned 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-175">The IsSigned property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsVoicemail">
+      <MemberSignature Language="C#" Value="ExceptionIsVoicemail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionIsVoicemail = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionIsVoicemail" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsVoicemail" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsVoicemail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-176">规则的 IsVoicemail 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-176">The IsVoicemail property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionItemClasses">
+      <MemberSignature Language="C#" Value="ExceptionItemClasses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionItemClasses = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionItemClasses" />
+      <MemberSignature Language="VB.NET" Value="ExceptionItemClasses" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionItemClasses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-177">规则的 ItemClasses 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-177">The ItemClasses property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionMessageClassifications">
+      <MemberSignature Language="C#" Value="ExceptionMessageClassifications" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionMessageClassifications = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionMessageClassifications" />
+      <MemberSignature Language="VB.NET" Value="ExceptionMessageClassifications" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionMessageClassifications" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-178">规则的 MessageClassifications 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-178">The MessageClassifications property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionNotSentToMe">
+      <MemberSignature Language="C#" Value="ExceptionNotSentToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionNotSentToMe = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionNotSentToMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionNotSentToMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionNotSentToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-179">规则的 NotSentToMe 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-179">The NotSentToMe property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exceptions">
+      <MemberSignature Language="C#" Value="Exceptions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty Exceptions = int32(90)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.Exceptions" />
+      <MemberSignature Language="VB.NET" Value="Exceptions" />
+      <MemberSignature Language="C++ CLI" Value="Exceptions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>90</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-180">规则例外属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-180">The Exceptions property of a rule.</span>
+          </span>
+          <span data-ttu-id="6b3c2-181">此字段包含规则的所有异常。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-181">This field contains all the exceptions for the rule.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSensitivity">
+      <MemberSignature Language="C#" Value="ExceptionSensitivity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionSensitivity = int32(71)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionSensitivity" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSensitivity" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSensitivity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>71</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-182">规则的 Sensitivity 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-182">The Sensitivity property of rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentCcMe">
+      <MemberSignature Language="C#" Value="ExceptionSentCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionSentCcMe = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionSentCcMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-183">规则的 SentCcMe 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-183">The SentCcMe property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentOnlyToMe">
+      <MemberSignature Language="C#" Value="ExceptionSentOnlyToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionSentOnlyToMe = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionSentOnlyToMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentOnlyToMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentOnlyToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-184">规则的 SentOnlyToMe 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-184">The SentOnlyToMe property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentToAddresses">
+      <MemberSignature Language="C#" Value="ExceptionSentToAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionSentToAddresses = int32(68)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionSentToAddresses" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentToAddresses" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentToAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>68</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-185">规则的 SentToAddresses 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-185">The SentToAddresses property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentToMe">
+      <MemberSignature Language="C#" Value="ExceptionSentToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionSentToMe = int32(69)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionSentToMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentToMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>69</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-186">规则的 SentToMe 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-186">The SentToMe property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentToOrCcMe">
+      <MemberSignature Language="C#" Value="ExceptionSentToOrCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionSentToOrCcMe = int32(70)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionSentToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentToOrCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentToOrCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>70</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-187">规则的 SentToOrCcMe 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-187">The SentToOrCcMe property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionWithinDateRange">
+      <MemberSignature Language="C#" Value="ExceptionWithinDateRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionWithinDateRange = int32(72)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionWithinDateRange" />
+      <MemberSignature Language="VB.NET" Value="ExceptionWithinDateRange" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionWithinDateRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>72</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-188">规则的 WithinDateRange 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-188">The WithinDateRange property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionWithinSizeRange">
+      <MemberSignature Language="C#" Value="ExceptionWithinSizeRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty ExceptionWithinSizeRange = int32(73)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.ExceptionWithinSizeRange" />
+      <MemberSignature Language="VB.NET" Value="ExceptionWithinSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionWithinSizeRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>73</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-189">规则的 WithinSizeRange 属性的设置的例外项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-189">The WithinSizeRange property of a rule's set of exceptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabled">
+      <MemberSignature Language="C#" Value="IsEnabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty IsEnabled = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.IsEnabled" />
+      <MemberSignature Language="VB.NET" Value="IsEnabled" />
+      <MemberSignature Language="C++ CLI" Value="IsEnabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-190">规则，指示是否启用规则 IsEnabled 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-190">The IsEnabled property of a rule, which indicates whether the rule is enabled.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInError">
+      <MemberSignature Language="C#" Value="IsInError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty IsInError = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.IsInError" />
+      <MemberSignature Language="VB.NET" Value="IsInError" />
+      <MemberSignature Language="C++ CLI" Value="IsInError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-191">规则，这表明该规则是否错误 IsInError 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-191">The IsInError property of a rule, which indicates whether the rule is in error.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotSupported">
+      <MemberSignature Language="C#" Value="IsNotSupported" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty IsNotSupported = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.IsNotSupported" />
+      <MemberSignature Language="VB.NET" Value="IsNotSupported" />
+      <MemberSignature Language="C++ CLI" Value="IsNotSupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-192">规则 IsNotSupported 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-192">The IsNotSupported property of a rule.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="Priority" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty Priority = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.Priority" />
+      <MemberSignature Language="VB.NET" Value="Priority" />
+      <MemberSignature Language="C++ CLI" Value="Priority" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-193">规则优先级属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-193">The Priority property of a rule.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleId">
+      <MemberSignature Language="C#" Value="RuleId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleProperty RuleId = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleProperty.RuleId" />
+      <MemberSignature Language="VB.NET" Value="RuleId" />
+      <MemberSignature Language="C++ CLI" Value="RuleId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6b3c2-194">规则 Id 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6b3c2-194">The Id property of a Rule.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

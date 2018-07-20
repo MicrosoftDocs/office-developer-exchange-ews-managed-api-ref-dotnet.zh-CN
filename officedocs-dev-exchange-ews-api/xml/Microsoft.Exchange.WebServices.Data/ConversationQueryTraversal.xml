@@ -1,0 +1,94 @@
+<Type Name="ConversationQueryTraversal" FullName="Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="45f5525f920a9dd1fa30a8a211b5241a4a1977da" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622955" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ConversationQueryTraversal" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationQueryTraversal extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversationQueryTraversal" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConversationQueryTraversal" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ccaea-101">指定会话项目的查询是否 （浅表） 的目标文件夹或目标文件夹和所有子文件夹 （深度）。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ccaea-101">Specifies whether a query of conversation items is for the target folder (shallow) or the target folder and all subfolders (deep).</span>
+      </span>
+      <span data-ttu-id="ccaea-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ccaea-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Deep">
+      <MemberSignature Language="C#" Value="Deep" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal Deep = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal.Deep" />
+      <MemberSignature Language="VB.NET" Value="Deep" />
+      <MemberSignature Language="C++ CLI" Value="Deep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ccaea-103">目标文件夹和所有子文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ccaea-103">The target folder and all subfolders.</span>
+          </span>
+          <span data-ttu-id="ccaea-104">适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端深入域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ccaea-104">The Deep field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shallow">
+      <MemberSignature Language="C#" Value="Shallow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal Shallow = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal.Shallow" />
+      <MemberSignature Language="VB.NET" Value="Shallow" />
+      <MemberSignature Language="C++ CLI" Value="Shallow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ccaea-105">仅目标文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ccaea-105">The target folder only.</span>
+          </span>
+          <span data-ttu-id="ccaea-106">浅表的字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ccaea-106">The Shallow field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

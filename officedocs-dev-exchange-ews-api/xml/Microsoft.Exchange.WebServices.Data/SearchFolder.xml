@@ -1,0 +1,345 @@
+<Type Name="SearchFolder" FullName="Microsoft.Exchange.WebServices.Data.SearchFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="16d9695954e13afba13d183c5a75cb85ac3af9df" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622674" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SearchFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchFolder&#xA;Inherits Folder" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchFolder : Microsoft::Exchange::WebServices::Data::Folder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Folder</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="027ff-101">代表包含一组指定的项目并与这些项目关联的属性的搜索文件夹。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="027ff-101">Represents a search folder that contains a specified set of items and the properties that are associated with those items.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFolder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFolder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFolder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="027ff-102">Exchange Web 服务搜索文件夹将绑定到。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-102">The Exchange Web service to which the search folder will be bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="027ff-103">初始化未保存的搜索文件夹的本地实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-103">Initializes an unsaved local instance of a search folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="027ff-104">
+            <para>若要将绑定到现有搜索文件夹，使用<see cref="Overload:Microsoft.Exchange.WebServices.Data.SearchFolder.Bind" />方法相反。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-104">
+              <para>To bind to an existing search folder, use the <see cref="Overload:Microsoft.Exchange.WebServices.Data.SearchFolder.Bind" /> method instead.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.SearchFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.SearchFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As SearchFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::SearchFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="027ff-105">要使用将绑定到搜索文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-105">The service to use to bind to the search folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="027ff-106">将绑定到的搜索文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-106">The identifier of the search folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="027ff-107">绑定到现有搜索文件夹，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-107">Binds to an existing search folder and loads its first-class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="027ff-108">搜索文件夹对应于指定的标识符，其中包含一类的项目属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-108">A search folder that corresponds to the specified identifier that contains the first-class item properties.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="027ff-109">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-109">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.SearchFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.SearchFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As SearchFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::SearchFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="027ff-110">要使用将绑定到搜索文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-110">The service to use to bind to the search folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="027ff-111">将绑定到的搜索文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-111">The name of the search folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="027ff-112">绑定到现有搜索文件夹，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-112">Binds to an existing search folder and loads its first-class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="027ff-113">搜索文件夹具有指定名称，其中包含一类的项目属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-113">A search folder with the specified name that contains the first-class item properties.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="027ff-114">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-114">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.SearchFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.SearchFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::SearchFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="027ff-115">要使用将绑定到搜索文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-115">The service to use to bind to the search folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="027ff-116">将绑定到的搜索文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-116">The identifier of the search folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="027ff-117">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-117">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="027ff-118">绑定到现有搜索文件夹，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-118">Binds to an existing search folder and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="027ff-119">搜索文件夹对应于指定的标识符，其中包含指定的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-119">A search folder that corresponds to the specified identifier that contains the specified properties.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="027ff-120">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-120">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.SearchFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.SearchFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::SearchFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="027ff-121">要使用将绑定到搜索文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-121">The service to use to bind to the search folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="027ff-122">将绑定到的搜索文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-122">The name of the search folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="027ff-123">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-123">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="027ff-124">绑定到现有搜索文件夹，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-124">Binds to an existing search folder and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="027ff-125">搜索文件夹具有指定名称，其中包含指定的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-125">A search folder with the specified name that contains the specified properties.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="027ff-126">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-126">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchParameters">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFolderParameters SearchParameters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFolderParameters SearchParameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFolder.SearchParameters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchParameters As SearchFolderParameters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFolderParameters ^ SearchParameters { Microsoft::Exchange::WebServices::Data::SearchFolderParameters ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFolderParameters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="027ff-127">获取或设置与搜索文件夹关联的搜索参数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-127">Gets or sets the search parameters that are associated with the search folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="027ff-128">在搜索文件夹中定义的项搜索参数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="027ff-128">The search parameters that define the items in the search folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,33 @@
+<Type Name="SearchFilter" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="79d0cf8418f2a12a437fdea3d4fb9b979d9a28db" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623207" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class SearchFilter : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit SearchFilter extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SearchFilter&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchFilter abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="36c29-101">代表表示搜索限制的派生类的基类。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="36c29-101">Represents the base class for derived classes that represent a search restriction.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

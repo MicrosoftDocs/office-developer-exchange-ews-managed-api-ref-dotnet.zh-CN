@@ -1,0 +1,257 @@
+<Type Name="Attendee" FullName="Microsoft.Exchange.WebServices.Data.Attendee">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e4a12d64c0ab181cfdd31cc29965402956839f66" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622952" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Attendee : Microsoft.Exchange.WebServices.Data.EmailAddress" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Attendee extends Microsoft.Exchange.WebServices.Data.EmailAddress" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Attendee" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Attendee&#xA;Inherits EmailAddress" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Attendee sealed : Microsoft::Exchange::WebServices::Data::EmailAddress" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.EmailAddress</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="60a5f-101">表示会议与会者。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="60a5f-101">Represents a meeting attendee.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Attendee ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Attendee.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Attendee();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a5f-102">初始化 Attendee 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-102">Initializes a new instance of the Attendee class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Attendee (Microsoft.Exchange.WebServices.Data.EmailAddress mailbox);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.EmailAddress mailbox) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Attendee.#ctor(Microsoft.Exchange.WebServices.Data.EmailAddress)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As EmailAddress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Attendee(Microsoft::Exchange::WebServices::Data::EmailAddress ^ mailbox);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="Microsoft.Exchange.WebServices.Data.EmailAddress" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">
+          <span data-ttu-id="60a5f-103">对应于与会者邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-103">The mailbox that corresponds to the attendee.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="60a5f-104">初始化 Attendee 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-104">Initializes a new instance of the Attendee class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Attendee (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Attendee.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Attendee(System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="60a5f-105">对应于与会者 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-105">The SMTP address that corresponds to the attendee.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="60a5f-106">初始化 Attendee 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-106">Initializes a new instance of the Attendee class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Attendee (string name, string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Attendee.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Attendee(System::String ^ name, System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="60a5f-107">向该与会者相对应的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-107">The name that corresponds to the attendee.</span>
+          </span>
+        </param>
+        <param name="smtpAddress">
+          <span data-ttu-id="60a5f-108">对应于与会者 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-108">The SMTP address that corresponds to the attendee.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="60a5f-109">初始化 Attendee 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-109">Initializes a new instance of the Attendee class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Attendee (string name, string smtpAddress, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string smtpAddress, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Attendee.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, smtpAddress As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Attendee(System::String ^ name, System::String ^ smtpAddress, System::String ^ routingType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="60a5f-110">向该与会者相对应的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-110">The name that corresponds to the attendee.</span>
+          </span>
+        </param>
+        <param name="smtpAddress">
+          <span data-ttu-id="60a5f-111">对应于与会者 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-111">The SMTP address that corresponds to the attendee.</span>
+          </span>
+        </param>
+        <param name="routingType">
+          <span data-ttu-id="60a5f-112">对应于与会者路由类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-112">The routing type that corresponds to the attendee.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="60a5f-113">初始化 Attendee 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-113">Initializes a new instance of the Attendee class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastResponseTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastResponseTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastResponseTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attendee.LastResponseTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastResponseTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; LastResponseTime { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a5f-114">获取的日期和时间当参与者上次响应会议邀请或更新。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-114">Gets the date and time when the attendee last responded to the meeting invitation or update.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a5f-115">日期和时间当参与者上次响应会议邀请或更新。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-115">The date and time when the attendee last responded to the meeting invitation or update.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.MeetingResponseType&gt; ResponseType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.MeetingResponseType&gt; ResponseType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Attendee.ResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResponseType As Nullable(Of MeetingResponseType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::MeetingResponseType&gt; ResponseType { Nullable&lt;Microsoft::Exchange::WebServices::Data::MeetingResponseType&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.MeetingResponseType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a5f-116">获取 attendee 赋予会议邀请的响应的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-116">Gets the type of response that the attendee gave to the meeting invitation.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a5f-117">与会者赋予会议邀请的响应的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a5f-117">The type of response that the attendee gave to the meeting invitation.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

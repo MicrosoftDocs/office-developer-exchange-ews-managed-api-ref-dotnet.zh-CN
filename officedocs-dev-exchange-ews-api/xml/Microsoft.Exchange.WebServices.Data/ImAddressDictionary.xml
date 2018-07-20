@@ -1,0 +1,156 @@
+<Type Name="ImAddressDictionary" FullName="Microsoft.Exchange.WebServices.Data.ImAddressDictionary">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3f3a1830ea06e571529cc158e3b36b2dfe63c3ec" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622653" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ImAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.ImAddressKey,Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ImAddressDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.ImAddressKey, class Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ImAddressDictionary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImAddressDictionary&#xA;Inherits DictionaryProperty(Of ImAddressKey, ImAddressEntry)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImAddressDictionary sealed : Microsoft::Exchange::WebServices::Data::DictionaryProperty&lt;Microsoft::Exchange::WebServices::Data::ImAddressKey, Microsoft::Exchange::WebServices::Data::ImAddressEntry ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.ImAddressKey,Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TKey">Microsoft.Exchange.WebServices.Data.ImAddressKey</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TEntry">Microsoft.Exchange.WebServices.Data.ImAddressEntry</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="30f0f-101">表示的即时消息 (IM) 地址。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="30f0f-101">Represents a dictionary of instant messaging (IM) addresses.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImAddressDictionary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ImAddressDictionary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImAddressDictionary();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="30f0f-102">初始化 ImAddressDictionary 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-102">Initializes a new instance of the ImAddressDictionary class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this[Microsoft.Exchange.WebServices.Data.ImAddressKey key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(valuetype Microsoft.Exchange.WebServices.Data.ImAddressKey)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ImAddressDictionary.Item(Microsoft.Exchange.WebServices.Data.ImAddressKey)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As ImAddressKey) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default[Microsoft::Exchange::WebServices::Data::ImAddressKey] { System::String ^ get(Microsoft::Exchange::WebServices::Data::ImAddressKey key); void set(Microsoft::Exchange::WebServices::Data::ImAddressKey key, System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.ImAddressKey" />
+      </Parameters>
+      <Docs>
+        <param name="key">
+          <span data-ttu-id="30f0f-103">获取或设置的 IM 地址对应的键。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-103">The key that corresponds to the IM address to get or set.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="30f0f-104">获取或设置即时消息 (IM) 地址，在指定的键。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-104">Gets or sets the instant messaging (IM) address at the specified key.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="30f0f-105">在指定的键 IM 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-105">The IM address at the specified key.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (Microsoft.Exchange.WebServices.Data.ImAddressKey key, out string imAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(valuetype Microsoft.Exchange.WebServices.Data.ImAddressKey key, [out] string&amp; imAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ImAddressDictionary.TryGetValue(Microsoft.Exchange.WebServices.Data.ImAddressKey,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As ImAddressKey, ByRef imAddress As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Exchange::WebServices::Data::ImAddressKey key, [Runtime::InteropServices::Out] System::String ^ % imAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.ImAddressKey" />
+        <Parameter Name="imAddress" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">
+          <span data-ttu-id="30f0f-106">键对应的 IM 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-106">The key that corresponds to the IM address.</span>
+          </span>
+        </param>
+        <param name="imAddress">
+          <span data-ttu-id="30f0f-107">此方法返回时，包含找到键; 如果是与指定的键，相关联的 IM 地址否则，一个空引用 (在 Visual Basic 中为 Nothing)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-107">When this method returns, contains the IM address that is associated with the specified key, if the key is found; otherwise, a null reference (Nothing in Visual Basic).</span>
+          </span>
+          <span data-ttu-id="30f0f-108">此参数传递未初始化。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-108">This parameter is passed uninitialized.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="30f0f-109">尝试获取即时消息 (IM) 地址对应于指定的键。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-109">Tries to get the instant messaging (IM) address that corresponds to the specified key.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="30f0f-110">
+            <b>true</b>如果字典包含与指定的键的关联的 IM 地址否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30f0f-110">
+              <b>true</b> if the dictionary contains an IM address that is associated with the specified key; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

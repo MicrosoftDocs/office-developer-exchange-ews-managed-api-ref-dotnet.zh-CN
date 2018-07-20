@@ -1,0 +1,541 @@
+<Type Name="StringList" FullName="Microsoft.Exchange.WebServices.Data.StringList">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f48251e8a53566193507ccbe2dcd39a1be67c48d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623052" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class StringList : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StringList extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;string&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StringList" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StringList&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of String)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StringList sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty, System::Collections::Generic::IEnumerable&lt;System::String ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.String&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+      <span data-ttu-id="3c2dc-101">代表字符串的列表。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3c2dc-101">Represents a list of strings.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StringList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; StringList();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c2dc-102">初始化 Microsoft.Exchange.WebServices.Data.StringList 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.StringList class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StringList (System.Collections.Generic.IEnumerable&lt;string&gt; strings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;string&gt; strings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.#ctor(System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (strings As IEnumerable(Of String))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; StringList(System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ strings);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="strings" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="strings">
+          <span data-ttu-id="3c2dc-103">用于创建 StringList 对象 IEnumerable 字符串集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-103">An IEnumerable string collection that is used to create the StringList object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3c2dc-104">初始化 Microsoft.Exchange.WebServices.Data.StringList 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-104">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.StringList class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (string s);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(string s) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.Add(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (s As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::String ^ s);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="s">
+          <span data-ttu-id="3c2dc-105">要添加到列表的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-105">The string to add to the list.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3c2dc-106">向列表添加一个字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-106">Adds a string to the list.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;string&gt; strings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;string&gt; strings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.AddRange(System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (strings As IEnumerable(Of String))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ strings);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="strings" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="strings">
+          <span data-ttu-id="3c2dc-107">要添加到列表的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-107">The strings to add to the list.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3c2dc-108">向列表添加多个字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-108">Adds multiple strings to the list.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c2dc-109">清除列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-109">Clears the list.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (string s);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(string s) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.Contains(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (s As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(System::String ^ s);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="s">
+          <span data-ttu-id="3c2dc-110">要检查的状态的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-110">The string to check the presence of.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3c2dc-111">确定列表是否包含一个特定的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-111">Determines whether the list contains a specific string.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="3c2dc-112">如果 s 否则是存在于列表中，false，则为 true。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-112">True if s is present in the list, false otherwise.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.StringList.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c2dc-113">获取列表中的字符串的数目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-113">Gets the number of strings in the list.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c2dc-114">一个整数值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-114">An integer value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">
+          <span data-ttu-id="3c2dc-115">用于与 StringList 对象进行比较的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-115">The object that is used to compare to the StringList object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3c2dc-116">确定是否等于当前 System.Object 指定的 System.Object。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-116">Determines whether the specified System.Object is equal to the current System.Object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="3c2dc-117">如果指定的 System.Object 等于当前的 System.Object;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-117">True if the specified System.Object is equal to the current System.Object; otherwise, false.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="System.NullReferenceException">
+          <span data-ttu-id="3c2dc-118">Obj 参数为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-118">The obj parameter is null.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;string&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;string&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;System::String ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c2dc-119">获取集合中的元素通过一个循环枚举器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-119">Gets an enumerator that iterates through the elements of the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="3c2dc-120">一个 ienumerator 它的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-120">An IEnumerator for the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c2dc-121">充当特定类型的哈希函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-121">Serves as a hash function for a particular type.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="3c2dc-122">当前 System.Object 哈希代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-122">A hash code for the current System.Object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this[int index] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.StringList.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(index As Integer) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default[int] { System::String ^ get(int index); void set(int index, System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="3c2dc-123">要获取或设置的字符串的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-123">The index of the string to get or set.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3c2dc-124">获取或设置中指定索引处的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-124">Gets or sets the string at the specified index.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3c2dc-125">指定索引处的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-125">The string at the specified index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (string s);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(string s) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.Remove(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (s As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(System::String ^ s);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="s" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="s">
+          <span data-ttu-id="3c2dc-126">要删除的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-126">The string to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3c2dc-127">从列表中删除一个字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-127">Removes a string from the list.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="3c2dc-128">S 已被删除 false 否则，则 true;。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-128">True is s was removed, false otherwise.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="3c2dc-129">要删除的字符串的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-129">The index of the string to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3c2dc-130">从列表中删除的指定位置的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-130">Removes the string at the specified position from the list.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c2dc-131">获取集合中的元素通过一个循环枚举器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-131">Gets an enumerator that iterates through the elements of the collection.</span>
+          </span>
+          <span data-ttu-id="3c2dc-132">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.StringList.System#Collections#IEnumerable#GetEnumerator" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-132">The <see cref="M:Microsoft.Exchange.WebServices.Data.StringList.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="3c2dc-133">一个循环访问集合中的元素的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-133">An enumerator that iterates through the elements of the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.StringList.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c2dc-134">在列表中，将生成的字符串表示形式的所有项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-134">Generates a string representation of all the items in the list.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="3c2dc-135">逗号分隔的存在于列表中的字符串列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c2dc-135">A comma-separated list of the strings present in the list.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,256 @@
+<Type Name="OofReply" FullName="Microsoft.Exchange.WebServices.Data.OofReply">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="238f06b470bfdc9cdcbbdf466eeb08b58bfa3c72" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623363" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class OofReply" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OofReply extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OofReply" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OofReply" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OofReply sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="d648c-101">代表外出消息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d648c-101">Represents an out of office message.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OofReply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OofReply();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="d648c-102">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OofReply (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OofReply(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <span data-ttu-id="d648c-103">答复邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-103">The reply message.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d648c-104">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" />指定消息的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> class with the specified message.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public string Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Culture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofReply.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Culture { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d648c-105">获取或设置区域性的答复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-105">Gets or sets the culture of the reply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d648c-106">一个字符串，包含区域性的答复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-106">A string containing the culture of the reply.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofReply.Message" />
+      <MemberSignature Language="VB.NET" Value="Public Property Message As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Message { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d648c-107">获取或设置-外出答复邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-107">Gets or sets the out-of-office reply message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d648c-108">外出答复邮件的内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-108">The contents of the out-of-office reply message.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator string (Microsoft.Exchange.WebServices.Data.OofReply oofReply);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Microsoft.Exchange.WebServices.Data.OofReply oofReply) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.op_Implicit(Microsoft.Exchange.WebServices.Data.OofReply)~System.String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Exchange::WebServices::Data::OofReply ^ oofReply);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oofReply" Type="Microsoft.Exchange.WebServices.Data.OofReply" />
+      </Parameters>
+      <Docs>
+        <param name="oofReply">
+          <span data-ttu-id="d648c-109">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" />对象将转换为字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-109">The <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> object to convert into a string.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d648c-110">定义隐式之间的转换<see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" />对象和字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-110">Defines an implicit conversion between an <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> object and a string.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d648c-111">一个字符串，包含指定的消息<see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-111">A string that contains the message of the specified <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.OofReply (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.OofReply op_Implicit(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.OofReply" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (message As String) As OofReply" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::OofReply ^(System::String ^ message);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OofReply</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <span data-ttu-id="d648c-112">要转换的消息<see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-112">The message to convert into an <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d648c-113">定义隐式字符串之间的转换和<see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-113">Defines an implicit conversion between a string and an <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d648c-114">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" />初始化用指定的消息对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-114">An <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> object initialized with the specified message.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="d648c-115">获取答复的字符串表示形式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-115">Obtains a string representation of the reply.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d648c-116">一个字符串，包含答复邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d648c-116">A string that contains the reply message.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

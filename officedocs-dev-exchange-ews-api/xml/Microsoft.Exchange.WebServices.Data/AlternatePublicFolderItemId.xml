@@ -1,0 +1,130 @@
+<Type Name="AlternatePublicFolderItemId" FullName="Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="07f1b193ad73ba2fdf78feaefa28dc83165b5c26" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623222" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AlternatePublicFolderItemId : Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternatePublicFolderItemId extends Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternatePublicFolderItemId&#xA;Inherits AlternatePublicFolderId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternatePublicFolderItemId : Microsoft::Exchange::WebServices::Data::AlternatePublicFolderId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="57466-101">代表公用文件夹项目，以特定格式表示的标识符。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="57466-101">Represents the identifier of a public folder item, expressed in a specific format.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderItemId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderItemId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="57466-102">初始化 AlternatePublicFolderItemId 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="57466-102">Initializes a new instance of the AlternatePublicFolderItemId class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderItemId (Microsoft.Exchange.WebServices.Data.IdFormat format, string folderId, string itemId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string folderId, string itemId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, folderId As String, itemId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderItemId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ folderId, System::String ^ itemId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="folderId" Type="System.String" />
+        <Parameter Name="itemId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="format">
+          <span data-ttu-id="57466-103">公用文件夹项格式标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="57466-103">The public folder item format identifier.</span>
+          </span>
+        </param>
+        <param name="folderId">
+          <span data-ttu-id="57466-104">目标公用文件夹项目的父公用文件夹标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="57466-104">The parent public folder identifier of the target public folder item.</span>
+          </span>
+        </param>
+        <param name="itemId">
+          <span data-ttu-id="57466-105">公用文件夹的项标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="57466-105">The public folder item identifier.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="57466-106">使用提供的标识符格式、 父公用文件夹标识符和目标公用文件夹项目的标识符初始化 AlternatePublicFolderItemId 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="57466-106">Initializes a new instance of the AlternatePublicFolderItemId class by using the supplied identifier format, the parent public folder identifier, and the identifier of the target public folder item.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public string ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="57466-107">获取或设置公用文件夹的项标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="57466-107">Gets or sets the public folder item identifier.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="57466-108">项标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="57466-108">An item identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

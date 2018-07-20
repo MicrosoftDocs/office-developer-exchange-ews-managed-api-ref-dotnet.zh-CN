@@ -1,0 +1,137 @@
+<Type Name="FolderPermissionReadAccess" FullName="Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c585dc6e4449b474d86e76eb8c170dc94fc7c3b8" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622885" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum FolderPermissionReadAccess" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FolderPermissionReadAccess extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FolderPermissionReadAccess" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FolderPermissionReadAccess" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ec55a-101">定义非日历文件夹中的项目上的用户的读取访问权限。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ec55a-101">Defines a user's read access permission on items in a non-calendar folder.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FullDetails">
+      <MemberSignature Language="C#" Value="FullDetails" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess FullDetails = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess.FullDetails" />
+      <MemberSignature Language="VB.NET" Value="FullDetails" />
+      <MemberSignature Language="C++ CLI" Value="FullDetails" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ec55a-102">用户有权访问项目的完整详细信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ec55a-102">The user has access to the full details of items.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ec55a-103">用户不具有读取访问文件夹中的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ec55a-103">The user has no read access on the items in the folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeAndSubjectAndLocation">
+      <MemberSignature Language="C#" Value="TimeAndSubjectAndLocation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess TimeAndSubjectAndLocation = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess.TimeAndSubjectAndLocation" />
+      <MemberSignature Language="VB.NET" Value="TimeAndSubjectAndLocation" />
+      <MemberSignature Language="C++ CLI" Value="TimeAndSubjectAndLocation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ec55a-104">用户可以读取开始和结束日期和时间、 主题和约会的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ec55a-104">The user can read the start and end date and time, subject, and location of appointments.</span>
+          </span>
+          <span data-ttu-id="ec55a-105">（只能应用于日历文件夹）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ec55a-105">(Can only be applied to Calendar folders).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeOnly">
+      <MemberSignature Language="C#" Value="TimeOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess TimeOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess.TimeOnly" />
+      <MemberSignature Language="VB.NET" Value="TimeOnly" />
+      <MemberSignature Language="C++ CLI" Value="TimeOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ec55a-106">用户可以读取的开始和结束日期和时间的约会。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ec55a-106">The user can read the start and end date and time of appointments.</span>
+          </span>
+          <span data-ttu-id="ec55a-107">（只能应用于日历文件夹）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ec55a-107">(Can only be applied to Calendar folders).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

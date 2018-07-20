@@ -1,0 +1,752 @@
+<Type Name="PostItem" FullName="Microsoft.Exchange.WebServices.Data.PostItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b1a505e670e7ed91348136b8afef29d7f41cad7b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623367" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PostItem : Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PostItem extends Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PostItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PostItem&#xA;Inherits Item" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PostItem sealed : Microsoft::Exchange::WebServices::Data::Item" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="bdced-101">代表一个公告项目。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bdced-101">Represents a post item.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="bdced-102">
+        <para>位于公告项的属性中定义<see cref="T:Microsoft.Exchange.WebServices.Data.PostItemSchema" />类。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bdced-102">
+          <para>The properties that are available on post items are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.PostItemSchema" /> class. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PostItem (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PostItem(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="bdced-103">公告项将绑定到 ExchangeService 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-103">The ExchangeService object to which the post item will be bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bdced-104">初始化 PostItem 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-104">Initializes a new instance of the PostItem class.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="bdced-105">
+            <para>若要绑定到现有公告项，使用<see cref="M:Microsoft.Exchange.WebServices.Data.PostItem.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />相反。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-105">
+              <para>To bind to an existing post item, use <see cref="M:Microsoft.Exchange.WebServices.Data.PostItem.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> instead.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.PostItem Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.PostItem Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As PostItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::PostItem ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PostItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="bdced-106">要使用绑定到公告项的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-106">The service to use to bind to the post item.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="bdced-107">要将绑定到的公告项的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-107">The identifier of the post item to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bdced-108">绑定到现有公告项并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-108">Binds to an existing post item and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="bdced-109">公告项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-109">A post item.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="bdced-110">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-110">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.PostItem Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.PostItem Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::PostItem ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PostItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="bdced-111">要使用绑定到公告项的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-111">The service to use to bind to the post item.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="bdced-112">要将绑定到的公告项的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-112">The identifier of the post item to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="bdced-113">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-113">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bdced-114">绑定到现有公告项并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-114">Binds to an existing post item and loads the specified property set.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="bdced-115">公告项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-115">A post item.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="bdced-116">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-116">
+              <para>Call this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public byte[] ConversationIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] ConversationIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PostItem.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationIndex As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ ConversationIndex { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-117">获取对话发布项的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-117">Gets the conversation index of the post item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdced-118">一个对话的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-118">A conversation index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public string ConversationTopic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationTopic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PostItem.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationTopic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationTopic { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-119">获取公告项的对话主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-119">Gets the conversation topic of the post item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdced-120">对话主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-120">A conversation topic.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateForward">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.CreateForward" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateForward () As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateForward();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-121">创建对公告项的正向响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-121">Creates a forward response to the post item.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="bdced-122">一个响应，其中表示要转接的项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-122">A response that represents the item to forward.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePostReply">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PostReply CreatePostReply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.PostReply CreatePostReply() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.CreatePostReply" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreatePostReply () As PostReply" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::PostReply ^ CreatePostReply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PostReply</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-123">创建将答复投递到此公告项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-123">Creates a post reply to this post item.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="bdced-124">将答复投递。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-124">A post reply.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateReply">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply (bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply(bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.CreateReply(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateReply (replyAll As Boolean) As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateReply(bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="replyAll">
+          <span data-ttu-id="bdced-125">指示是否应转到线程中所涉及的每个人的答复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-125">Indicates whether the reply should go to everyone involved in the thread.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bdced-126">创建对公告项的电子邮件答复响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-126">Creates an e-mail reply response to the post item.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="bdced-127">代表电子邮件答复响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-127">A response that represents the e-mail reply.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, params Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,Microsoft.Exchange.WebServices.Data.EmailAddress[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, ParamArray toRecipients As EmailAddress())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="Microsoft.Exchange.WebServices.Data.EmailAddress[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="bdced-128">转发公告项将原始正文前面追加的新内容正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-128">The new content body of the forward that is prepended to the original body of the post item.</span>
+          </span>
+        </param>
+        <param name="toRecipients">
+          <span data-ttu-id="bdced-129">转发的发布项的收件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-129">The recipients of the forwarded post item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bdced-130">转发公告项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-130">Forwards the post item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="bdced-131">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-131">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.EmailAddress})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, toRecipients As IEnumerable(Of EmailAddress))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="bdced-132">转发公告项将原始正文前面追加的新内容正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-132">The new content body of the forward that is prepended to the original body of the post item.</span>
+          </span>
+        </param>
+        <param name="toRecipients">
+          <span data-ttu-id="bdced-133">转发的发布项的收件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-133">The recipients of the forwarded post item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bdced-134">转发公告项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-134">Forwards the post item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="bdced-135">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-135">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress From { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress From" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PostItem.From" />
+      <MemberSignature Language="VB.NET" Value="Public Property From As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ From { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-136">获取或设置 delegator 海报的公告项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-136">Gets or sets the delegator poster of the post item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdced-137">电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-137">An e-mail address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public string InternetMessageId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternetMessageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PostItem.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternetMessageId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternetMessageId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-138">获取公告项的 Internet 消息标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-138">Gets the Internet message identifier of the post item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdced-139">Internet 消息标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-139">An Internet message identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public bool IsRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PostItem.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-140">获取或设置一个值，指示是否已读取公告项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-140">Gets or sets a value that indicates whether the post item has been read.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdced-141">
+            <b>true</b>如果公告项具有读取;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-141">
+              <b>true</b> if the post item has been read; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostedTime">
+      <MemberSignature Language="C#" Value="public DateTime PostedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime PostedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PostItem.PostedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PostedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime PostedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-142">获取的日期和时间时发布公告项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-142">Gets the date and time when the post item was posted.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdced-143">日期和时间值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-143">A date and time value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostReply">
+      <MemberSignature Language="C#" Value="public void PostReply (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PostReply(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.PostReply(Microsoft.Exchange.WebServices.Data.MessageBody)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PostReply (bodyPrefix As MessageBody)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PostReply(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="bdced-144">新内容正文的前面追加到公告项的原始正文的回复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-144">The new content body of the reply that is prepended to the original body of the post item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bdced-145">创建并发送给此公告项的答复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-145">Creates and sends a reply to this post item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="bdced-146">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-146">
+              <para>Calling this method results in a call to Exchange Web Services (EWS). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="References">
+      <MemberSignature Language="C#" Value="public string References { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string References" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PostItem.References" />
+      <MemberSignature Language="VB.NET" Value="Public Property References As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ References { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-147">获取或设置公告项的引用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-147">Gets or sets the references of the post item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdced-148">引用的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-148">A string of references.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="public void Reply (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reply(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PostItem.Reply(Microsoft.Exchange.WebServices.Data.MessageBody,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reply (bodyPrefix As MessageBody, replyAll As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reply(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="bdced-149">新内容正文的前面追加到公告项的原始正文的回复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-149">The new content body of the reply that is prepended to the original body of the post item.</span>
+          </span>
+        </param>
+        <param name="replyAll">
+          <span data-ttu-id="bdced-150">指示是否应转到线程中所涉及的每个人的答复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-150">Indicates whether the reply should go to everyone involved in the thread.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bdced-151">创建并发送给此公告项的答复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-151">Creates and sends a reply to this post item.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="bdced-152">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-152">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Sender" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PostItem.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ Sender { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bdced-153">获取或设置发布项的发件人海报。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-153">Gets or sets the sender poster of the post item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bdced-154">电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bdced-154">An e-mail address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

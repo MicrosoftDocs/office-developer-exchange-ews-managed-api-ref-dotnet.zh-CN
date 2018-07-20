@@ -1,0 +1,246 @@
+<Type Name="DiscoverySearchConfiguration" FullName="Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bb8b91c9b8af648bf097eec9ca68d2cacce437d4" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622628" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DiscoverySearchConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DiscoverySearchConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DiscoverySearchConfiguration" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DiscoverySearchConfiguration sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="7f995-101">定义邮箱查询对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7f995-101">Defines a mailbox query object.</span>
+      </span>
+      <span data-ttu-id="7f995-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7f995-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiscoverySearchConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DiscoverySearchConfiguration();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f995-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> class.</span>
+          </span>
+          <span data-ttu-id="7f995-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InPlaceHoldIdentity">
+      <MemberSignature Language="C#" Value="public string InPlaceHoldIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InPlaceHoldIdentity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.InPlaceHoldIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property InPlaceHoldIdentity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InPlaceHoldIdentity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f995-105">就地保留标识</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-105">In-Place hold identity</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f995-106">获取或设置在查询中使用的语言<see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" />属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-106">Gets or sets the language used in the query in the <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> property.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedByOrganization">
+      <MemberSignature Language="C#" Value="public string ManagedByOrganization { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ManagedByOrganization" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.ManagedByOrganization" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedByOrganization As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ManagedByOrganization { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f995-107">由组织管理</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-107">Managed by organization</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchableMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchableMailboxes As SearchableMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ SearchableMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchableMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f995-108">获取或设置的可搜索的邮箱的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-108">Gets or sets the list of searchable mailboxes.</span>
+          </span>
+          <span data-ttu-id="7f995-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7f995-110">可搜索的邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-110">The searchable mailboxes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchId">
+      <MemberSignature Language="C#" Value="public string SearchId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f995-111">获取或设置搜索 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-111">Gets or sets the search ID.</span>
+          </span>
+          <span data-ttu-id="7f995-112">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7f995-113">搜索 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-113">The search ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchQuery">
+      <MemberSignature Language="C#" Value="public string SearchQuery { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchQuery" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchQuery As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchQuery { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7f995-114">获取或设置搜索查询。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-114">Gets or sets the search query.</span>
+          </span>
+          <span data-ttu-id="7f995-115">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7f995-116">搜索查询。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7f995-116">The search query.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

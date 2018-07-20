@@ -1,0 +1,153 @@
+<Type Name="DelegateFolderPermissionLevel" FullName="Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5d7dd1ccddee84186ecd3feeb912d3e42c55b8f9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622860" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DelegateFolderPermissionLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DelegateFolderPermissionLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DelegateFolderPermissionLevel" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DelegateFolderPermissionLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="689b1-101">在特定文件夹定义委托用户的权限级别。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="689b1-101">Defines a delegate user's permission level on a specific folder.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Author">
+      <MemberSignature Language="C#" Value="Author" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel Author = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel.Author" />
+      <MemberSignature Language="VB.NET" Value="Author" />
+      <MemberSignature Language="C++ CLI" Value="Author" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="689b1-102">该委托具有作者权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="689b1-102">The delegate has Author permissions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="Custom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel Custom = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel.Custom" />
+      <MemberSignature Language="VB.NET" Value="Custom" />
+      <MemberSignature Language="C++ CLI" Value="Custom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="689b1-103">该委托已自定义权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="689b1-103">The delegate has custom permissions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Editor">
+      <MemberSignature Language="C#" Value="Editor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel Editor = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel.Editor" />
+      <MemberSignature Language="VB.NET" Value="Editor" />
+      <MemberSignature Language="C++ CLI" Value="Editor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="689b1-104">该委托具有编辑权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="689b1-104">The delegate has Editor permissions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="689b1-105">该委托已没有权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="689b1-105">The delegate has no permission.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reviewer">
+      <MemberSignature Language="C#" Value="Reviewer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel Reviewer = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel.Reviewer" />
+      <MemberSignature Language="VB.NET" Value="Reviewer" />
+      <MemberSignature Language="C++ CLI" Value="Reviewer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="689b1-106">该委托已审阅者权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="689b1-106">The delegate has Reviewer permissions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

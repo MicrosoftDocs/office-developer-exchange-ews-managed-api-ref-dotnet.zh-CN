@@ -1,0 +1,172 @@
+<Type Name="ConversationRequest" FullName="Microsoft.Exchange.WebServices.Data.ConversationRequest">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ac06c387e2963522cc7ef2b291064f4e3a4c0650" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623269" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ConversationRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationRequest extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationRequest&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationRequest sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="81c76-101">定义由对话 ID 和同步状态标识的对话请求。<see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="81c76-101">Defines a conversation request identified by a conversation ID and synchronization state.The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationRequest();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="81c76-102">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> class.</span>
+          </span>
+          <span data-ttu-id="81c76-103">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-103">The <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationRequest (Microsoft.Exchange.WebServices.Data.ConversationId conversationId, string syncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ConversationId conversationId, string syncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor(Microsoft.Exchange.WebServices.Data.ConversationId,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationRequest(Microsoft::Exchange::WebServices::Data::ConversationId ^ conversationId, System::String ^ syncState);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="conversationId" Type="Microsoft.Exchange.WebServices.Data.ConversationId" />
+        <Parameter Name="syncState" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="conversationId">
+          <span data-ttu-id="81c76-104">对话 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-104">The conversation ID.</span>
+          </span>
+        </param>
+        <param name="syncState">
+          <span data-ttu-id="81c76-105">同步状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-105">State of the sync.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="81c76-106">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" />类使用指定的对话 ID 和同步状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> class by using the specified conversation ID and synchronization state.</span>
+          </span>
+          <span data-ttu-id="81c76-107">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor(Microsoft.Exchange.WebServices.Data.ConversationId,System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-107">The <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor(Microsoft.Exchange.WebServices.Data.ConversationId,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ConversationId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="81c76-108">获取或设置对话 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-108">Gets or sets the conversation ID.</span>
+          </span>
+          <span data-ttu-id="81c76-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.ConversationId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.ConversationId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="81c76-110">对话 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-110">The conversation ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncState">
+      <MemberSignature Language="C#" Value="public string SyncState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SyncState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.SyncState" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncState As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SyncState { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="81c76-111">获取或设置用于同步的对话的当前状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-111">Gets or sets the current state of the conversation for synchronization purposes.</span>
+          </span>
+          <span data-ttu-id="81c76-112">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.SyncState" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.SyncState" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="81c76-113">为了同步对话的当前状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="81c76-113">The current state of the conversation for synchronization purposes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

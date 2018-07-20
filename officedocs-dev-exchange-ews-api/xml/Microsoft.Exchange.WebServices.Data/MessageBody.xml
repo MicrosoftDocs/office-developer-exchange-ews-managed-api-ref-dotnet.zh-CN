@@ -1,0 +1,290 @@
+<Type Name="MessageBody" FullName="Microsoft.Exchange.WebServices.Data.MessageBody">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6ad40967432a5bf3df01ff5f0ee0aeb81a6745dc" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623394" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MessageBody : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MessageBody extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MessageBody" />
+  <TypeSignature Language="VB.NET" Value="Public Class MessageBody&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MessageBody : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e7bea-101">表示一条消息的正文。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e7bea-101">Represents the body of a message.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageBody ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageBody();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7bea-102">初始化 MessageBody 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-102">Initializes a new instance of the MessageBody class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageBody (string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageBody(System::String ^ text);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">
+          <span data-ttu-id="e7bea-103">邮件正文，则假定为 HTML 的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-103">The text of the message body, which is assumed to be HTML.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7bea-104">初始化与邮件正文文本的 MessageBody 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-104">Initializes a new instance of the MessageBody class with the message body text.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageBody (Microsoft.Exchange.WebServices.Data.BodyType bodyType, string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.BodyType bodyType, string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.#ctor(Microsoft.Exchange.WebServices.Data.BodyType,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageBody(Microsoft::Exchange::WebServices::Data::BodyType bodyType, System::String ^ text);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="bodyType" Type="Microsoft.Exchange.WebServices.Data.BodyType" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bodyType">
+          <span data-ttu-id="e7bea-105">消息正文类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-105">The message body type.</span>
+          </span>
+        </param>
+        <param name="text">
+          <span data-ttu-id="e7bea-106">邮件正文的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-106">The text of the message body.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7bea-107">初始化与邮件正文类型和邮件正文文本的 MessageBody 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-107">Initializes a new instance of the MessageBody class with the message body type and message body text.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BodyType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.BodyType BodyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.BodyType BodyType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MessageBody.BodyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property BodyType As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::BodyType BodyType { Microsoft::Exchange::WebServices::Data::BodyType get(); void set(Microsoft::Exchange::WebServices::Data::BodyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7bea-108">获取或设置消息正文类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-108">Gets or sets the message body type.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7bea-109">正文类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-109">A body type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator string (Microsoft.Exchange.WebServices.Data.MessageBody messageBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Microsoft.Exchange.WebServices.Data.MessageBody messageBody) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.op_Implicit(Microsoft.Exchange.WebServices.Data.MessageBody)~System.String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Exchange::WebServices::Data::MessageBody ^ messageBody);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="messageBody" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+      </Parameters>
+      <Docs>
+        <param name="messageBody">
+          <span data-ttu-id="e7bea-110">将转换为字符串的邮件正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-110">The message body to convert to a string.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7bea-111">定义转换为字符串的邮件正文隐式转换。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-111">Defines an implicit conversion of a message body into a string.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="e7bea-112">一个字符串，包含邮件正文的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-112">A string that contains the text of the message body.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.MessageBody (string textBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.MessageBody op_Implicit(string textBody) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.MessageBody" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (textBody As String) As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::MessageBody ^(System::String ^ textBody);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="textBody" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="textBody">
+          <span data-ttu-id="e7bea-113">要转换为邮件正文的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-113">The string to convert to a message body.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e7bea-114">定义字符串的隐式转换到邮件正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-114">Defines an implicit conversion of a string to a message body.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="e7bea-115">初始化与指定字符串的邮件正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-115">A message body initialized with the specified string.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MessageBody.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7bea-116">获取或设置邮件正文文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-116">Gets or sets the message body text.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e7bea-117">邮件正文文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-117">The message body text.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MessageBody.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e7bea-118">返回一个字符串，表示当前消息正文对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-118">Returns a string that represents the current message body object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="e7bea-119">邮件正文的字符串表示形式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e7bea-119">A string representation of the message body.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

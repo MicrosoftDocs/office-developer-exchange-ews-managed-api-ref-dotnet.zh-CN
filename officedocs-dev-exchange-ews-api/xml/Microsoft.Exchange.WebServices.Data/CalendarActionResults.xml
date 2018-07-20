@@ -1,0 +1,162 @@
+<Type Name="CalendarActionResults" FullName="Microsoft.Exchange.WebServices.Data.CalendarActionResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e4baede30c5f25e6f2a0a98ef508d35dd1693819" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622879" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CalendarActionResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarActionResults extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarActionResults" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarActionResults sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="b1e5f-101">表示对日历项目或会议请求消息，如接受、 暂时接受或拒绝会议请求执行的操作的结果。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b1e5f-101">Represents the results of an action that is performed on a calendar item or meeting request message, such as accepting, tentatively accepting, or declining a meeting request.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Appointment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Appointment Appointment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Appointment Appointment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.Appointment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Appointment As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Appointment ^ Appointment { Microsoft::Exchange::WebServices::Data::Appointment ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1e5f-102">获取已接受、 暂时接受或拒绝的会议。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-102">Gets the meeting that was accepted, tentatively accepted, or declined.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b1e5f-103">Appointment 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-103">An Appointment object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingCancellation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingCancellation MeetingCancellation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingCancellation MeetingCancellation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingCancellation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingCancellation As MeetingCancellation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingCancellation ^ MeetingCancellation { Microsoft::Exchange::WebServices::Data::MeetingCancellation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingCancellation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1e5f-104">获取一份会议取消的邮件由组织者时发送给会议的与会者的会议已被取消。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-104">Gets a copy of the meeting cancellation message that is sent by the organizer to the attendees of a meeting when the meeting is canceled.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b1e5f-105">一个 MeetingCancellation 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-105">A MeetingCancellation object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequest">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingRequest MeetingRequest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingRequest MeetingRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingRequest As MeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingRequest ^ MeetingRequest { Microsoft::Exchange::WebServices::Data::MeetingRequest ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequest</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1e5f-106">获取会议请求已移至由于与会者接受、 暂时接受或拒绝会议请求的已删除邮件文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-106">Gets the meeting request that was moved to the Deleted Items folder as a result of an attendee accepting, tentatively accepting, or declining a meeting request.</span>
+          </span>
+          <span data-ttu-id="b1e5f-107">如果接受会议请求，则暂时接受或拒绝从已删除邮件文件夹，它将永久删除，并且 MeetingRequest 属性为空引用 (在 Visual Basic 中为 Nothing)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-107">If the meeting request is accepted, tentatively accepted, or declined from the Deleted Items folder, it is permanently deleted and the MeetingRequest property is a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b1e5f-108">MeetingRequest 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-108">A MeetingRequest object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingResponse">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingResponse MeetingResponse { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingResponse MeetingResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingResponse As MeetingResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingResponse ^ MeetingResponse { Microsoft::Exchange::WebServices::Data::MeetingResponse ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponse</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1e5f-109">获取会议被接受，暂时接受或拒绝 attendee 时发送到的会议组织者的响应的副本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-109">Gets the copy of the response that is sent to the organizer of a meeting when the meeting is accepted, tentatively accepted, or declined by an attendee.</span>
+          </span>
+          <span data-ttu-id="b1e5f-110">如果参与者选择不发送响应，该 MeetingResponse 属性将为空引用 (在 Visual Basic 中为 Nothing)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-110">The MeetingResponse property is a null reference (Nothing in Visual Basic) if the attendee chose not to send a response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b1e5f-111">一个 MeetingResponse 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1e5f-111">A MeetingResponse object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

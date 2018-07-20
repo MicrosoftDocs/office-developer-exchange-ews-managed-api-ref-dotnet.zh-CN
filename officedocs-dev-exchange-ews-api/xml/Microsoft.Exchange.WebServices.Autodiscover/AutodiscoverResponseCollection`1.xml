@@ -1,0 +1,204 @@
+<Type Name="AutodiscoverResponseCollection&lt;TResponse&gt;" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection&lt;TResponse&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bc0e633563f95ffe1d14f66be73b0f849146eb1b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622849" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class AutodiscoverResponseCollection&lt;TResponse&gt; : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse, System.Collections.Generic.IEnumerable&lt;TResponse&gt; where TResponse : AutodiscoverResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AutodiscoverResponseCollection`1&lt;(class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse) TResponse&gt; extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse implements class System.Collections.Generic.IEnumerable`1&lt;!TResponse&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AutodiscoverResponseCollection(Of TResponse)&#xA;Inherits AutodiscoverResponse&#xA;Implements IEnumerable(Of TResponse)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TResponse&gt;&#xA; where TResponse : AutodiscoverResponsepublic ref class AutodiscoverResponseCollection abstract : Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverResponse, System::Collections::Generic::IEnumerable&lt;TResponse&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TResponse">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;TResponse&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="TResponse">
+      <span data-ttu-id="0f8c8-101">集合中的响应类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0f8c8-101">The type of the responses in the collection.</span>
+      </span>
+    </typeparam>
+    <summary>
+      <span data-ttu-id="0f8c8-102">包含针对自动发现服务调用的响应的集合。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0f8c8-102">Contains a collection of responses to a call to the Autodiscover service.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0f8c8-103">获取集合中的响应的数目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-103">Gets the number of responses in the collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0f8c8-104">集合中的响应对象的数目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-104">The number of response objects in the collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;TResponse&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;!TResponse&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of TResponse)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;TResponse&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;TResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0f8c8-105">返回一个枚举，使您能够循环访问集合中的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-105">Returns an enumerator that enables you to iterate through the objects in the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0f8c8-106">一个可用于循环访问集合的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-106">An enumerator that can be used to iterate through the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public TResponse this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TResponse Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As TResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TResponse default[int] { TResponse get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="0f8c8-107">要获取的响应对象的从零开始的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-107">The zero-based index of the Response object to get.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0f8c8-108">获取集合中指定索引处的响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-108">Gets the response at the specified index in the collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0f8c8-109">集合中指定索引处响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-109">The response at the specified index in the collection.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="0f8c8-110">
+            <para>Item(System.Int32) 属性使您能够检索特定<see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />集合中。如果您想要枚举的集合，则可以使用<see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" />方法标准的方式。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-110">
+              <para>The Item(System.Int32) property enables you to retrieve a specific <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" /> in the collection. If you want to enumerate the collection, you can use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" /> method in the standard way.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0f8c8-111">返回一个枚举，使您能够循环访问集合中的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-111">Returns an enumerator that enables you to iterate through the objects in the collection.</span>
+          </span>
+          <span data-ttu-id="0f8c8-112">
+            <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-112">The <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0f8c8-113">一个可用于循环访问集合的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f8c8-113">An enumerator that can be used to iterate through the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

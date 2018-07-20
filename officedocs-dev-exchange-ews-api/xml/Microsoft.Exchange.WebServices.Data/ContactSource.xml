@@ -1,0 +1,81 @@
+<Type Name="ContactSource" FullName="Microsoft.Exchange.WebServices.Data.ContactSource">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4763c73f929b50b0a216102cecccb2886c5be0a0" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623239" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ContactSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactSource extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactSource" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactSource" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactSource" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="bf28a-101">指定一个联系人或通讯组列表的源。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bf28a-101">Specifies the source of a contact or distribution list.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveDirectory">
+      <MemberSignature Language="C#" Value="ActiveDirectory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContactSource ActiveDirectory = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSource.ActiveDirectory" />
+      <MemberSignature Language="VB.NET" Value="ActiveDirectory" />
+      <MemberSignature Language="C++ CLI" Value="ActiveDirectory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf28a-102">联系人或通讯组列表存储在全局地址列表 (GAL)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf28a-102">The contact or distribution list is stored in the Global Address List (GAL).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Store">
+      <MemberSignature Language="C#" Value="Store" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContactSource Store = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSource.Store" />
+      <MemberSignature Language="VB.NET" Value="Store" />
+      <MemberSignature Language="C++ CLI" Value="Store" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf28a-103">在 Exchange 存储中的联系人或通讯组列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf28a-103">The contact or distribution list is stored in Exchange.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

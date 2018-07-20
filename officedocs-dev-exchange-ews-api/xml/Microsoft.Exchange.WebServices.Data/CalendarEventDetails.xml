@@ -1,0 +1,280 @@
+<Type Name="CalendarEventDetails" FullName="Microsoft.Exchange.WebServices.Data.CalendarEventDetails">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="27478c57b8a3f831c78a7103fef84c92bfb30a88" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622983" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CalendarEventDetails : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarEventDetails extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarEventDetails" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarEventDetails&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarEventDetails sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="60a95-101">代表由可用性请求返回日历事件的详细信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="60a95-101">Represents the details of a calendar event that is returned by an availability request.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsException">
+      <MemberSignature Language="C#" Value="public bool IsException { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsException" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEventDetails.IsException" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsException As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsException { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a95-102">获取一个值，该值指示是否日历事件是一系列定期事件的例外。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-102">Gets a value that indicates whether the calendar event is an exception to a recurring series of events.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a95-103">如果为<b>true</b>的日历事件是一系列定期事件; 例外否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-103">
+              <b>true</b> if the calendar event is an exception to a recurring series of events; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeeting">
+      <MemberSignature Language="C#" Value="public bool IsMeeting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeeting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEventDetails.IsMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeeting { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a95-104">获取一个值，该值指示是否日历事件是一个会议。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-104">Gets a value that indicates whether the calendar event is a meeting.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a95-105">如果为<b>true</b>的日历事件是会议;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-105">
+              <b>true</b> if the calendar event is a meeting; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPrivate">
+      <MemberSignature Language="C#" Value="public bool IsPrivate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPrivate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEventDetails.IsPrivate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPrivate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPrivate { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a95-106">获取一个值，该值指示是否专用日历事件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-106">Gets a value that indicates whether the calendar event is private.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a95-107">如果为<b>true</b>的日历事件是专用;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-107">
+              <b>true</b> if the calendar event is private; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEventDetails.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a95-108">获取一个值，该值指示是否定期事件的日历事件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-108">Gets a value that indicates whether the calendar event is a recurring event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a95-109">如果为<b>true</b>的日历事件是定期事件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-109">
+              <b>true</b> if the calendar event is a recurring event; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReminderSet">
+      <MemberSignature Language="C#" Value="public bool IsReminderSet { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReminderSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEventDetails.IsReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReminderSet { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a95-110">获取一个值，指示日历事件是否已设置的提醒。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-110">Gets a value that indicates whether the calendar event has a reminder set.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a95-111">
+            <b>true</b>如果日历事件具有提醒设置;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-111">
+              <b>true</b> if the calendar event has a reminder set; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEventDetails.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a95-112">获取日历事件的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-112">Gets the location of the calendar event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a95-113">日历事件的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-113">The location of the calendar event.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreId">
+      <MemberSignature Language="C#" Value="public string StoreId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StoreId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEventDetails.StoreId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StoreId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a95-114">获取日历事件的数据存储区标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-114">Gets the data store identifier of the calendar event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a95-115">数据存储的日历事件的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-115">The data store identifier of the calendar event.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEventDetails.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="60a95-116">获取日历事件的主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-116">Gets the subject of the calendar event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="60a95-117">日历事件的主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="60a95-117">The subject of the calendar event.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,936 @@
+<Type Name="Task" FullName="Microsoft.Exchange.WebServices.Data.Task">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="34e75740d4da8773702891d7b056b9fd673a8d76" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623138" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Task : Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Task extends Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Task" />
+  <TypeSignature Language="VB.NET" Value="Public Class Task&#xA;Inherits Item" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Task : Microsoft::Exchange::WebServices::Data::Item" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="01771-101">代表任务项。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="01771-101">Represents a Task item.</span>
+      </span>
+      <span data-ttu-id="01771-102">可用任务属性 TaskSchema 类中定义。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="01771-102">Properties available on tasks are defined in the TaskSchema class.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Task (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Task.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Task(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="01771-103">此任务绑定到 ExchangeService 实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-103">The ExchangeService instance to which this task is bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="01771-104">初始化未保存的本地实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-104">Initializes an unsaved local instance of .</span>
+          </span>
+          <span data-ttu-id="01771-105">若要将绑定到现有任务，请改为使用 Task.Bind()。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-105">To bind to an existing task, use Task.Bind() instead.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActualWork">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ActualWork { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ActualWork" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.ActualWork" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActualWork As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; ActualWork { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-106">获取或设置任务的实际所花费的时间量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-106">Gets or sets the actual amount of time that is spent on the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-107">一个整数值;则为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-107">An integer value; or null.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignedTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; AssignedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; AssignedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.AssignedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AssignedTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; AssignedTime { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-108">获取的日期和时间的任务已分配。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-108">Gets the date and time the task was assigned.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-109">DateTime 值;则为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-109">A DateTime value; or null.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BillingInformation">
+      <MemberSignature Language="C#" Value="public string BillingInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BillingInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.BillingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property BillingInformation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BillingInformation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-110">获取或设置任务的帐单信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-110">Gets or sets the billing information of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-111">一个字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-111">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Task Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Task Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Task.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Task" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Task ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="01771-112">要使用绑定到任务的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-112">The service to use to bind to the task.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="01771-113">要将绑定到任务的 Id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-113">The Id of the task to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="01771-114">绑定到现有任务，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-114">Binds to an existing task and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="01771-115">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-115">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="01771-116">任务实例表示指定 id 所对应的任务</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-116">A Task instance representing the task corresponding to the specified Id.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Task Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Task Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Task.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Task ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="01771-117">要使用绑定到任务的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-117">The service to use to bind to the task.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="01771-118">要将绑定到任务的 Id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-118">The Id of the task to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="01771-119">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-119">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="01771-120">绑定到现有任务，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-120">Binds to an existing task and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="01771-121">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-121">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="01771-122">任务实例表示指定 id 所对应的任务</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-122">A Task instance representing the task corresponding to the specified Id.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeCount">
+      <MemberSignature Language="C#" Value="public int ChangeCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ChangeCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.ChangeCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangeCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ChangeCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-123">获取任务创建以来，它已更改的次数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-123">Gets the number of times the task has changed since it was created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-124">任务已更改的整数值，包含的次数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-124">An integer value containing the number of times the task has changed.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Companies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Companies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Companies As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Companies { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-125">获取或设置与任务相关联的公司的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-125">Gets or sets a list of companies associated with the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-126">一个 StringList 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-126">A StringList object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CompleteDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CompleteDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.CompleteDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompleteDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; CompleteDate { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-127">获取或设置的日期和时间在其已完成的任务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-127">Gets or sets the date and time on which the task was completed.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-128">DateTime 值;则为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-128">A DateTime value; or null.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Contacts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Contacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public Property Contacts As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Contacts { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-129">获取或设置与任务相关的联系人的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-129">Gets or sets a list of contacts associated with the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-130">一个 StringList 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-130">A StringList object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegationState">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TaskDelegationState DelegationState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.TaskDelegationState DelegationState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.DelegationState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DelegationState As TaskDelegationState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TaskDelegationState DelegationState { Microsoft::Exchange::WebServices::Data::TaskDelegationState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskDelegationState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-131">获取任务的当前代理状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-131">Gets the current delegation state of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-132">TaskDelegationState 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-132">One of the TaskDelegationState enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delegator">
+      <MemberSignature Language="C#" Value="public string Delegator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Delegator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.Delegator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Delegator As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Delegator { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-133">获取此任务的代理程序的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-133">Gets the name of the delegator of this task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-134">一个包含代理者的名称的字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-134">A string value containing the name of the delegator.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteCurrentOccurrence">
+      <MemberSignature Language="C#" Value="public void DeleteCurrentOccurrence (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteCurrentOccurrence(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Task.DeleteCurrentOccurrence(Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeleteCurrentOccurrence(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="01771-135">删除模式中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-135">The deletion mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="01771-136">删除一个周期性任务的当前匹配项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-136">Deletes the current occurrence of a recurring task.</span>
+          </span>
+          <span data-ttu-id="01771-137">当前的匹配项被之后, 任务表示的下一个匹配项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-137">After the current occurrence isdeleted,            the task represents the next occurrence.</span>
+          </span>
+          <span data-ttu-id="01771-138">开发人员应调用负载，检索的任务的新属性值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-138">Developers should call Load to retrieve the new property            values of the task.</span>
+          </span>
+          <span data-ttu-id="01771-139">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-139">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DueDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; DueDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; DueDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.DueDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property DueDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; DueDate { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-140">获取或设置的日期和时间的任务的截止日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-140">Gets or sets the date and time on which the task is due.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-141">DateTime 值;则为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-141">A DateTime value; or null.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsComplete">
+      <MemberSignature Language="C#" Value="public bool IsComplete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsComplete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.IsComplete" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsComplete As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsComplete { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-142">获取一个值，该值指示任务是否完成。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-142">Gets a value indicating whether the task is complete.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-143">True 如果任务已完成;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-143">True if the task is complete; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-144">获取一个值，该值指示是否定期任务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-144">Gets a value indicating whether the task is recurring.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-145">True 如果任务定期;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-145">True if the task is recurring; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTeamTask">
+      <MemberSignature Language="C#" Value="public bool IsTeamTask { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTeamTask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.IsTeamTask" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsTeamTask As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsTeamTask { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-146">获取一个值，该值指示任务是否工作组任务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-146">Gets a value indicating whether the task is a team task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-147">True 如果任务处于工作组任务;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-147">True if the task is a team task; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public string Mileage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mileage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mileage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mileage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-148">获取或设置任务的 mileage。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-148">Gets or sets the mileage of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-149">一个包含任务的里程字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-149">A string value containing the mileage of the task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TaskMode Mode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.TaskMode Mode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mode As TaskMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TaskMode Mode { Microsoft::Exchange::WebServices::Data::TaskMode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-150">获取一个值，指示任务的模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-150">Gets a value indicating the mode of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-151">TaskMode 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-151">One of the TaskMode enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public string Owner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Owner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Owner As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Owner { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-152">获取任务的所有者的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-152">Gets the name of the owner of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-153">一个包含任务所有者的名称的字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-153">A string value containing the name of the task owner.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PercentComplete">
+      <MemberSignature Language="C#" Value="public double PercentComplete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PercentComplete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.PercentComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Property PercentComplete As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PercentComplete { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-154">获取或设置任务的 completeion 百分比。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-154">Gets or sets the completeion percentage of the task.</span>
+          </span>
+          <span data-ttu-id="01771-155">PercentComplete 必须介于 0 和 100 之间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-155">PercentComplete must be between 0 and 100.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-156">一个 Double 值，该值指示任务的完成百分比。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-156">A Double value indicating the percentage complete for the task.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Recurrence Recurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Recurrence Recurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recurrence As Recurrence" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Recurrence ^ Recurrence { Microsoft::Exchange::WebServices::Data::Recurrence ^ get(); void set(Microsoft::Exchange::WebServices::Data::Recurrence ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-157">获取或设置此任务的定期模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-157">Gets or sets the recurrence pattern for this task.</span>
+          </span>
+          <span data-ttu-id="01771-158">可用的定期模式的类包括 Recurrence.DailyPattern、 Recurrence.MonthlyPattern 和 Recurrence.YearlyPattern。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-158">Available recurrence pattern classes include            Recurrence.DailyPattern, Recurrence.MonthlyPattern and Recurrence.YearlyPattern.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-159">一个定期对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-159">A Recurrence object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; StartDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; StartDate { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-160">获取或设置的日期和时间在其启动任务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-160">Gets or sets the date and time on which the task starts.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-161">DateTime 值;则为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-161">A DateTime value; or null.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TaskStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.TaskStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As TaskStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TaskStatus Status { Microsoft::Exchange::WebServices::Data::TaskStatus get(); void set(Microsoft::Exchange::WebServices::Data::TaskStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-162">获取或设置任务的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-162">Gets or sets the status of the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-163">了任务状态枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-163">One of the TaskStatus enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StatusDescription">
+      <MemberSignature Language="C#" Value="public string StatusDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StatusDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.StatusDescription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StatusDescription { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-164">获取一个字符串，表示任务中，根据 PreferredCulture 属性任务绑定到的 ExchangeService 对象的本地化的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-164">Gets a string representing the status of the task, localized according to the PreferredCulture            property of the ExchangeService object the task is bound to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-165">一个包含状态说明的字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-165">A string value containing the status description.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalWork">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TotalWork { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TotalWork" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Task.TotalWork" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalWork As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; TotalWork { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="01771-166">获取或设置任务上花费的工时总量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-166">Gets or sets the total amount of work spent on the task.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="01771-167">一个整数值;则为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-167">An integer value; or null.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Task Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Task Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Task.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Task ^ Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">
+          <span data-ttu-id="01771-168">指定解决冲突的方式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-168">Specifies how conflicts should be resolved.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="01771-169">应用已对此任务的本地更改。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-169">Applies the local changes that have been made to this task.</span>
+          </span>
+          <span data-ttu-id="01771-170">调用此方法将导致至少一次调用 EWS。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-170">Calling this method results in at least one call to EWS.</span>
+          </span>
+          <span data-ttu-id="01771-171">多 EWS 调用可能成为，如果已添加或删除附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-171">Mutliple calls to EWS might be made if attachments have been added or removed.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="01771-172">代表定期完成后，如果定期任务的 Task 对象和更新将其标记为已完成;Task 对象代表当前的匹配项，如果定期任务和更新更改其定期模式; 或或者在其他所有情况下为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="01771-172">A Task object representing the completed occurrence if the task is recurring and the update marks it as completed; or a Task object representing the current occurrence if the task is recurring and the update changed its recurrence pattern; or null in every other case.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

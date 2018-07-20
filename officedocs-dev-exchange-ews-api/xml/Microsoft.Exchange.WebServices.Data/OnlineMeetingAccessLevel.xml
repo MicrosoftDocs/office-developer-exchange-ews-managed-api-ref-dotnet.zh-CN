@@ -1,0 +1,158 @@
+<Type Name="OnlineMeetingAccessLevel" FullName="Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a4e94ca9315c97e7f33f2131f75c6d4708dd2d93" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623116" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OnlineMeetingAccessLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OnlineMeetingAccessLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OnlineMeetingAccessLevel" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OnlineMeetingAccessLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a194a-101">指示加入联机会议之前，电话参与者可能会绕过联机等待区域。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a194a-101">Indicates which phone participants may bypass the online waiting area before joining an online meeting.</span>
+      </span>
+      <span data-ttu-id="a194a-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a194a-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Everyone">
+      <MemberSignature Language="C#" Value="Everyone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel Everyone = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Everyone" />
+      <MemberSignature Language="VB.NET" Value="Everyone" />
+      <MemberSignature Language="C++ CLI" Value="Everyone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a194a-103">所有电话参与者可能会绕都过联机等待区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-103">All phone participants may bypass the online waiting area.</span>
+          </span>
+          <span data-ttu-id="a194a-104">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Everyone" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Everyone" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Internal">
+      <MemberSignature Language="C#" Value="Internal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel Internal = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Internal" />
+      <MemberSignature Language="VB.NET" Value="Internal" />
+      <MemberSignature Language="C++ CLI" Value="Internal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a194a-105">内部电话参与者可能会绕过联机等待区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-105">Internal phone participants may bypass the online waiting area.</span>
+          </span>
+          <span data-ttu-id="a194a-106">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Internal" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Internal" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invited">
+      <MemberSignature Language="C#" Value="Invited" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel Invited = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Invited" />
+      <MemberSignature Language="VB.NET" Value="Invited" />
+      <MemberSignature Language="C++ CLI" Value="Invited" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a194a-107">受邀的电话参与者可能会绕过联机等待区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-107">Invited phone participants may bypass the online waiting area.</span>
+          </span>
+          <span data-ttu-id="a194a-108">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Invited" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-108">The <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Invited" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Locked">
+      <MemberSignature Language="C#" Value="Locked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel Locked = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Locked" />
+      <MemberSignature Language="VB.NET" Value="Locked" />
+      <MemberSignature Language="C++ CLI" Value="Locked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a194a-109">会议组织者仅可能会绕过联机等待区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-109">The meeting organizer only may bypass the online waiting area.</span>
+          </span>
+          <span data-ttu-id="a194a-110">所有其他人必须等待在联机等待区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-110">All others must wait in the online waiting area.</span>
+          </span>
+          <span data-ttu-id="a194a-111">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Locked" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a194a-111">The <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Locked" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

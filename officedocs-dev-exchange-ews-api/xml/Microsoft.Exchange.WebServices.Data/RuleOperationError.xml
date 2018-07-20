@@ -1,0 +1,222 @@
+<Type Name="RuleOperationError" FullName="Microsoft.Exchange.WebServices.Data.RuleOperationError">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="faa4e17c357f96ec75ef167d3b7e1c88d39909e4" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622667" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RuleOperationError : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.RuleError&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleOperationError extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.RuleError&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleOperationError" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleOperationError&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of RuleError)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleOperationError sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::RuleError ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.RuleError&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a4a01-101">代表处理的规则操作时出现的错误。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a4a01-101">Represents an error that occurred while processing a rule operation.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleOperationError.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a4a01-102">获取列表中的规则错误的数目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-102">Gets the number of rule errors in the list.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a4a01-103">RuleError RuleOperationError 集合中的对象的数目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-103">The number of RuleError objects in the RuleOperationError collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.RuleError&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.Exchange.WebServices.Data.RuleError&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of RuleError)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::RuleError ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.RuleError&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a4a01-104">返回一个枚举，使您能够循环访问集合中的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-104">Returns an enumerator that enables you to iterate through the objects in the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="a4a01-105">一个可用于循环访问集合的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-105">An enumerator that can be used to iterate through the  collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleError this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RuleError Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleOperationError.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As RuleError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleError ^ default[int] { Microsoft::Exchange::WebServices::Data::RuleError ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="a4a01-106">规则错误若要获取的从零开始的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-106">The zero-based index of the rule error to get.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a4a01-107">获取指定索引处的规则错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-107">Gets the rule error at the specified index.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a4a01-108">集合中指定索引处的规则错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-108">The rule error at the specified index in the collection.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="a4a01-109">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RuleOperationError.Item(System.Int32)" />属性使您能够检索特定<see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperationError" />集合中的对象。如果您想要枚举的集合，则可以使用<see cref="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.GetEnumerator" />属性中的标准方法。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-109">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.RuleOperationError.Item(System.Int32)" /> property enables you to retrieve a specific <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperationError" /> object in the collection. If you want to enumerate the collection, you can use the <see cref="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.GetEnumerator" /> property in the standard way.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Operation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleOperation Operation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RuleOperation Operation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleOperationError.Operation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Operation As RuleOperation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleOperation ^ Operation { Microsoft::Exchange::WebServices::Data::RuleOperation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleOperation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a4a01-110">获取导致错误的规则操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-110">Gets the rule operation that resulted in the error.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a4a01-111">规则操作导致错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-111">The rule operation that resulted in the error.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a4a01-112">获取集合中的元素通过一个循环枚举器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-112">Gets an enumerator that iterates through the elements of the collection.</span>
+          </span>
+          <span data-ttu-id="a4a01-113">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.System#Collections#IEnumerable#GetEnumerator" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.RuleOperationError.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="a4a01-114">一个循环访问集合中的元素的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a4a01-114">An enumerator that iterates through the elements of the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

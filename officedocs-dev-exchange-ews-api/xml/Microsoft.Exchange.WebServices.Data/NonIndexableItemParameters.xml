@@ -1,0 +1,138 @@
+<Type Name="NonIndexableItemParameters" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="77df6f0a00ac58804240f4bc4a40d7d05c1c5f53" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623361" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class NonIndexableItemParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit NonIndexableItemParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class NonIndexableItemParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItemParameters abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="7dc84-101">包含请求信息不能编制索引的文件夹中的项目中使用的参数的对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7dc84-101">An object containing parameters used in requesting information about items in folders that cannot be indexed.</span>
+      </span>
+      <span data-ttu-id="7dc84-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7dc84-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected NonIndexableItemParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; NonIndexableItemParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7dc84-103">创建实例<see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7dc84-103">Creates an instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> class.</span>
+          </span>
+          <span data-ttu-id="7dc84-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7dc84-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailboxes">
+      <MemberSignature Language="C#" Value="public string[] Mailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Mailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailboxes As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Mailboxes { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7dc84-105">获取或设置 （在旧的可分辨的名称格式） 的邮箱的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7dc84-105">Gets or sets a list of mailboxes (in legacy distinguished name format).</span>
+          </span>
+          <span data-ttu-id="7dc84-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7dc84-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7dc84-107">邮箱的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7dc84-107">A list of mailboxes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchArchiveOnly">
+      <MemberSignature Language="C#" Value="public bool SearchArchiveOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SearchArchiveOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchArchiveOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SearchArchiveOnly { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7dc84-108">获取或设置是否搜索仅存档文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7dc84-108">Gets or sets whether to search archive folders only.</span>
+          </span>
+          <span data-ttu-id="7dc84-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7dc84-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7dc84-110">
+            <b>true</b>如果只存档文件夹中搜索;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7dc84-110">
+              <b>true</b> if only archive folders are searched; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

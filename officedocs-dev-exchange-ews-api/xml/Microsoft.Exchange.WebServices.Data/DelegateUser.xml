@@ -1,0 +1,239 @@
+<Type Name="DelegateUser" FullName="Microsoft.Exchange.WebServices.Data.DelegateUser">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8ccf70eccaab42ff8bdfdc57bd4d579c686adcc7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622662" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DelegateUser : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegateUser extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegateUser" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegateUser&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegateUser sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e263e-101">表示代理用户。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e263e-101">Represents a delegate user.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUser ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DelegateUser.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUser();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e263e-102">初始化 DelegateUser 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-102">Initializes a new instance of the DelegateUser class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUser (Microsoft.Exchange.WebServices.Data.StandardUser standardUser);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.StandardUser standardUser) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DelegateUser.#ctor(Microsoft.Exchange.WebServices.Data.StandardUser)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUser(Microsoft::Exchange::WebServices::Data::StandardUser standardUser);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
+      </Parameters>
+      <Docs>
+        <param name="standardUser">
+          <span data-ttu-id="e263e-103">标准委托用户。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-103">The standard delegate user.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e263e-104">初始化 DelegateUser 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-104">Initializes a new instance of the DelegateUser class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUser (string primarySmtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string primarySmtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DelegateUser.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (primarySmtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUser(System::String ^ primarySmtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="primarySmtpAddress">
+          <span data-ttu-id="e263e-105">委派用户的主 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-105">The primary SMTP e-mail address of the delegate user.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e263e-106">初始化 DelegateUser 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-106">Initializes a new instance of the DelegateUser class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permissions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegatePermissions Permissions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.DelegatePermissions Permissions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateUser.Permissions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Permissions As DelegatePermissions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegatePermissions ^ Permissions { Microsoft::Exchange::WebServices::Data::DelegatePermissions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegatePermissions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e263e-107">获取的代理人的列表用户的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-107">Gets the list of delegate user's permissions.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e263e-108">代理人的主体的文件夹的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-108">The delegate's permissions on the principal's folders.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveCopiesOfMeetingMessages">
+      <MemberSignature Language="C#" Value="public bool ReceiveCopiesOfMeetingMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReceiveCopiesOfMeetingMessages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateUser.ReceiveCopiesOfMeetingMessages" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceiveCopiesOfMeetingMessages As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReceiveCopiesOfMeetingMessages { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e263e-109">获取或设置一个值，指示是否委托用户应收到会议请求的副本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-109">Gets or sets a value that indicates whether the delegate user should receive copies of meeting requests.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e263e-110">
+            <b>true</b>如果委托应接收主体; 会议请求的副本否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-110">
+              <b>true</b> if the delegate should receive copies of meeting requests for the principal; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UserId UserId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UserId UserId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateUser.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserId As UserId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UserId ^ UserId { Microsoft::Exchange::WebServices::Data::UserId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e263e-111">获取代理用户的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-111">Gets the identifier of the delegate user.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e263e-112">包含有关代理用户标识信息的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-112">An object that contains identifying information about the delegate user.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItems">
+      <MemberSignature Language="C#" Value="public bool ViewPrivateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewPrivateItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateUser.ViewPrivateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewPrivateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewPrivateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e263e-113">获取或设置一个值，该值指示是否应能够查看的主体的专用项目的代理用户。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-113">Gets or sets a value that indicates whether the delegate user should be able to view the principal's private items.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e263e-114">
+            <b>true</b>如果代理可以查看的主体已标记专用; 项目否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e263e-114">
+              <b>true</b> if the delegate can view items that the principal has marked private; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

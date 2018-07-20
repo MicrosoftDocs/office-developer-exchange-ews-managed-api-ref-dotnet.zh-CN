@@ -1,0 +1,285 @@
+<Type Name="DayOfTheWeek" FullName="Microsoft.Exchange.WebServices.Data.DayOfTheWeek">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b8f9038ce6575dc8da4088849e6e25d7f6a5220" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622901" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DayOfTheWeek" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DayOfTheWeek extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DayOfTheWeek" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DayOfTheWeek" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a3f44-101">指定一周的天。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a3f44-101">Specifies the day of the week.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="a3f44-102">
+        <para>
+          <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />枚举值等同于<a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a><see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" />通过<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />)。两个枚举之间，可以安全地转换这些值。特殊的星期数 (<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />， <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />，和<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />) 用于每月和每年定期事件和无法强制转换为<a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a></para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a3f44-102">
+          <para>The <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration value is the same as the <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a><see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" /> through <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />). These values can be safely cast between the two enumerations. The special days of the week (<see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />, <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />, and <see cref="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />) are used for monthly and yearly recurrences and cannot be cast to <a href="http://go.microsoft.com/fwlink/?LinkId=163123">T:System.DayOfWeek</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Day">
+      <MemberSignature Language="C#" Value="Day" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Day = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Day" />
+      <MemberSignature Language="VB.NET" Value="Day" />
+      <MemberSignature Language="C++ CLI" Value="Day" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-103">这一周的任何一天。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-103">Any day of the week.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Friday">
+      <MemberSignature Language="C#" Value="Friday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Friday = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Friday" />
+      <MemberSignature Language="VB.NET" Value="Friday" />
+      <MemberSignature Language="C++ CLI" Value="Friday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-104">星期五。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-104">Friday.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Monday">
+      <MemberSignature Language="C#" Value="Monday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Monday = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Monday" />
+      <MemberSignature Language="VB.NET" Value="Monday" />
+      <MemberSignature Language="C++ CLI" Value="Monday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-105">星期一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-105">Monday.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Saturday">
+      <MemberSignature Language="C#" Value="Saturday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Saturday = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Saturday" />
+      <MemberSignature Language="VB.NET" Value="Saturday" />
+      <MemberSignature Language="C++ CLI" Value="Saturday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-106">星期六。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-106">Saturday.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Sunday">
+      <MemberSignature Language="C#" Value="Sunday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Sunday = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Sunday" />
+      <MemberSignature Language="VB.NET" Value="Sunday" />
+      <MemberSignature Language="C++ CLI" Value="Sunday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-107">星期日。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-107">Sunday.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Thursday">
+      <MemberSignature Language="C#" Value="Thursday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Thursday = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Thursday" />
+      <MemberSignature Language="VB.NET" Value="Thursday" />
+      <MemberSignature Language="C++ CLI" Value="Thursday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-108">星期四。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-108">Thursday.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tuesday">
+      <MemberSignature Language="C#" Value="Tuesday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Tuesday = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Tuesday" />
+      <MemberSignature Language="VB.NET" Value="Tuesday" />
+      <MemberSignature Language="C++ CLI" Value="Tuesday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-109">星期二。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-109">Tuesday.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Wednesday">
+      <MemberSignature Language="C#" Value="Wednesday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Wednesday = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Wednesday" />
+      <MemberSignature Language="VB.NET" Value="Wednesday" />
+      <MemberSignature Language="C++ CLI" Value="Wednesday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-110">星期三。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-110">Wednesday.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Weekday">
+      <MemberSignature Language="C#" Value="Weekday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Weekday = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.Weekday" />
+      <MemberSignature Language="VB.NET" Value="Weekday" />
+      <MemberSignature Language="C++ CLI" Value="Weekday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-111">普通业务周 （周一到周五） 的任何一天。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-111">Any day of the usual business week (Monday through Friday).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WeekendDay">
+      <MemberSignature Language="C#" Value="WeekendDay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek WeekendDay = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DayOfTheWeek.WeekendDay" />
+      <MemberSignature Language="VB.NET" Value="WeekendDay" />
+      <MemberSignature Language="C++ CLI" Value="WeekendDay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a3f44-112">任何周末 （星期六或星期日）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a3f44-112">Any weekend day (Saturday or Sunday).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

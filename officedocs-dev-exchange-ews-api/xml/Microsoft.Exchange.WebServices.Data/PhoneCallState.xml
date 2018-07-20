@@ -1,0 +1,225 @@
+<Type Name="PhoneCallState" FullName="Microsoft.Exchange.WebServices.Data.PhoneCallState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="67573d58bc11e7bdb6f7ccff03ef57475f28ae88" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623121" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum PhoneCallState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PhoneCallState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhoneCallState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PhoneCallState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PhoneCallState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="65d3e-101">指定的电话呼叫状态。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="65d3e-101">Specifies the phone call state.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alerted">
+      <MemberSignature Language="C#" Value="Alerted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhoneCallState Alerted = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhoneCallState.Alerted" />
+      <MemberSignature Language="VB.NET" Value="Alerted" />
+      <MemberSignature Language="C++ CLI" Value="Alerted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65d3e-102">接收电话已被告知。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65d3e-102">The receiving phone has been alerted.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Connected">
+      <MemberSignature Language="C#" Value="Connected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhoneCallState Connected = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhoneCallState.Connected" />
+      <MemberSignature Language="VB.NET" Value="Connected" />
+      <MemberSignature Language="C++ CLI" Value="Connected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65d3e-103">电话呼叫已连接。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65d3e-103">The phone call is connected.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Connecting">
+      <MemberSignature Language="C#" Value="Connecting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhoneCallState Connecting = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhoneCallState.Connecting" />
+      <MemberSignature Language="VB.NET" Value="Connecting" />
+      <MemberSignature Language="C++ CLI" Value="Connecting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65d3e-104">正在连接电话呼叫。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65d3e-104">The phone call is connecting.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnected">
+      <MemberSignature Language="C#" Value="Disconnected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhoneCallState Disconnected = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhoneCallState.Disconnected" />
+      <MemberSignature Language="VB.NET" Value="Disconnected" />
+      <MemberSignature Language="C++ CLI" Value="Disconnected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65d3e-105">电话呼叫已断开连接。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65d3e-105">The phone call is disconnected.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Forwarding">
+      <MemberSignature Language="C#" Value="Forwarding" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhoneCallState Forwarding = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhoneCallState.Forwarding" />
+      <MemberSignature Language="VB.NET" Value="Forwarding" />
+      <MemberSignature Language="C++ CLI" Value="Forwarding" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65d3e-106">电话呼叫被转接。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65d3e-106">The phone call is being forwarded.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Idle">
+      <MemberSignature Language="C#" Value="Idle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhoneCallState Idle = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhoneCallState.Idle" />
+      <MemberSignature Language="VB.NET" Value="Idle" />
+      <MemberSignature Language="C++ CLI" Value="Idle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65d3e-107">电话呼叫处于空闲状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65d3e-107">The phone call is idle.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Incoming">
+      <MemberSignature Language="C#" Value="Incoming" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhoneCallState Incoming = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhoneCallState.Incoming" />
+      <MemberSignature Language="VB.NET" Value="Incoming" />
+      <MemberSignature Language="C++ CLI" Value="Incoming" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65d3e-108">传入电话呼叫。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65d3e-108">The phone call is incoming.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Transferring">
+      <MemberSignature Language="C#" Value="Transferring" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PhoneCallState Transferring = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PhoneCallState.Transferring" />
+      <MemberSignature Language="VB.NET" Value="Transferring" />
+      <MemberSignature Language="C++ CLI" Value="Transferring" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCallState</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65d3e-109">正在转接电话呼叫。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65d3e-109">The phone call is being transferred.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

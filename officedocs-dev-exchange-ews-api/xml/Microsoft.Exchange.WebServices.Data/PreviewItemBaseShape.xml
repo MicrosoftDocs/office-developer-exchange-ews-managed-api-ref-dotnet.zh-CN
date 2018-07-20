@@ -1,0 +1,96 @@
+<Type Name="PreviewItemBaseShape" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aa9c24126b7cd0ebfe708c50db4d00a249b5298d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623240" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum PreviewItemBaseShape" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreviewItemBaseShape extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PreviewItemBaseShape" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PreviewItemBaseShape" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="99a88-101">确定是否可以使用其所有属性预览邮箱中的项目或压缩其视图。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99a88-101">Determines whether an item in a mailbox can be previewed with all its properties or its view is compacted.</span>
+      </span>
+      <span data-ttu-id="99a88-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99a88-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Compact">
+      <MemberSignature Language="C#" Value="Compact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape Compact = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" />
+      <MemberSignature Language="VB.NET" Value="Compact" />
+      <MemberSignature Language="C++ CLI" Value="Compact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99a88-103">仅一套与项目关联的核心属性可以预览。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99a88-103">Only a set of core properties associated with an item can be previewed.</span>
+          </span>
+          <span data-ttu-id="99a88-104">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99a88-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99a88-105">可以预览与项目关联的所有属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99a88-105">All properties associated with an item can be previewed.</span>
+          </span>
+          <span data-ttu-id="99a88-106">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99a88-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,41 @@
+<Type Name="OccurrenceInfoCollection" FullName="Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6e2ac4ce99499017ffcd71d023cd797919a32422" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622633" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class OccurrenceInfoCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.OccurrenceInfo&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OccurrenceInfoCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.OccurrenceInfo&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OccurrenceInfoCollection&#xA;Inherits ComplexPropertyCollection(Of OccurrenceInfo)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OccurrenceInfoCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.OccurrenceInfo&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.OccurrenceInfo</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b7b68-101">代表 OccurrenceInfo 对象的集合。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b7b68-101">Represents a collection of OccurrenceInfo objects.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

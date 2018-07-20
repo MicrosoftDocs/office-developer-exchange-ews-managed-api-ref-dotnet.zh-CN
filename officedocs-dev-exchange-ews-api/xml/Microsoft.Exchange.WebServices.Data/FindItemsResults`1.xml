@@ -1,0 +1,281 @@
+<Type Name="FindItemsResults&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;TItem&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c3e4cdb71a1ebda99e8002eec1a433278efa81c2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623233" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FindItemsResults&lt;TItem&gt; : System.Collections.Generic.IEnumerable&lt;TItem&gt; where TItem : Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindItemsResults`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;!TItem&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindItemsResults`1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindItemsResults(Of TItem)&#xA;Implements IEnumerable(Of TItem)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItem&gt;&#xA; where TItem : Itempublic ref class FindItemsResults sealed : System::Collections::Generic::IEnumerable&lt;TItem&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TItem">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;TItem&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="TItem">
+      <span data-ttu-id="6775f-101">由搜索操作返回的项的类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6775f-101">The type of item that is returned by the search operation.</span>
+      </span>
+    </typeparam>
+    <summary>
+      <span data-ttu-id="6775f-102">代表项目搜索操作的结果。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6775f-102">Represents the results of an item search operation.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;TItem&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;!TItem&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of TItem)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;TItem&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;TItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="6775f-103">返回一个枚举，使您能够循环访问集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-103">Returns an enumerator that enables you to iterate through the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="6775f-104">一个可用于循环访问集合的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-104">An enumerator that can be used to iterate through the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightTerms">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt; HighlightTerms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.HighlightTerm&gt; HighlightTerms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.HighlightTerms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighlightTerms As Collection(Of HighlightTerm)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::HighlightTerm ^&gt; ^ HighlightTerms { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::HighlightTerm ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6775f-105">获取一个的突出显示术语找到搜索操作的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-105">Gets a collection of highlighted terms that were found by the search operation.</span>
+          </span>
+          <span data-ttu-id="6775f-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.HighlightTerms" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.HighlightTerms" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6775f-107">突出显示找到的搜索操作的术语的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-107">A collection of highlighted terms that were found by the search operation.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;TItem&gt; Items { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;!TItem&gt; Items" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.Items" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As Collection(Of TItem)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;TItem&gt; ^ Items { System::Collections::ObjectModel::Collection&lt;TItem&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;TItem&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6775f-108">获取包含找到搜索操作的项目的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-108">Gets a collection that contains the items that were found by the search operation.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6775f-109">包含项找到搜索操作的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-109">A collection that contains the items that were found by the search operation.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoreAvailable">
+      <MemberSignature Language="C#" Value="public bool MoreAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MoreAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.MoreAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoreAvailable As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MoreAvailable { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6775f-110">获取一个值，该值指示与搜索条件匹配的更多项在搜索文件夹中是否可用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-110">Gets a value that indicates whether more items that match the search criteria are available in the searched folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6775f-111">
+            <b>true</b>如果有多个项符合搜索条件中;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-111">
+              <b>true</b> if there are more items that match the search criteria; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextPageOffset">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; NextPageOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; NextPageOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.NextPageOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NextPageOffset As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; NextPageOffset { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6775f-112">获取应与属性查看对象中检索属性查看操作中的项目下一步页的偏移量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-112">Gets the offset that should be used with an ItemView object to retrieve the next page of items in an ItemView operation.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6775f-113">在指向下一页的项目的偏移量<b>为 null</b>的整数值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-113">A <b>nullable</b> integer value that is the offset to the next page of items.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="6775f-114">返回循环访问集合的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-114">Returns an enumerator that iterates through a collection.</span>
+          </span>
+          <span data-ttu-id="6775f-115">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-115">The <see cref="M:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="6775f-116">一个循环访问集合中的元素的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-116">An enumerator that iterates through the elements of the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public int TotalCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindItemsResults`1.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6775f-117">获取与在搜索文件夹中可用的搜索条件匹配的项目的总数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-117">Gets the total number of items that match the search criteria that are available in the searched folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6775f-118">一个整数值，该值指示与搜索条件匹配的项目的总数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6775f-118">An integer value that indicates the total number of items that match the search criteria.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

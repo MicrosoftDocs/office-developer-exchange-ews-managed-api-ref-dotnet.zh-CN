@@ -1,0 +1,284 @@
+<Type Name="EntityExtractionResult" FullName="Microsoft.Exchange.WebServices.Data.EntityExtractionResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e2fba76651261e9fbe9fe2a5cd06ad97f06271f1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622871" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class EntityExtractionResult : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EntityExtractionResult extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EntityExtractionResult&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EntityExtractionResult sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="4760c-101">包含从消息、 任务或会议中提取信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4760c-101">Contains information extracted from a message, task, or meeting.</span>
+      </span>
+      <span data-ttu-id="4760c-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4760c-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Addresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AddressEntityCollection Addresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AddressEntityCollection Addresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Addresses As AddressEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AddressEntityCollection ^ Addresses { Microsoft::Exchange::WebServices::Data::AddressEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AddressEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4760c-103">获取返回的地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-103">Gets the set of addresses returned.</span>
+          </span>
+          <span data-ttu-id="4760c-104">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4760c-105">已提取的地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-105">The extracted addresses.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ContactEntityCollection Contacts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ContactEntityCollection Contacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contacts As ContactEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ContactEntityCollection ^ Contacts { Microsoft::Exchange::WebServices::Data::ContactEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4760c-106">获取返回的联系人的设置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-106">Gets the set of contacts returned.</span>
+          </span>
+          <span data-ttu-id="4760c-107">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4760c-108">已提取的联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-108">The extracted contacts.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection EmailAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddresses As EmailAddressEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressEntityCollection ^ EmailAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4760c-109">获取电子邮件地址返回一组。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-109">Gets the set of email addresses returned.</span>
+          </span>
+          <span data-ttu-id="4760c-110">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4760c-111">提取电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-111">The extracted email addresses.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingSuggestions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection MeetingSuggestions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection MeetingSuggestions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingSuggestions As MeetingSuggestionCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingSuggestionCollection ^ MeetingSuggestions { Microsoft::Exchange::WebServices::Data::MeetingSuggestionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4760c-112">获取会议建议返回一组。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-112">Gets the set of meeting suggestions returned.</span>
+          </span>
+          <span data-ttu-id="4760c-113">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4760c-114">提取的会议建议。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-114">The extracted meeting suggestions.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PhoneEntityCollection PhoneNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PhoneEntityCollection PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneNumbers As PhoneEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PhoneEntityCollection ^ PhoneNumbers { Microsoft::Exchange::WebServices::Data::PhoneEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4760c-115">获取返回的电话号码的设置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-115">Gets the set of phone numbers returned.</span>
+          </span>
+          <span data-ttu-id="4760c-116">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-116">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4760c-117">提取的电话号码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-117">The extracted phone numbers.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskSuggestions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection TaskSuggestions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection TaskSuggestions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskSuggestions As TaskSuggestionCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TaskSuggestionCollection ^ TaskSuggestions { Microsoft::Exchange::WebServices::Data::TaskSuggestionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4760c-118">获取返回的任务建议。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-118">Gets the set of task suggestions returned.</span>
+          </span>
+          <span data-ttu-id="4760c-119">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4760c-120">提取的任务建议。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-120">The extracted task suggestions.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Urls">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UrlEntityCollection Urls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UrlEntityCollection Urls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Urls As UrlEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UrlEntityCollection ^ Urls { Microsoft::Exchange::WebServices::Data::UrlEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UrlEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4760c-121">获取返回的 Url。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-121">Gets the set of URLs returned.</span>
+          </span>
+          <span data-ttu-id="4760c-122">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4760c-123">已提取的 Url。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4760c-123">The extracted URLs.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

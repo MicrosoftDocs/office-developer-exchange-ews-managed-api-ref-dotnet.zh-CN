@@ -1,0 +1,2390 @@
+<Type Name="Item" FullName="Microsoft.Exchange.WebServices.Data.Item">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623201" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Item extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="VB.NET" Value="Public Class Item&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Item : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="983a7-101">代表泛型项。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="983a7-101">Represents a generic item.</span>
+      </span>
+      <span data-ttu-id="983a7-102">在项目可用的属性中定义<see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" />类。<see cref="T:Microsoft.Exchange.WebServices.Data.Item" />类型是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="983a7-102">Properties that are available on items are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> class.The <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> type is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowedResponseActions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.AllowedResponseActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowedResponseActions As ResponseActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ResponseActions AllowedResponseActions { Microsoft::Exchange::WebServices::Data::ResponseActions get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-103">获取一个值，指示哪些响应操作允许按此项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-103">Gets a value that indicates which response actions are allowed on this item.</span>
+          </span>
+          <span data-ttu-id="983a7-104">响应操作的示例是答复和转发。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-104">Examples of response actions are Reply and Forward.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-105">一个 ResponseActions 枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-105">A ResponseActions enumeration value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As ArchiveTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ArchiveTag ^ ArchiveTag { Microsoft::Exchange::WebServices::Data::ArchiveTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::ArchiveTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-106">获取或设置存档标记。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-106">Gets or sets the archive tag.</span>
+          </span>
+          <span data-ttu-id="983a7-107">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-108">存档标记中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-108">The archive tag.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As AttachmentCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ Attachments { Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-109">获取此项的附件的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-109">Gets a list of the attachments to this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-110">AttachmentCollection 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-110">An AttachmentCollection object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="983a7-111">要使用绑定到项的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-111">The service to use to bind to the item.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="983a7-112">绑定到项的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-112">The ID of the item to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-113">将绑定到现有项目，无论其实际类型，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-113">Binds to an existing item, whatever its actual type is, and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="983a7-114">呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-114">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="983a7-115">表示与指定 ID 相对应的项目项实例</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-115">An Item instance representing the item that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="983a7-116">有关此异常详细信息，请参阅<see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-116">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="983a7-117">要使用绑定到项的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-117">The service to use to bind to the item.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="983a7-118">绑定到项的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-118">The ID of the item to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="983a7-119">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-119">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-120">将绑定到现有项目，无论其实际类型，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-120">Binds to an existing item, whatever its actual type is, and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="983a7-121">项目实例表示指定 ID 所对应的项</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-121">An Item instance representing the item corresponding to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="983a7-122">有关此异常详细信息，请参阅<see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-122">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MessageBody Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MessageBody Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MessageBody ^ Body { Microsoft::Exchange::WebServices::Data::MessageBody ^ get(); void set(Microsoft::Exchange::WebServices::Data::MessageBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-123">获取或设置此项目的正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-123">Gets or sets the body of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-124">一个 MessageBody 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-124">A MessageBody object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-125">获取或设置与此项关联的类别列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-125">Gets or sets the list of categories that are associated with this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-126">一个 StringList 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-126">A StringList object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-127">获取对话的此项的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-127">Gets the ID of the conversation that this item is part of.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-128">ConversationId 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-128">A ConversationId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="983a7-129">要在其中创建该项目的副本的文件夹的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-129">The ID of the folder in which to create a copy of this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-130">在指定文件夹中创建此项的一个的副本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-130">Creates a copy of this item in the specified folder.</span>
+          </span>
+          <span data-ttu-id="983a7-131">呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-131">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="983a7-132">一个项目的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-132">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="983a7-133">要在其中创建该项目的副本的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-133">The name of the folder in which to create a copy of this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-134">在指定文件夹中创建此项的一个的副本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-134">Creates a copy of this item in the specified folder.</span>
+          </span>
+          <span data-ttu-id="983a7-135">呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-135">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="983a7-136">一个项目的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-136">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public string Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Culture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Culture { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-137">获取或设置与此项目相关联的区域性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-137">Gets or sets the culture that is associated with this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-138">指示项目的区域性的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-138">A string indicating the culture of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeCreated">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeCreated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeCreated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeCreated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeCreated As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeCreated { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-139">获取的日期和时间从中创建此项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-139">Gets the date and time at which this item was created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-140">指示的日期和时间的 DateTime 值创建的项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-140">A DateTime value indicating the date and time the item was created.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeReceived">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeReceived { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeReceived" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeReceived" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeReceived As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeReceived { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-141">获取时收到此项的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-141">Gets the time when this item was received.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-142">项目的接收指示的日期和时间的 DateTime 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-142">A DateTime value indicating the date and time the item was received.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeSent">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeSent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeSent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeSent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeSent As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeSent { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-143">获取的日期和时间在发送此项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-143">Gets the date and time at which this item was sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-144">指示的日期和时间的 DateTime 值发送项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-144">A DateTime value indicating the date and time the item was sent.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="983a7-145">删除模式中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-145">The deletion mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-146">删除的项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-146">Deletes the item.</span>
+          </span>
+          <span data-ttu-id="983a7-147">呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-147">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="983a7-148">删除模式中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-148">The deletion mode.</span>
+          </span>
+        </param>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="983a7-149">
+            <b>true</b>如果读取如果项被删除，不应发送回执已请求已读的回执;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-149">
+              <b>true</b> if read receipts should not be sent if the item being deleted has requested a read receipt; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-150">删除的项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-150">Deletes the item.</span>
+          </span>
+          <span data-ttu-id="983a7-151">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-151">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayCc">
+      <MemberSignature Language="C#" Value="public string DisplayCc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayCc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayCc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayCc As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayCc { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-152">获取列出此项的抄送收件人的文本字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-152">Gets a text string that lists the Cc recipients of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-153">一个字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-153">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayTo">
+      <MemberSignature Language="C#" Value="public string DisplayTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayTo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayTo { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-154">获取列出此项的收件人的文本字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-154">Gets a text string that lists the To recipients of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-155">一个字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-155">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveRights As EffectiveRights" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EffectiveRights EffectiveRights { Microsoft::Exchange::WebServices::Data::EffectiveRights get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-156">获取一个值，该值指示当前经过身份验证的用户对此项的有效权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-156">Gets a value that indicates the effective rights that the current authenticated user has on this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-157">EffectiveRights 枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-157">An EffectiveRights enumeration value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntityExtractionResult">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntityExtractionResult As EntityExtractionResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ EntityExtractionResult { Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EntityExtractionResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-158">获取项上的实体提取信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-158">Gets the entity extraction information on the item.</span>
+          </span>
+          <span data-ttu-id="983a7-159">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-159">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-160">提取的实体。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-160">The extracted entities.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-161">获取在此项定义的扩展属性的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-161">Gets a list of extended properties that are defined on this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-162">ExtendedPropertyCollection 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-162">An ExtendedPropertyCollection object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Flag Flag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Flag Flag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Flag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Flag As Flag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Flag ^ Flag { Microsoft::Exchange::WebServices::Data::Flag ^ get(); void set(Microsoft::Exchange::WebServices::Data::Flag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Flag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-163">获取或设置一个标志值，指示的状态、 开始日期、 截止日期或为某个项目的完成日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-163">Gets or sets a flag value that indicates the status, start date, due date, or completion date for an item.</span>
+          </span>
+          <span data-ttu-id="983a7-164">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-164">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-165">此项的标记值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-165">The flag value for this item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-166">获取一个值，指示项目是否有附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-166">Gets a value that indicates whether the item has attachments.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-167">项目的附件; 如果为 true否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-167">True if the item has attachments; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex IconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex IconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex IconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-168">获取的图标索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-168">Gets the icon index.</span>
+          </span>
+          <span data-ttu-id="983a7-169">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-169">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-170">图标索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-170">The icon index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-171">获取此项的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-171">Gets the ID of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-172">ItemId 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-172">An ItemId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); void set(Microsoft::Exchange::WebServices::Data::Importance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-173">获取或设置此项的重要性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-173">Gets or sets the importance of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-174">指示项目的重要性的重要性枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-174">An Importance enumeration value indicating the importance of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InReplyTo">
+      <MemberSignature Language="C#" Value="public string InReplyTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InReplyTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property InReplyTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InReplyTo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-175">获取或设置此项中的回复引用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-175">Gets or sets the In-Reply-To reference of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-176">一个字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-176">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public byte[] InstanceKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InstanceKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKey As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ InstanceKey { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-177">获取项实例键。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-177">Gets the item instance key.</span>
+          </span>
+          <span data-ttu-id="983a7-178">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-178">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-179">项目实例键。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-179">The item instance key.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageHeaders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InternetMessageHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternetMessageHeaders As InternetMessageHeaderCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ InternetMessageHeaders { Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-180">获取此项 Internet 标头的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-180">Gets a list of Internet headers for this item.</span>
+          </span>
+          <span data-ttu-id="983a7-181">若要获取的 Internet 邮件头的整个集合，请使用 PR_TRANSPORT_MESSAGE_HEADERS 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-181">To get the entire collection of Internet message headers, use the PR_TRANSPORT_MESSAGE_HEADERS property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-182">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-182">An <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> object.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="983a7-183">
+            <para>下面是扩展属性 PR_TRANSPORT_MESSAGE_HEADERS 的定义。</para>
+            <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+            <para>可以添加到此属性定义<see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" />对象获取 Internet 邮件头。</para>
+            <para>有关 EWS 和 Internet 邮件头，有关详细信息，请参阅<a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS、 MIME 和缺少的 Internet 邮件头</a>中"入门 Internet 邮件头"</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-183">
+              <para>The following is the definition for the PR_TRANSPORT_MESSAGE_HEADERS extended property.</para>
+              <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+              <para>You can add this property definition to the <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object to get the Internet message headers.</para>
+              <para>For more information about EWS and Internet message headers, see “Getting Internet message headers” in <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME, and the missing Internet message headers</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociated">
+      <MemberSignature Language="C#" Value="public bool IsAssociated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociated { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-184">获取一个值，该值指示是否关联的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-184">Gets a value that indicates whether this is an associated item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-185">如果这是一个关联的项目;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-185">True if this is an associated item; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAttachment">
+      <MemberSignature Language="C#" Value="public bool IsAttachment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAttachment { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-186">获取一个值，该值指示项目是否为附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-186">Gets a value that indicates whether the item is an attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-187">项目包含附件; 如果为 true否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-187">True if the item has an attachment; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDraft">
+      <MemberSignature Language="C#" Value="public bool IsDraft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDraft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsDraft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDraft As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDraft { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-188">获取一个值，该值指示项目是否草稿。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-188">Gets a value that indicates whether the item is a draft.</span>
+          </span>
+          <span data-ttu-id="983a7-189">项目时尚未发送草稿。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-189">An item is a draft when it has not yet been sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-190">如果此项是草稿;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-190">True if this item is a draft; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFromMe">
+      <MemberSignature Language="C#" Value="public bool IsFromMe { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFromMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsFromMe" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFromMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMe { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-191">获取一个值，该值指示是否已由当前经过身份验证的用户发送项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-191">Gets a value that indicates whether the item has been sent by the current authenticated user.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-192">如果当前经过身份验证用户; 发送项目否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-192">True if the item is sent by the current authenticated user; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNew">
+      <MemberSignature Language="C#" Value="public override bool IsNew { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNew" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsNew" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsNew As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsNew { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-193">获取一个值，该值指示是否实际存储项目或本地对象具有尚未保存此对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-193">Gets a value that indicates whether this object is a real store item or a local object that has yet to be saved.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-194">如果以前未保存项目;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-194">True if the item has not been saved; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReminderSet">
+      <MemberSignature Language="C#" Value="public bool IsReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReminderSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-195">获取或设置一个值，指示是否为此项设置提醒。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-195">Gets or sets a value that indicates whether a reminder is set for this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-196">为特定提醒设置; 如果为 true否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-196">True if the reminder is set; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResend">
+      <MemberSignature Language="C#" Value="public bool IsResend { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResend" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsResend" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsResend As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResend { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-197">获取一个值，该值指示项目是否为另一项的重新发送。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-197">Gets a value that indicates whether the item is a resend of another item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-198">如果该项目是重新发送;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-198">True if the item is a resend; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSubmitted">
+      <MemberSignature Language="C#" Value="public bool IsSubmitted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSubmitted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsSubmitted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSubmitted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSubmitted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-199">获取一个值，该值指示是否已提交邮件发送。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-199">Gets a value that indicates whether the message has been submitted to be sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-200">如果项目已提交;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-200">True if the item has been submitted; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUnmodified">
+      <MemberSignature Language="C#" Value="public bool IsUnmodified { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUnmodified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsUnmodified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUnmodified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUnmodified { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-201">获取一个值，指示项目创建以来，它是否已被修改过。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-201">Gets a value that indicates whether the item has been modified since it was created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-202">如果尚未修改项目;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-202">True if the item has not been modified; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-203">获取或设置此项目的自定义类名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-203">Gets or sets the custom class name of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-204">指示自定义类名称的字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-204">A string value indicating the custom class name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedName">
+      <MemberSignature Language="C#" Value="public string LastModifiedName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastModifiedName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastModifiedName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-205">获取上次修改此项的用户的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-205">Gets the name of the user who last modified this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-206">指示上次修改项目的用户的字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-206">A string value indicating the user who last modified the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-207">获取的日期和时间的上次修改此项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-207">Gets the date and time that this item was last modified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-208">指示的日期和时间的 DateTime 值上次修改项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-208">A DateTime value indicating the date and time the item was last modified.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MimeContent">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MimeContent MimeContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MimeContent MimeContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.MimeContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property MimeContent As MimeContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MimeContent ^ MimeContent { Microsoft::Exchange::WebServices::Data::MimeContent ^ get(); void set(Microsoft::Exchange::WebServices::Data::MimeContent ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MimeContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-209">获取 MIME 此项的内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-209">Gets the MIME content of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-210">一个 MimeContent 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-210">A MimeContent object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="983a7-211">要将此项目移到的文件夹的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-211">The ID of the folder to which to move this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-212">将此项目移动到指定的文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-212">Moves this item to the specified folder.</span>
+          </span>
+          <span data-ttu-id="983a7-213">呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-213">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="983a7-214">一个项目的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-214">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="983a7-215">要将此项目移到的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-215">The name of the folder to which to move this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-216">将此项目移动到指定的文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-216">Moves this item to the specified folder.</span>
+          </span>
+          <span data-ttu-id="983a7-217">呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-217">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="983a7-218">一个项目的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-218">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalizedBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NormalizedBody As NormalizedBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::NormalizedBody ^ NormalizedBody { Microsoft::Exchange::WebServices::Data::NormalizedBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.NormalizedBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-219">获取已转换为规范化值的项目的邮件正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-219">Gets the message body of an item that has been converted to a normalized value.</span>
+          </span>
+          <span data-ttu-id="983a7-220">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-220">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-221">规范化项目的正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-221">The normalized body of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-222">获取此项的父文件夹的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-222">Gets the ID of the parent folder of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-223">一个文件夹 Id 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-223">A FolderId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As PolicyTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PolicyTag ^ PolicyTag { Microsoft::Exchange::WebServices::Data::PolicyTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::PolicyTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-224">获取或设置的保留策略值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-224">Gets or sets the retention policy value.</span>
+          </span>
+          <span data-ttu-id="983a7-225">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-225">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-226">保留策略值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-226">The retention policy value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-227">获取项预览。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-227">Gets the item preview.</span>
+          </span>
+          <span data-ttu-id="983a7-228">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-228">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-229">项目预览。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-229">The item preview.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderDueBy">
+      <MemberSignature Language="C#" Value="public DateTime ReminderDueBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReminderDueBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderDueBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderDueBy As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReminderDueBy { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-230">获取或设置的日期和提醒到期针对此项目的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-230">Gets or sets the date and time when the reminder is due for this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-231">指示的日期和时间的 DateTime 值提醒的到期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-231">A DateTime value indicating the date and time the reminder is due.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderMinutesBeforeStart">
+      <MemberSignature Language="C#" Value="public int ReminderMinutesBeforeStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReminderMinutesBeforeStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderMinutesBeforeStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderMinutesBeforeStart As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ReminderMinutesBeforeStart { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-232">获取或设置此项应触发提醒开始之前的分钟数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-232">Gets or sets the number of minutes before the start of this item that the reminder should be triggered.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-233">指示的分钟数的整数值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-233">An integer value indicating the number of minutes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveExtendedProperty">
+      <MemberSignature Language="C#" Value="public bool RemoveExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.RemoveExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">
+          <span data-ttu-id="983a7-234">扩展的属性定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-234">The extended property definition.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-235">删除扩展的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-235">Removes an extended property.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="983a7-236">属性已删除; 如果为 true否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-236">True if the property was removed; otherwise, false.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; RetentionDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; RetentionDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; RetentionDate { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-237">获取项必须保留的截止日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-237">Gets the date until which an item must be preserved.</span>
+          </span>
+          <span data-ttu-id="983a7-238">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-238">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-239">保留日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-239">The retention date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-240">基于项目的类型的默认文件夹中保存此项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-240">Saves this item in the default folder based on the item's type.</span>
+          </span>
+          <span data-ttu-id="983a7-241">调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-241">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="983a7-242">多个调用 EWS 可能成为，如果已添加附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-242">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderId">
+          <span data-ttu-id="983a7-243">要在其中保存此项的文件夹的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-243">The ID of the folder in which to save this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-244">在特定文件夹中保存此项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-244">Saves this item in a specific folder.</span>
+          </span>
+          <span data-ttu-id="983a7-245">调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-245">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="983a7-246">多个调用 EWS 可能成为，如果已添加附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-246">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderName">
+          <span data-ttu-id="983a7-247">要在其中保存此项的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-247">The name of the folder in which to save this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-248">在特定文件夹中保存此项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-248">Saves this item in a specific folder.</span>
+          </span>
+          <span data-ttu-id="983a7-249">调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-249">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="983a7-250">多个调用 EWS 可能成为，如果已添加附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-250">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Sensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Sensitivity Sensitivity { Microsoft::Exchange::WebServices::Data::Sensitivity get(); void set(Microsoft::Exchange::WebServices::Data::Sensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-251">获取此项目的敏感度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-251">Gets the sensitivity of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-252">一个敏感度对象中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-252">A Sensitivity object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedProperty">
+      <MemberSignature Language="C#" Value="public void SetExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.SetExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">
+          <span data-ttu-id="983a7-253">要设置的扩展的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-253">The extended property to set.</span>
+          </span>
+        </param>
+        <param name="value">
+          <span data-ttu-id="983a7-254">要设置的扩展属性的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-254">The value to set on the extended property.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-255">设置指定的扩展属性设为指定的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-255">Sets the specified extended property to the specified value.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-256">获取此项目的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-256">Gets the size of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-257">指示项目的大小的整数值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-257">An integer value indicating the size of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreEntryId">
+      <MemberSignature Language="C#" Value="public byte[] StoreEntryId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] StoreEntryId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreEntryId As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ StoreEntryId { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-258">获取承载项目的存储的条目 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-258">Gets the entry ID of the store that hosts the item.</span>
+          </span>
+          <span data-ttu-id="983a7-259">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-259">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-260">存储条目 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-260">The store entry ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-261">获取或设置此项目的主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-261">Gets or sets the subject of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-262">指示项目的主题的字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-262">A string value indicating the subject of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TextBody TextBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TextBody TextBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextBody As TextBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TextBody ^ TextBody { Microsoft::Exchange::WebServices::Data::TextBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-263">获取项的文本正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-263">Gets the text body of the item.</span>
+          </span>
+          <span data-ttu-id="983a7-264">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-264">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-265">项目的文本正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-265">The text body of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueBody As UniqueBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UniqueBody ^ UniqueBody { Microsoft::Exchange::WebServices::Data::UniqueBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UniqueBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-266">获取对对话的此项是唯一的正文部分。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-266">Gets the body part that is unique to the conversation that this item is part of.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-267">一个 UniqueBody 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-267">A UniqueBody object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">
+          <span data-ttu-id="983a7-268">冲突解决模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-268">The conflict resolution mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-269">应用到此项所做的本地更改。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-269">Applies the local changes that have been made to this item.</span>
+          </span>
+          <span data-ttu-id="983a7-270">调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-270">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="983a7-271">如果已添加或删除附件，则可能进行多次调用 EWS。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-271">Multiple calls to EWS might be made if attachments have been added or removed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">
+          <span data-ttu-id="983a7-272">冲突解决模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-272">The conflict resolution mode.</span>
+          </span>
+        </param>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="983a7-273">
+            <b>true</b>如果读取项正在更新，不应发送回执已请求已读的回执;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-273">
+              <b>true</b> if read receipts should not be sent if the item being updated has requested a read receipt; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="983a7-274">应用到此项所做的本地更改。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-274">Applies the local changes that have been made to this item.</span>
+          </span>
+          <span data-ttu-id="983a7-275">调用此方法将导致至少一次调用 EWS。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-275">Calling this method results in at least one call to EWS.</span>
+          </span>
+          <span data-ttu-id="983a7-276">多 EWS 调用可能成为，如果已添加或删除附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-276">Mutliple calls to EWS might be made if attachments have been added or removed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientEditFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientEditFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientEditFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientEditFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientEditFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientEditFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-277">获取可附加到 Outlook Web App 的 URL 在 web 浏览器中打开此项的查询字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-277">Gets the query string that can be appended to the Outlook Web App URL to open this item in a web browser.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-278">一个字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-278">A string value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="983a7-279">
+            <para>此属性适用于 Exchange 2010。使用中的信息<see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />打开 Outlook Web App 中的草稿项，然后使用 UI 编辑草稿项的属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-279">
+              <para>This property applies to Exchange 2010. Use the information from the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property to open a draft item in Outlook Web App and then use the UI to edit the draft item.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientReadFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientReadFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientReadFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientReadFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientReadFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="983a7-280">获取应追加到 web 浏览器中使用适当的阅读窗体打开此项的 Exchange web 客户端 URL 的查询字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-280">Gets the query string that should be appended to the Exchange web client URL to open this item by using the appropriate read form in a web browser.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="983a7-281">一个字符串值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-281">A string value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="983a7-282">
+            <para>Outlook Web App 的 URL 的项标识符的项的 EWS 标识符。可以对 URL 进行编码的 EWS 项标识符并将其追加到查询字符串以获取项目的 Outlook Web App 的 URL。</para>
+            <para>版本差异</para>
+            <para>版本的 Exchange 主要版本 15 开头和结尾 15.00.775.009 不返回正确的查询字符串片段中<see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />属性。</para>
+            <para>在 Exchange 版本早于主要版本 15，Outlook Web App 的 URL 的项标识符是 Outlook Web App 标识符。如果您面向的以前版本的 Exchange 15 的主要版本，则必须使用<see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" />方法将转换标识符。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="983a7-282">
+              <para>The item identifier for an Outlook Web App URL is the EWS identifier of the item. You can URL-encode the EWS item identifier and append it to the query string to get the Outlook Web App URL for an item.</para>
+              <para>Version differences</para>
+              <para>Versions of Exchange starting with major version 15 and ending with 15.00.775.009 do not return a correct query string fragment in the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property. </para>
+              <para>In versions of Exchange earlier than major version 15, the item identifier for the Outlook Web App URL is an Outlook Web App identifier. If you are targeting a version of Exchange earlier than major version 15, you have to use the <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> method to convert the identifier.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <example>
+          <code>    /// &amp;lt;summary&amp;gt;
+    /// Demonstrates how to open an item in Outlook Web App.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name="service"&amp;gt;An ExchangeService object that has already had credentials set and contains a valid service URL.&amp;lt;/param&amp;gt;
+    static void OpenOWAFromWebClientReadFormQueryString(ExchangeService service)
+    {
+      // Create a view that will return the identifier for the first item in a folder.
+      ItemView itemView = new ItemView(1);
+      itemView.PropertySet = new PropertySet(BasePropertySet.IdOnly);
+
+      // Make a call to EWS to get one item from the mailbox folder.
+      FindItemsResults&amp;lt;Item&amp;gt; results = service.FindItems(WellKnownFolderName.Drafts, itemView);
+
+      // Get the item identifier of the item to open in Outlook Web App.
+      ItemId itemId = results.Items[0].Id;
+
+      ExchangeServerInfo serverInfo = service.ServerInfo;
+      var owaReadFormQueryString = string.Empty;
+      var ewsIdentifer = itemId.UniqueId;
+
+      try
+      {
+        // Make a call to EWS to bind to the item returned by the FindItems method.
+        EmailMessage msg = EmailMessage.Bind(service, itemId);
+        msg.Load(new PropertySet(BasePropertySet.IdOnly, EmailMessageSchema.WebClientReadFormQueryString));
+
+        // Versions of Exchange starting with major version 15 and ending with Exchange Server 2013 build 15.0.775.09
+        // returned a different query string fragment. This optional check is not required for applications that
+        // target Exchange Online.
+        if ((serverInfo.MajorVersion == 15) &amp;amp;&amp;amp; (serverInfo.MajorBuildNumber &amp;lt; 775) &amp;amp;&amp;amp;(serverInfo.MinorBuildNumber &amp;lt; 09))
+        {
+          // If your client is connected to an Exchange 2013 server that has not been updated to CU3,
+          // this query string will be returned.
+          owaReadFormQueryString = string.Format("#viewmodel=_y.$Ep&amp;amp;ItemID={0}",
+            System.Web.HttpUtility.UrlEncode(ewsIdentifer, Encoding.UTF8));
+        }
+        else
+        {
+          // If your client is connected to an Exchanger 2010, Exchange 2013 CU3, or Exchange Online server,
+          // the WebClientReadFormQueryString is used.
+          owaReadFormQueryString = msg.WebClientReadFormQueryString;
+        }
+
+        // Create the URL that Outlook Web App uses to open the email message.
+        Uri url = service.Url;
+        string owaReadAccessUrl = string.Format("{0}://{1}/owa/{2}",
+          url.Scheme, url.Host, owaReadFormQueryString);
+
+        if (!string.IsNullOrEmpty(owaReadAccessUrl))
+        {
+          System.Diagnostics.Process.Start("IEXPLORE.EXE", owaReadAccessUrl);
+        }
+      }
+      catch (System.ComponentModel.Win32Exception ex)
+      {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("ERRROR: Internet Explorer cannot be found.");
+      }
+    }</code>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

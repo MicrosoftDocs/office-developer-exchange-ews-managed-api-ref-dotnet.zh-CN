@@ -1,0 +1,93 @@
+<Type Name="Recurrence+MonthlyRegenerationPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+MonthlyRegenerationPattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="00cf759e5d4a49a2a83e20f80bffc7426b72bb50" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623026" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Recurrence.MonthlyRegenerationPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/MonthlyRegenerationPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.MonthlyRegenerationPattern&#xA;Inherits Recurrence.IntervalPattern" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::MonthlyRegenerationPattern sealed : Microsoft::Exchange::WebServices::Data::Recurrence::IntervalPattern" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="bf7b8-101">表示再生模式中，用于定期任务，其中每个出现发生指定的前一个完成后的月数。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bf7b8-101">Represents a regeneration pattern, as used with recurring tasks, where each occurrence happens a specified number of months after the previous one is completed.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MonthlyRegenerationPattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MonthlyRegenerationPattern();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7b8-102">初始化 Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7b8-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MonthlyRegenerationPattern (DateTime startDate, int interval);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, int32 interval) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern.#ctor(System.DateTime,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startDate As DateTime, interval As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MonthlyRegenerationPattern(DateTime startDate, int interval);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="interval" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">
+          <span data-ttu-id="bf7b8-103">日期和定期开始的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7b8-103">The date and time when the recurrence starts.</span>
+          </span>
+        </param>
+        <param name="interval">
+          <span data-ttu-id="bf7b8-104">上一个和下一个匹配项之间的月数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7b8-104">The number of months between previous and next occurrences.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bf7b8-105">初始化 Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7b8-105">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyRegenerationPattern class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

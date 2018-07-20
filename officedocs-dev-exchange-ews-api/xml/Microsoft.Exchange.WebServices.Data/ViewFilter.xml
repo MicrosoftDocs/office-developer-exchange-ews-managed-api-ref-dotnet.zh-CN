@@ -1,0 +1,357 @@
+<Type Name="ViewFilter" FullName="Microsoft.Exchange.WebServices.Data.ViewFilter">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="808de5e5260554162c6566eec47b02999dfaafbd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623058" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ViewFilter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ViewFilter extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ViewFilter" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ViewFilter" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ViewFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e0d0d-101">在尝试以确定并返回仅指定类型的项目中的筛选器搜索查询的结果。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e0d0d-101">Filters the results of search query in an attempt to identify and return only items of the specified type.</span>
+      </span>
+      <span data-ttu-id="e0d0d-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ViewFilter" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e0d0d-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ViewFilter" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter All = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-103">无筛选器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-103">No filter.</span>
+          </span>
+          <span data-ttu-id="e0d0d-104">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.All" />成员是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.All" /> member is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Flagged">
+      <MemberSignature Language="C#" Value="Flagged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter Flagged = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Flagged" />
+      <MemberSignature Language="VB.NET" Value="Flagged" />
+      <MemberSignature Language="C++ CLI" Value="Flagged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-105">带标记的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-105">Flagged items.</span>
+          </span>
+          <span data-ttu-id="e0d0d-106">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Flagged" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Flagged" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachment">
+      <MemberSignature Language="C#" Value="HasAttachment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter HasAttachment = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.HasAttachment" />
+      <MemberSignature Language="VB.NET" Value="HasAttachment" />
+      <MemberSignature Language="C++ CLI" Value="HasAttachment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-107">带附件的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-107">Items that have attachments.</span>
+          </span>
+          <span data-ttu-id="e0d0d-108">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.HasAttachment" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-108">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.HasAttachment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Suggestions">
+      <MemberSignature Language="C#" Value="Suggestions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter Suggestions = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Suggestions" />
+      <MemberSignature Language="VB.NET" Value="Suggestions" />
+      <MemberSignature Language="C++ CLI" Value="Suggestions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-109">由推断引擎标识的类型的所有项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-109">All item types identified by the inference engine.</span>
+          </span>
+          <span data-ttu-id="e0d0d-110">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Suggestions" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-110">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Suggestions" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionsDelete">
+      <MemberSignature Language="C#" Value="SuggestionsDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter SuggestionsDelete = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsDelete" />
+      <MemberSignature Language="VB.NET" Value="SuggestionsDelete" />
+      <MemberSignature Language="C++ CLI" Value="SuggestionsDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-111">要删除的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-111">Items to delete.</span>
+          </span>
+          <span data-ttu-id="e0d0d-112">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsDelete" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-112">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsDelete" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionsRespond">
+      <MemberSignature Language="C#" Value="SuggestionsRespond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter SuggestionsRespond = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsRespond" />
+      <MemberSignature Language="VB.NET" Value="SuggestionsRespond" />
+      <MemberSignature Language="C++ CLI" Value="SuggestionsRespond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-113">以响应的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-113">Items to respond to.</span>
+          </span>
+          <span data-ttu-id="e0d0d-114">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsRespond" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-114">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.SuggestionsRespond" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskActive">
+      <MemberSignature Language="C#" Value="TaskActive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter TaskActive = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskActive" />
+      <MemberSignature Language="VB.NET" Value="TaskActive" />
+      <MemberSignature Language="C++ CLI" Value="TaskActive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-115">活动的任务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-115">Active tasks.</span>
+          </span>
+          <span data-ttu-id="e0d0d-116">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskActive" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-116">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskActive" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskCompleted">
+      <MemberSignature Language="C#" Value="TaskCompleted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter TaskCompleted = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskCompleted" />
+      <MemberSignature Language="VB.NET" Value="TaskCompleted" />
+      <MemberSignature Language="C++ CLI" Value="TaskCompleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-117">已完成的任务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-117">Finished tasks.</span>
+          </span>
+          <span data-ttu-id="e0d0d-118">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskCompleted" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-118">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskCompleted" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskOverdue">
+      <MemberSignature Language="C#" Value="TaskOverdue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter TaskOverdue = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskOverdue" />
+      <MemberSignature Language="VB.NET" Value="TaskOverdue" />
+      <MemberSignature Language="C++ CLI" Value="TaskOverdue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-119">截止任务项目的过去。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-119">Past due task items.</span>
+          </span>
+          <span data-ttu-id="e0d0d-120">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskOverdue" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-120">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.TaskOverdue" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ToOrCcMe">
+      <MemberSignature Language="C#" Value="ToOrCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter ToOrCcMe = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.ToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="ToOrCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ToOrCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-121">发送到收件人或抄送行上的邮箱所有者的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-121">Items addressed to the mailbox owner on either the To or the Cc line.</span>
+          </span>
+          <span data-ttu-id="e0d0d-122">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.ToOrCcMe" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-122">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.ToOrCcMe" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unread">
+      <MemberSignature Language="C#" Value="Unread" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ViewFilter Unread = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Unread" />
+      <MemberSignature Language="VB.NET" Value="Unread" />
+      <MemberSignature Language="C++ CLI" Value="Unread" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ViewFilter</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e0d0d-123">未读的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-123">Unread items.</span>
+          </span>
+          <span data-ttu-id="e0d0d-124">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Unread" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e0d0d-124">The <see cref="F:Microsoft.Exchange.WebServices.Data.ViewFilter.Unread" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

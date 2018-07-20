@@ -1,0 +1,177 @@
+<Type Name="ExtendedProperty" FullName="Microsoft.Exchange.WebServices.Data.ExtendedProperty">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="44ff95dce44d2b4d952850891e06e82d2ec90ffa" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623417" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ExtendedProperty : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExtendedProperty extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtendedProperty" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExtendedProperty&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExtendedProperty sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="35180-101">代表扩展的属性。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="35180-101">Represents an extended property.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedProperty.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">
+          <span data-ttu-id="35180-102">要比较的扩展属性的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-102">The object to compare with the extended property.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35180-103">指示是否等于指定的对象的扩展的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-103">Indicates whether the extended property  is equal to the specified object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="35180-104">
+            <b>true</b>如果指定的对象等于您的扩展属性。否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-104">
+              <b>true</b> if the specified object is equal to the extended property; otherwise <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedProperty.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="35180-105">返回 ExtendedProperty 对象的哈希代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-105">Returns a hash code for the ExtendedProperty  object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="35180-106">一个值，该值指示扩展的属性的值的哈希代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-106">An value that indicates the hash code for the extended property value.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="35180-107">
+            <para>哈希代码是一个数值，它用于标识相等测试过程中的对象。它还可以用作集合中对象的索引。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-107">
+              <para>A hash code is a numeric value that is used to identify an object during equality testing. It can also serve as an index for an object in a collection.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyDefinition">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition PropertyDefinition { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition PropertyDefinition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedProperty.PropertyDefinition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyDefinition As ExtendedPropertyDefinition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ PropertyDefinition { Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="35180-108">获取扩展属性的定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-108">Gets the definition of the extended property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="35180-109">扩展属性的定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-109">The definition of the extended property.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedProperty.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="35180-110">获取或设置扩展属性的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-110">Gets or sets the value of the extended property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="35180-111">扩展属性的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35180-111">The value of the extended property.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

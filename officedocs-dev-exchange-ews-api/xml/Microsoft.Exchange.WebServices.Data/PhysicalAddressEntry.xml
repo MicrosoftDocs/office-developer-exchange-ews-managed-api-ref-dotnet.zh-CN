@@ -1,0 +1,209 @@
+<Type Name="PhysicalAddressEntry" FullName="Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4c54cb97821da2557ac24067db511f4e9958e209" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623432" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PhysicalAddressEntry : Microsoft.Exchange.WebServices.Data.DictionaryEntryProperty&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressKey&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PhysicalAddressEntry extends Microsoft.Exchange.WebServices.Data.DictionaryEntryProperty`1&lt;valuetype Microsoft.Exchange.WebServices.Data.PhysicalAddressKey&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PhysicalAddressEntry&#xA;Inherits DictionaryEntryProperty(Of PhysicalAddressKey)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PhysicalAddressEntry sealed : Microsoft::Exchange::WebServices::Data::DictionaryEntryProperty&lt;Microsoft::Exchange::WebServices::Data::PhysicalAddressKey&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.DictionaryEntryProperty&lt;Microsoft.Exchange.WebServices.Data.PhysicalAddressKey&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TKey">Microsoft.Exchange.WebServices.Data.PhysicalAddressKey</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="2d5d9-101">表示物理地址词典中的条目。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2d5d9-101">Represents an entry within a physical address dictionary.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PhysicalAddressEntry ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PhysicalAddressEntry();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d5d9-102">初始化 PhysicalAddressEntry 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-102">Initializes a new instance of the PhysicalAddressEntry class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="City">
+      <MemberSignature Language="C#" Value="public string City { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string City" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry.City" />
+      <MemberSignature Language="VB.NET" Value="Public Property City As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ City { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d5d9-103">获取或设置该词条的城市。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-103">Gets or sets the city of the entry.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d5d9-104">条目的城市。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-104">The city of the entry.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CountryOrRegion">
+      <MemberSignature Language="C#" Value="public string CountryOrRegion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CountryOrRegion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry.CountryOrRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Property CountryOrRegion As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CountryOrRegion { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d5d9-105">获取或设置的国家或地区的条目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-105">Gets or sets the country or region of the entry.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d5d9-106">国家或地区的条目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-106">The country or region of the entry.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalCode">
+      <MemberSignature Language="C#" Value="public string PostalCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostalCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry.PostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalCode As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostalCode { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d5d9-107">获取或设置该词条的邮政编码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-107">Gets or sets the postal code of the entry.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d5d9-108">条目的邮政编码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-108">The postal code of the entry.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public string State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry.State" />
+      <MemberSignature Language="VB.NET" Value="Public Property State As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ State { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d5d9-109">获取或设置项的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-109">Gets or sets the state of the entry.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d5d9-110">项的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-110">The state of the entry.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Street">
+      <MemberSignature Language="C#" Value="public string Street { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Street" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PhysicalAddressEntry.Street" />
+      <MemberSignature Language="VB.NET" Value="Public Property Street As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Street { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d5d9-111">获取或设置该条目的街道名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-111">Gets or sets the street of the entry.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d5d9-112">所在街道的条目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d5d9-112">The street of the entry.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

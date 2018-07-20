@@ -1,0 +1,74 @@
+<Type Name="IFileAttachmentContentHandler" FullName="Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fb8f51c1d46d175817990bb2b93727a08f70d642" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622664" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IFileAttachmentContentHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileAttachmentContentHandler" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileAttachmentContentHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFileAttachmentContentHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="854c7-101">定义文件附件内容处理程序。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="854c7-101">Defines a file attachment content handler.</span>
+      </span>
+      <span data-ttu-id="854c7-102">应用程序可以实现 IFileAttachmentContentHandler 提供的文件附件的内容应写入的流。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="854c7-102">An application can implement IFileAttachmentContentHandler to provide the stream to which the content of a file attachment should be written.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetOutputStream">
+      <MemberSignature Language="C#" Value="public System.IO.Stream GetOutputStream (string attachmentId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IO.Stream GetOutputStream(string attachmentId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler.GetOutputStream(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetOutputStream (attachmentId As String) As Stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::IO::Stream ^ GetOutputStream(System::String ^ attachmentId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachmentId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="attachmentId">
+          <span data-ttu-id="854c7-103">正在加载的附件标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="854c7-103">The identifier of the attachment that is being loaded.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="854c7-104">提供具有指定标识符的附件的内容应写入的 stream。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="854c7-104">Provides a stream to which the content of the attachment with the specified identifier should be written.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="854c7-105">将写入的附件内容流。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="854c7-105">A Stream to which the content of the attachment will be written.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

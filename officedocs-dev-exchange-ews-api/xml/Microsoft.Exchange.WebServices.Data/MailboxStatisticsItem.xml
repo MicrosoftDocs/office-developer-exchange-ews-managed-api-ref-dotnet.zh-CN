@@ -1,0 +1,211 @@
+<Type Name="MailboxStatisticsItem" FullName="Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c5e051f654ec2136abc9571e493b5d1d410a45ea" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623180" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class MailboxStatisticsItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxStatisticsItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxStatisticsItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxStatisticsItem sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="c7777-101">包含有关电子数据展示搜索的目标邮箱的信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c7777-101">Contains information about a mailbox that is the target of an eDiscovery search.</span>
+      </span>
+      <span data-ttu-id="c7777-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c7777-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxStatisticsItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxStatisticsItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c7777-103">创建的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-103">Creates a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> class.</span>
+          </span>
+          <span data-ttu-id="c7777-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c7777-105">获取或设置目标邮箱的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-105">Gets or sets the name of the target mailbox.</span>
+          </span>
+          <span data-ttu-id="c7777-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.DisplayName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c7777-107">显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-107">The display name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemCount">
+      <MemberSignature Language="C#" Value="public long ItemCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 ItemCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.ItemCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemCount As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long ItemCount { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c7777-108">获取或设置的目标邮箱中的项目数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-108">Gets or sets the number of items in the target mailbox.</span>
+          </span>
+          <span data-ttu-id="c7777-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.ItemCount" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.ItemCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c7777-110">项目计数中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-110">The item count.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxId">
+      <MemberSignature Language="C#" Value="public string MailboxId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailboxId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.MailboxId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailboxId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c7777-111">获取或设置邮箱 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-111">Gets or sets the mailbox ID.</span>
+          </span>
+          <span data-ttu-id="c7777-112">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.MailboxId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.MailboxId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c7777-113">邮箱 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-113">The mailbox ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public ulong Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 Size { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c7777-114">获取或设置的总大小，以字节为单位的邮箱中的所有项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-114">Gets or sets the total size, in bytes, of all the items in a mailbox.</span>
+          </span>
+          <span data-ttu-id="c7777-115">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.Size" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.Size" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c7777-116">总大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c7777-116">The total size.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

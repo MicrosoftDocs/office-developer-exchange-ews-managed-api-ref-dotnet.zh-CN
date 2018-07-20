@@ -1,0 +1,1811 @@
+<Type Name="Folder" FullName="Microsoft.Exchange.WebServices.Data.Folder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8f7ee894ed9b06eab788afe3a41dd63b6a30d3ba" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623024" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Folder : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Folder extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="VB.NET" Value="Public Class Folder&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Folder : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="842bd-101">表示一个通用的文件夹。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="842bd-101">Represents a generic folder.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Folder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Folder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="842bd-102">此对象所属的 Exchange Web Services (EWS) 服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-102">The Exchange Web Services (EWS) service to which this object belongs.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-103">初始化未保存本地文件夹类的实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-103">Initializes an unsaved local instance of the Folder class.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="842bd-104">
+            <para>若要绑定到现有文件夹，使用<see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />方法相反。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-104">
+              <para>To bind to an existing folder, use the <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" /> method instead.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As ArchiveTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ArchiveTag ^ ArchiveTag { Microsoft::Exchange::WebServices::Data::ArchiveTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::ArchiveTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-105">获取或设置存档标记。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-105">Gets or sets the archive tag.</span>
+          </span>
+          <span data-ttu-id="842bd-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.ArchiveTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-107">文件夹的存档标记。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-107">The folder's archive tag.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Folder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Folder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Folder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="842bd-108">要使用绑定到的文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-108">The service to use to bind to the folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="842bd-109">将绑定到的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-109">The identifier of the folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-110">绑定到现有文件夹，无论其实际类型，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-110">Binds to an existing folder, whatever its actual type is, and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-111">文件夹对应于指定的 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-111">The folder that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-112">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-112">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Folder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Folder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Folder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="842bd-113">要使用绑定到的文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-113">The service to use to bind to the folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="842bd-114">将绑定到的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-114">The name of the folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-115">绑定到现有文件夹，无论其实际类型，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-115">Binds to an existing folder, whatever its actual type is, and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-116">用指定的文件夹<paramref name="name" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-116">The folder with the specified <paramref name="name" />.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-117">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-117">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Folder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Folder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Folder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="842bd-118">要使用绑定到的文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-118">The service to use to bind to the folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="842bd-119">将绑定到的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-119">The identifier of the folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="842bd-120">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-120">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-121">绑定到现有文件夹，无论其实际类型，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-121">Binds to an existing folder, whatever its actual type is, and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-122">文件夹对应于指定的 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-122">The folder that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-123">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-123">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Folder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Folder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Folder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="842bd-124">要使用绑定到的文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-124">The service to use to bind to the folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="842bd-125">将绑定到的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-125">The name of the folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="842bd-126">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-126">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-127">绑定到现有文件夹，无论其实际类型，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-127">Binds to an existing folder, whatever its actual type is, and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-128">用指定的文件夹<paramref name="name" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-128">The folder with the specified <paramref name="name" />.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-129">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-129">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildFolderCount">
+      <MemberSignature Language="C#" Value="public int ChildFolderCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ChildFolderCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ChildFolderCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChildFolderCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ChildFolderCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-130">在此获取此文件夹的子文件夹数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-130">Gets the number of child folders in this this folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-131">子文件夹数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-131">The number of child folders.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Copy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Folder Copy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Copy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderId As FolderId) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Folder ^ Copy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="842bd-132">要在其中复制此文件夹的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-132">The identifier of the folder in which to copy this folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-133">将此文件夹复制到特定文件夹中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-133">Copies this folder into a specific folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-134">是原始文件夹的副本的文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-134">The folder that is the copy of the original folder.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-135">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-135">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Copy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Folder Copy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Copy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderName As WellKnownFolderName) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Folder ^ Copy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="842bd-136">要在其中复制此文件夹的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-136">The name of the folder in which to copy this folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-137">将此文件夹复制到指定的文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-137">Copies this folder into the specified folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-138">是原始文件夹的副本的文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-138">The folder that is the copy of the original folder.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-139">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-139">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="842bd-140">删除模式中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-140">The deletion mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-141">删除文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-141">Deletes the folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="842bd-142">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-142">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-143">获取或设置的文件夹的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-143">Gets or sets the display name of the folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-144">显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-144">The display name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveRights As EffectiveRights" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EffectiveRights EffectiveRights { Microsoft::Exchange::WebServices::Data::EffectiveRights get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-145">获取一个值，该值指示当前经过身份验证的用户对该文件夹的有效权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-145">Gets a value that indicates the effective rights that the current authenticated user has on the folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-146">枚举值，该值指定有效的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-146">The enumeration value that specifies the effective rights.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Empty">
+      <MemberSignature Language="C#" Value="public void Empty (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool deleteSubFolders);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Empty(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool deleteSubFolders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Empty(Microsoft.Exchange.WebServices.Data.DeleteMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Empty(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, bool deleteSubFolders);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="deleteSubFolders" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="842bd-147">删除模式中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-147">The deletion mode.</span>
+          </span>
+        </param>
+        <param name="deleteSubFolders">
+          <span data-ttu-id="842bd-148">
+            <b>true</b>表示，还应删除的子文件夹;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-148">
+              <b>true</b> to indicate that subfolders should also be deleted; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-149">清空文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-149">Empties the folder.</span>
+          </span>
+          <span data-ttu-id="842bd-150">（可选） 可以到空的子文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-150">Optionally, enables you to empty subfolders.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-151">获取与文件夹关联的扩展属性的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-151">Gets a list of extended properties that are associated with the folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-152">具有扩展属性的集合对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-152">A Collection object with the extended properties.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindFolders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindFoldersResults FindFolders (Microsoft.Exchange.WebServices.Data.FolderView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindFoldersResults FindFolders(class Microsoft.Exchange.WebServices.Data.FolderView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindFolders (view As FolderView) As FindFoldersResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindFoldersResults ^ FindFolders(Microsoft::Exchange::WebServices::Data::FolderView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindFoldersResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.FolderView" />
+      </Parameters>
+      <Docs>
+        <param name="view">
+          <span data-ttu-id="842bd-153">控制返回的文件夹的数目的视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-153">The view that controls the number of folders that are returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-154">通过搜索此文件夹的子文件夹中获取文件夹的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-154">Obtains a list of folders by searching the subfolders of this folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-155">搜索操作的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-155">The results of the search operation.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-156">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-156">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindFolders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindFoldersResults FindFolders (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, Microsoft.Exchange.WebServices.Data.FolderView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindFoldersResults FindFolders(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, class Microsoft.Exchange.WebServices.Data.FolderView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.SearchFilter,Microsoft.Exchange.WebServices.Data.FolderView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindFoldersResults ^ FindFolders(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter, Microsoft::Exchange::WebServices::Data::FolderView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindFoldersResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.FolderView" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">
+          <span data-ttu-id="842bd-157">搜索筛选器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-157">The search filter.</span>
+          </span>
+        </param>
+        <param name="view">
+          <span data-ttu-id="842bd-158">控制返回的文件夹的数目的视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-158">The view that controls the number of folders that are returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-159">返回通过搜索满足指定的搜索筛选器条件的指定视图中的子文件夹的文件夹的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-159">Returns a list of folders by searching the subfolders in the specified view that satisfy the specified search filter criteria.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-160">搜索结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-160">The results of the search.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-161">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-161">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (Microsoft.Exchange.WebServices.Data.ItemView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(class Microsoft.Exchange.WebServices.Data.ItemView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(Microsoft.Exchange.WebServices.Data.ItemView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindItems (view As ItemView) As FindItemsResults(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(Microsoft::Exchange::WebServices::Data::ItemView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+      </Parameters>
+      <Docs>
+        <param name="view">
+          <span data-ttu-id="842bd-162">控制返回的项目数的视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-162">The view that controls the number of items that are returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-163">通过搜索此文件夹的内容中获取项的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-163">Obtains a list of items by searching the contents of this folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-164">搜索操作的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-164">The results of the search operation.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-165">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-165">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (Microsoft.Exchange.WebServices.Data.ItemView view, Microsoft.Exchange.WebServices.Data.Grouping groupBy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(class Microsoft.Exchange.WebServices.Data.ItemView view, class Microsoft.Exchange.WebServices.Data.Grouping groupBy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(Microsoft.Exchange.WebServices.Data.ItemView,Microsoft.Exchange.WebServices.Data.Grouping)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindItems (view As ItemView, groupBy As Grouping) As GroupedFindItemsResults(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GroupedFindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(Microsoft::Exchange::WebServices::Data::ItemView ^ view, Microsoft::Exchange::WebServices::Data::Grouping ^ groupBy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+        <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
+      </Parameters>
+      <Docs>
+        <param name="view">
+          <span data-ttu-id="842bd-166">控制返回的项目数的视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-166">The view that controls the number of items that are returned.</span>
+          </span>
+        </param>
+        <param name="groupBy">
+          <span data-ttu-id="842bd-167">分组条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-167">The grouping criteria.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-168">通过指定视图中搜索此文件夹的内容中获取项的列表和分组依据的指定属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-168">Obtains a list of items by searching the contents of this folder in the specified view and grouped by the specified property.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-169">搜索结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-169">The results of the search.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-170">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-170">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, Microsoft.Exchange.WebServices.Data.ItemView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, class Microsoft.Exchange.WebServices.Data.ItemView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(Microsoft.Exchange.WebServices.Data.SearchFilter,Microsoft.Exchange.WebServices.Data.ItemView)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter, Microsoft::Exchange::WebServices::Data::ItemView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">
+          <span data-ttu-id="842bd-171">搜索筛选器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-171">The search filter.</span>
+          </span>
+        </param>
+        <param name="view">
+          <span data-ttu-id="842bd-172">控制返回的项目数的视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-172">The view that controls the number of items that are returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-173">通过搜索此文件夹的内容中获取项的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-173">Obtains a list of items by searching the contents of this folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-174">搜索结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-174">The results of the search.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-175">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-175">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (string queryString, Microsoft.Exchange.WebServices.Data.ItemView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(string queryString, class Microsoft.Exchange.WebServices.Data.ItemView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(System.String,Microsoft.Exchange.WebServices.Data.ItemView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindItems (queryString As String, view As ItemView) As FindItemsResults(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(System::String ^ queryString, Microsoft::Exchange::WebServices::Data::ItemView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="queryString" Type="System.String" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+      </Parameters>
+      <Docs>
+        <param name="queryString">
+          <span data-ttu-id="842bd-176">查询字符串，指定要返回的项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-176">The query string that specifies the items to return.</span>
+          </span>
+        </param>
+        <param name="view">
+          <span data-ttu-id="842bd-177">控制返回的项目数的视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-177">The view that controls the number of items that are returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-178">返回通过搜索与指定的查询字符串此文件夹的内容项的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-178">Returns a list of items by searching the contents of this folder with the specified query string.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-179">搜索结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-179">The results of the search.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-180">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-180">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, Microsoft.Exchange.WebServices.Data.ItemView view, Microsoft.Exchange.WebServices.Data.Grouping groupBy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter, class Microsoft.Exchange.WebServices.Data.ItemView view, class Microsoft.Exchange.WebServices.Data.Grouping groupBy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(Microsoft.Exchange.WebServices.Data.SearchFilter,Microsoft.Exchange.WebServices.Data.ItemView,Microsoft.Exchange.WebServices.Data.Grouping)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GroupedFindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter, Microsoft::Exchange::WebServices::Data::ItemView ^ view, Microsoft::Exchange::WebServices::Data::Grouping ^ groupBy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+        <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">
+          <span data-ttu-id="842bd-181">搜索筛选器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-181">The search filter.</span>
+          </span>
+        </param>
+        <param name="view">
+          <span data-ttu-id="842bd-182">控制返回的项目数的视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-182">The view that controls the number of items that are returned.</span>
+          </span>
+        </param>
+        <param name="groupBy">
+          <span data-ttu-id="842bd-183">分组条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-183">The grouping criteria.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-184">返回通过搜索此文件夹，使用指定的搜索筛选器的内容项的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-184">Returns a list of items by searching the contents of this folder, using the specified search filter.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-185">搜索结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-185">The results of the search.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-186">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-186">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt; FindItems (string queryString, Microsoft.Exchange.WebServices.Data.ItemView view, Microsoft.Exchange.WebServices.Data.Grouping groupBy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; FindItems(string queryString, class Microsoft.Exchange.WebServices.Data.ItemView view, class Microsoft.Exchange.WebServices.Data.Grouping groupBy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.FindItems(System.String,Microsoft.Exchange.WebServices.Data.ItemView,Microsoft.Exchange.WebServices.Data.Grouping)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindItems (queryString As String, view As ItemView, groupBy As Grouping) As GroupedFindItemsResults(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GroupedFindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ FindItems(System::String ^ queryString, Microsoft::Exchange::WebServices::Data::ItemView ^ view, Microsoft::Exchange::WebServices::Data::Grouping ^ groupBy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupedFindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="queryString" Type="System.String" />
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.ItemView" />
+        <Parameter Name="groupBy" Type="Microsoft.Exchange.WebServices.Data.Grouping" />
+      </Parameters>
+      <Docs>
+        <param name="queryString">
+          <span data-ttu-id="842bd-187">指定的搜索筛选器查询字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-187">The query string that specifies the search filter.</span>
+          </span>
+        </param>
+        <param name="view">
+          <span data-ttu-id="842bd-188">控制返回的项目数的视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-188">The view that controls the number of items that are returned.</span>
+          </span>
+        </param>
+        <param name="groupBy">
+          <span data-ttu-id="842bd-189">分组条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-189">The grouping criteria.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-190">返回通过搜索此文件夹的内容项的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-190">Returns a list of items by searching the contents of this folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-191">搜索结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-191">The results of the search.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-192">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-192">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderClass">
+      <MemberSignature Language="C#" Value="public string FolderClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FolderClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.FolderClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-193">获取或设置此文件夹的自定义类名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-193">Gets or sets the custom class name of this folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-194">文件夹类名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-194">The folder class name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ Id { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-195">获取文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-195">Gets the identifier of the folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-196">文件夹标识符的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-196">The value of the folder identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedFolderInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ManagedFolderInformation ManagedFolderInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ManagedFolderInformation ManagedFolderInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ManagedFolderInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedFolderInformation As ManagedFolderInformation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ManagedFolderInformation ^ ManagedFolderInformation { Microsoft::Exchange::WebServices::Data::ManagedFolderInformation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ManagedFolderInformation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-197">获取与文件夹关联的消息记录管理 (MRM) 信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-197">Gets the Messaging Records Management (MRM) information that is associated with the folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-198">MRM 的信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-198">The MRM information.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAllItemsAsRead">
+      <MemberSignature Language="C#" Value="public void MarkAllItemsAsRead (bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MarkAllItemsAsRead(bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkAllItemsAsRead (suppressReadReceipts As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MarkAllItemsAsRead(bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="842bd-199">
+            <b>true</b>以取消发送读项目; 回执否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-199">
+              <b>true</b> to suppress sending read receipts for items; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-200">将文件夹中的所有项目都标记为已读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-200">Marks all items in folder as read.</span>
+          </span>
+          <span data-ttu-id="842bd-201">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-201">The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsRead(System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="842bd-202">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-202">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAllItemsAsUnread">
+      <MemberSignature Language="C#" Value="public void MarkAllItemsAsUnread (bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MarkAllItemsAsUnread(bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkAllItemsAsUnread (suppressReadReceipts As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MarkAllItemsAsUnread(bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="842bd-203">
+            <b>true</b>以取消发送读项目; 回执否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-203">
+              <b>true</b> to suppress sending read receipts for items; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-204">标记为未读的文件夹中的所有项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-204">Marks all items in folder as unread.</span>
+          </span>
+          <span data-ttu-id="842bd-205">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-205">The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.MarkAllItemsAsUnread(System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="842bd-206">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-206">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Move (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Folder Move(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderId As FolderId) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Folder ^ Move(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="842bd-207">要移动此文件夹中的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-207">The identifier of the folder in which to move this folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-208">将此文件夹移至特定文件夹中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-208">Moves this folder to a specific folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-209">一个代表此文件夹中其新位置的新文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-209">A new folder that represents this folder in its new location.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-210">
+            <para>调用此方法将导致呼叫到 Exchange Web Services (EWS)。</para>
+            <para>后<see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" />完成后，原始文件夹不存在。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-210">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para>After <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.FolderId)" /> completes, the original folder does not exist.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Folder Move (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Folder Move(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderName As WellKnownFolderName) As Folder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Folder ^ Move(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Folder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="842bd-211">要移动此文件夹的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-211">The name of the folder in which to move this folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-212">将此文件夹移至指定的文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-212">Moves this folder to the specified folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-213">一个代表此文件夹中其新位置的新文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-213">A new folder that represents this folder in its new location.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="842bd-214">
+            <para>调用此方法将导致呼叫到 Exchange Web Services (EWS)。</para>
+            <para>后<see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />完成后，原始文件夹不存在。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-214">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para>After <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" /> completes, the original folder does not exist.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-215">获取此文件夹的父文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-215">Gets the identifier of this folder's parent folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-216">父文件夹的标识符的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-216">The value of the parent folder's identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permissions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderPermissionCollection Permissions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderPermissionCollection Permissions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.Permissions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Permissions As FolderPermissionCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderPermissionCollection ^ Permissions { Microsoft::Exchange::WebServices::Data::FolderPermissionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-217">获取或设置的文件夹的权限的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-217">Gets or sets a list of permissions for the folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-218">包含权限的列表集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-218">A collection that includes the list of permissions.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="842bd-219">
+            <para>时面向 Exchange Online 中，Exchange Online 作为 Office 365 的一部分和开头 Exchange 2013 的 Exchange 内部部署版本中不返回文件夹权限<see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" />属性集。若要检索文件夹权限，添加<see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" />属性绑定到文件夹时设置的属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-219">
+              <para>When targeting Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange 2013, folder permissions are not returned in the <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> property set. In order to retrieve folder permissions, add the <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> property to the property set when binding to the folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As PolicyTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PolicyTag ^ PolicyTag { Microsoft::Exchange::WebServices::Data::PolicyTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::PolicyTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-220">获取或设置策略标记。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-220">Gets or sets the policy tag.</span>
+          </span>
+          <span data-ttu-id="842bd-221">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-221">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.PolicyTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-222">文件夹的策略标记。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-222">The folder's policy tag.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveExtendedProperty">
+      <MemberSignature Language="C#" Value="public bool RemoveExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.RemoveExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">
+          <span data-ttu-id="842bd-223">扩展的属性定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-223">The extended property definition.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-224">从文件夹中删除的扩展的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-224">Removes an extended property from the folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="842bd-225">
+            <b>true</b>如果移除了属性;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-225">
+              <b>true</b> if property was removed; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderId">
+          <span data-ttu-id="842bd-226">要在其中保存此文件夹的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-226">The identifier of the folder in which to save this folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-227">在特定文件夹中保存此文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-227">Saves this folder in a specific folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="842bd-228">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-228">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderName">
+          <span data-ttu-id="842bd-229">要在其中保存此文件夹的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-229">The name of the folder in which to save this folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-230">在特定文件夹中保存此文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-230">Saves this folder in a specific folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="842bd-231">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-231">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedProperty">
+      <MemberSignature Language="C#" Value="public void SetExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.SetExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">
+          <span data-ttu-id="842bd-232">扩展属性的定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-232">The definition of the extended property.</span>
+          </span>
+        </param>
+        <param name="value">
+          <span data-ttu-id="842bd-233">要设置的扩展的属性值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-233">The value to which to set the extended property.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="842bd-234">设置指定的扩展属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-234">Sets the specified extended property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public int TotalCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-235">获取文件夹中包含的项目的总数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-235">Gets the total number of items that are contained in the folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-236">文件夹中的项目数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-236">The number of items in the folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public int UnreadCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UnreadCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UnreadCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-237">获取文件夹中的未读项目数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-237">Gets the number of unread items in the folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-238">一个代表文件夹中的未读项目数的整数值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-238">An integer value that represents the number of unread items in the folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Folder.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-239">应用已对此文件夹的本地更改。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-239">Applies the local changes that have been made to this folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="842bd-240">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-240">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WellKnownFolderName">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; WellKnownFolderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; WellKnownFolderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WellKnownFolderName As Nullable(Of WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; WellKnownFolderName { Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="842bd-241">获取一个中列出的公用文件夹名称<see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-241">Gets one of the common folder names listed in the <see cref="T:Microsoft.Exchange.WebServices.Data.WellKnownFolderName" /> enumeration.</span>
+          </span>
+          <span data-ttu-id="842bd-242">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-242">The <see cref="P:Microsoft.Exchange.WebServices.Data.Folder.WellKnownFolderName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="842bd-243">此文件夹的已知文件夹名称枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="842bd-243">The well-known folder name enumeration value of this folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,64 @@
+<Type Name="GetItemResponse" FullName="Microsoft.Exchange.WebServices.Data.GetItemResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7108e59787f683c1861418e220a25a11809d9baf" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622821" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetItemResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetItemResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetItemResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetItemResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="1c67f-101">代表对单个项目检索操作的响应。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1c67f-101">Represents a response to an individual item retrieval operation.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Item { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Item Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetItemResponse.Item" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Item ^ Item { Microsoft::Exchange::WebServices::Data::Item ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1c67f-102">获取已检索到的项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c67f-102">Gets the item that was retrieved.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1c67f-103">一个项目的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c67f-103">An Item object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

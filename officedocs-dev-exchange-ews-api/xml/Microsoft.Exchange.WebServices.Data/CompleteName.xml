@@ -1,0 +1,356 @@
+<Type Name="CompleteName" FullName="Microsoft.Exchange.WebServices.Data.CompleteName">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b16f7a8c104e6e08751efa55fcc535cadaa3baa1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623382" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CompleteName : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CompleteName extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CompleteName" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CompleteName&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CompleteName sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="9f5c5-101">表示某个联系人的完整名称。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9f5c5-101">Represents the complete name of a contact.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CompleteName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CompleteName.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompleteName();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-102">初始化 CompleteName 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-102">Initializes a new instance of the CompleteName class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullName">
+      <MemberSignature Language="C#" Value="public string FullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.FullName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FullName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FullName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-103">获取该联系人的完整名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-103">Gets the full name of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-104">联系人的完整名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-104">The contact's full name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenName">
+      <MemberSignature Language="C#" Value="public string GivenName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GivenName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.GivenName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GivenName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GivenName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-105">获取给定名称 （名字） 的联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-105">Gets the given name (first name) of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-106">联系人给定姓名 （名字）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-106">The contact's given name (first name).</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public string Initials { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Initials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Initials As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Initials { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-107">获取该联系人的姓名缩写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-107">Gets the initials of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-108">联系人的姓名缩写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-108">The contact's initials.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public string MiddleName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MiddleName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-109">获取联系人的中间名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-109">Gets the middle name of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-110">联系人的中间名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-110">The contact's middle name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NickName">
+      <MemberSignature Language="C#" Value="public string NickName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NickName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.NickName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NickName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NickName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-111">获取联系人的昵称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-111">Gets the nickname of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-112">联系人的昵称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-112">The contact's nickname.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Suffix">
+      <MemberSignature Language="C#" Value="public string Suffix { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Suffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.Suffix" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Suffix As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Suffix { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-113">获取该联系人的后缀。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-113">Gets the suffix of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-114">联系人的后缀。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-114">The contact's suffix.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surname">
+      <MemberSignature Language="C#" Value="public string Surname { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Surname" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.Surname" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Surname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Surname { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-115">获取姓 （姓氏） 的联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-115">Gets the surname (last name) of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-116">联系人的姓 （姓氏）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-116">The contact's surname (last name).</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.Title" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-117">获取联系人的标题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-117">Gets the title of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-118">联系人的职位。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-118">The contact's title.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiGivenName">
+      <MemberSignature Language="C#" Value="public string YomiGivenName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiGivenName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.YomiGivenName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property YomiGivenName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiGivenName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-119">获取给定的联系人的姓名 （名字） Yomi。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-119">Gets the Yomi given name (first name) of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-120">联系人 Yomi 给定姓名 （名字）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-120">The contact's Yomi given name (first name).</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiSurname">
+      <MemberSignature Language="C#" Value="public string YomiSurname { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiSurname" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.YomiSurname" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property YomiSurname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiSurname { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f5c5-121">获取 Yomi 姓 （姓氏） 的联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-121">Gets the Yomi surname (last name) of the contact.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f5c5-122">联系人的 Yomi surname （姓氏）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f5c5-122">The contact's Yomi surname (last name).</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

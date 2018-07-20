@@ -1,0 +1,103 @@
+<Type Name="ItemId" FullName="Microsoft.Exchange.WebServices.Data.ItemId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7f9883204e9c5e435ba060b3607abc2587a5e6a4" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622651" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ItemId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ItemId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemId" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemId&#xA;Inherits ServiceId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemId : Microsoft::Exchange::WebServices::Data::ServiceId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="0866a-101">表示一个 Exchange 项目的 Id。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0866a-101">Represents the Id of an Exchange item.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniqueId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemId(System::String ^ uniqueId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">
+          <span data-ttu-id="0866a-102">用于初始化 ItemId 的唯一 Id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0866a-102">The unique Id used to initialize the ItemId.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0866a-103">初始化 ItemId 的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0866a-103">Initializes a new instance of ItemId.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.ItemId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.ItemId op_Implicit(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniqueId As String) As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::ItemId ^(System::String ^ uniqueId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">
+          <span data-ttu-id="0866a-104">要转换为 ItemId 的唯一 Id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0866a-104">The unique Id to convert to ItemId.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0866a-105">定义字符串和 ItemId 之间隐式转换。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0866a-105">Defines an implicit conversion between string and ItemId.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0866a-106">ItemId 初始化与指定的唯一 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0866a-106">An ItemId initialized with the specified unique Id.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

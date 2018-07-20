@@ -1,0 +1,69 @@
+<Type Name="MetadataAccessException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="73481518f7ac0c28a42cc4a109987ca03fbe536d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623463" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MetadataAccessException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MetadataAccessException extends Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException" />
+  <TypeSignature Language="VB.NET" Value="Public Class MetadataAccessException&#xA;Inherits TokenValidationException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MetadataAccessException : Microsoft::Exchange::WebServices::Auth::Validation::TokenValidationException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e4c13-101">包含无法访问的客户端标识令牌的身份验证元数据文档时引发的异常。<see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e4c13-101">Contains the exception that is thrown when the authentication metadata document for a client identity token cannot be accessed.The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MetadataAccessException (string details);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string details) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (details As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MetadataAccessException(System::String ^ details);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="details" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="details">
+          <span data-ttu-id="e4c13-102">描述异常消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e4c13-102">The message that describes the exception.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e4c13-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException" />用指定描述错误的消息的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e4c13-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException" /> class with the specified message that describes the error.</span>
+          </span>
+          <span data-ttu-id="e4c13-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException.#ctor(System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e4c13-104">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.MetadataAccessException.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

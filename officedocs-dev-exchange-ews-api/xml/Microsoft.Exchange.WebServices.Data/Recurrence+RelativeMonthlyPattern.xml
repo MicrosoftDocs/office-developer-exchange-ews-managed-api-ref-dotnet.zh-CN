@@ -1,0 +1,166 @@
+<Type Name="Recurrence+RelativeMonthlyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+RelativeMonthlyPattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3fce0ab724d3accf8f3673736e96deecbc3ff4c1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622669" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Recurrence.RelativeMonthlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/RelativeMonthlyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.RelativeMonthlyPattern&#xA;Inherits Recurrence.IntervalPattern" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::RelativeMonthlyPattern sealed : Microsoft::Exchange::WebServices::Data::Recurrence::IntervalPattern" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="8764e-101">代表其中每个出现发生某一相对日期特定后先前的月数的定期模式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8764e-101">Represents a recurrence pattern where each occurrence happens on a relative day a specific number of months after the previous one.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RelativeMonthlyPattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RelativeMonthlyPattern();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="8764e-102">初始化 Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RelativeMonthlyPattern (DateTime startDate, int interval, Microsoft.Exchange.WebServices.Data.DayOfTheWeek dayOfTheWeek, Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex dayOfTheWeekIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, int32 interval, valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek dayOfTheWeek, valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex dayOfTheWeekIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern.#ctor(System.DateTime,System.Int32,Microsoft.Exchange.WebServices.Data.DayOfTheWeek,Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RelativeMonthlyPattern(DateTime startDate, int interval, Microsoft::Exchange::WebServices::Data::DayOfTheWeek dayOfTheWeek, Microsoft::Exchange::WebServices::Data::DayOfTheWeekIndex dayOfTheWeekIndex);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="interval" Type="System.Int32" />
+        <Parameter Name="dayOfTheWeek" Type="Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />
+        <Parameter Name="dayOfTheWeekIndex" Type="Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">
+          <span data-ttu-id="8764e-103">定期模式的开始日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-103">The start date of the recurrence pattern.</span>
+          </span>
+        </param>
+        <param name="interval">
+          <span data-ttu-id="8764e-104">匹配项之间的间隔。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-104">The interval between occurrences.</span>
+          </span>
+        </param>
+        <param name="dayOfTheWeek">
+          <span data-ttu-id="8764e-105">重复指示一周的哪一天的事件 DayOfTheWeek 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-105">One of the DayOfTheWeek enumeration values that indicates on which day of the week the event recurs.</span>
+          </span>
+        </param>
+        <param name="dayOfTheWeekIndex">
+          <span data-ttu-id="8764e-106">指示在相应月份的第几周事件重复 DayOfTheWeekIndex 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-106">One of the DayOfTheWeekIndex enumeration values that indicates in which week of the month the event recurs.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="8764e-107">初始化与指定的参数的 Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-107">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern class with the specified parameters.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfTheWeek">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DayOfTheWeek DayOfTheWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek DayOfTheWeek" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern.DayOfTheWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfTheWeek As DayOfTheWeek" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DayOfTheWeek DayOfTheWeek { Microsoft::Exchange::WebServices::Data::DayOfTheWeek get(); void set(Microsoft::Exchange::WebServices::Data::DayOfTheWeek value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8764e-108">获取或设置该事件在重现的星期几。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-108">Gets or sets the day of the week on which the event recurs.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="8764e-109">DayOfTheWeek 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-109">One of the DayOfTheWeek enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfTheWeekIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex DayOfTheWeekIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex DayOfTheWeekIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.RelativeMonthlyPattern.DayOfTheWeekIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfTheWeekIndex As DayOfTheWeekIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DayOfTheWeekIndex DayOfTheWeekIndex { Microsoft::Exchange::WebServices::Data::DayOfTheWeekIndex get(); void set(Microsoft::Exchange::WebServices::Data::DayOfTheWeekIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeekIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8764e-110">获取或设置该事件在重现该月份的周。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-110">Gets or sets the week of the month on which the event recurs.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="8764e-111">DayOfTheWeekIndex 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8764e-111">One of the DayOfTheWeekIndex enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

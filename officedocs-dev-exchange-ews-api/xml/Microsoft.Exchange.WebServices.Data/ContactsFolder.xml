@@ -1,0 +1,264 @@
+<Type Name="ContactsFolder" FullName="Microsoft.Exchange.WebServices.Data.ContactsFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="08af22f9142da28034e1007356113e3bf7d8b84f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623267" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ContactsFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactsFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactsFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactsFolder&#xA;Inherits Folder" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactsFolder : Microsoft::Exchange::WebServices::Data::Folder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Folder</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="abda9-101">表示包含联系人的文件夹。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="abda9-101">Represents a folder that contains contacts.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContactsFolder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContactsFolder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="abda9-102">联系人文件夹将绑定到 ExchangeService 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-102">The ExchangeService object to which the contacts folder will be bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="abda9-103">初始化未保存本地 ContactsFolder 类的实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-103">Initializes an unsaved local instance of the ContactsFolder class.</span>
+          </span>
+          <span data-ttu-id="abda9-104">若要将绑定到现有的联系人文件夹，请改为使用 ContactsFolder.Bind()。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-104">To bind to an existing contacts folder, use ContactsFolder.Bind() instead.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactsFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactsFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As ContactsFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactsFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactsFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="abda9-105">要使用将绑定到联系人文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-105">The service to use to bind to the contacts folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="abda9-106">要将绑定到联系人文件夹的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-106">The ID of the contacts folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="abda9-107">绑定到现有的联系人文件夹，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-107">Binds to an existing contacts folder and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="abda9-108">ContactsFolder 实例表示指定 ID 的对应的联系人文件夹</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-108">A ContactsFolder instance that represents the contacts folder that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactsFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactsFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As ContactsFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactsFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactsFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="abda9-109">要使用将绑定到联系人文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-109">The service to use to bind to the contacts folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="abda9-110">绑定到联系人文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-110">The name of the contacts folder to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="abda9-111">绑定到现有的联系人文件夹，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-111">Binds to an existing contacts folder and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="abda9-112">代表联系人文件夹具有指定名称 ContactsFolder 实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-112">A ContactsFolder instance that represents the contacts folder with the specified name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactsFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactsFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactsFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactsFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="abda9-113">要使用将绑定到联系人文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-113">The service to use to bind to the contacts folder.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="abda9-114">要将绑定到联系人文件夹的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-114">The ID of the contacts folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="abda9-115">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-115">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="abda9-116">绑定到现有的联系人文件夹，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-116">Binds to an existing contacts folder and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="abda9-117">ContactsFolder 实例表示指定 ID 的对应的联系人文件夹</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-117">A ContactsFolder instance that represents the contacts folder that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.ContactsFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.ContactsFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ContactsFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::ContactsFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactsFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="abda9-118">要使用将绑定到联系人文件夹的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-118">The service to use to bind to the contacts folder.</span>
+          </span>
+        </param>
+        <param name="name">
+          <span data-ttu-id="abda9-119">绑定到联系人文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-119">The name of the contacts folder to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="abda9-120">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-120">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="abda9-121">绑定到现有的联系人文件夹，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-121">Binds to an existing contacts folder and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="abda9-122">代表联系人文件夹具有指定名称 ContactsFolder 实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="abda9-122">A ContactsFolder instance that represents the contacts folder with the specified name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

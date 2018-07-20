@@ -1,0 +1,154 @@
+<Type Name="TeamMailboxLifecycleState" FullName="Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f75bdda2a84501f2b715804cad8a0725e163c395" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622846" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum TeamMailboxLifecycleState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TeamMailboxLifecycleState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TeamMailboxLifecycleState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TeamMailboxLifecycleState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="88dbd-101">定义站点邮箱生命周期的状态。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="88dbd-101">Defines the life cycle state of a site mailbox.</span>
+      </span>
+      <span data-ttu-id="88dbd-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="88dbd-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Active = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="C++ CLI" Value="Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="88dbd-103">站点邮箱是正在使用中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="88dbd-103">The site mailbox is in active use.</span>
+          </span>
+          <span data-ttu-id="88dbd-104">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="88dbd-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Closed">
+      <MemberSignature Language="C#" Value="Closed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Closed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" />
+      <MemberSignature Language="VB.NET" Value="Closed" />
+      <MemberSignature Language="C++ CLI" Value="Closed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="88dbd-105">网站邮箱是已关闭，并且不再处于活动状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="88dbd-105">The site mailbox is has been closed and is no longer active.</span>
+          </span>
+          <span data-ttu-id="88dbd-106">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="88dbd-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PendingDelete">
+      <MemberSignature Language="C#" Value="PendingDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState PendingDelete = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" />
+      <MemberSignature Language="VB.NET" Value="PendingDelete" />
+      <MemberSignature Language="C++ CLI" Value="PendingDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="88dbd-107">站点邮箱关闭和当前删除未决。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="88dbd-107">The site mailbox is closed and pending deletion.</span>
+          </span>
+          <span data-ttu-id="88dbd-108">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="88dbd-108">The <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unlinked">
+      <MemberSignature Language="C#" Value="Unlinked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Unlinked = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" />
+      <MemberSignature Language="VB.NET" Value="Unlinked" />
+      <MemberSignature Language="C++ CLI" Value="Unlinked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="88dbd-109">站点邮箱未链接到的基于 web 的协作环境。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="88dbd-109">The site mailbox is not linked to a web-based collaboration environment.</span>
+          </span>
+          <span data-ttu-id="88dbd-110">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="88dbd-110">The <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

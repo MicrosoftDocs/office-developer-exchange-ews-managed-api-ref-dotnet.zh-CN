@@ -1,0 +1,282 @@
+<Type Name="IndexedPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="deaa9353119f4b7b262ebd1c007549dbbd6d7dab" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623284" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class IndexedPropertyDefinition : Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit IndexedPropertyDefinition extends Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class IndexedPropertyDefinition&#xA;Inherits ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="C++ CLI" Value="public ref class IndexedPropertyDefinition sealed : Microsoft::Exchange::WebServices::Data::ServiceObjectPropertyDefinition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="b7590-101">表示索引的属性定义。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b7590-101">Represents an indexed property definition.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">
+          <span data-ttu-id="b7590-102">要检查相等的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-102">The object to check for equality.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b7590-103">确定给定的索引的属性定义是否等于此索引的属性定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-103">Determines whether a given indexed property definition is equal to this indexed property definition.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b7590-104">如果为<b>true</b>的属性定义定义相同的索引属性;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-104">
+              <b>true</b> if the properties definitions define the same indexed property; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="b7590-105">充当特定类型的哈希函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-105">Serves as a hash function for a particular type.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b7590-106">当前对象的哈希代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-106">A hash code for the current object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJsonType">
+      <MemberSignature Language="C#" Value="protected override string GetJsonType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetJsonType() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.GetJsonType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetJsonType () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetJsonType();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public string Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Index { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b7590-107">获取属性的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-107">Gets the index of the property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b7590-108">属性的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-108">The index of the property.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef1, Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef1, class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.op_Equality(Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition,Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (idxPropDef1 As IndexedPropertyDefinition, idxPropDef2 As IndexedPropertyDefinition) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ idxPropDef1, Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ idxPropDef2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idxPropDef1" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+        <Parameter Name="idxPropDef2" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="idxPropDef1">
+          <span data-ttu-id="b7590-109">第一个索引的属性定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-109">The first indexed property definition.</span>
+          </span>
+        </param>
+        <param name="idxPropDef2">
+          <span data-ttu-id="b7590-110">第二个的索引的属性定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-110">The second indexed property definition.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b7590-111">确定的 IndexedPropertyDefinition 两个指定的实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-111">Determines whether two specified instances of IndexedPropertyDefinition are equal.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b7590-112">
+            <b>true</b>如果索引的属性定义相等，则否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-112">
+              <b>true</b> if indexed property definitions are equal; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef1, Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef1, class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.op_Inequality(Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition,Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (idxPropDef1 As IndexedPropertyDefinition, idxPropDef2 As IndexedPropertyDefinition) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ idxPropDef1, Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ idxPropDef2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idxPropDef1" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+        <Parameter Name="idxPropDef2" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="idxPropDef1">
+          <span data-ttu-id="b7590-113">第一个索引的属性定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-113">The first indexed property definition.</span>
+          </span>
+        </param>
+        <param name="idxPropDef2">
+          <span data-ttu-id="b7590-114">第二个的索引的属性定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-114">The second indexed property definition.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b7590-115">确定 IndexedPropertyDefinition 的两个指定的实例是否不相等。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-115">Determines whether two specified instances of IndexedPropertyDefinition are not equal.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b7590-116">
+            <b>true</b>如果索引的属性定义相等，则否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-116">
+              <b>true</b> if indexed property definitions are equal; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public override Type Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Type As Type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Type ^ Type { Type ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b7590-117">获取的属性类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-117">Gets the property type.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b7590-118">属性类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7590-118">The property type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

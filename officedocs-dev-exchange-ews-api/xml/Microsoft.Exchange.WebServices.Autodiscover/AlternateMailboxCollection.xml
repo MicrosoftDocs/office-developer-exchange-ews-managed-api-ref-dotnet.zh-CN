@@ -1,0 +1,75 @@
+<Type Name="AlternateMailboxCollection" FullName="Microsoft.Exchange.WebServices.Autodiscover.AlternateMailboxCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="45524f6031a9c0c3d04bbe2813f7cc32f85c97e3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623474" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AlternateMailboxCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AlternateMailboxCollection extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailboxCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AlternateMailboxCollection" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateMailboxCollection sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="2c4f6-101">表示用户的备用邮箱的集合。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2c4f6-101">Represents a collection of alternate mailboxes for a user.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Entries">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox&gt; Entries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox&gt; Entries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailboxCollection.Entries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Entries As List(Of AlternateMailbox)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Autodiscover::AlternateMailbox ^&gt; ^ Entries { System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Autodiscover::AlternateMailbox ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c4f6-102">获取备用邮箱的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c4f6-102">Gets the collection of alternate mailboxes.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c4f6-103">包含备用邮箱的列表的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c4f6-103">A collection that contains a list of alternate mailboxes.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2c4f6-104">
+            <para>此集合表示的所有备用邮箱与用户关联。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c4f6-104">
+              <para>This collection represents all of the alternate mailboxes associated with the user.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

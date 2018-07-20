@@ -1,0 +1,235 @@
+<Type Name="SearchFilter+ContainsSubstring" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+ContainsSubstring">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a7f4cde27e07f374065fa2420b56e6d18c7755e6" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622834" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.ContainsSubstring : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/ContainsSubstring extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.ContainsSubstring&#xA;Inherits SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::ContainsSubstring sealed : Microsoft::Exchange::WebServices::Data::SearchFilter::PropertyBasedFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+PropertyBasedFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="6f926-101">搜索筛选器检查状态的子字符串内的文本属性。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6f926-101">A search filter that checks for the presence of a substring inside a text property.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContainsSubstring ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContainsSubstring();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f926-102">初始化 SearchFilter.ContainsSubstring 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-102">Initializes a new instance of the SearchFilter.ContainsSubstring class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContainsSubstring (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, value As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContainsSubstring(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, System::String ^ value);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">
+          <span data-ttu-id="6f926-103">正在比较属性的定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-103">The definition of the property that is being compared.</span>
+          </span>
+        </param>
+        <param name="value">
+          <span data-ttu-id="6f926-104">要比较的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-104">The value to compare with.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6f926-105">初始化与指定的属性定义和字符串进行比较的 SearchFilter.ContainsSubstring 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-105">Initializes a new instance of the SearchFilter.ContainsSubstring class with the specified property definition and string to compare.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ContainsSubstring (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, string value, Microsoft.Exchange.WebServices.Data.ContainmentMode containmentMode, Microsoft.Exchange.WebServices.Data.ComparisonMode comparisonMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, string value, valuetype Microsoft.Exchange.WebServices.Data.ContainmentMode containmentMode, valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode comparisonMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.String,Microsoft.Exchange.WebServices.Data.ContainmentMode,Microsoft.Exchange.WebServices.Data.ComparisonMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ContainsSubstring(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, System::String ^ value, Microsoft::Exchange::WebServices::Data::ContainmentMode containmentMode, Microsoft::Exchange::WebServices::Data::ComparisonMode comparisonMode);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="containmentMode" Type="Microsoft.Exchange.WebServices.Data.ContainmentMode" />
+        <Parameter Name="comparisonMode" Type="Microsoft.Exchange.WebServices.Data.ComparisonMode" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">
+          <span data-ttu-id="6f926-106">正在比较属性的定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-106">The definition of the property that is being compared.</span>
+          </span>
+        </param>
+        <param name="value">
+          <span data-ttu-id="6f926-107">要比较的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-107">The value to compare with.</span>
+          </span>
+        </param>
+        <param name="containmentMode">
+          <span data-ttu-id="6f926-108">ContainmentMode 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-108">One of the ContainmentMode enumeration values.</span>
+          </span>
+        </param>
+        <param name="comparisonMode">
+          <span data-ttu-id="6f926-109">ComparisonMode 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-109">One of the ComparisonMode enumeration values.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6f926-110">初始化与指定的属性定义要比较字符串和比较运算符和内嵌模式的 SearchFilter.ContainsSubstring 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-110">Initializes a new instance of the SearchFilter.ContainsSubstring class with the specified property definition and string to compare and comparison and containment modes.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComparisonMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ComparisonMode ComparisonMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode ComparisonMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring.ComparisonMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ComparisonMode As ComparisonMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ComparisonMode ComparisonMode { Microsoft::Exchange::WebServices::Data::ComparisonMode get(); void set(Microsoft::Exchange::WebServices::Data::ComparisonMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f926-111">获取或设置的比较模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-111">Gets or sets the comparison mode.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6f926-112">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.ComparisonMode" />用于比较的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-112">The<see cref="T:Microsoft.Exchange.WebServices.Data.ComparisonMode" /> enumeration value that is used for the comparison.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainmentMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ContainmentMode ContainmentMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ContainmentMode ContainmentMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring.ContainmentMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContainmentMode As ContainmentMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ContainmentMode ContainmentMode { Microsoft::Exchange::WebServices::Data::ContainmentMode get(); void set(Microsoft::Exchange::WebServices::Data::ContainmentMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContainmentMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f926-113">获取或设置，则比较结果的内嵌模式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-113">Gets or sets the containment mode for the comparison.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6f926-114">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.ContainmentMode" />用于比较的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-114">The<see cref="T:Microsoft.Exchange.WebServices.Data.ContainmentMode" /> enumeration value that is used for the comparison.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6f926-115">获取或设置的值进行比较的指定的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-115">Gets or sets the value to compare the specified property with.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6f926-116">要比较的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6f926-116">The value to compare.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

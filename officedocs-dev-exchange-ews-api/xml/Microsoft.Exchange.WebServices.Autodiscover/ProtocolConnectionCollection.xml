@@ -1,0 +1,64 @@
+<Type Name="ProtocolConnectionCollection" FullName="Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnectionCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a5318d0577ba3cb815fb50805a4e101e2bc797ab" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623328" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ProtocolConnectionCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ProtocolConnectionCollection extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnectionCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ProtocolConnectionCollection" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ProtocolConnectionCollection sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="69f1b-101">设置用户是协议连接的集合。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="69f1b-101">A user setting that is a collection of protocol connections.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Connections">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection&gt; Connections { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection&gt; Connections" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnectionCollection.Connections" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Connections As List(Of ProtocolConnection)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Autodiscover::ProtocolConnection ^&gt; ^ Connections { System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Autodiscover::ProtocolConnection ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.ProtocolConnection&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69f1b-102">获取用户协议连接的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69f1b-102">Gets a list of user protocol connections.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="69f1b-103">包含用户的协议连接的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69f1b-103">A list containing the user's protocol connections.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

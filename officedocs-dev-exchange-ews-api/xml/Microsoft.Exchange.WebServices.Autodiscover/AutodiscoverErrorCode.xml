@@ -1,0 +1,297 @@
+<Type Name="AutodiscoverErrorCode" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="743311a15bc3e0bff8793355c2b09fcbb19de6d4" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623475" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum AutodiscoverErrorCode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AutodiscoverErrorCode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AutodiscoverErrorCode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AutodiscoverErrorCode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="05dc1-101">定义可自动发现服务返回的错误代码。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="05dc1-101">Defines the error codes that can be returned by the Autodiscover service.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InternalServerError">
+      <MemberSignature Language="C#" Value="InternalServerError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode InternalServerError = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.InternalServerError" />
+      <MemberSignature Language="VB.NET" Value="InternalServerError" />
+      <MemberSignature Language="C++ CLI" Value="InternalServerError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-102">发生了内部服务器错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-102">An internal server error occurred.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidDomain">
+      <MemberSignature Language="C#" Value="InvalidDomain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode InvalidDomain = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.InvalidDomain" />
+      <MemberSignature Language="VB.NET" Value="InvalidDomain" />
+      <MemberSignature Language="C++ CLI" Value="InvalidDomain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-103">所请求的域不是有效的域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-103">The requested domain is not a valid domain.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidRequest">
+      <MemberSignature Language="C#" Value="InvalidRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode InvalidRequest = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.InvalidRequest" />
+      <MemberSignature Language="VB.NET" Value="InvalidRequest" />
+      <MemberSignature Language="C++ CLI" Value="InvalidRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-104">请求无效。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-104">The request is invalid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidSetting">
+      <MemberSignature Language="C#" Value="InvalidSetting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode InvalidSetting = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.InvalidSetting" />
+      <MemberSignature Language="VB.NET" Value="InvalidSetting" />
+      <MemberSignature Language="C++ CLI" Value="InvalidSetting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-105">指定的设置无效。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-105">A specified setting is invalid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidUser">
+      <MemberSignature Language="C#" Value="InvalidUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode InvalidUser = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.InvalidUser" />
+      <MemberSignature Language="VB.NET" Value="InvalidUser" />
+      <MemberSignature Language="C++ CLI" Value="InvalidUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-106">无效的用户的请求中传递。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-106">The user that was passed in the request is invalid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoError">
+      <MemberSignature Language="C#" Value="NoError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode NoError = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.NoError" />
+      <MemberSignature Language="VB.NET" Value="NoError" />
+      <MemberSignature Language="C++ CLI" Value="NoError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-107">没有错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-107">There was no error.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotFederated">
+      <MemberSignature Language="C#" Value="NotFederated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode NotFederated = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.NotFederated" />
+      <MemberSignature Language="VB.NET" Value="NotFederated" />
+      <MemberSignature Language="C++ CLI" Value="NotFederated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-108">指定的组织未与此组织联盟。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-108">The specified organization is not federated with this organization.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectAddress">
+      <MemberSignature Language="C#" Value="RedirectAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode RedirectAddress = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.RedirectAddress" />
+      <MemberSignature Language="VB.NET" Value="RedirectAddress" />
+      <MemberSignature Language="C++ CLI" Value="RedirectAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-109">呼叫者必须遵循自动发现服务返回的电子邮件地址重定向。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-109">The caller must follow the e-mail address redirection that was returned by the Autodiscover service.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectUrl">
+      <MemberSignature Language="C#" Value="RedirectUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode RedirectUrl = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.RedirectUrl" />
+      <MemberSignature Language="VB.NET" Value="RedirectUrl" />
+      <MemberSignature Language="C++ CLI" Value="RedirectUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-110">呼叫者必须遵循返回的自动发现服务 URL 重定向。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-110">The caller must follow the URL redirection that was returned by the Autodiscover service.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerBusy">
+      <MemberSignature Language="C#" Value="ServerBusy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode ServerBusy = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.ServerBusy" />
+      <MemberSignature Language="VB.NET" Value="ServerBusy" />
+      <MemberSignature Language="C++ CLI" Value="ServerBusy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-111">服务器太忙而无法处理请求。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-111">The server is too busy to process the request.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SettingIsNotAvailable">
+      <MemberSignature Language="C#" Value="SettingIsNotAvailable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode SettingIsNotAvailable = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode.SettingIsNotAvailable" />
+      <MemberSignature Language="VB.NET" Value="SettingIsNotAvailable" />
+      <MemberSignature Language="C++ CLI" Value="SettingIsNotAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="05dc1-112">指定的设置不可用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="05dc1-112">A specified setting is not available.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

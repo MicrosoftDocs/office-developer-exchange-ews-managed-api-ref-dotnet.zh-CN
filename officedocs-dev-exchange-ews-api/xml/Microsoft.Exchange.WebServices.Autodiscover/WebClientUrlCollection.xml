@@ -1,0 +1,64 @@
+<Type Name="WebClientUrlCollection" FullName="Microsoft.Exchange.WebServices.Autodiscover.WebClientUrlCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dbdd11b6df6a5bca869b61f1cd81a6a9a3561a00" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623483" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class WebClientUrlCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit WebClientUrlCollection extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.WebClientUrlCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class WebClientUrlCollection" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebClientUrlCollection sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="54c7a-101">表示用户设置的 Exchange Web 客户端 Url 的集合。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="54c7a-101">Represents a user setting that is a collection of Exchange Web client URLs.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Urls">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.WebClientUrl&gt; Urls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.WebClientUrl&gt; Urls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.WebClientUrlCollection.Urls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Urls As List(Of WebClientUrl)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Autodiscover::WebClientUrl ^&gt; ^ Urls { System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Autodiscover::WebClientUrl ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Autodiscover.WebClientUrl&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="54c7a-102">获取或设置客户端 Url 的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54c7a-102">Gets or sets the list of client URLs.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="54c7a-103">Exchange Web 客户端 Url 的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="54c7a-103">A list of Exchange Web client URLs.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

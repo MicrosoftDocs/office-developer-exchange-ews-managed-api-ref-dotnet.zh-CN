@@ -1,0 +1,385 @@
+<Type Name="NonIndexableItem" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="889e417283e485dbbf8dbec12b3b5262d0d76a37" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622710" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class NonIndexableItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItem sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="33f88-101">包含有关其中索引尝试失败的邮箱中的项目的信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="33f88-101">Contains information about an item in a mailbox where an index attempt failed.</span>
+      </span>
+      <span data-ttu-id="33f88-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="33f88-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NonIndexableItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NonIndexableItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NonIndexableItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> class.</span>
+          </span>
+          <span data-ttu-id="33f88-104">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-104">The <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalInfo">
+      <MemberSignature Language="C#" Value="public string AdditionalInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AdditionalInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalInfo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdditionalInfo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-105">获取或设置有关索引尝试失败的邮箱的其他信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-105">Gets or sets additional information about a mailbox on which an index attempt failed.</span>
+          </span>
+          <span data-ttu-id="33f88-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-107">其他信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-107">The additional information.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttemptCount">
+      <MemberSignature Language="C#" Value="public int AttemptCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AttemptCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttemptCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AttemptCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-108">获取或设置索引目标邮箱的尝试次数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-108">Gets or sets the number of attempts to index a target mailbox.</span>
+          </span>
+          <span data-ttu-id="33f88-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-110">尝试计数中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-110">The attempt count.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIndexError ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemIndexError ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCode As ItemIndexError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIndexError ErrorCode { Microsoft::Exchange::WebServices::Data::ItemIndexError get(); void set(Microsoft::Exchange::WebServices::Data::ItemIndexError value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIndexError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-111">获取或设置失败的索引尝试的错误代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-111">Gets or sets the error code of a failed index attempt.</span>
+          </span>
+          <span data-ttu-id="33f88-112">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-113">错误代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-113">The error code.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorDescription">
+      <MemberSignature Language="C#" Value="public string ErrorDescription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorDescription { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-114">获取或设置错误说明的失败的索引尝试。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-114">Gets or sets the error description of a failed index attempt.</span>
+          </span>
+          <span data-ttu-id="33f88-115">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-116">错误描述。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-116">The error description.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPartiallyIndexed">
+      <MemberSignature Language="C#" Value="public bool IsPartiallyIndexed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPartiallyIndexed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPartiallyIndexed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPartiallyIndexed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-117">获取或设置是否已在其中索引尝试成功部分的邮箱项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-117">Gets or sets whether the item is in a mailbox where an index attempt was partially successful.</span>
+          </span>
+          <span data-ttu-id="33f88-118">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-119">
+            <b>true</b>如果部分编制索引;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-119">
+              <b>true</b> if partially indexed; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPermanentFailure">
+      <MemberSignature Language="C#" Value="public bool IsPermanentFailure { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPermanentFailure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPermanentFailure As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPermanentFailure { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-120">获取或设置目标邮箱上的索引尝试是否永久失败。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-120">Gets or sets whether an index attempt on a target mailbox is a permanent failure.</span>
+          </span>
+          <span data-ttu-id="33f88-121">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-122">
+            <b>true</b>如果它是永久的失败;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-122">
+              <b>true</b> if it is a permanent failure; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-123">获取或设置索引试图对其中邮箱中的项的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-123">Gets or sets the ID of an item in a mailbox where an index attempt was made.</span>
+          </span>
+          <span data-ttu-id="33f88-124">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-125">项目 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-125">The item ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastAttemptTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastAttemptTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastAttemptTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastAttemptTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; LastAttemptTime { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-126">获取或设置建立上次尝试索引目标邮箱的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-126">Gets or sets the time the last attempt to index a target mailbox was made.</span>
+          </span>
+          <span data-ttu-id="33f88-127">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-128">上次尝试时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-128">The last attempt time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortValue">
+      <MemberSignature Language="C#" Value="public string SortValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortValue { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="33f88-129">获取或设置用于对项目排序项目索引尝试的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-129">Gets or sets the value used to sort items in an item index attempt.</span>
+          </span>
+          <span data-ttu-id="33f88-130">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="33f88-131">排序值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="33f88-131">The sort value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

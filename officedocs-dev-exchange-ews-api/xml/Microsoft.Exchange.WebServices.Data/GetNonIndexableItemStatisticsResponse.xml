@@ -1,0 +1,69 @@
+<Type Name="GetNonIndexableItemStatisticsResponse" FullName="Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5f152618a92073847d7a76f32c8283535b929c48" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622883" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemStatisticsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetNonIndexableItemStatisticsResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetNonIndexableItemStatisticsResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetNonIndexableItemStatisticsResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="b7287-101">包含结果的请求无法索引邮箱中的项的统计信息。<see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b7287-101">Contains the result of a request for statistical information about items in a mailbox that could not be indexed.The <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NonIndexableStatistics">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic&gt; NonIndexableStatistics { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic&gt; NonIndexableStatistics" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse.NonIndexableStatistics" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NonIndexableStatistics As List(Of NonIndexableItemStatistic)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Data::NonIndexableItemStatistic ^&gt; ^ NonIndexableStatistics { System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Data::NonIndexableItemStatistic ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b7287-102">无法索引的邮箱中获取有关项目的统计信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7287-102">Gets statistics about items in a mailbox that could not be indexed.</span>
+          </span>
+          <span data-ttu-id="b7287-103">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse.NonIndexableStatistics" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7287-103">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsResponse.NonIndexableStatistics" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b7287-104">有关无法索引的项目的统计信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b7287-104">Statistics about items that could not be indexed.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,38 @@
+<Type Name="ComplexProperty" FullName="Microsoft.Exchange.WebServices.Data.ComplexProperty">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="caadf37b665d63807b2c9aa870caffa2a834d2ae" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622973" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ComplexProperty extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ComplexProperty abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b8c3c-101">表示可以发送或检索从 Exchange Web Services (EWS) 的一个属性。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b8c3c-101">Represents a property that can be sent to or retrieved from Exchange Web Services (EWS).</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

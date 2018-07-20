@@ -1,0 +1,177 @@
+<Type Name="TaskMode" FullName="Microsoft.Exchange.WebServices.Data.TaskMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="117ee95ff421b319ff39c19bc6ebd6e6c527c9a4" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623536" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum TaskMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TaskMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TaskMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TaskMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TaskMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="486f9-101">定义任务的模式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="486f9-101">Defines the modes of a Task.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="Normal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode Normal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.Normal" />
+      <MemberSignature Language="VB.NET" Value="Normal" />
+      <MemberSignature Language="C++ CLI" Value="Normal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="486f9-102">任务正常</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="486f9-102">The task is normal</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Request">
+      <MemberSignature Language="C#" Value="Request" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode Request = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.Request" />
+      <MemberSignature Language="VB.NET" Value="Request" />
+      <MemberSignature Language="C++ CLI" Value="Request" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="486f9-103">任务是一个任务分配请求</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="486f9-103">The task is a task assignment request</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestAccepted">
+      <MemberSignature Language="C#" Value="RequestAccepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode RequestAccepted = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.RequestAccepted" />
+      <MemberSignature Language="VB.NET" Value="RequestAccepted" />
+      <MemberSignature Language="C++ CLI" Value="RequestAccepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="486f9-104">已接受任务分配请求</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="486f9-104">The task assignment request was accepted</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestDeclined">
+      <MemberSignature Language="C#" Value="RequestDeclined" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode RequestDeclined = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.RequestDeclined" />
+      <MemberSignature Language="VB.NET" Value="RequestDeclined" />
+      <MemberSignature Language="C++ CLI" Value="RequestDeclined" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="486f9-105">任务分配请求已被拒绝</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="486f9-105">The task assignment request was declined</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelfDelegated">
+      <MemberSignature Language="C#" Value="SelfDelegated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode SelfDelegated = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.SelfDelegated" />
+      <MemberSignature Language="VB.NET" Value="SelfDelegated" />
+      <MemberSignature Language="C++ CLI" Value="SelfDelegated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="486f9-106">任务是自我委派</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="486f9-106">The task is self delegated</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="Update" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode Update = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.Update" />
+      <MemberSignature Language="VB.NET" Value="Update" />
+      <MemberSignature Language="C++ CLI" Value="Update" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="486f9-107">已更新任务</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="486f9-107">The task has been updated</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

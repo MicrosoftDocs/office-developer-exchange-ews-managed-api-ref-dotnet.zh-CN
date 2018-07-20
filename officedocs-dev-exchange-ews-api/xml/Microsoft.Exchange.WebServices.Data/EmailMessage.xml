@@ -1,0 +1,1298 @@
+<Type Name="EmailMessage" FullName="Microsoft.Exchange.WebServices.Data.EmailMessage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f5f255dace8d8fb4c59ed05dd9659c3387df2716" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622727" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class EmailMessage : Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailMessage extends Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailMessage" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailMessage&#xA;Inherits Item" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailMessage : Microsoft::Exchange::WebServices::Data::Item" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f49a2-101">代表一封电子邮件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f49a2-101">Represents an e-mail message.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="f49a2-102">
+        <para>电子邮件可用的属性中定义<see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" />类。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f49a2-102">
+          <para>Properties that are available on e-mail messages are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailMessageSchema" /> class.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailMessage (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailMessage(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f49a2-103">可以向其绑定的电子邮件的 Exchange 服务对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-103">The Exchange service object to which the e-mail message can be bound.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-104">初始化与 Exchange 服务对象的 EmailMessage 类的本地实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-104">Initializes a local instance of the EmailMessage class with an Exchange service object.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-105">
+            <para>使用<see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />方法将绑定到现有电子邮件的 Exchange 服务器上。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-105">
+              <para>Use the <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> method to bind to an existing e-mail message on the Exchange server.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApprovalRequestData">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ApprovalRequestData ApprovalRequestData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ApprovalRequestData ApprovalRequestData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ApprovalRequestData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalRequestData As ApprovalRequestData" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ApprovalRequestData ^ ApprovalRequestData { Microsoft::Exchange::WebServices::Data::ApprovalRequestData ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ApprovalRequestData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-106">获取审批请求邮件上的审批请求的详细信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-106">Gets approval request details on an approval request message.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="f49a2-107">
+            <para>顺序来包含数据，此属性的<see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ApprovalRequestData" />值必须存在于中传递给的属性集<see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />方法。</para>
+            <para>审批请求邮件发送到仲裁人的仲裁收件人的邮件流的一部分。有关详细信息，请参阅<a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">仲裁传输</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-107">
+              <para>In order for this property to contain data, the <see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.ApprovalRequestData" /> value must be present in the property set passed to the <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> method.</para>
+              <para>Approval request messages are sent to a moderator as part of the message flow for moderated recipients. For more information, see <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Moderated Transport</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection BccRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection BccRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BccRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ BccRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-108">获取电子邮件的密件抄送收件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-108">Gets the list of Bcc recipients for the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-109">电子邮件地址集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-109">An e-mail address collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.EmailMessage Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.EmailMessage Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As EmailMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::EmailMessage ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f49a2-110">要使用绑定到的电子邮件的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-110">The service to use to bind to the e-mail message.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="f49a2-111">将绑定到的电子邮件的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-111">The identifier of the e-mail message to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-112">绑定到现有电子邮件，并加载其第一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-112">Binds to an existing e-mail message and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f49a2-113">电子邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-113">An e-mail message.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="f49a2-114">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-114">
+              <para>Calling this method results in a call to Exchange Web Services (EWS). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.EmailMessage Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.EmailMessage Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::EmailMessage ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="f49a2-115">将绑定到的电子邮件的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-115">The identifier of the e-mail message to bind to.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="f49a2-116">要使用绑定到的电子邮件的服务。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-116">The service to use to bind to the e-mail message.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="f49a2-117">要加载的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-117">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-118">绑定到现有电子邮件，并加载指定的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-118">Binds to an existing e-mail message and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f49a2-119">电子邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-119">An e-mail message.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="f49a2-120">
+            <para>调用 Exchange Web services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-120">
+              <para>Calling this method results in a call to Exchange Web services (EWS). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection CcRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection CcRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CcRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ CcRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-121">获取电子邮件的抄送收件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-121">Gets the list of Cc recipients for the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-122">电子邮件地址集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-122">An e-mail address collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public byte[] ConversationIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] ConversationIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationIndex As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ ConversationIndex { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-123">获取电子邮件的对话的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-123">Gets the conversation index of the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-124">在对话索引中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-124">The conversation index.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f49a2-125">
+            <para>尽管 ConversationIndex 属性是只读的但您可以通过使用扩展的属性中设置 ConversationIndex。请参阅<a href=" HYPERLINK &quot;http://go.microsoft.com/fwlink/?LinkId=186176&quot; http://go.microsoft.com/fwlink/?LinkId=186176">跟踪对话</a>ConversationIndex 属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-125">
+              <para>Although the ConversationIndex property is read-only, you can set the ConversationIndex by using extended properties. See <a href=" HYPERLINK &quot;http://go.microsoft.com/fwlink/?LinkId=186176&quot; http://go.microsoft.com/fwlink/?LinkId=186176">Tracking Conversations</a>ConversationIndex property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public string ConversationTopic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationTopic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationTopic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationTopic { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-126">获取电子邮件的对话主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-126">Gets the conversation topic of the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-127">对话主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-127">The conversation topic.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateForward">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.CreateForward" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateForward () As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateForward();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-128">创建正向响应消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-128">Creates a forward response to the message.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f49a2-129">随后可以修改且发送的转发响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-129">The forward response that can subsequently be modified and sent.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateReply">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply (bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply(bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.CreateReply(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateReply (replyAll As Boolean) As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateReply(bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="replyAll">
+          <span data-ttu-id="f49a2-130">
+            <b>true</b>表示答复是否应转到的所有原始收件人的邮件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-130">
+              <b>true</b> to indicate whether the reply should go to all of the original recipients of the message; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-131">创建对邮件的答复响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-131">Creates a reply response to the message.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f49a2-132">随后可以修改且发送的答复响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-132">The reply response that can subsequently be modified and sent.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, params Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,Microsoft.Exchange.WebServices.Data.EmailAddress[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, ParamArray toRecipients As EmailAddress())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="Microsoft.Exchange.WebServices.Data.EmailAddress[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="f49a2-133">要附加到邮件将原始正文的前缀。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-133">The prefix to prepend to the original body of the message.</span>
+          </span>
+        </param>
+        <param name="toRecipients">
+          <span data-ttu-id="f49a2-134">接收转发的邮件的收件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-134">The recipients that receive the forwarded message.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-135">将邮件转发。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-135">Forwards the message.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-136">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-136">
+              <para>Calling this method results in a call to Exchange Web Services (EWS). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.EmailAddress})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, toRecipients As IEnumerable(Of EmailAddress))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="f49a2-137">要附加到邮件将原始正文的前缀。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-137">The prefix to prepend to the original body of the message.</span>
+          </span>
+        </param>
+        <param name="toRecipients">
+          <span data-ttu-id="f49a2-138">接收转发的邮件的收件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-138">The recipients that receive the forwarded message.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-139">将邮件转发。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-139">Forwards the message.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-140">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-140">
+              <para>Calling this method results in a call to Exchange Web Services (EWS). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress From { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress From" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />
+      <MemberSignature Language="VB.NET" Value="Public Property From As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ From { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-141">获取或设置电子邮件来自用户。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-141">Gets or sets who the e-mail came from.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-142">电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-142">An e-mail address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public string InternetMessageId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternetMessageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternetMessageId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternetMessageId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-143">获取电子邮件的 Internet 消息标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-143">Gets the Internet message identifier of the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-144">Internet 消息标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-144">An Internet message identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociated">
+      <MemberSignature Language="C#" Value="public bool IsAssociated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociated { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-145">获取或设置一个值，该值指示是否关联的邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-145">Gets or sets a value that indicates whether this is an associated message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-146">
+            <b>true</b>如果相关联; 此消息否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-146">
+              <b>true</b> if this message is associated; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeliveryReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsDeliveryReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeliveryReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsDeliveryReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDeliveryReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDeliveryReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-147">获取或设置一个值，指示是否回执请求的电子邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-147">Gets or sets a value that indicates whether a delivery receipt is requested for the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-148">
+            <b>true</b>如果回执请求;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-148">
+              <b>true</b> if a delivery receipt is requested; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public bool IsRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-149">获取或设置一个值，指示是否已读取的电子邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-149">Gets or sets a value that indicates whether the e-mail message has been read.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-150">
+            <b>true</b>如果尚未阅读电子邮件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-150">
+              <b>true</b> if the e-mail message has been read; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsReadReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsReadReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-151">获取或设置一个值，指示是否已读的回执请求的电子邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-151">Gets or sets a value that indicates whether a read receipt is requested for the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-152">
+            <b>true</b>如果已读的回执请求者;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-152">
+              <b>true</b> if a read receipt is requester; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequested">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsResponseRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsResponseRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.IsResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsResponseRequested As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; IsResponseRequested { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-153">获取或设置一个值，指示是否为电子邮件请求响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-153">Gets or sets a value that indicates whether a response is requested for the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-154">
+            <b>true</b>如果响应请求的电子邮件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-154">
+              <b>true</b> if a response is requested for the e-mail message; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress ReceivedBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress ReceivedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReceivedBy As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ ReceivedBy { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-155">获取接收电子邮件的代理人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-155">Gets the delegate who received the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-156">电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-156">An e-mail address.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f49a2-157">
+            <para>ReceivedBy 属性一起使用<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />和<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" />代理人访问方案中的属性。下表列出了这些属性表示委派访问方案中的实体。</para>
+            <list type="table">
+              <item>
+                <term>
+                  <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />
+                </term>第三方
+            </item>
+              <item>
+                <term>ReceivedBy</term>
+                <description>委托</description>
+              </item>
+              <item>
+                <term>
+                  <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" />
+                </term>主体
+            </item>
+            </list>
+            <para>在委派访问方案中，如果第三方将会议请求发送到的主体拥有代理人，代理人将看到新的会议请求。通过这些属性，代理人来区分之间发送的邮件直接向他们发送为其由于委托转发规则的邮件。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-157">
+              <para>The ReceivedBy property is used together with the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" /> properties in a delegate access scenario. The following table lists the entities that these properties represent in a delegate access scenario.</para>
+              <list type="table">
+                <item>
+                  <term>
+                    <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />
+                  </term>
+                  <description>ThirdParty</description>
+                </item>
+                <item>
+                  <term>ReceivedBy</term>
+                  <description>Delegate</description>
+                </item>
+                <item>
+                  <term>
+                    <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" />
+                  </term>
+                  <description>Principal</description>
+                </item>
+              </list>
+              <para>In a delegate access scenario, if a ThirdParty sends a meeting request to a Principal who has a Delegate, the Delegate will see a new meeting request. These properties enable delegates to distinguish between messages that are sent directly to them and messages that are sent to them because of a delegate forwarding rule.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedRepresenting">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress ReceivedRepresenting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress ReceivedRepresenting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedRepresenting" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReceivedRepresenting As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ ReceivedRepresenting { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-158">获取电子邮件的主体。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-158">Gets the principal of the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-159">电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-159">An e-mail address.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f49a2-160">
+            <para>ReceivedRepresenting 属性一起使用<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" />和<see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" />代理人访问方案中的属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-160">
+              <para>The ReceivedRepresenting property is used together with the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.From" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReceivedBy" /> properties in a delegate access scenario.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="References">
+      <MemberSignature Language="C#" Value="public string References { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string References" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.References" />
+      <MemberSignature Language="VB.NET" Value="Public Property References As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ References { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-161">获取或设置电子邮件的引用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-161">Gets or sets the references of the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-162">引用一组。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-162">A set of references.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="public void Reply (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reply(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Reply(Microsoft.Exchange.WebServices.Data.MessageBody,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reply (bodyPrefix As MessageBody, replyAll As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reply(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">
+          <span data-ttu-id="f49a2-163">要附加到邮件将原始正文的前缀。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-163">The prefix to prepend to the original body of the message.</span>
+          </span>
+        </param>
+        <param name="replyAll">
+          <span data-ttu-id="f49a2-164">
+            <b>true</b>表示答复是否应转到的所有原始收件人的邮件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-164">
+              <b>true</b> to indicate whether the reply should go to all of the original recipients of the message; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-165">答复邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-165">Replies to the message.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-166">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-166">
+              <para>Calling this method results in a call to Exchange Web Services (EWS). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyTo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ReplyTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ReplyTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplyTo As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ReplyTo { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-167">获取应指解决答复的电子邮件地址的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-167">Gets a list of e-mail addresses to which replies should be addressed.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-168">电子邮件地址的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-168">A list of e-mail addresses.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="public void Send ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Send() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Send" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Send ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Send();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-169">发送此电子邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-169">Sends this e-mail message.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-170">
+            <para>调用此方法将导致至少一个呼叫到 Exchange Web Services (EWS)。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-170">
+              <para>Calling this method results in at least one call to Exchange Web Services (EWS). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-171">发送此电子邮件，并将它的一个副本保存在已发送邮件文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-171">Sends this e-mail message and saves a copy of it in the Sent Items folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-172">
+            <para>如果有未保存附件的邮件，则此方法无效。在这种情况下，邮件，必须先保存并发送。呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-172">
+              <para>This method does not work if the message has unsaved attachments. In that case, the message must first be saved and then sent. Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="f49a2-173">要在其中保存副本的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-173">The identifier of the folder in which to save the copy.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-174">发送此电子邮件，并将它的一个副本保存在指定文件夹中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-174">Sends this e-mail message and saves a copy of it in the specified folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-175">
+            <para>如果有未保存附件的邮件，则此方法无效。在这种情况下，邮件，必须先保存并发送。呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-175">
+              <para>This method does not work if the message has unsaved attachments. In that case, the message must first be saved and then sent. Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="f49a2-176">要在其中保存副本的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-176">The name of the folder in which to save the copy.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f49a2-177">发送此电子邮件，并将它的一个副本保存在指定文件夹中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-177">Sends this e-mail message and saves a copy of it in the specified folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-178">
+            <para>如果有未保存附件的邮件，则此方法无效。在这种情况下，邮件，必须先保存并发送。呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-178">
+              <para>This method does not work if the message has unsaved attachments. In that case, the message must first be saved and then sent. Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Sender" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ Sender { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-179">获取或设置电子邮件的发件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-179">Gets or sets the sender of the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-180">电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-180">An e-mail address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressReadReceipt">
+      <MemberSignature Language="C#" Value="public void SuppressReadReceipt ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SuppressReadReceipt() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailMessage.SuppressReadReceipt" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SuppressReadReceipt ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SuppressReadReceipt();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-181">禁止显示邮件读的回执。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-181">Suppresses the read receipt on the message.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f49a2-182">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-182">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection ToRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection ToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToRecipients As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ ToRecipients { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-183">获取给收件人的电子邮件的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-183">Gets the list of To recipients for the e-mail message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f49a2-184">电子邮件地址集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-184">An e-mail address collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VotingInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.VotingInformation VotingInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.VotingInformation VotingInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailMessage.VotingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VotingInformation As VotingInformation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::VotingInformation ^ VotingInformation { Microsoft::Exchange::WebServices::Data::VotingInformation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.VotingInformation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f49a2-185">获取投票上一条消息，具有投票按钮、 投票的响应或审批请求消息的详细信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-185">Gets voting details on a message that has voting buttons, a voting response, or an approval request message.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="f49a2-186">
+            <para>此属性包含数据的顺序<see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.VotingInformation" />值必须存在于中传递给的属性集<see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />方法。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f49a2-186">
+              <para>In order for this property to contain data, the <see cref="F:Microsoft.Exchange.WebServices.Data.EmailMessageSchema.VotingInformation" /> value must be present in the property set passed to the <see cref="M:Microsoft.Exchange.WebServices.Data.EmailMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" /> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,81 @@
+<Type Name="AffectedTaskOccurrence" FullName="Microsoft.Exchange.WebServices.Data.AffectedTaskOccurrence">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="16f9dbdcd4f4f1f898fad2133cb32ef9ff1b9905" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623368" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum AffectedTaskOccurrence" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AffectedTaskOccurrence extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AffectedTaskOccurrence" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AffectedTaskOccurrence" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AffectedTaskOccurrence" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="444ce-101">指示应删除的一个周期性任务哪个匹配项。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="444ce-101">Indicates which occurrence of a recurring task should be deleted.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllOccurrences">
+      <MemberSignature Language="C#" Value="AllOccurrences" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.AffectedTaskOccurrence AllOccurrences = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AffectedTaskOccurrence.AllOccurrences" />
+      <MemberSignature Language="VB.NET" Value="AllOccurrences" />
+      <MemberSignature Language="C++ CLI" Value="AllOccurrences" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AffectedTaskOccurrence</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="444ce-102">定期任务的所有匹配项将被删除。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="444ce-102">All occurrences of the recurring task will be deleted.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecifiedOccurrenceOnly">
+      <MemberSignature Language="C#" Value="SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.AffectedTaskOccurrence SpecifiedOccurrenceOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AffectedTaskOccurrence.SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="VB.NET" Value="SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="C++ CLI" Value="SpecifiedOccurrenceOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AffectedTaskOccurrence</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="444ce-103">仅定期任务的当前匹配项将被删除。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="444ce-103">Only the current occurrence of the recurring task will be deleted.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,182 @@
+<Type Name="LegacyFreeBusyStatus" FullName="Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="89565fef288fb2415401f5a60d71c30e6cffbe1f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623408" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum LegacyFreeBusyStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LegacyFreeBusyStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LegacyFreeBusyStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LegacyFreeBusyStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d5bff-101">指定用于定义的相关联的约会的旧忙/闲状态的常量。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d5bff-101">Specifies constants that define the legacy free/busy status that is associated with an appointment.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Busy">
+      <MemberSignature Language="C#" Value="Busy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus Busy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.Busy" />
+      <MemberSignature Language="VB.NET" Value="Busy" />
+      <MemberSignature Language="C++ CLI" Value="Busy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5bff-102">将显示为忙碌相关联的约会的时间段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5bff-102">The time slot that is associated with the appointment appears as busy.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Free">
+      <MemberSignature Language="C#" Value="Free" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus Free = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.Free" />
+      <MemberSignature Language="VB.NET" Value="Free" />
+      <MemberSignature Language="C++ CLI" Value="Free" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5bff-103">将显示为可用相关联的约会的时间段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5bff-103">The time slot that is associated with the appointment appears as free.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoData">
+      <MemberSignature Language="C#" Value="NoData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus NoData = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.NoData" />
+      <MemberSignature Language="VB.NET" Value="NoData" />
+      <MemberSignature Language="C++ CLI" Value="NoData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5bff-104">无忙/闲状态相关联的约会。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5bff-104">No free/busy status is associated with the appointment.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OOF">
+      <MemberSignature Language="C#" Value="OOF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus OOF = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.OOF" />
+      <MemberSignature Language="VB.NET" Value="OOF" />
+      <MemberSignature Language="C++ CLI" Value="OOF" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5bff-105">如外出 (OOF) 显示相关联的约会的时间段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5bff-105">The time slot that is associated with the appointment appears as out of office (OOF).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tentative">
+      <MemberSignature Language="C#" Value="Tentative" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus Tentative = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.Tentative" />
+      <MemberSignature Language="VB.NET" Value="Tentative" />
+      <MemberSignature Language="C++ CLI" Value="Tentative" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5bff-106">将显示为暂定相关联的约会的时间段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5bff-106">The time slot that is associated with the appointment appears as tentative.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingElsewhere">
+      <MemberSignature Language="C#" Value="WorkingElsewhere" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus WorkingElsewhere = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.WorkingElsewhere" />
+      <MemberSignature Language="VB.NET" Value="WorkingElsewhere" />
+      <MemberSignature Language="C++ CLI" Value="WorkingElsewhere" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5bff-107">约会相关联的时间段显示为使用其他位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5bff-107">The time slot associated with the appointment appears as working elsewhere.</span>
+          </span>
+          <span data-ttu-id="d5bff-108">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.WorkingElsewhere" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5bff-108">The <see cref="F:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus.WorkingElsewhere" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

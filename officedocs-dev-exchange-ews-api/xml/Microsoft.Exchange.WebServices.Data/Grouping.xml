@@ -1,0 +1,226 @@
+<Type Name="Grouping" FullName="Microsoft.Exchange.WebServices.Data.Grouping">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dfbc3ea8ced3614a4d204217efa8d458654d13c6" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622689" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Grouping" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Grouping extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Grouping" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Grouping" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Grouping sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="2ae72-101">代表分组项搜索操作中的选项。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2ae72-101">Represents grouping options in item search operations.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Grouping ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Grouping.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Grouping();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ae72-102">初始化分组类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-102">Initializes a new instance of the Grouping class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Grouping (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase groupOn, Microsoft.Exchange.WebServices.Data.SortDirection sortDirection, Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase aggregateOn, Microsoft.Exchange.WebServices.Data.AggregateType aggregateType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase groupOn, valuetype Microsoft.Exchange.WebServices.Data.SortDirection sortDirection, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase aggregateOn, valuetype Microsoft.Exchange.WebServices.Data.AggregateType aggregateType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Grouping.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.SortDirection,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.AggregateType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Grouping(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ groupOn, Microsoft::Exchange::WebServices::Data::SortDirection sortDirection, Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ aggregateOn, Microsoft::Exchange::WebServices::Data::AggregateType aggregateType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="groupOn" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="sortDirection" Type="Microsoft.Exchange.WebServices.Data.SortDirection" />
+        <Parameter Name="aggregateOn" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="aggregateType" Type="Microsoft.Exchange.WebServices.Data.AggregateType" />
+      </Parameters>
+      <Docs>
+        <param name="groupOn">
+          <span data-ttu-id="2ae72-103">向组时属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-103">The property to group upon.</span>
+          </span>
+        </param>
+        <param name="sortDirection">
+          <span data-ttu-id="2ae72-104">排序方向。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-104">The sort direction.</span>
+          </span>
+        </param>
+        <param name="aggregateOn">
+          <span data-ttu-id="2ae72-105">将属性设为聚合时。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-105">The property to aggregate upon.</span>
+          </span>
+        </param>
+        <param name="aggregateType">
+          <span data-ttu-id="2ae72-106">若要计算的聚合的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-106">The type of aggregate to calculate.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2ae72-107">初始化与指定相关联的分组类的新实例<paramref name="groupOn" />参数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-107">Initializes a new instance of the Grouping class that is associated with the specified <paramref name="groupOn" /> parameter.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AggregateOn">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase AggregateOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase AggregateOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Grouping.AggregateOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property AggregateOn As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ AggregateOn { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ae72-108">获取或设置该属性时聚合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-108">Gets or sets the property to aggregate upon.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ae72-109">将属性设为聚合时。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-109">The property to aggregate upon.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AggregateType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AggregateType AggregateType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.AggregateType AggregateType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Grouping.AggregateType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AggregateType As AggregateType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AggregateType AggregateType { Microsoft::Exchange::WebServices::Data::AggregateType get(); void set(Microsoft::Exchange::WebServices::Data::AggregateType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AggregateType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ae72-110">获取或设置的聚合计算类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-110">Gets or sets the types of aggregate to calculate.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ae72-111">确定是否代表属性的最大或最小值用于组中的项进行排序的 AggregateType 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-111">One of the AggregateType enumeration values that identify whether the maximum or minimum value of a representative property is used to order the items in a group.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupOn">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase GroupOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase GroupOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Grouping.GroupOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupOn As PropertyDefinitionBase" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ GroupOn { Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ae72-112">获取或设置该属性时的组。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-112">Gets or sets the property to group upon.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ae72-113">将属性设为组时 PropertyDefinitionBase 类对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-113">A PropertyDefinitionBase class object with the property to group upon.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortDirection">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SortDirection SortDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SortDirection SortDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Grouping.SortDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortDirection As SortDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SortDirection SortDirection { Microsoft::Exchange::WebServices::Data::SortDirection get(); void set(Microsoft::Exchange::WebServices::Data::SortDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SortDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ae72-114">获取或设置的排序方向。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-114">Gets or sets the sort direction.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ae72-115">定义由搜索返回的数据的排序顺序 SortDirection 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ae72-115">One of the SortDirection enumeration values that define the sort order for data that is returned by a search.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

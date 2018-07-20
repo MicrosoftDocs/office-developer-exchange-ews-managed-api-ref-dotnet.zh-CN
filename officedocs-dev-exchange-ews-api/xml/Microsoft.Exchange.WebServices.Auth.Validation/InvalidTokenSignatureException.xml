@@ -1,0 +1,96 @@
+<Type Name="InvalidTokenSignatureException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e5a85a1b879773596c3ad29791f66c28fd880615" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623460" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class InvalidTokenSignatureException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InvalidTokenSignatureException extends Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" />
+  <TypeSignature Language="VB.NET" Value="Public Class InvalidTokenSignatureException&#xA;Inherits TokenValidationException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InvalidTokenSignatureException : Microsoft::Exchange::WebServices::Auth::Validation::TokenValidationException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="0421e-101">包含无法处理客户端标识令牌时引发的异常。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0421e-101">Contains the exception that is thrown when a client identity token cannot be processed.</span>
+      </span>
+      <span data-ttu-id="0421e-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0421e-102">The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InvalidTokenSignatureException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; InvalidTokenSignatureException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0421e-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" />类。<see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0421e-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InvalidTokenSignatureException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; InvalidTokenSignatureException(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <span data-ttu-id="0421e-104">描述异常消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0421e-104">The message that describes the exception.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0421e-105">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" />指定消息的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0421e-105">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException" /> class with the specified message.</span>
+          </span>
+          <span data-ttu-id="0421e-106">
+            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor(System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0421e-106">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.InvalidTokenSignatureException.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

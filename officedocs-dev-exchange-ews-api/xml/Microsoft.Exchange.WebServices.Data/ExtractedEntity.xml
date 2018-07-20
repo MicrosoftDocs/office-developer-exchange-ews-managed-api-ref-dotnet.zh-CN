@@ -1,0 +1,74 @@
+<Type Name="ExtractedEntity" FullName="Microsoft.Exchange.WebServices.Data.ExtractedEntity">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9de1dac9c9e0a068e73c2d6097789be5eaa6ff3d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623232" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ExtractedEntity : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExtractedEntity extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExtractedEntity&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExtractedEntity abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="fd24b-101">包含从一条消息中提取信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fd24b-101">Contains information extracted from a message.</span>
+      </span>
+      <span data-ttu-id="fd24b-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ExtractedEntity" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fd24b-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExtractedEntity" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailPosition Position { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EmailPosition Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtractedEntity.Position" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Position As EmailPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailPosition Position { Microsoft::Exchange::WebServices::Data::EmailPosition get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fd24b-103">获取从已提取实体的其中一条消息中的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fd24b-103">Gets the position in a message from where the entity was extracted.</span>
+          </span>
+          <span data-ttu-id="fd24b-104">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ExtractedEntity.Position" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fd24b-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.ExtractedEntity.Position" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fd24b-105">从已提取实体的其中一条消息中的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fd24b-105">The position in a message from where the entity was extracted.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

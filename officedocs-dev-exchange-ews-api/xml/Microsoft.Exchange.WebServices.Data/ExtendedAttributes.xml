@@ -1,0 +1,59 @@
+<Type Name="ExtendedAttributes" FullName="Microsoft.Exchange.WebServices.Data.ExtendedAttributes">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b558904c53a415bbcf9d3b726e8b6670dd8b8245" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623229" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ExtendedAttributes : System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Data.ExtendedAttribute&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExtendedAttributes extends System.Collections.Generic.List`1&lt;class Microsoft.Exchange.WebServices.Data.ExtendedAttribute&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtendedAttributes" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExtendedAttributes&#xA;Inherits List(Of ExtendedAttribute)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExtendedAttributes sealed : System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Data::ExtendedAttribute ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Data.ExtendedAttribute&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">Microsoft.Exchange.WebServices.Data.ExtendedAttribute</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="6dc25-101">仅供内部使用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6dc25-101">For internal use only.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedAttributes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedAttributes.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedAttributes();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="6dc25-102">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ExtendedAttributes" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6dc25-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExtendedAttributes" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,94 @@
+<Type Name="AutodiscoverResponse" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9880010e3d472226f65317ac24f0e811d9e51678" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623482" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class AutodiscoverResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AutodiscoverResponse extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AutodiscoverResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AutodiscoverResponse abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="eedf2-101">代表由自动发现服务返回的所有响应的基类。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="eedf2-101">Represents the base class for all responses that are returned by the Autodiscover service.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As AutodiscoverErrorCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverErrorCode ErrorCode { Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverErrorCode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eedf2-102">获取服务返回的错误代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eedf2-102">Gets the error code that was returned by the service.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eedf2-103">服务返回的错误代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eedf2-103">The error code that was returned by the service.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eedf2-104">获取服务返回的错误消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eedf2-104">Gets the error message that was returned by the service.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="eedf2-105">错误消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eedf2-105">The error message.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

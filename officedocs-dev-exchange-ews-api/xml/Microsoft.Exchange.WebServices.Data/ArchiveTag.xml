@@ -1,0 +1,110 @@
+<Type Name="ArchiveTag" FullName="Microsoft.Exchange.WebServices.Data.ArchiveTag">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d146347a4cffdee92ddec7f833f6dcc209cb0910" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622855" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ArchiveTag : Microsoft.Exchange.WebServices.Data.RetentionTagBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ArchiveTag extends Microsoft.Exchange.WebServices.Data.RetentionTagBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ArchiveTag&#xA;Inherits RetentionTagBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArchiveTag sealed : Microsoft::Exchange::WebServices::Data::RetentionTagBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RetentionTagBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="d87e7-101">定义项目或文件夹的存档标记。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d87e7-101">Defines the archive tag of an item or folder.</span>
+      </span>
+      <span data-ttu-id="d87e7-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d87e7-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArchiveTag ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArchiveTag();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="d87e7-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d87e7-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" /> class.</span>
+          </span>
+          <span data-ttu-id="d87e7-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d87e7-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArchiveTag (bool isExplicit, Guid retentionId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isExplicit, valuetype System.Guid retentionId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor(System.Boolean,System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (isExplicit As Boolean, retentionId As Guid)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArchiveTag(bool isExplicit, Guid retentionId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="isExplicit" Type="System.Boolean" />
+        <Parameter Name="retentionId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="isExplicit">
+          <span data-ttu-id="d87e7-105">
+            <b>true</b>如果标签显式;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d87e7-105">
+              <b>true</b> if the tag is explicit; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="retentionId">
+          <span data-ttu-id="d87e7-106">GUID 值，该值代表保留 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d87e7-106">The GUID that represents the retention ID.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d87e7-107">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" />类，并且其关联的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d87e7-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" /> class and its associated properties.</span>
+          </span>
+          <span data-ttu-id="d87e7-108">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor(System.Boolean,System.Guid)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d87e7-108">The <see cref="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor(System.Boolean,System.Guid)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

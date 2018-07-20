@@ -1,0 +1,123 @@
+<Type Name="ServiceRequestException" FullName="Microsoft.Exchange.WebServices.Data.ServiceRequestException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9062352cd18ffd989f8939a5958c833e81a09716" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622643" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ServiceRequestException : Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServiceRequestException extends Microsoft.Exchange.WebServices.Data.ServiceRemoteException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceRequestException" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceRequestException&#xA;Inherits ServiceRemoteException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceRequestException : Microsoft::Exchange::WebServices::Data::ServiceRemoteException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceRemoteException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e1e97-101">代表服务操作请求失败时将发生错误。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e1e97-101">Represents an error that occurs when a service operation request fails.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceRequestException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceRequestException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceRequestException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e1e97-102">初始化 ServiceRequestException 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e1e97-102">Initializes a new instance of the ServiceRequestException class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceRequestException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceRequestException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceRequestException(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <span data-ttu-id="e1e97-103">错误消息文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e1e97-103">The error message text.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e1e97-104">初始化与的错误消息的 ServiceRequestException 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e1e97-104">Initializes a new instance of the ServiceRequestException class with an error message.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceRequestException (string message, Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceRequestException.#ctor(System.String,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceRequestException(System::String ^ message, Exception ^ innerException);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <span data-ttu-id="e1e97-105">错误消息文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e1e97-105">The error message text.</span>
+          </span>
+        </param>
+        <param name="innerException">
+          <span data-ttu-id="e1e97-106">内部异常。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e1e97-106">The inner exception.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e1e97-107">初始化与一条错误消息和内部异常 ServiceRequestException 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e1e97-107">Initializes a new instance of the ServiceRequestException class with an error message and an inner exception.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

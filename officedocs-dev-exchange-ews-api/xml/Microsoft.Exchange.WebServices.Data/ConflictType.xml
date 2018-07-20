@@ -1,0 +1,129 @@
+<Type Name="ConflictType" FullName="Microsoft.Exchange.WebServices.Data.ConflictType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c7964a586d6d931701a03830bd5aacca17c05efd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622858" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ConflictType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConflictType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConflictType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConflictType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConflictType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="107a1-101">定义可返回在会议时间的建议的冲突类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="107a1-101">Defines the conflict types that can be returned in meeting time suggestions.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GroupConflict">
+      <MemberSignature Language="C#" Value="GroupConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictType GroupConflict = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />
+      <MemberSignature Language="VB.NET" Value="GroupConflict" />
+      <MemberSignature Language="C++ CLI" Value="GroupConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="107a1-102">没有与至少一个组成员的冲突。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="107a1-102">There is a conflict with at least one member of a group.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupTooBigConflict">
+      <MemberSignature Language="C#" Value="GroupTooBigConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictType GroupTooBigConflict = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupTooBigConflict" />
+      <MemberSignature Language="VB.NET" Value="GroupTooBigConflict" />
+      <MemberSignature Language="C++ CLI" Value="GroupTooBigConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="107a1-103">至少一个组的成员，与冲突，但组是太大，无法返回单个冲突的信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="107a1-103">There is a conflict with at least one member of a group, but the group is too large to return individual conflict information.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IndividualAttendeeConflict">
+      <MemberSignature Language="C#" Value="IndividualAttendeeConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictType IndividualAttendeeConflict = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictType.IndividualAttendeeConflict" />
+      <MemberSignature Language="VB.NET" Value="IndividualAttendeeConflict" />
+      <MemberSignature Language="C++ CLI" Value="IndividualAttendeeConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="107a1-104">没有与各个与会者冲突。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="107a1-104">There is a conflict with an individual attendee.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnknownAttendeeConflict">
+      <MemberSignature Language="C#" Value="UnknownAttendeeConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictType UnknownAttendeeConflict = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictType.UnknownAttendeeConflict" />
+      <MemberSignature Language="VB.NET" Value="UnknownAttendeeConflict" />
+      <MemberSignature Language="C++ CLI" Value="UnknownAttendeeConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="107a1-105">无法解析的与会者，不是个人，与会者在与冲突组或联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="107a1-105">There is a conflict with an unresolvable attendee, on an attendee that is not an individual, group, or contact.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

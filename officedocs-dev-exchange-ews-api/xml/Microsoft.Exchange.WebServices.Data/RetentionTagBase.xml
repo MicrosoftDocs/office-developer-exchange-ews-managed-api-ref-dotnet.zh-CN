@@ -1,0 +1,182 @@
+<Type Name="RetentionTagBase" FullName="Microsoft.Exchange.WebServices.Data.RetentionTagBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d6c86e301d0182a9b0131e28288a9fad1c7e3b38" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622699" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class RetentionTagBase : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RetentionTagBase extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" />
+  <TypeSignature Language="VB.NET" Value="Public Class RetentionTagBase&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RetentionTagBase : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="deab4-101">定义应用于项目的保留策略标记。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="deab4-101">Defines the retention policy tag applied to an item.</span>
+      </span>
+      <span data-ttu-id="deab4-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="deab4-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetentionTagBase (string xmlElementName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string xmlElementName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (xmlElementName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RetentionTagBase(System::String ^ xmlElementName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="xmlElementName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="xmlElementName">
+          <span data-ttu-id="deab4-103">XML 元素名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-103">The XML element name.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="deab4-104">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionTagBase" /> class.</span>
+          </span>
+          <span data-ttu-id="deab4-105">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.#ctor(System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-105">The <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExplicit">
+      <MemberSignature Language="C#" Value="public bool IsExplicit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExplicit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.IsExplicit" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExplicit As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExplicit { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="deab4-106">获取或设置是否显式应用保留策略标记与项目关联。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-106">Gets or sets whether the retention policy tag associated with an item was explicitly applied.</span>
+          </span>
+          <span data-ttu-id="deab4-107">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.IsExplicit" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.IsExplicit" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="deab4-108">
+            <b>true</b>如果标签显式;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-108">
+              <b>true</b> if the tag is explicit; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionId">
+      <MemberSignature Language="C#" Value="public Guid RetentionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid RetentionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.RetentionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionId As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid RetentionId { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="deab4-109">获取或设置保留策略标记 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-109">Gets or sets the retention policy tag ID.</span>
+          </span>
+          <span data-ttu-id="deab4-110">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.RetentionId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionTagBase.RetentionId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="deab4-111">保留策略标记的 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-111">The retention policy tag ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="deab4-112">返回一个字符串，表示当前对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-112">Returns a string that represents the current object.</span>
+          </span>
+          <span data-ttu-id="deab4-113">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.ToString" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionTagBase.ToString" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="deab4-114">一个字符串，表示当前对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="deab4-114">A string that represents the current object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,178 @@
+<Type Name="PreviewItemMailbox" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9fb32ff65bd48a33d452e2a3a9a96d3a27718419" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623025" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PreviewItemMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreviewItemMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewItemMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PreviewItemMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="1c3f3-101">包含预览项中的邮箱信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1c3f3-101">Contains the mailbox information in a preview item.</span>
+      </span>
+      <span data-ttu-id="1c3f3-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1c3f3-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemMailbox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemMailbox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="1c3f3-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class.</span>
+          </span>
+          <span data-ttu-id="1c3f3-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemMailbox (string mailboxId, string primarySmtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailboxId, string primarySmtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailboxId As String, primarySmtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemMailbox(System::String ^ mailboxId, System::String ^ primarySmtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailboxId" Type="System.String" />
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailboxId">
+          <span data-ttu-id="1c3f3-105">邮箱 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-105">The mailbox ID.</span>
+          </span>
+        </param>
+        <param name="primarySmtpAddress">
+          <span data-ttu-id="1c3f3-106">主 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-106">The primary SMTP address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1c3f3-107">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" />类的邮箱 ID 和主要简单邮件传输协议 (SMTP) 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class with a mailbox ID and primary Simple Mail Transfer Protocol (SMTP) address.</span>
+          </span>
+          <span data-ttu-id="1c3f3-108">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-108">The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxId">
+      <MemberSignature Language="C#" Value="public string MailboxId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailboxId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailboxId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1c3f3-109">获取或设置的预览项目的邮箱 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-109">Gets or sets the ID of the preview item's mailbox.</span>
+          </span>
+          <span data-ttu-id="1c3f3-110">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1c3f3-111">邮箱 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-111">The mailbox ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimarySmtpAddress">
+      <MemberSignature Language="C#" Value="public string PrimarySmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrimarySmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrimarySmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PrimarySmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1c3f3-112">获取或设置预览项目的邮箱的主要简单邮件传输协议 (SMTP) 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-112">Gets or sets the primary Simple Mail Transfer Protocol (SMTP) address of the preview item's mailbox.</span>
+          </span>
+          <span data-ttu-id="1c3f3-113">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1c3f3-114">主 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1c3f3-114">The primary SMTP address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

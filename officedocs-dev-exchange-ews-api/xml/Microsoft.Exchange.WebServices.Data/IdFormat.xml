@@ -1,0 +1,181 @@
+<Type Name="IdFormat" FullName="Microsoft.Exchange.WebServices.Data.IdFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f2d4e08bd076823154fb6be4119c94b0a8faf3b9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623067" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum IdFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IdFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IdFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IdFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class IdFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="979d4-101">定义的受支持的标识符格式标识符转换操作。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="979d4-101">Defines the supported identifier formats for identifier conversion operations.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EntryId">
+      <MemberSignature Language="C#" Value="EntryId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat EntryId = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.EntryId" />
+      <MemberSignature Language="VB.NET" Value="EntryId" />
+      <MemberSignature Language="C++ CLI" Value="EntryId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="979d4-102">Base64 编码 PR_ENTRYID 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="979d4-102">The base64-encoded PR_ENTRYID property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsId">
+      <MemberSignature Language="C#" Value="EwsId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat EwsId = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.EwsId" />
+      <MemberSignature Language="VB.NET" Value="EwsId" />
+      <MemberSignature Language="C++ CLI" Value="EwsId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="979d4-103">Exchange 2007 Service Pack 1 (SP1) 和更高版本的 Exchange Server 中使用 EWS 标识符格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="979d4-103">The EWS identifier format that is used in Exchange 2007 Service Pack 1 (SP1) and later versions of Exchange Server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsLegacyId">
+      <MemberSignature Language="C#" Value="EwsLegacyId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat EwsLegacyId = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.EwsLegacyId" />
+      <MemberSignature Language="VB.NET" Value="EwsLegacyId" />
+      <MemberSignature Language="C++ CLI" Value="EwsLegacyId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="979d4-104">在 Exchange Server 2007 的初始发行版本中使用 Exchange Web Services (EWS) 标识符格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="979d4-104">The Exchange Web Services (EWS) identifier format that is used in the initial release version of Exchange Server 2007.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HexEntryId">
+      <MemberSignature Language="C#" Value="HexEntryId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat HexEntryId = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.HexEntryId" />
+      <MemberSignature Language="VB.NET" Value="HexEntryId" />
+      <MemberSignature Language="C++ CLI" Value="HexEntryId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="979d4-105">PR_ENTRYID 属性十六进制表示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="979d4-105">The hexadecimal representation of the PR_ENTRYID property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OwaId">
+      <MemberSignature Language="C#" Value="OwaId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat OwaId = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.OwaId" />
+      <MemberSignature Language="VB.NET" Value="OwaId" />
+      <MemberSignature Language="C++ CLI" Value="OwaId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="979d4-106">Outlook Web App 标识符格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="979d4-106">The Outlook Web App identifier format.</span>
+          </span>
+          <span data-ttu-id="979d4-107">此值适用于 Exchange 2007 和 Exchange 2010。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="979d4-107">This value applies to Exchange 2007 and Exchange 2010.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreId">
+      <MemberSignature Language="C#" Value="StoreId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.IdFormat StoreId = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.IdFormat.StoreId" />
+      <MemberSignature Language="VB.NET" Value="StoreId" />
+      <MemberSignature Language="C++ CLI" Value="StoreId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="979d4-108">Exchange 存储标识符格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="979d4-108">The Exchange Store identifier format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

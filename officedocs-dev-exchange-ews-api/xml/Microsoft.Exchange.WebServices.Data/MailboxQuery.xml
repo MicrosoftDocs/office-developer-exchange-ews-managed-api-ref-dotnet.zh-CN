@@ -1,0 +1,151 @@
+<Type Name="MailboxQuery" FullName="Microsoft.Exchange.WebServices.Data.MailboxQuery">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="302a67edc2417f181ae21b53461b35d2470d1ffa" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622831" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class MailboxQuery" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxQuery extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxQuery" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxQuery sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="ef1a2-101">包含搜索查询的电子数据展示搜索。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ef1a2-101">Contains a search query for an eDiscovery search.</span>
+      </span>
+      <span data-ttu-id="ef1a2-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ef1a2-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxQuery (string query, Microsoft.Exchange.WebServices.Data.MailboxSearchScope[] searchScopes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string query, class Microsoft.Exchange.WebServices.Data.MailboxSearchScope[] searchScopes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (query As String, searchScopes As MailboxSearchScope())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxQuery(System::String ^ query, cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxSearchScope ^&gt; ^ searchScopes);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="query" Type="System.String" />
+        <Parameter Name="searchScopes" Type="Microsoft.Exchange.WebServices.Data.MailboxSearchScope[]" />
+      </Parameters>
+      <Docs>
+        <param name="query">
+          <span data-ttu-id="ef1a2-103">搜索查询。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-103">The search query.</span>
+          </span>
+        </param>
+        <param name="searchScopes">
+          <span data-ttu-id="ef1a2-104">使用其关联的邮箱位置类型的目标邮箱集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-104">A collection of target mailboxes with their associated mailbox location types.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="ef1a2-105">创建的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-105">Creates a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxQuery" /> class.</span>
+          </span>
+          <span data-ttu-id="ef1a2-106">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-106">The <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxQuery.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxSearchScope[])" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxSearchScopes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MailboxSearchScope[] MailboxSearchScopes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MailboxSearchScope[] MailboxSearchScopes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxSearchScopes As MailboxSearchScope()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxSearchScope ^&gt; ^ MailboxSearchScopes { cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxSearchScope ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxSearchScope ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchScope[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef1a2-107">获取或设置的目标邮箱与及其关联的邮箱位置类型的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-107">Gets or sets the collection of target mailboxes with their associated mailbox location types.</span>
+          </span>
+          <span data-ttu-id="ef1a2-108">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-108">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.MailboxSearchScopes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ef1a2-109">键入的邮箱的集合，它们的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-109">The collection of mailboxes and their location type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public string Query { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Query" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" />
+      <MemberSignature Language="VB.NET" Value="Public Property Query As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Query { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef1a2-110">获取或设置用于为电子数据展示搜索的查询。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-110">Gets or sets the query used to for an eDiscovery search.</span>
+          </span>
+          <span data-ttu-id="ef1a2-111">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-111">The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxQuery.Query" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ef1a2-112">搜索查询。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef1a2-112">The search query.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

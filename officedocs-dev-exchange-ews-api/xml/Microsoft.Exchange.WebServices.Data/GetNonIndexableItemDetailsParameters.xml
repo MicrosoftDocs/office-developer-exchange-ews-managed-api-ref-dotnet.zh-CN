@@ -1,0 +1,166 @@
+<Type Name="GetNonIndexableItemDetailsParameters" FullName="Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1c0d67a194fd14157b033934df3c737e487a83af" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623344" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemDetailsParameters : Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetNonIndexableItemDetailsParameters extends Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetNonIndexableItemDetailsParameters&#xA;Inherits NonIndexableItemParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetNonIndexableItemDetailsParameters sealed : Microsoft::Exchange::WebServices::Data::NonIndexableItemParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e3bd4-101">获取要中传递的参数集<see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />请求。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e3bd4-101">Gets the set of parameters to pass in a <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> request.</span>
+      </span>
+      <span data-ttu-id="e3bd4-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e3bd4-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetNonIndexableItemDetailsParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetNonIndexableItemDetailsParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="e3bd4-103">创建实例<see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" />类。<see cref="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-103">Creates an instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageDirection">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.SearchPageDirection&gt; PageDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.SearchPageDirection&gt; PageDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageDirection As Nullable(Of SearchPageDirection)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::SearchPageDirection&gt; PageDirection { Nullable&lt;Microsoft::Exchange::WebServices::Data::SearchPageDirection&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::SearchPageDirection&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.SearchPageDirection&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e3bd4-104">获取或设置页面视图的搜索方向 （向前或向后）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-104">Gets or sets the search direction for the page view (forward or back).</span>
+          </span>
+          <span data-ttu-id="e3bd4-105">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageDirection" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-105">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageDirection" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e3bd4-106">指示分页方向的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-106">A value indicating the paging direction.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageItemReference">
+      <MemberSignature Language="C#" Value="public string PageItemReference { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PageItemReference" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageItemReference" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageItemReference As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PageItemReference { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e3bd4-107">获取或设置页面视图的参考标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-107">Gets or sets the reference identifier for the page view.</span>
+          </span>
+          <span data-ttu-id="e3bd4-108">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageItemReference" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-108">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageItemReference" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e3bd4-109">引用标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-109">The reference identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; PageSize { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e3bd4-110">获取或设置页面视图的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-110">Gets or sets the size of the page view.</span>
+          </span>
+          <span data-ttu-id="e3bd4-111">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageSize" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-111">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageSize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e3bd4-112">将页面视图的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3bd4-112">The size of the page view.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,122 @@
+<Type Name="HoldAction" FullName="Microsoft.Exchange.WebServices.Data.HoldAction">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8cf290713ec310bae44ec4b6826e88b821af02d5" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623588" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum HoldAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed HoldAction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.HoldAction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum HoldAction" />
+  <TypeSignature Language="C++ CLI" Value="public enum class HoldAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="16113-101">定义会影响以便电子数据展示的邮箱中的项目保留的操作。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="16113-101">Defines an action that affects the preservation of items in a mailbox for the purpose of eDiscovery.</span>
+      </span>
+      <span data-ttu-id="16113-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.HoldAction" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="16113-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.HoldAction" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="Create" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldAction Create = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldAction.Create" />
+      <MemberSignature Language="VB.NET" Value="Create" />
+      <MemberSignature Language="C++ CLI" Value="Create" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="16113-103">保留以便电子数据展示的目标邮箱中启动。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="16113-103">A hold initiated on the target mailboxes for the purpose of eDiscovery.</span>
+          </span>
+          <span data-ttu-id="16113-104">适用于客户端针对 Exchange Online 和版本的 Exchange 开头 Exchange Server 2013 中的创建域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="16113-104">The Create field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="Remove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldAction Remove = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldAction.Remove" />
+      <MemberSignature Language="VB.NET" Value="Remove" />
+      <MemberSignature Language="C++ CLI" Value="Remove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="16113-105">保留以便电子数据展示的目标邮箱上放置发行版。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="16113-105">A release on a hold that was placed on the target mailboxes for the purpose of eDiscovery.</span>
+          </span>
+          <span data-ttu-id="16113-106">适用于客户端针对 Exchange Online 和版本的 Exchange 开头 Exchange Server 2013 中的删除域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="16113-106">The Remove field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="Update" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldAction Update = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldAction.Update" />
+      <MemberSignature Language="VB.NET" Value="Update" />
+      <MemberSignature Language="C++ CLI" Value="Update" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="16113-107">以电子数据展示的目标邮箱上保留与关联查询更新。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="16113-107">An update on a query associated with a hold on the target mailboxes for the purpose of eDiscovery.</span>
+          </span>
+          <span data-ttu-id="16113-108">适用于客户端针对 Exchange Online 和版本的 Exchange 开头 Exchange Server 2013 中的更新域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="16113-108">The Update field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

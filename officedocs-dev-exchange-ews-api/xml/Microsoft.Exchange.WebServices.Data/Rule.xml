@@ -1,0 +1,530 @@
+<Type Name="Rule" FullName="Microsoft.Exchange.WebServices.Data.Rule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5815ef1faf18a92d498cfbab1936f6f0202e261d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623096" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Rule : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Rule extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Rule" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Rule&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Rule sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="d28d0-101">代表单个收件箱规则的邮箱中。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d28d0-101">Represents an individual Inbox rule in the mailbox.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="d28d0-102">
+        <para>收件箱规则是一套<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />， <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />，和关联<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />，使客户端可以自动组织、 分类和消息传递到文件夹用作邮件。例如，<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />可以创建需要对包含某些字符串主题中的任何传入邮件将自动移动到预先确定的文件夹。<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />电子邮件传递中用户的邮箱或邮件时首次保存到文件夹时，将触发评估。<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />中<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />针对传入邮件的属性进行评估。如果<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />计算结果为<b>true</b>，该规则<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />由服务器执行。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d28d0-102">
+          <para>An Inbox rule is a set of <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />, and associated <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> that enable clients to automatically organize, categorize, and act on messages as the messages are delivered to a folder. For example, a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> can be created to require that any incoming mail that contains a certain string in the subject be automatically moved to a predetermined folder. <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> evaluation is triggered when e-mail messages are delivered in a user's mailbox or when messages are first saved to a folder. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> are evaluated against the properties of the incoming message. If the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> evaluate to <b>true</b>, the rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> are executed by the server.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="d28d0-103">
+        <para>下面的示例创建一个新规则，并将其保存到的消息的服务器。规则包含<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />和<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />属性。<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />是： </para>
+        <list type="bullet">
+          <item>
+            <description>电子邮件发送到 JunkEmail 文件夹。</description>
+          </item>
+          <item>
+            <description>分配类别的"即时"。</description>
+          </item>
+          <item>
+            <description>分配类别的"仅供内部使用"。</description>
+          </item>
+        </list>
+        <para>
+          <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />是：</para>
+        <list type="bullet">
+          <item>
+            <description>电子邮件主题中包含单词"Interesting"。</description>
+          </item>
+        </list>
+        <code>// Create an inbox rule.
+// If "Interesting" is in the e-mail's subject, move it into the Junk folder
+// and assign two categories to the message.
+Rule newRule = new Rule();
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.IsEnabled = true;
+
+newRule.Priority = 1;
+newRule.Actions.AssignCategories.Add("Immediate");
+newRule.Actions.AssignCategories.Add("Internal use only.");
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d28d0-103">
+          <para>The following example creates a new Rule and saves it to the messaging server. The rule contains an <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> are: </para>
+          <list type="bullet">
+            <item>
+              <description>The e-mail message is sent to the JunkEmail folder.</description>
+            </item>
+            <item>
+              <description>Assign a category of "Immediate".</description>
+            </item>
+            <item>
+              <description>Assign a category of "Internal use only".</description>
+            </item>
+          </list>
+          <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are:</para>
+          <list type="bullet">
+            <item>
+              <description>The e-mail message contains the word "Interesting" in the subject.</description>
+            </item>
+          </list>
+          <code>// Create an inbox rule.
+// If "Interesting" is in the e-mail's subject, move it into the Junk folder
+// and assign two categories to the message.
+Rule newRule = new Rule();
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.IsEnabled = true;
+
+newRule.Priority = 1;
+newRule.Actions.AssignCategories.Add("Immediate");
+newRule.Actions.AssignCategories.Add("Internal use only.");
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Rule ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Rule.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Rule();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-104">初始化规则类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-104">Initializes a new instance of the Rule class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleActions Actions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RuleActions Actions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As RuleActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleActions ^ Actions { Microsoft::Exchange::WebServices::Data::RuleActions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-105">获取满足条件时要采取的上一条消息的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-105">Gets the actions to be taken on a message when the Conditions are fulfilled.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-106">要满足的条件时要采取的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-106">The actions to be taken when the Conditions are fulfilled.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-107">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />属性代表的一组<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />对象，表示在执行的操作<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />对象时<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />评估为<b>true</b>。A<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />对象的属性对应于中每个常用的规则操作都<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />。您可以创建<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />，使任意<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />中包含<see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" />对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-107">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> property represents a set of <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> objects, representing actions that are executed on a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> object when the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are evaluated as <b>true</b>. A <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> object has properties that correspond to each commonly used rule action in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. You can create a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> that enables any of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> contained in the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> object. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conditions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicates Conditions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicates Conditions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conditions As RulePredicates" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicates ^ Conditions { Microsoft::Exchange::WebServices::Data::RulePredicates ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicates</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-108">获取条件，当满足时，将触发规则的规则操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-108">Gets the conditions that when fulfilled, will trigger the rule Actions for that Rule.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-109">与规则条件 RulePredicates。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-109">A RulePredicates with the Rule conditions.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-110">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />属性表示<see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />对象，分别对应于通常使用中的规则条件<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />。Exchange Server 计算机电子邮件到达时, 评估邮件，并确定已满足<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />的<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />。如果是这样，Exchange Server 计算机然后进程根据邮件<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />。您可以创建一个规则，使任意<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />中包含<see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-110">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property represent a <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object, that correspond to each commonly used rule condition in a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. When an e-mail arrives, the Exchange Server computer evaluates the message and determines if it has fulfilled the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. If it does, the Exchange Server computer will then process the message according to the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. You can create a rule that enables any of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> contained in the <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-111">获取或设置一个 string 值，包含的规则的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-111">Gets or sets a string value that contains the display name of a Rule.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-112">规则的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-112">The display name for the Rule.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-113">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" />属性是一个非唯一的显示名称为<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />。<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" />属性是规则的名称，如它显示给用户。<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" />不能设置为 null。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-113">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> property is a non-unique display name of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> property is the name of the rule as it is displayed to the user. The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> cannot be set to null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exceptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicates Exceptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicates Exceptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exceptions As RulePredicates" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicates ^ Exceptions { Microsoft::Exchange::WebServices::Data::RulePredicates ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicates</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-114">获取代表收件箱规则的所有可用规则例外条件的例外。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-114">Gets the Exceptions that represents all the available rule exception conditions for the inbox rule.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-115">与此规则的例外 RulePredicates。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-115">A RulePredicates with the exceptions to the Rule.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-116">
+            <para>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />属性表示<see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />对象，指出在其下的条件<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />不应将应用。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-116">
+              <para>The <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> property represent a <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object, that states the conditions under which the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> should not be applied.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-117">获取或设置规则的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-117">Gets or sets the Rule identifier.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-118">规则标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-118">The Rule identifier.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-119">
+            <para>设置<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Id" />属性到其正前方<see cref="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" />或<see cref="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" />会导致引发异常。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-119">
+              <para>Setting the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Id" /> property prior to a <see cref="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" /> or an <see cref="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" /> will cause an exception to be thrown.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabled">
+      <MemberSignature Language="C#" Value="public bool IsEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-120">获取或设置是否启用规则。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-120">Gets or sets whether the Rule is enabled.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-121">如果为<b>true</b>启用规则;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-121">
+              <b>true</b> if the Rule is enabled; otherwise, <b>false</b>.</span>
+          </span>
+          <span data-ttu-id="d28d0-122">默认值为<b>true</b></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-122">The default value is <b>true</b></span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-123">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" />属性指定是否<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />启用正在如果规则未启用时对传入邮件将被忽略<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />满足和任何<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />不会执行。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-123">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" /> property specifies whether a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is enabled.. If the rule is not enabled it will be ignored when an incoming message's <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> are fulfilled and no <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> will be taken.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInError">
+      <MemberSignature Language="C#" Value="public bool IsInError { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsInError As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInError { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-124">获取一个值，指示该规则是否处于错误条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-124">Gets a value that indicates whether the Rule is in an error condition.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-125">
+            <b>true</b>如果规则中的错误条件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-125">
+              <b>true</b> if the Rule is in an error condition; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-126">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" />属性指定规则状态。A<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />具有错误的更正错误之前无法处理。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-126">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" /> property specifies the rule status. A <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> that has errors cannot be processed until the error is corrected.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotSupported">
+      <MemberSignature Language="C#" Value="public bool IsNotSupported { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNotSupported" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNotSupported As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNotSupported { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-127">获取一个值，该值指示是否无法使用 Api 的托管代码修改该规则。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-127">Gets a value that indicates whether the Rule cannot be modified with the managed code APIs.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-128">
+            <b>true</b>如果规则不能修改包含托管代码 Api;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-128">
+              <b>true</b> if the Rule cannot be modified with the managed code APIs; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-129">
+            <para>如果<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" />属性为<b>true</b>，<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />不能修改。您可以检查的值<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" />之前执行<see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" />方法。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-129">
+              <para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> property is <b>true</b>, the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> cannot not be modified. You can check the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> prior to performing a <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public int Priority { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Priority { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d28d0-130">获取或设置规则的优先级，一个值，指示应在其中运行规则的顺序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-130">Gets or sets the Rule priority, a value that indicates the order in which a Rule should be run.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d28d0-131">指示应在其中运行规则执行顺序的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-131">The value that indicates the execution order in which a Rule should be run.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d28d0-132">
+            <para>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />低优先级之前运行类具有更高的优先级值<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />类。默认值<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" />的任何值<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />为 0。当<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />创建具有相同<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" />与现有<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />，现有<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />将递增。规则<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" />值必须是正整数值。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d28d0-132">
+              <para>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> classes that have a higher priority value are run before lower priority <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> classes. The default <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> value for any <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is 0. When a <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is created with the same <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> as an existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />, the existing <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> is incremented. A rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> must be a positive value.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

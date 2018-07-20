@@ -1,0 +1,93 @@
+<Type Name="Recurrence+YearlyRegenerationPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+YearlyRegenerationPattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4f865c3ee32a38e7014b046e6ca9a35626af16b9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623412" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Recurrence.YearlyRegenerationPattern : Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/YearlyRegenerationPattern extends Microsoft.Exchange.WebServices.Data.Recurrence/IntervalPattern" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyRegenerationPattern" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.YearlyRegenerationPattern&#xA;Inherits Recurrence.IntervalPattern" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::YearlyRegenerationPattern sealed : Microsoft::Exchange::WebServices::Data::Recurrence::IntervalPattern" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a90a6-101">表示再生模式中，用于定期任务，其中每个出现发生指定的数量的完成上一年后的情况。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a90a6-101">Represents a regeneration pattern, as used with recurring tasks, where each occurrence happens a specified number of years after the previous one is completed.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public YearlyRegenerationPattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyRegenerationPattern.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; YearlyRegenerationPattern();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a90a6-102">初始化 Microsoft.Exchange.WebServices.Data.Recurrence.YearlyRegenerationPattern 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a90a6-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.YearlyRegenerationPattern class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public YearlyRegenerationPattern (DateTime startDate, int interval);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, int32 interval) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyRegenerationPattern.#ctor(System.DateTime,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (startDate As DateTime, interval As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; YearlyRegenerationPattern(DateTime startDate, int interval);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="interval" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">
+          <span data-ttu-id="a90a6-103">日期和定期开始的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a90a6-103">The date and time when the recurrence starts.</span>
+          </span>
+        </param>
+        <param name="interval">
+          <span data-ttu-id="a90a6-104">当前的匹配项和下，当前的匹配项完毕后之间的年数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a90a6-104">The number of years between the current occurrence and the next, after the current occurrence is completed.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a90a6-105">初始化 Microsoft.Exchange.WebServices.Data.Recurrence.YearlyRegenerationPattern 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a90a6-105">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.YearlyRegenerationPattern class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

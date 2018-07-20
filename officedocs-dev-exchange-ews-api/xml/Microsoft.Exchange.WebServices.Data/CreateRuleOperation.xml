@@ -1,0 +1,187 @@
+<Type Name="CreateRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.CreateRuleOperation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3defb1ba4da4191f7df77e9eef5463858b4fc0b1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622673" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CreateRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CreateRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CreateRuleOperation&#xA;Inherits RuleOperation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateRuleOperation sealed : Microsoft::Exchange::WebServices::Data::RuleOperation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RuleOperation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a07b8-101">代表创建收件箱规则操作。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a07b8-101">Represents an operation to create an Inbox rule.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="a07b8-102">
+        <para>收件箱规则是一组<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />和关联<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />，使客户端可以自动组织、 分类和邮件消息传递到文件夹用作。</para>
+        <para>此类派生<see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" />类。</para>
+        <para>创建规则后，它存储在 Exchange 服务器上。Exchange server 邮件到达时, 评估邮件，并确定是否已满足任何规则<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />。如果是，则 Exchange 服务器然后进程根据该规则的邮件<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />。例如，创建一个规则需要包含某些字符串主题中的任何传入邮件将自动移动到预先确定的文件夹。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a07b8-102">
+          <para>Inbox rules are sets of <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> and associated <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> that enable clients to automatically organize, categorize, and act on messages as the messages are delivered to a folder.</para>
+          <para>This class derives from the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> class.</para>
+          <para>When a rule is created, it is stored on the Exchange server. When a message arrives, the Exchange server evaluates the message and determines whether it has fulfilled any rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />. If it has, the Exchange server will then process the message according to the rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. For example, a rule can be created to require that any incoming mail that contains a certain string in the subject be automatically moved to a predetermined folder.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="a07b8-103">
+        <para>下面的示例创建一个规则名称"MoveInterestingToJunk"。规则均具有<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />属性指定的次收到的电子邮件的主题行中包含字符串"Interesting"、 邮件将被移动到垃圾邮件文件夹。规则将上传到服务中的服务器。UpdateInboxRules (新 RuleOperation [] {createOperation}，则返回 true) 行中。</para>
+        <code>// Create an Inbox rule.
+// If "Interesting" is in the message's subject line, move it into the Junk E-mail folder.
+Rule newRule = new Rule();
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.Priority = 1;
+newRule.IsEnabled = true;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a07b8-103">
+          <para>The following example creates a rule with the name "MoveInterestingToJunk". The rule has a <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property that specifies that whenever an e-mail message arrives that has the string "Interesting" in the subject line, the message is to be moved to the Junk E-mail folder. The rule is uploaded to the server in the service.UpdateInboxRules(new RuleOperation[] { createOperation }, true) line.</para>
+          <code>// Create an Inbox rule.
+// If "Interesting" is in the message's subject line, move it into the Junk E-mail folder.
+Rule newRule = new Rule();
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.Priority = 1;
+newRule.IsEnabled = true;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateRuleOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateRuleOperation();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a07b8-104">初始化 CreateRuleOperation 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a07b8-104">Initializes a new instance of the CreateRuleOperation class.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="a07b8-105">
+            <para>CreateRuleOperation 方法创建一个新<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />中特定邮箱。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a07b8-105">
+              <para>The CreateRuleOperation method creates a new <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> in a specific mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateRuleOperation (Microsoft.Exchange.WebServices.Data.Rule rule);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.Rule rule) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.#ctor(Microsoft.Exchange.WebServices.Data.Rule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateRuleOperation(Microsoft::Exchange::WebServices::Data::Rule ^ rule);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rule" Type="Microsoft.Exchange.WebServices.Data.Rule" />
+      </Parameters>
+      <Docs>
+        <param name="rule">
+          <span data-ttu-id="a07b8-106">实例<see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />类是要创建并发送到邮件服务器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a07b8-106">An instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class is to be created and sent to the messaging server.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a07b8-107">初始化与指定的规则的 CreateRuleOperation 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a07b8-107">Initializes a new instance of the CreateRuleOperation class with the specified rule.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rule">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Rule Rule { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Rule Rule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.Rule" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rule As Rule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Rule ^ Rule { Microsoft::Exchange::WebServices::Data::Rule ^ get(); void set(Microsoft::Exchange::WebServices::Data::Rule ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Rule</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a07b8-108">获取或设置要创建的规则。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a07b8-108">Gets or sets the rule to be created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a07b8-109">新创建的规则。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a07b8-109">The newly created rule.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="a07b8-110">
+            <para>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />包含<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />和<see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />邮箱中收到的电子邮件时要采取。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a07b8-110">
+              <para>The <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> contains the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> to be taken when an e-mail message arrives in a mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

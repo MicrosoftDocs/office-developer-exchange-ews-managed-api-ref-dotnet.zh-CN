@@ -1,0 +1,88 @@
+<Type Name="ViewBase" FullName="Microsoft.Exchange.WebServices.Data.ViewBase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f152bbfa8d62bb48f8b1b2cf3489d7faa9714a9d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622848" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ViewBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ViewBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="839af-101">表示搜索操作的基本视图类。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="839af-101">Represents the base view class for search operations.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertySet PropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertySet PropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ViewBase.PropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertySet As PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertySet ^ PropertySet { Microsoft::Exchange::WebServices::Data::PropertySet ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertySet ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="839af-102">获取或设置的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="839af-102">Gets or sets the property set.</span>
+          </span>
+          <span data-ttu-id="839af-103">此属性确定哪些属性将加载上找到的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="839af-103">This property determines which properties will be loaded on found items.</span>
+          </span>
+          <span data-ttu-id="839af-104">如果此属性为空引用 (在 Visual Basic 中为 Nothing)，找到项目上加载了所有一类的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="839af-104">If this property is a null reference (Nothing in Visual Basic), all first-class properties are loaded on found items.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="839af-105">将加载搜索返回的项的属性集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="839af-105">The set of properties that will be loaded on items that are returned by the search.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="839af-106">
+            <para>属性集属性决定将找到搜索的项返回的项目属性。如果属性集为空引用 (在 Visual Basic 中为 Nothing)，所有的一类属性将返回且找到的项目。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="839af-106">
+              <para>The PropertySet property determines the item properties that will be returned with the items found by the search. If PropertySet is a null reference (Nothing in Visual Basic), all first-class properties are returned with the found items.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

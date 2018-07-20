@@ -1,0 +1,153 @@
+<Type Name="MeetingAttendeeType" FullName="Microsoft.Exchange.WebServices.Data.MeetingAttendeeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2c2797cff38a7fc8a22d49576948ec2bd32ef44f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622676" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MeetingAttendeeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MeetingAttendeeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingAttendeeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MeetingAttendeeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MeetingAttendeeType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4fff2-101">指定用于定义的会议与会者类型常量。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4fff2-101">Specifies constants that define the type of a meeting attendee.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Optional">
+      <MemberSignature Language="C#" Value="Optional" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType Optional = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingAttendeeType.Optional" />
+      <MemberSignature Language="VB.NET" Value="Optional" />
+      <MemberSignature Language="C++ CLI" Value="Optional" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4fff2-102">可选的与会者。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4fff2-102">An optional attendee.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Organizer">
+      <MemberSignature Language="C#" Value="Organizer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType Organizer = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingAttendeeType.Organizer" />
+      <MemberSignature Language="VB.NET" Value="Organizer" />
+      <MemberSignature Language="C++ CLI" Value="Organizer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4fff2-103">组织者的会议。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4fff2-103">The organizer of the meeting.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Required">
+      <MemberSignature Language="C#" Value="Required" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType Required = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingAttendeeType.Required" />
+      <MemberSignature Language="VB.NET" Value="Required" />
+      <MemberSignature Language="C++ CLI" Value="Required" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4fff2-104">必需的与会者。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4fff2-104">A required attendee.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Resource">
+      <MemberSignature Language="C#" Value="Resource" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType Resource = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingAttendeeType.Resource" />
+      <MemberSignature Language="VB.NET" Value="Resource" />
+      <MemberSignature Language="C++ CLI" Value="Resource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4fff2-105">资源。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4fff2-105">A resource.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Room">
+      <MemberSignature Language="C#" Value="Room" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType Room = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingAttendeeType.Room" />
+      <MemberSignature Language="VB.NET" Value="Room" />
+      <MemberSignature Language="C++ CLI" Value="Room" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4fff2-106">聊天室。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4fff2-106">A room.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

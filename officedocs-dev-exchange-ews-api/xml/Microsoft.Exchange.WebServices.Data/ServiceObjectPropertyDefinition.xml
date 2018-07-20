@@ -1,0 +1,100 @@
+<Type Name="ServiceObjectPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="31ff4fa15dcae87b38e65ca80146c5c05a2f07ef" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623109" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ServiceObjectPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceObjectPropertyDefinition extends Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceObjectPropertyDefinition&#xA;Inherits PropertyDefinitionBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceObjectPropertyDefinition abstract : Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="0b3dc-101">表示服务对象的属性定义。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0b3dc-101">Represents a property definition for a service object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetJsonType">
+      <MemberSignature Language="C#" Value="protected override string GetJsonType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetJsonType() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition.GetJsonType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetJsonType () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetJsonType();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0b3dc-102">获取相关联的属性，例如<b>字符串</b>、<b>数字</b>、<b>对象</b>、<b>数组</b>，或<b>Boolean</b>的 JavaScript 对象表示法 (JSON) 变量类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0b3dc-102">Gets the JavaScript Object Notation (JSON) variable type of the associated property, for example, <b>string</b>, <b>number</b>, <b>object</b>, <b>array</b>, or <b>Boolean</b>.</span>
+          </span>
+          <span data-ttu-id="0b3dc-103">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition.GetJsonType" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0b3dc-103">The <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition.GetJsonType" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0b3dc-104">JSON 变量类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0b3dc-104">The JSON variable type.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public override Microsoft.Exchange.WebServices.Data.ExchangeVersion Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Version As ExchangeVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Exchange::WebServices::Data::ExchangeVersion Version { Microsoft::Exchange::WebServices::Data::ExchangeVersion get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0b3dc-105">获取支持此属性的最小 Exchange 版本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0b3dc-105">Gets the minimum Exchange version that supports this property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0b3dc-106">ExchangeVersion 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0b3dc-106">One of the ExchangeVersion enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

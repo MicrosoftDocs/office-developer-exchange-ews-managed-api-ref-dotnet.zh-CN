@@ -1,0 +1,206 @@
+<Type Name="Flag" FullName="Microsoft.Exchange.WebServices.Data.Flag">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="13035548b5b9e97bf9cae8892b053cff73cfdcfe" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622706" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Flag : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Flag extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Flag" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Flag&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Flag sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="c28ab-101">代表标志对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c28ab-101">Represents a flag object.</span>
+      </span>
+      <span data-ttu-id="c28ab-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.Flag" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c28ab-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.Flag" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Flag ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Flag.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Flag();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c28ab-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.Flag" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.Flag" /> class.</span>
+          </span>
+          <span data-ttu-id="c28ab-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.Flag.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.Flag.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteDate">
+      <MemberSignature Language="C#" Value="public DateTime CompleteDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CompleteDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Flag.CompleteDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompleteDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CompleteDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c28ab-105">获取或设置的完成日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-105">Gets or sets the complete date.</span>
+          </span>
+          <span data-ttu-id="c28ab-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.CompleteDate" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.CompleteDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c28ab-107">完成日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-107">The complete date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DueDate">
+      <MemberSignature Language="C#" Value="public DateTime DueDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DueDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Flag.DueDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property DueDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DueDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c28ab-108">获取或设置的到期日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-108">Gets or sets the due date.</span>
+          </span>
+          <span data-ttu-id="c28ab-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.DueDate" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.DueDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c28ab-110">到期日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-110">The due date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemFlagStatus FlagStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemFlagStatus FlagStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Flag.FlagStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlagStatus As ItemFlagStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemFlagStatus FlagStatus { Microsoft::Exchange::WebServices::Data::ItemFlagStatus get(); void set(Microsoft::Exchange::WebServices::Data::ItemFlagStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemFlagStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c28ab-111">获取或设置标记状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-111">Gets or sets the flag status.</span>
+          </span>
+          <span data-ttu-id="c28ab-112">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.FlagStatus" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.FlagStatus" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c28ab-113">标记状态中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-113">The flag status.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Flag.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c28ab-114">获取或设置的开始日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-114">Gets or sets the start date.</span>
+          </span>
+          <span data-ttu-id="c28ab-115">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.StartDate" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.Flag.StartDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c28ab-116">开始日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c28ab-116">The start date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

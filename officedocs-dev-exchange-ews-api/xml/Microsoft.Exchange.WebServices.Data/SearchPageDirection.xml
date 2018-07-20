@@ -1,0 +1,96 @@
+<Type Name="SearchPageDirection" FullName="Microsoft.Exchange.WebServices.Data.SearchPageDirection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3183b934fdacd0e69d9bffcad5f8bbc08e441625" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623506" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SearchPageDirection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchPageDirection extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchPageDirection" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchPageDirection" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchPageDirection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="17acf-101">定义为邮箱搜索的页面方向。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="17acf-101">Defines the page direction for the mailbox search.</span>
+      </span>
+      <span data-ttu-id="17acf-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.SearchPageDirection" />枚举是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="17acf-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchPageDirection" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Next">
+      <MemberSignature Language="C#" Value="Next" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SearchPageDirection Next = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Next" />
+      <MemberSignature Language="VB.NET" Value="Next" />
+      <MemberSignature Language="C++ CLI" Value="Next" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPageDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17acf-103">搜索方向为向前。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17acf-103">The search direction is forward.</span>
+          </span>
+          <span data-ttu-id="17acf-104">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Next" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17acf-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Next" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Previous">
+      <MemberSignature Language="C#" Value="Previous" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SearchPageDirection Previous = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Previous" />
+      <MemberSignature Language="VB.NET" Value="Previous" />
+      <MemberSignature Language="C++ CLI" Value="Previous" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPageDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17acf-105">搜索方向是向后。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17acf-105">The search direction is backwards.</span>
+          </span>
+          <span data-ttu-id="17acf-106">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Previous" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17acf-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Previous" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

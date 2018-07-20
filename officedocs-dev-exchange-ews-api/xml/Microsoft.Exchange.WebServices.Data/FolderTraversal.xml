@@ -1,0 +1,117 @@
+<Type Name="FolderTraversal" FullName="Microsoft.Exchange.WebServices.Data.FolderTraversal">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f3a6ffd2f31ff427dbce80b0e8a8103690271936" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622867" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum FolderTraversal" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FolderTraversal extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderTraversal" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FolderTraversal" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FolderTraversal" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b35db-101">定义 FindFolders 操作的范围。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b35db-101">Defines the scope of FindFolders operations.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="b35db-102">
+        <para>
+          <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" />方法定义查找邮箱中的文件夹的请求。FolderTraversal 类对象定义如何执行搜索。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b35db-102">
+          <para>The <see cref="M:Microsoft.Exchange.WebServices.Data.Folder.FindFolders(Microsoft.Exchange.WebServices.Data.FolderView)" /> method defines a request to find folders in a mailbox. The FolderTraversal class object defines how the search is performed.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Deep">
+      <MemberSignature Language="C#" Value="Deep" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FolderTraversal Deep = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderTraversal.Deep" />
+      <MemberSignature Language="VB.NET" Value="Deep" />
+      <MemberSignature Language="C++ CLI" Value="Deep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderTraversal</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b35db-103">检索的子文件夹的整个层次结构。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b35db-103">The entire hierarchy of subfolders is retrieved.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shallow">
+      <MemberSignature Language="C#" Value="Shallow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FolderTraversal Shallow = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderTraversal.Shallow" />
+      <MemberSignature Language="VB.NET" Value="Shallow" />
+      <MemberSignature Language="C++ CLI" Value="Shallow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderTraversal</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b35db-104">检索仅直接子文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b35db-104">Only direct subfolders are retrieved.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDeleted">
+      <MemberSignature Language="C#" Value="SoftDeleted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FolderTraversal SoftDeleted = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderTraversal.SoftDeleted" />
+      <MemberSignature Language="VB.NET" Value="SoftDeleted" />
+      <MemberSignature Language="C++ CLI" Value="SoftDeleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderTraversal</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b35db-105">检索只有软删除文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b35db-105">Only soft-deleted folders are retrieved.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

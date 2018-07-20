@@ -1,0 +1,109 @@
+<Type Name="EmailUserEntity" FullName="Microsoft.Exchange.WebServices.Data.EmailUserEntity">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bfd18b985994fe0b1a11c86b2cbeee66d9327c85" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623008" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class EmailUserEntity : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailUserEntity extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailUserEntity" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailUserEntity&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailUserEntity sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="cfa1d-101">定义邮件提取的实体值，该值代表电子邮件用户。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cfa1d-101">Defines an extracted message entity that represents an email user.</span>
+      </span>
+      <span data-ttu-id="cfa1d-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.EmailUserEntity" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cfa1d-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.EmailUserEntity" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cfa1d-103">获取与邮件提取的实体关联的用户名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cfa1d-103">Gets the user name associated with the extracted message entity.</span>
+          </span>
+          <span data-ttu-id="cfa1d-104">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.Name" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cfa1d-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.Name" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="cfa1d-105">EmailUser 实体名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cfa1d-105">The EmailUser entity name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public string UserId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UserId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cfa1d-106">获取与提取的 message 实体相关联的用户 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cfa1d-106">Gets the user ID associated with the extracted message entity.</span>
+          </span>
+          <span data-ttu-id="cfa1d-107">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.UserId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cfa1d-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.EmailUserEntity.UserId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="cfa1d-108">EmailUser 实体用户 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cfa1d-108">The EmailUser entity user ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

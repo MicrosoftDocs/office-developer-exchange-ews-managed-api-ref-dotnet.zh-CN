@@ -1,0 +1,426 @@
+<Type Name="FolderId" FullName="Microsoft.Exchange.WebServices.Data.FolderId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8ab5db187cd522e45470a443353a0dfbbcd8ff89" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623236" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderId&#xA;Inherits ServiceId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderId sealed : Microsoft::Exchange::WebServices::Data::ServiceId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f86d8-101">表示的文件夹的 ID。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f86d8-101">Represents the ID of a folder.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (folderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">
+          <span data-ttu-id="f86d8-102">用于初始化文件夹 Id 类文件夹名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-102">The folder name that is used to initialize the FolderId class.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f86d8-103">初始化文件夹 Id 类具有已知文件夹名称的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-103">Initializes a new instance of the FolderId class, with the well-known folder name.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f86d8-104">
+            <para>使用此构造函数将此文件夹 ID 链接到已知文件夹 （例如，收件箱、 日历或联系人）。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-104">
+              <para>Use this constructor to link this folder ID to a well-known folder (for example, Inbox, Calendar, or Contacts).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniqueId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(System::String ^ uniqueId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">
+          <span data-ttu-id="f86d8-105">用于初始化文件夹 Id 类的唯一 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-105">The unique ID that is used to initialize the FolderId class.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f86d8-106">初始化文件夹 Id 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-106">Initializes a new instance of the FolderId class.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f86d8-107">
+            <para>使用此构造函数将此文件夹 Id 类链接到现有文件夹。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-107">
+              <para>Use this constructor to link this FolderId class to an existing folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName, Microsoft.Exchange.WebServices.Data.Mailbox mailbox);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName, class Microsoft.Exchange.WebServices.Data.Mailbox mailbox) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.#ctor(Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.Mailbox)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderId(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName, Microsoft::Exchange::WebServices::Data::Mailbox ^ mailbox);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="mailbox" Type="Microsoft.Exchange.WebServices.Data.Mailbox" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">
+          <span data-ttu-id="f86d8-108">用于初始化文件夹 Id 类文件夹名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-108">The folder name that is used to initialize the FolderId class.</span>
+          </span>
+        </param>
+        <param name="mailbox">
+          <span data-ttu-id="f86d8-109">用于初始化文件夹 Id 类的邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-109">The mailbox that is used to initialize the FolderId class.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f86d8-110">初始化与指定的文件夹名称和邮箱文件夹 Id 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-110">Initializes a new instance of the FolderID class with the specified folder name and mailbox.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="f86d8-111">
+            <para>使用此构造函数将此文件夹 ID 链接到特定邮箱中的已知文件夹 （例如，收件箱、 日历或联系人）。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-111">
+              <para>Use this constructor to link this folder ID to a well-known folder (for example, Inbox, Calendar or Contacts) in a specific mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">
+          <span data-ttu-id="f86d8-112">要比较将当前文件夹的文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-112">The folder to compare with the current folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f86d8-113">确定是否等于当前文件夹指定的文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-113">Determines whether the specified folder is equal to the current folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f86d8-114">
+            <b>true</b>如果指定的文件夹是等于当前文件夹中。否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-114">
+              <b>true</b> if the specified folder is equal to the current folder; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NullReferenceException">
+          <span data-ttu-id="f86d8-115">
+            <paramref name="obj" />参数为空引用 (在 Visual Basic 中为 Nothing)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-115">The <paramref name="obj" /> parameter is a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderName">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; FolderName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt; FolderName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderId.FolderName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderName As Nullable(Of WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; FolderName { Nullable&lt;Microsoft::Exchange::WebServices::Data::WellKnownFolderName&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.WellKnownFolderName&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f86d8-116">获取与文件夹 ID 相关联的文件夹的名称</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-116">Gets the name of the folder that is associated with the folder ID.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f86d8-117">与文件夹 ID 相关联的<b>nullable</b>已知文件夹名称</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-117">A <b>nullable</b>  well-known folder name that is associated with the folder ID.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f86d8-118">
+            <para>已知文件夹名称和文件夹 ID 相互排斥;如果设置，另一个是空引用 (在 Visual Basic 中为 Nothing)。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-118">
+              <para>The well-known folder name and the folder ID are mutually exclusive; if one is set, the other is a null reference (Nothing in Visual Basic).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f86d8-119">充当特定类型的哈希函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-119">Serves as a hash function for a particular type.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f86d8-120">当前文件夹哈希代码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-120">A hash code for the current folder.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Mailbox Mailbox { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Mailbox Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderId.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mailbox As Mailbox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Mailbox ^ Mailbox { Microsoft::Exchange::WebServices::Data::Mailbox ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Mailbox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f86d8-121">获取文件夹的邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-121">Gets the mailbox of the folder.</span>
+          </span>
+          <span data-ttu-id="f86d8-122">FolderName 设置时，才设置邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-122">Mailbox is only set when FolderName is set.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f86d8-123">文件夹的邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-123">The mailbox of the folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.FolderId (Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.FolderId op_Implicit(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName folderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.op_Implicit(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)~Microsoft.Exchange.WebServices.Data.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (folderName As WellKnownFolderName) As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::FolderId ^(Microsoft::Exchange::WebServices::Data::WellKnownFolderName folderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="folderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="folderName">
+          <span data-ttu-id="f86d8-124">文件夹名称以将转换为一个文件夹 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-124">The folder name to convert to a folder ID.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f86d8-125">定义隐式转换之间已知文件夹名称和文件夹 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-125">Defines an implicit conversion between a well-known folder name and a folder ID.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f86d8-126">初始化与指定的文件夹名文件夹 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-126">A folder ID that is initialized with the specified folder name.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.FolderId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.FolderId op_Implicit(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniqueId As String) As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::FolderId ^(System::String ^ uniqueId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">
+          <span data-ttu-id="f86d8-127">要转换为文件夹 ID 的唯一 ID</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-127">The unique ID to convert to a folder ID.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f86d8-128">定义隐式字符串和文件夹 id。 之间的转换</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-128">Defines an implicit conversion between a string and a folder ID.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f86d8-129">具有指定 ID 的唯一初始化文件夹 ID</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-129">A folder ID that is initialized with the specified unique ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f86d8-130">返回一个字符串，表示当前文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-130">Returns a string that represents the current folder.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f86d8-131">当前文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f86d8-131">The name of the current folder.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,158 @@
+<Type Name="CalendarEvent" FullName="Microsoft.Exchange.WebServices.Data.CalendarEvent">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fd17fbbd64db56bc1759618674b70ff9ad93d08f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622646" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CalendarEvent : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarEvent extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarEvent" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarEvent&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarEvent sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="2d648-101">表示日历中的事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2d648-101">Represents an event in a calendar.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Details">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarEventDetails Details { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.CalendarEventDetails Details" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEvent.Details" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Details As CalendarEventDetails" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::CalendarEventDetails ^ Details { Microsoft::Exchange::WebServices::Data::CalendarEventDetails ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarEventDetails</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d648-102">获取日历事件的详细信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-102">Gets the details of a calendar event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d648-103">一个包含日历事件的详细信息的 CalendarEventDetails 类对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-103">A CalendarEventDetails class object that contains the details of a calendar event.</span>
+          </span>
+          <span data-ttu-id="2d648-104">Details 属性是空引用 (在 Visual Basic 中为 Nothing)，如果发出请求的用户不具有适当的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-104">The Details property is a null reference (Nothing in Visual Basic) if the user who is making the request does not have the appropriate rights.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEvent.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d648-105">获取的结束日期和事件的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-105">Gets the end date and time of the event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d648-106">结束日期和事件的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-106">The end date and time of the event.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus FreeBusyStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus FreeBusyStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEvent.FreeBusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FreeBusyStatus As LegacyFreeBusyStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus FreeBusyStatus { Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d648-107">获取与事件相关联的忙/闲状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-107">Gets the free/busy status that is associated with the event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d648-108">忙/闲状态与事件相关联。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-108">The free/busy status that is associated with the event.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarEvent.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2d648-109">获取的开始日期和事件的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-109">Gets the start date and time of the event.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2d648-110">开始日期和事件的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2d648-110">The start date and time of the event.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

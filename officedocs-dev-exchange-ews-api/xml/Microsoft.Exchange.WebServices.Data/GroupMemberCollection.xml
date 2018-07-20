@@ -1,0 +1,718 @@
+<Type Name="GroupMemberCollection" FullName="Microsoft.Exchange.WebServices.Data.GroupMemberCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e3351b749e7ca206b210187630362c674c783e01" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623501" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GroupMemberCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GroupMemberCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GroupMemberCollection&#xA;Inherits ComplexPropertyCollection(Of GroupMember)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupMemberCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::GroupMember ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.GroupMember</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="944b2-101">代表一组联系人。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="944b2-101">Represents a group of contacts.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMemberCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMemberCollection();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="944b2-102">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.GroupMember member);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Microsoft.Exchange.WebServices.Data.GroupMember member) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Add(Microsoft.Exchange.WebServices.Data.GroupMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (member As GroupMember)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::GroupMember ^ member);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="member" Type="Microsoft.Exchange.WebServices.Data.GroupMember" />
+      </Parameters>
+      <Docs>
+        <param name="member">
+          <span data-ttu-id="944b2-103">要添加到组的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-103">The member to add to the group.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-104">向组添加成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-104">Adds a member to the group.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddContactEmailAddress">
+      <MemberSignature Language="C#" Value="public void AddContactEmailAddress (Microsoft.Exchange.WebServices.Data.Contact contact, Microsoft.Exchange.WebServices.Data.EmailAddressKey emailAddressKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddContactEmailAddress(class Microsoft.Exchange.WebServices.Data.Contact contact, valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey emailAddressKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddContactEmailAddress(Microsoft.Exchange.WebServices.Data.Contact,Microsoft.Exchange.WebServices.Data.EmailAddressKey)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddContactEmailAddress(Microsoft::Exchange::WebServices::Data::Contact ^ contact, Microsoft::Exchange::WebServices::Data::EmailAddressKey emailAddressKey);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Exchange.WebServices.Data.Contact" />
+        <Parameter Name="emailAddressKey" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
+      </Parameters>
+      <Docs>
+        <param name="contact">
+          <span data-ttu-id="944b2-105">要链接到的联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-105">The contact to link to.</span>
+          </span>
+        </param>
+        <param name="emailAddressKey">
+          <span data-ttu-id="944b2-106">要链接到的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-106">The e-mail address to link to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-107">添加一个链接到特定的电子邮件地址的联系人的组成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-107">Adds a group member that is linked to a specific e-mail address for a contact.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddContactGroup">
+      <MemberSignature Language="C#" Value="public void AddContactGroup (Microsoft.Exchange.WebServices.Data.ItemId contactGroupId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddContactGroup(class Microsoft.Exchange.WebServices.Data.ItemId contactGroupId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddContactGroup(Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddContactGroup (contactGroupId As ItemId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddContactGroup(Microsoft::Exchange::WebServices::Data::ItemId ^ contactGroupId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactGroupId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="contactGroupId">
+          <span data-ttu-id="944b2-108">联系人组的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-108">The identifier of the contact group.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-109">添加到链接的联系人组的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-109">Adds a member to a linked contact group.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryContact">
+      <MemberSignature Language="C#" Value="public void AddDirectoryContact (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryContact(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryContact(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryContact (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryContact(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="944b2-110">Active Directory 联系人的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-110">The SMTP e-mail address of the Active Directory contact.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-111">添加成员链接到由指定电子邮件地址的 Active Directory 联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-111">Adds a member that is linked to an Active Directory contact that is identified by the specified e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryContact">
+      <MemberSignature Language="C#" Value="public void AddDirectoryContact (string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryContact(string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryContact(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryContact (address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryContact(System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="address">
+          <span data-ttu-id="944b2-112">Active Directory 联系人的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-112">The e-mail address of the Active Directory contact.</span>
+          </span>
+        </param>
+        <param name="routingType">
+          <span data-ttu-id="944b2-113">Active Directory 联系人路由类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-113">The routing type for the Active Directory contact.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-114">添加成员链接到由指定的电子邮件地址和传送类型的 Active Directory 联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-114">Adds a member that is linked to an Active Directory contact that is identified by the specified e-mail address and routing type.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryPublicFolder">
+      <MemberSignature Language="C#" Value="public void AddDirectoryPublicFolder (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryPublicFolder(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryPublicFolder(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryPublicFolder (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryPublicFolder(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="944b2-115">已启用邮件的公用文件夹的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-115">The SMTP e-mail address of the mail-enabled public folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-116">添加一个链接到已启用邮件的公用文件夹的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-116">Adds a member that is linked to a mail-enabled public folder.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryUser">
+      <MemberSignature Language="C#" Value="public void AddDirectoryUser (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryUser(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryUser(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryUser (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryUser(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="944b2-117">成员的 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-117">The SMTP address of the member.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-118">添加一个链接到指定的 SMTP 地址的 Active Directory 用户的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-118">Adds a member that is linked to an Active Directory user that is specified by SMTP address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryUser">
+      <MemberSignature Language="C#" Value="public void AddDirectoryUser (string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryUser(string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryUser(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryUser (address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryUser(System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="address">
+          <span data-ttu-id="944b2-119">用户的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-119">The e-mail address of the user.</span>
+          </span>
+        </param>
+        <param name="routingType">
+          <span data-ttu-id="944b2-120">路由的地址类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-120">The routing type of the address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-121">添加一个链接到指定的电子邮件地址和传送类型的 Active Directory 用户的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-121">Adds a member that is linked to an Active Directory user that is specified by e-mail address and routing type.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddOneOff">
+      <MemberSignature Language="C#" Value="public void AddOneOff (string displayName, string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddOneOff(string displayName, string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddOneOff(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddOneOff (displayName As String, smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddOneOff(System::String ^ displayName, System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">
+          <span data-ttu-id="944b2-122">成员的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-122">The member's display name.</span>
+          </span>
+        </param>
+        <param name="smtpAddress">
+          <span data-ttu-id="944b2-123">成员的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-123">The member's SMTP e-mail address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-124">将一次性成员添加到具有指定的显示名称和 SMTP 电子邮件地址的组。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-124">Adds a one-off member to the group with the specified display name and SMTP e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddOneOff">
+      <MemberSignature Language="C#" Value="public void AddOneOff (string displayName, string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddOneOff(string displayName, string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddOneOff(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddOneOff (displayName As String, address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddOneOff(System::String ^ displayName, System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">
+          <span data-ttu-id="944b2-125">成员的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-125">The member's display name.</span>
+          </span>
+        </param>
+        <param name="address">
+          <span data-ttu-id="944b2-126">成员的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-126">The member's e-mail address.</span>
+          </span>
+        </param>
+        <param name="routingType">
+          <span data-ttu-id="944b2-127">路由的地址类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-127">The routing type of the address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-128">将一次性成员添加到具有指定的显示名称、 电子邮件地址和传送类型的组。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-128">Adds a one-off member to the group with the specified display name, e-mail address, and routing type.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPersonalContact">
+      <MemberSignature Language="C#" Value="public void AddPersonalContact (Microsoft.Exchange.WebServices.Data.ItemId contactId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddPersonalContact(class Microsoft.Exchange.WebServices.Data.ItemId contactId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddPersonalContact(Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPersonalContact (contactId As ItemId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPersonalContact(Microsoft::Exchange::WebServices::Data::ItemId ^ contactId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="contactId">
+          <span data-ttu-id="944b2-129">添加的联系人的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-129">The identifier of the contact to add.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-130">添加一个链接到特定的个人联系人的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-130">Adds a member that is linked to a specific personal contact.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPersonalContact">
+      <MemberSignature Language="C#" Value="public void AddPersonalContact (Microsoft.Exchange.WebServices.Data.ItemId contactId, string addressToLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddPersonalContact(class Microsoft.Exchange.WebServices.Data.ItemId contactId, string addressToLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddPersonalContact(Microsoft.Exchange.WebServices.Data.ItemId,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPersonalContact (contactId As ItemId, addressToLink As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPersonalContact(Microsoft::Exchange::WebServices::Data::ItemId ^ contactId, System::String ^ addressToLink);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="addressToLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="contactId">
+          <span data-ttu-id="944b2-131">添加的联系人的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-131">The identifier of the contact to add.</span>
+          </span>
+        </param>
+        <param name="addressToLink">
+          <span data-ttu-id="944b2-132">要使用的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-132">The e-mail address to use.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-133">添加一个链接到特定的个人联系人和电子邮件地址的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-133">Adds a member that is linked to a specific personal contact and e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPublicGroup">
+      <MemberSignature Language="C#" Value="public void AddPublicGroup (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddPublicGroup(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddPublicGroup(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPublicGroup (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPublicGroup(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="944b2-134">公用组的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-134">The SMTP e-mail address of the public group.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-135">添加一个链接到公用组的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-135">Adds a member that is linked to a public group.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt; members);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.GroupMember&gt; members) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.GroupMember})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (members As IEnumerable(Of GroupMember))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::GroupMember ^&gt; ^ members);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="members" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="members">
+          <span data-ttu-id="944b2-136">要添加的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-136">The members to add.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-137">向组添加多个成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-137">Adds multiple members to a group.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="944b2-138">从组中删除所有联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-138">Removes all contacts from the group.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupMember Find (string key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GroupMember Find(string key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (key As String) As GroupMember" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GroupMember ^ Find(System::String ^ key);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">
+          <span data-ttu-id="944b2-139">要查找的成员的键。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-139">The key of the member to find.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-140">查找具有指定的键的集合中的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-140">Finds the member in the collection that has the specified key.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="944b2-141">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Find(System.String)" />方法返回<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />对象，其中包含具有指定的键的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-141">The <see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Find(System.String)" /> method returns a <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> object that contains the member that has the specified key.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="944b2-142">
+            <para>尚未保存的成员不具有一个键。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-142">
+              <para>Members that have not been saved do not have a key.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.GroupMember member);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.GroupMember member) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Remove(Microsoft.Exchange.WebServices.Data.GroupMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (member As GroupMember) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::GroupMember ^ member);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="member" Type="Microsoft.Exchange.WebServices.Data.GroupMember" />
+      </Parameters>
+      <Docs>
+        <param name="member">
+          <span data-ttu-id="944b2-143">要删除的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-143">The member to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-144">从集合中删除指定的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-144">Removes the specified member from the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="944b2-145">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Remove(Microsoft.Exchange.WebServices.Data.GroupMember)" />方法返回<b>true</b>如果从集合; 移除了组成员否则，该方法返回<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-145">The <see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Remove(Microsoft.Exchange.WebServices.Data.GroupMember)" /> method returns <b>true</b> if the group member was removed from the collection; otherwise, the method returns <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="944b2-146">要删除的组成员的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-146">The index of the group member to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="944b2-147">删除指定索引处的组成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="944b2-147">Removes the group member at the specified index.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

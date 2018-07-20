@@ -1,0 +1,633 @@
+<Type Name="RuleErrorCode" FullName="Microsoft.Exchange.WebServices.Data.RuleErrorCode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="227af534b997d9037ffedb75417c665179266c01" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623082" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum RuleErrorCode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RuleErrorCode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleErrorCode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RuleErrorCode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RuleErrorCode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4aee2-101">定义的错误代码的标识的原因失败的规则验证。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4aee2-101">Defines the error codes that identify why a rule failed validation.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ADOperationFailure">
+      <MemberSignature Language="C#" Value="ADOperationFailure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode ADOperationFailure = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.ADOperationFailure" />
+      <MemberSignature Language="VB.NET" Value="ADOperationFailure" />
+      <MemberSignature Language="C++ CLI" Value="ADOperationFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-102">Active Directory 操作失败。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-102">The Active Directory operation failed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectedAccountNotFound">
+      <MemberSignature Language="C#" Value="ConnectedAccountNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode ConnectedAccountNotFound = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.ConnectedAccountNotFound" />
+      <MemberSignature Language="VB.NET" Value="ConnectedAccountNotFound" />
+      <MemberSignature Language="C++ CLI" Value="ConnectedAccountNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-103">找不到 FromConnectedAccounts 属性中指定的电子邮件帐户。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-103">The e-mail account specified in the FromConnectedAccounts property was not found.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWithRuleId">
+      <MemberSignature Language="C#" Value="CreateWithRuleId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode CreateWithRuleId = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.CreateWithRuleId" />
+      <MemberSignature Language="VB.NET" Value="CreateWithRuleId" />
+      <MemberSignature Language="C++ CLI" Value="CreateWithRuleId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-104">您试图创建规则与 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-104">You attempted to create a rule with an ID.</span>
+          </span>
+          <span data-ttu-id="4aee2-105">新规则的标识生成服务器端并且不应由客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-105">The IDs of new rules are generated server side and should not be provided by the client.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DuplicatedOperationOnTheSameRule">
+      <MemberSignature Language="C#" Value="DuplicatedOperationOnTheSameRule" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode DuplicatedOperationOnTheSameRule = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.DuplicatedOperationOnTheSameRule" />
+      <MemberSignature Language="VB.NET" Value="DuplicatedOperationOnTheSameRule" />
+      <MemberSignature Language="C++ CLI" Value="DuplicatedOperationOnTheSameRule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-106">有多个相同的规则操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-106">There are multiple operations against the same rule.</span>
+          </span>
+          <span data-ttu-id="4aee2-107">允许每个规则只有一个操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-107">Only one operation per rule is allowed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DuplicatedPriority">
+      <MemberSignature Language="C#" Value="DuplicatedPriority" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode DuplicatedPriority = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.DuplicatedPriority" />
+      <MemberSignature Language="VB.NET" Value="DuplicatedPriority" />
+      <MemberSignature Language="C++ CLI" Value="DuplicatedPriority" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-108">有多个规则具有相同优先级。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-108">There are multiple rules with the same priority.</span>
+          </span>
+          <span data-ttu-id="4aee2-109">优先级可具有只有一个规则。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-109">A priority can have only one rule.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyValueFound">
+      <MemberSignature Language="C#" Value="EmptyValueFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode EmptyValueFound = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.EmptyValueFound" />
+      <MemberSignature Language="VB.NET" Value="EmptyValueFound" />
+      <MemberSignature Language="C++ CLI" Value="EmptyValueFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-110">Value 属性为空。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-110">The Value property is empty.</span>
+          </span>
+          <span data-ttu-id="4aee2-111">不允许空的 Value 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-111">An empty Value property is not allowed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderDoesNotExist">
+      <MemberSignature Language="C#" Value="FolderDoesNotExist" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode FolderDoesNotExist = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.FolderDoesNotExist" />
+      <MemberSignature Language="VB.NET" Value="FolderDoesNotExist" />
+      <MemberSignature Language="C++ CLI" Value="FolderDoesNotExist" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-112">文件夹不存在用户的邮箱中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-112">The folder does not exist in the user's mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidAddress">
+      <MemberSignature Language="C#" Value="InvalidAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode InvalidAddress = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.InvalidAddress" />
+      <MemberSignature Language="VB.NET" Value="InvalidAddress" />
+      <MemberSignature Language="C++ CLI" Value="InvalidAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-113">电子邮件地址无效。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-113">The e-mail address is invalid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidDateRange">
+      <MemberSignature Language="C#" Value="InvalidDateRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode InvalidDateRange = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.InvalidDateRange" />
+      <MemberSignature Language="VB.NET" Value="InvalidDateRange" />
+      <MemberSignature Language="C++ CLI" Value="InvalidDateRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-114">日期范围无效。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-114">The date range is invalid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidFolderId">
+      <MemberSignature Language="C#" Value="InvalidFolderId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode InvalidFolderId = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.InvalidFolderId" />
+      <MemberSignature Language="VB.NET" Value="InvalidFolderId" />
+      <MemberSignature Language="C++ CLI" Value="InvalidFolderId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-115">文件夹 ID 无效。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-115">The folder ID is invalid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidSizeRange">
+      <MemberSignature Language="C#" Value="InvalidSizeRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode InvalidSizeRange = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.InvalidSizeRange" />
+      <MemberSignature Language="VB.NET" Value="InvalidSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="InvalidSizeRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-116">大小范围无效。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-116">The size range is invalid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidValue">
+      <MemberSignature Language="C#" Value="InvalidValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode InvalidValue = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.InvalidValue" />
+      <MemberSignature Language="VB.NET" Value="InvalidValue" />
+      <MemberSignature Language="C++ CLI" Value="InvalidValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-117">值无效。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-117">The value is invalid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageClassificationNotFound">
+      <MemberSignature Language="C#" Value="MessageClassificationNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode MessageClassificationNotFound = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.MessageClassificationNotFound" />
+      <MemberSignature Language="VB.NET" Value="MessageClassificationNotFound" />
+      <MemberSignature Language="C++ CLI" Value="MessageClassificationNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-118">找不到的邮件分类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-118">The message classification was not found.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MissingAction">
+      <MemberSignature Language="C#" Value="MissingAction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode MissingAction = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.MissingAction" />
+      <MemberSignature Language="VB.NET" Value="MissingAction" />
+      <MemberSignature Language="C++ CLI" Value="MissingAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-119">不指定的任何操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-119">No action was specified.</span>
+          </span>
+          <span data-ttu-id="4aee2-120">进行验证，必须指定至少一个规则操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-120">At least one rule action must be specified for validation.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MissingParameter">
+      <MemberSignature Language="C#" Value="MissingParameter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode MissingParameter = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.MissingParameter" />
+      <MemberSignature Language="VB.NET" Value="MissingParameter" />
+      <MemberSignature Language="C++ CLI" Value="MissingParameter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-121">缺少必需的参数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-121">The required parameter is missing.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MissingRangeValue">
+      <MemberSignature Language="C#" Value="MissingRangeValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode MissingRangeValue = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.MissingRangeValue" />
+      <MemberSignature Language="VB.NET" Value="MissingRangeValue" />
+      <MemberSignature Language="C++ CLI" Value="MissingRangeValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-122">缺少范围值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-122">The range value is missing.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSettable">
+      <MemberSignature Language="C#" Value="NotSettable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode NotSettable = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.NotSettable" />
+      <MemberSignature Language="VB.NET" Value="NotSettable" />
+      <MemberSignature Language="C++ CLI" Value="NotSettable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-123">不能修改的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-123">The property cannot be modified.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientDoesNotExist">
+      <MemberSignature Language="C#" Value="RecipientDoesNotExist" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode RecipientDoesNotExist = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.RecipientDoesNotExist" />
+      <MemberSignature Language="VB.NET" Value="RecipientDoesNotExist" />
+      <MemberSignature Language="C++ CLI" Value="RecipientDoesNotExist" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-124">收件人不存在。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-124">The recipient does not exist.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleNotFound">
+      <MemberSignature Language="C#" Value="RuleNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode RuleNotFound = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.RuleNotFound" />
+      <MemberSignature Language="VB.NET" Value="RuleNotFound" />
+      <MemberSignature Language="C++ CLI" Value="RuleNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-125">找不到该规则。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-125">The rule was not found.</span>
+          </span>
+          <span data-ttu-id="4aee2-126">没有规则发现符合条件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-126">No rules were found that match the criteria.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SizeLessThanZero">
+      <MemberSignature Language="C#" Value="SizeLessThanZero" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode SizeLessThanZero = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.SizeLessThanZero" />
+      <MemberSignature Language="VB.NET" Value="SizeLessThanZero" />
+      <MemberSignature Language="C++ CLI" Value="SizeLessThanZero" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-127">大小小于零。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-127">The size is less than zero.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StringValueTooBig">
+      <MemberSignature Language="C#" Value="StringValueTooBig" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode StringValueTooBig = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.StringValueTooBig" />
+      <MemberSignature Language="VB.NET" Value="StringValueTooBig" />
+      <MemberSignature Language="C++ CLI" Value="StringValueTooBig" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-128">字符串值太大。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-128">The string value is too big.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnexpectedError">
+      <MemberSignature Language="C#" Value="UnexpectedError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode UnexpectedError = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.UnexpectedError" />
+      <MemberSignature Language="VB.NET" Value="UnexpectedError" />
+      <MemberSignature Language="C++ CLI" Value="UnexpectedError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-129">出现意外的错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-129">An unexpected error occurred.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnsupportedAddress">
+      <MemberSignature Language="C#" Value="UnsupportedAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode UnsupportedAddress = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.UnsupportedAddress" />
+      <MemberSignature Language="VB.NET" Value="UnsupportedAddress" />
+      <MemberSignature Language="C++ CLI" Value="UnsupportedAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-130">该地址是不受支持。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-130">The address is unsupported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnsupportedRule">
+      <MemberSignature Language="C#" Value="UnsupportedRule" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode UnsupportedRule = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RuleErrorCode.UnsupportedRule" />
+      <MemberSignature Language="VB.NET" Value="UnsupportedRule" />
+      <MemberSignature Language="C++ CLI" Value="UnsupportedRule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aee2-131">不支持该规则。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aee2-131">The rule is not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

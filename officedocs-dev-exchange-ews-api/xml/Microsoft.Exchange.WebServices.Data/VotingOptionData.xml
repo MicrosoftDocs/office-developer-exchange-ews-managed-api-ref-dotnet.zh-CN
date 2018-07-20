@@ -1,0 +1,84 @@
+<Type Name="VotingOptionData" FullName="Microsoft.Exchange.WebServices.Data.VotingOptionData">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8b4b36859aba4934dafb7a6bfc0f4d600909f610" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622631" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class VotingOptionData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit VotingOptionData extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.VotingOptionData" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class VotingOptionData&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VotingOptionData sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="8d5f4-101">表示一条消息，包含投票按钮上的投票选项。<see cref="T:Microsoft.Exchange.WebServices.Data.VotingOptionData" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8d5f4-101">Represents a voting choice on a message that contains voting buttons.The <see cref="T:Microsoft.Exchange.WebServices.Data.VotingOptionData" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8d5f4-102">获取投票选项的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8d5f4-102">Gets the display name for the voting choice.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendPrompt">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SendPrompt SendPrompt { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SendPrompt SendPrompt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SendPrompt As SendPrompt" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SendPrompt SendPrompt { Microsoft::Exchange::WebServices::Data::SendPrompt get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8d5f4-103">获取一个值，指示提示行为，当用户选择此投票选项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8d5f4-103">Gets a value that indicates the prompt behavior when the user selects this voting choice.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

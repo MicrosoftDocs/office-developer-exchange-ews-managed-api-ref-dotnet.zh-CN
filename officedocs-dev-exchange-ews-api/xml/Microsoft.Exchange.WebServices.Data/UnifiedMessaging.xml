@@ -1,0 +1,90 @@
+<Type Name="UnifiedMessaging" FullName="Microsoft.Exchange.WebServices.Data.UnifiedMessaging">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8d106484ce0306cce48de2b6955eccf3c5ad5df5" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623451" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class UnifiedMessaging" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UnifiedMessaging extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UnifiedMessaging" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UnifiedMessaging" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnifiedMessaging sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="c5ec2-101">代表的统一消息功能。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c5ec2-101">Represents the Unified Messaging functionality.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c5ec2-102">
+        <para>返回 UnifiedMessaging 对象，<see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.UnifiedMessaging" />属性<see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />对象。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c5ec2-102">
+          <para>A UnifiedMessaging object is returned by the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.UnifiedMessaging" /> property of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PlayOnPhone">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PhoneCall PlayOnPhone (Microsoft.Exchange.WebServices.Data.ItemId itemId, string dialString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.PhoneCall PlayOnPhone(class Microsoft.Exchange.WebServices.Data.ItemId itemId, string dialString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UnifiedMessaging.PlayOnPhone(Microsoft.Exchange.WebServices.Data.ItemId,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::PhoneCall ^ PlayOnPhone(Microsoft::Exchange::WebServices::Data::ItemId ^ itemId, System::String ^ dialString);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCall</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="itemId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="dialString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="itemId">
+          <span data-ttu-id="c5ec2-103">要在电话上播放的项标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5ec2-103">The item identifier to play on the phone call.</span>
+          </span>
+        </param>
+        <param name="dialString">
+          <span data-ttu-id="c5ec2-104">完整拨号用于呼叫的电话的字符串。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5ec2-104">The full dial string used to call the phone.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c5ec2-105">呼叫电话号码，并在电话上播放的邮箱项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5ec2-105">Calls a phone number and plays a mailbox item on the phone call.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="c5ec2-106">电话呼叫对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5ec2-106">A phone call object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

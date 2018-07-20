@@ -1,0 +1,365 @@
+<Type Name="ResponseObject&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.ResponseObject&lt;TMessage&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2f1e12974fef9cb8f2d2e7228a6ed5d1bef41d5e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622835" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ResponseObject&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.ServiceObject where TMessage : EmailMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ResponseObject`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseObject`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ResponseObject(Of TMessage)&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TMessage&gt;&#xA; where TMessage : EmailMessagepublic ref class ResponseObject abstract : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TMessage">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.EmailMessage</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TMessage">
+      <span data-ttu-id="c0354-101">EmailMessage 对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c0354-101">An EmailMessage object.</span>
+      </span>
+    </typeparam>
+    <summary>
+      <span data-ttu-id="c0354-102">表示可以发送的所有响应的基类。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c0354-102">Represents the base class for all responses that can be sent.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsDeliveryReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsDeliveryReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeliveryReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ResponseObject`1.IsDeliveryReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDeliveryReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDeliveryReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0354-103">获取或设置一个值，指示是否应为发件人发送送达回执。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-103">Gets or sets a value indicating whether delivery receipts should be sent to the sender.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c0354-104">如果传送回执将请求;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-104">True if deliver receipts will be requested; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsReadReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ResponseObject`1.IsReadReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0354-105">获取或设置一个值，该值是否读回执将从收件人的此响应请求。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-105">Gets or sets a value indicating whether read receipts will be requested from recipients of this response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c0354-106">True 如果读取将请求回执;否则为为 false。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-106">True if read receipts will be requested; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save () As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0354-107">在草稿文件夹中保存响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-107">Saves the response in the Drafts folder.</span>
+          </span>
+          <span data-ttu-id="c0354-108">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-108">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="c0354-109">代表响应 TMessage。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-109">A TMessage that represents the response.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (destinationFolderId As FolderId) As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="c0354-110">要在其中保存响应的文件夹的 Id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-110">The Id of the folder in which to save the response.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c0354-111">在指定文件夹中保存响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-111">Saves the response in the specified folder.</span>
+          </span>
+          <span data-ttu-id="c0354-112">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-112">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="c0354-113">代表响应 TMessage。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-113">A TMessage that represents the response.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (destinationFolderName As WellKnownFolderName) As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="c0354-114">要在其中保存响应的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-114">The name of the folder in which to save the response.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c0354-115">在指定文件夹中保存响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-115">Saves the response in the specified folder.</span>
+          </span>
+          <span data-ttu-id="c0354-116">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-116">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="c0354-117">代表响应 TMessage。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-117">A TMessage that represents the response.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="public void Send ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Send() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Send" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Send ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Send();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0354-118">而不保存副本发送此响应。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-118">Sends this response without saving a copy.</span>
+          </span>
+          <span data-ttu-id="c0354-119">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-119">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0354-120">发送此响应并在已发送邮件文件夹中保存一个副本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-120">Sends this response and saves a copy in the Sent Items folder.</span>
+          </span>
+          <span data-ttu-id="c0354-121">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-121">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="c0354-122">要在其中保存邮件的副本的文件夹的 Id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-122">The Id of the folder in which to save the copy of the message.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c0354-123">发送此响应自动化网络存储在指定文件夹中保存一个副本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-123">Sends this response ans saves a copy in the specified folder.</span>
+          </span>
+          <span data-ttu-id="c0354-124">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-124">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="c0354-125">要在其中保存邮件的副本的文件夹的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-125">The name of the folder in which to save the copy of the message.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c0354-126">发送此响应并在指定文件夹中保存一个副本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-126">Sends this response and saves a copy in the specified folder.</span>
+          </span>
+          <span data-ttu-id="c0354-127">将调用 EWS 调用此方法的结果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0354-127">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

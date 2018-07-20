@@ -1,0 +1,105 @@
+<Type Name="AppointmentOccurrenceId" FullName="Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5c79a880bfceff2d8fc45ec51ce305f4ae7b9430" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622853" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AppointmentOccurrenceId : Microsoft.Exchange.WebServices.Data.ItemId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AppointmentOccurrenceId extends Microsoft.Exchange.WebServices.Data.ItemId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AppointmentOccurrenceId&#xA;Inherits ItemId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppointmentOccurrenceId sealed : Microsoft::Exchange::WebServices::Data::ItemId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a82bd-101">表示定期约会的标识符。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a82bd-101">Represents the identifier of an occurrence of a recurring appointment.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AppointmentOccurrenceId (string recurringMasterUniqueId, int occurrenceIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string recurringMasterUniqueId, int32 occurrenceIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId.#ctor(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (recurringMasterUniqueId As String, occurrenceIndex As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AppointmentOccurrenceId(System::String ^ recurringMasterUniqueId, int occurrenceIndex);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="recurringMasterUniqueId" Type="System.String" />
+        <Parameter Name="occurrenceIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="recurringMasterUniqueId">
+          <span data-ttu-id="a82bd-102">定期主约会对应的约会匹配项的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a82bd-102">The identifier of the recurring master appointment that corresponds to the appointment occurrence.</span>
+          </span>
+        </param>
+        <param name="occurrenceIndex">
+          <span data-ttu-id="a82bd-103">约会匹配项的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a82bd-103">The index of the appointment occurrence.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a82bd-104">初始化 AppointmentOccurrenceId 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a82bd-104">Initializes a new instance of the AppointmentOccurrenceId class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OccurrenceIndex">
+      <MemberSignature Language="C#" Value="public int OccurrenceIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OccurrenceIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId.OccurrenceIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property OccurrenceIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OccurrenceIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a82bd-105">获取或设置约会匹配项的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a82bd-105">Gets or sets the index of the appointment occurrence.</span>
+          </span>
+          <span data-ttu-id="a82bd-106">事件索引从 1 开始。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a82bd-106">The occurrence index starts at one.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a82bd-107">约会匹配项的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a82bd-107">The index of the appointment occurrence.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

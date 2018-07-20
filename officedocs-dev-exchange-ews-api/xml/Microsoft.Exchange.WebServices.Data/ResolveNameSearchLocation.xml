@@ -1,0 +1,129 @@
+<Type Name="ResolveNameSearchLocation" FullName="Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="20acc441207dc382e268e47a22a29df6705866f0" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622682" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ResolveNameSearchLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ResolveNameSearchLocation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResolveNameSearchLocation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ResolveNameSearchLocation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="eb398-101">指定用于定义其中的模糊名称解析操作搜索联系人的位置的常量。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="eb398-101">Specifies constants that define the location where an ambiguous name resolution operation searches for contacts.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContactsOnly">
+      <MemberSignature Language="C#" Value="ContactsOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation ContactsOnly = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation.ContactsOnly" />
+      <MemberSignature Language="VB.NET" Value="ContactsOnly" />
+      <MemberSignature Language="C++ CLI" Value="ContactsOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eb398-102">根据联系人文件夹中的联系人项目解析名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eb398-102">The name is resolved against the contact items in the Contacts folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactsThenDirectory">
+      <MemberSignature Language="C#" Value="ContactsThenDirectory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation ContactsThenDirectory = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation.ContactsThenDirectory" />
+      <MemberSignature Language="VB.NET" Value="ContactsThenDirectory" />
+      <MemberSignature Language="C++ CLI" Value="ContactsThenDirectory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eb398-103">如果未找到匹配，该名称为解析对联系人文件夹中的联系人项目，然后针对 GAL。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eb398-103">The name is resolved against the contact items in the Contacts folder and then against the GAL if no match was found.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryOnly">
+      <MemberSignature Language="C#" Value="DirectoryOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation DirectoryOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation.DirectoryOnly" />
+      <MemberSignature Language="VB.NET" Value="DirectoryOnly" />
+      <MemberSignature Language="C++ CLI" Value="DirectoryOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eb398-104">针对全局地址列表 (GAL) 中解析名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eb398-104">The name is resolved against the Global Address List (GAL).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryThenContacts">
+      <MemberSignature Language="C#" Value="DirectoryThenContacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation DirectoryThenContacts = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation.DirectoryThenContacts" />
+      <MemberSignature Language="VB.NET" Value="DirectoryThenContacts" />
+      <MemberSignature Language="C++ CLI" Value="DirectoryThenContacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResolveNameSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="eb398-105">如果未找到匹配，该名称为解决针对 GAL，然后对联系人文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="eb398-105">The name is resolved against the GAL and then against the Contacts folder if no match was found.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

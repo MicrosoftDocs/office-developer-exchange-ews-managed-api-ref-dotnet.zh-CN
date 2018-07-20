@@ -1,0 +1,2134 @@
+<Type Name="Conversation" FullName="Microsoft.Exchange.WebServices.Data.Conversation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="22d5bd88ef39fe662d62391f299aa71ba81fdbca" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622749" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Conversation : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Conversation extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Conversation" />
+  <TypeSignature Language="VB.NET" Value="Public Class Conversation&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Conversation : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="50109-101">表示的对话。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="50109-101">Represents a conversation.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="50109-102">
+        <para>对话对象的集合由返回<see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" />方法<see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" />类。对话类的属性定义中定义<see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" />类。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="50109-102">
+          <para>A collection of Conversation objects is returned by the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.FindConversation(Microsoft.Exchange.WebServices.Data.ViewBase,Microsoft.Exchange.WebServices.Data.FolderId)" /> method for the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class. Property definitions for the Conversation class are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSchema" /> class.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-103">获取对话项目在当前文件夹中类别列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-103">Gets the category list for conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-104">类别的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-104">A list of categories.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-105">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" />属性的邮箱中获得对话的所有项目类别列表。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-105">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" /> property to get the category list for all conversation items in a mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearItemFlags">
+      <MemberSignature Language="C#" Value="public void ClearItemFlags (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearItemFlags(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearItemFlags (contextFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearItemFlags(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-106">将未标记其项目的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-106">The identifier of the folder whose items will be unflagged.</span>
+          </span>
+          <span data-ttu-id="50109-107">如果值<paramref name="contextFolderId" />参数为空引用 (在 Visual Basic 中为 Nothing)，则清除跨整个邮箱的对话中的项目的标志。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-107">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), flags for items in conversations across the entire mailbox are cleared.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-108">清除关联的会话中的项目的已标记的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-108">Clears the flagged status on items in the associated conversation.</span>
+          </span>
+          <span data-ttu-id="50109-109">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-109">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.ClearItemFlags(Microsoft.Exchange.WebServices.Data.FolderId)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-110">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-110">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyItemsInConversation">
+      <MemberSignature Language="C#" Value="public void CopyItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CopyItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.CopyItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyItemsInConversation (contextFolderId As FolderId, destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-111">包含要复制的会话项目的文件夹的文件夹标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-111">The folder identifier of the folder that contains the conversation items to copy.</span>
+          </span>
+          <span data-ttu-id="50109-112">如果该参数设置为空引用 (在 Visual Basic 中为 Nothing)，跨整个邮箱对话中的所有项目都复制到目标文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-112">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are copied to the destination folder.</span>
+          </span>
+        </param>
+        <param name="destinationFolderId">
+          <span data-ttu-id="50109-113">目标文件夹的文件夹的将包含复制的项标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-113">The destination folder identifier of the folder that will contain the copied items.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-114">将指定的文件夹对话中的项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-114">Copies items in the conversation to a specified folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-115">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-115">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteItems">
+      <MemberSignature Language="C#" Value="public void DeleteItems (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteItems(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.DeleteItems(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeleteItems(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-116">包含要删除的对话项目的文件夹的文件夹标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-116">The folder identifier of the folder that contains the conversation items to delete.</span>
+          </span>
+          <span data-ttu-id="50109-117">如果该参数设置为空引用 (在 Visual Basic 中为 Nothing)，将删除整个邮箱跨对话中的所有项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-117">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are deleted.</span>
+          </span>
+        </param>
+        <param name="deleteMode">
+          <span data-ttu-id="50109-118">删除模式中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-118">The deletion mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-119">删除会话中的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-119">Deletes items in the conversation.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-120">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-120">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAlwaysCategorizeItems">
+      <MemberSignature Language="C#" Value="public void DisableAlwaysCategorizeItems (bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DisableAlwaysCategorizeItems(bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.DisableAlwaysCategorizeItems(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisableAlwaysCategorizeItems (processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableAlwaysCategorizeItems(bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="processSynchronously">
+          <span data-ttu-id="50109-121">
+            <b>true</b>表示该方法是否应返回后完成禁用分类和移除会话; 中现有项目的类别<b>false</b>如果的方法是立即返回。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-121">
+              <b>true</b> to indicate whether the method should return after it has completed disabling categorization and removing the categories from existing items in the conversation; <b>false</b> if the method is to return immediately.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-122">禁用自动分类的对话中的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-122">Disables automatic categorization of items in a conversation.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-123">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-123">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAlwaysDeleteItems">
+      <MemberSignature Language="C#" Value="public void DisableAlwaysDeleteItems (bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DisableAlwaysDeleteItems(bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.DisableAlwaysDeleteItems(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisableAlwaysDeleteItems (processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableAlwaysDeleteItems(bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="processSynchronously">
+          <span data-ttu-id="50109-124">
+            <b>true</b>表示是否禁用自动完成后，该方法应返回移动到已删除邮件文件夹的对话中的项目和已还原到其原始文件夹; 已删除的项目<b>false</b>如果的方法是立即返回。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-124">
+              <b>true</b> to indicate whether the method should return after it has completed disabling automatic move of items in a conversation to the Deleted Items folder and has restored the deleted items to their original folders; <b>false</b> if the method is to return immediately.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-125">禁用对话中的项目自动移动到已删除邮件文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-125">Disables the automatic move of items in a conversation to the Deleted Items folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-126">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-126">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAlwaysMoveItemsInConversation">
+      <MemberSignature Language="C#" Value="public void DisableAlwaysMoveItemsInConversation (bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DisableAlwaysMoveItemsInConversation(bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.DisableAlwaysMoveItemsInConversation(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisableAlwaysMoveItemsInConversation (processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableAlwaysMoveItemsInConversation(bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="processSynchronously">
+          <span data-ttu-id="50109-127">
+            <b>true</b>表示是否禁用自动完成后，该方法应返回移动对话中的项目的到目标文件夹中;<b>false</b>如果的方法是立即返回。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-127">
+              <b>true</b> to indicate whether the method should return after it has completed disabling automatic move of items in a conversation to the target folder; <b>false</b> if the method is to return immediately.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-128">禁用对话中的项目自动移动到目标文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-128">Disables the automatic move of items in a conversation to a target folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-129">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-129">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DraftItemIds">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIdCollection DraftItemIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemIdCollection DraftItemIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.DraftItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DraftItemIds As ItemIdCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ DraftItemIds { Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-130">尚未发送的项目中获取草稿项标识符的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-130">Gets a collection of draft item identifiers for items that have not yet been sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-131">返回一个草稿项标识符的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-131">Returns a collection of draft item identifiers.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAlwaysCategorizeItems">
+      <MemberSignature Language="C#" Value="public void EnableAlwaysCategorizeItems (System.Collections.Generic.IEnumerable&lt;string&gt; categories, bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnableAlwaysCategorizeItems(class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.EnableAlwaysCategorizeItems(System.Collections.Generic.IEnumerable{System.String},System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnableAlwaysCategorizeItems (categories As IEnumerable(Of String), processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableAlwaysCategorizeItems(System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ categories, bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="categories" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="categories">
+          <span data-ttu-id="50109-132">自动应用于对话中的项目类别。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-132">The categories to automatically be applied to items in a conversation.</span>
+          </span>
+        </param>
+        <param name="processSynchronously">
+          <span data-ttu-id="50109-133">
+            <b>true</b>表示该方法是否应返回后已完成的启用分类和将类别添加到现有对话; 中的项目<b>false</b>如果的方法是立即返回。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-133">
+              <b>true</b> to indicate whether the method should return after it has completed enabling categorization and adding the categories to existing items in the conversation; <b>false</b> if the method is to return immediately.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-134">启用自动进行的对话中的项目分类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-134">Enables the automatic categorization of items in a conversation.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-135">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-135">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAlwaysDeleteItems">
+      <MemberSignature Language="C#" Value="public void EnableAlwaysDeleteItems (bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnableAlwaysDeleteItems(bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.EnableAlwaysDeleteItems(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnableAlwaysDeleteItems (processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableAlwaysDeleteItems(bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="processSynchronously">
+          <span data-ttu-id="50109-136">
+            <b>true</b>表示该方法是否应返回后它已完成，启用对话中的项目自动移动到已删除邮件文件夹，并且到已删除邮件文件夹中; 在对话中移动现有项目<b>false</b>如果的方法是立即返回。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-136">
+              <b>true</b> to indicate whether the method should return after it has completed enabling the automatic move of items in a conversation to the Deleted Items folder and has moved existing items in a conversation to the Deleted Items folder; <b>false</b> if the method is to return immediately.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-137">使对话中的项目自动移动到已删除邮件文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-137">Enables the automatic move of items in a conversation to the Deleted Items folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-138">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-138">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAlwaysMoveItems">
+      <MemberSignature Language="C#" Value="public void EnableAlwaysMoveItems (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId, bool processSynchronously);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnableAlwaysMoveItems(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId, bool processSynchronously) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.EnableAlwaysMoveItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EnableAlwaysMoveItems (destinationFolderId As FolderId, processSynchronously As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnableAlwaysMoveItems(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId, bool processSynchronously);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="processSynchronously" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="50109-139">项目移动到哪个对话的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-139">The identifier of the folder to which conversation items are moved.</span>
+          </span>
+        </param>
+        <param name="processSynchronously">
+          <span data-ttu-id="50109-140">
+            <b>true</b>表示该方法是否应返回其已完成，启用对话中的项目自动移动到目标文件夹，并已移动到目标文件夹中; 的现有会话项目后<b>false</b>如果的方法是立即返回。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-140">
+              <b>true</b> to indicate whether the method should return after it has completed enabling the automatic move of items in a conversation to the target folder and has moved existing conversation items to the target folder; <b>false</b> if the method is to return immediately.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-141">启用新的和现有对话中的项目自动移动到目标文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-141">Enables the automatic move of new and existing items in a conversation to a target folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-142">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-142">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagItems">
+      <MemberSignature Language="C#" Value="public void FlagItems (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Nullable&lt;DateTime&gt; startDate, Nullable&lt;DateTime&gt; dueDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void FlagItems(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; startDate, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; dueDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub FlagItems (contextFolderId As FolderId, startDate As Nullable(Of DateTime), dueDate As Nullable(Of DateTime))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void FlagItems(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Nullable&lt;DateTime&gt; startDate, Nullable&lt;DateTime&gt; dueDate);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="startDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="dueDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-143">将标记其项目的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-143">The identifer of the folder whose items will be flagged.</span>
+          </span>
+          <span data-ttu-id="50109-144">如果值<paramref name="contextFolderId" />参数为空引用 (在 Visual Basic 中为 Nothing)，标记跨整个邮箱关联的会话中的项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-144">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), items in the associated conversation across the entire mailbox are flagged.</span>
+          </span>
+        </param>
+        <param name="startDate">
+          <span data-ttu-id="50109-145">开始日期 （可以为空引用 (在 Visual Basic 中为 Nothing)）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-145">The start date (can be a null reference (Nothing in Visual Basic)).</span>
+          </span>
+        </param>
+        <param name="dueDate">
+          <span data-ttu-id="50109-146">到期日期 （可以为空引用 (在 Visual Basic 中为 Nothing)）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-146">The due date (can be a null reference (Nothing in Visual Basic)).</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-147">关联的对话中的项设置的已标记的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-147">Sets the flagged status on items in the associated conversation.</span>
+          </span>
+          <span data-ttu-id="50109-148">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-148">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItems(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-149">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-149">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagItemsComplete">
+      <MemberSignature Language="C#" Value="public void FlagItemsComplete (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Nullable&lt;DateTime&gt; completeDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void FlagItemsComplete(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; completeDate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub FlagItemsComplete (contextFolderId As FolderId, completeDate As Nullable(Of DateTime))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void FlagItemsComplete(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Nullable&lt;DateTime&gt; completeDate);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="completeDate" Type="System.Nullable&lt;System.DateTime&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-150">其项目标记为已完成的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-150">The identifer of the folder whose items will be flagged as complete.</span>
+          </span>
+          <span data-ttu-id="50109-151">如果值<paramref name="contextFolderId" />参数为空引用 (在 Visual Basic 中为 Nothing)，跨整个邮箱的对话中的项目标记为已完成。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-151">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), items in conversation across the entire mailbox are marked as complete.</span>
+          </span>
+        </param>
+        <param name="completeDate">
+          <span data-ttu-id="50109-152">（可以为空引用 (在 Visual Basic 中为 Nothing)） 完成日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-152">The complete date (can be a null reference (Nothing in Visual Basic)).</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-153">若要完成关联的会话中的项目的已标记的状态更改。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-153">Changes the flagged status of items in the associated conversation to complete.</span>
+          </span>
+          <span data-ttu-id="50109-154">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-154">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.FlagItemsComplete(Microsoft.Exchange.WebServices.Data.FolderId,System.Nullable{System.DateTime})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-155">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-155">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlagStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationFlagStatus FlagStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ConversationFlagStatus FlagStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FlagStatus As ConversationFlagStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationFlagStatus FlagStatus { Microsoft::Exchange::WebServices::Data::ConversationFlagStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationFlagStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-156">获取对话项目在当前文件夹中聚合的标记状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-156">Gets the aggregated flag status for conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-157">标记状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-157">A flag status.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-158">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" />属性的邮箱中的所有对话项获取聚合的标记状态。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-158">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" /> property to get the aggregated flag status for all conversation items in a mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalCategories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalCategories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalCategories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalCategories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalCategories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-159">邮箱中获取对话的所有项目类别列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-159">Gets the category list for all conversation items in a mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-160">类别的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-160">A list of categories.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-161">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" />属性获取当前文件夹中会话项目类别列表。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-161">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Categories" /> property to get the category list for conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalFlagStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationFlagStatus GlobalFlagStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ConversationFlagStatus GlobalFlagStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalFlagStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalFlagStatus As ConversationFlagStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationFlagStatus GlobalFlagStatus { Microsoft::Exchange::WebServices::Data::ConversationFlagStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationFlagStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-162">获取对话的所有项目的邮箱中聚合的标记状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-162">Gets the aggregated flag status for all conversation items in a mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-163">标记状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-163">A flag status.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-164">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" />属性在当前文件夹中的所有对话项获取聚合的标记状态。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-164">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.FlagStatus" /> property to get the aggregated flag status for all conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalHasAttachments">
+      <MemberSignature Language="C#" Value="public bool GlobalHasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool GlobalHasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalHasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GlobalHasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-165">获取一个值，该值指示是否为邮箱中的至少一个对话项目包含附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-165">Gets a value that indicates whether at least one conversation item in a mailbox has an attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-166">
+            <b>true</b>如果为邮箱中的至少一个对话项目包含附件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-166">
+              <b>true</b> if at least one conversation item in a mailbox has an attachment; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalHasIrm">
+      <MemberSignature Language="C#" Value="public bool GlobalHasIrm { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool GlobalHasIrm" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalHasIrm As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GlobalHasIrm { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-167">获取一个值，该值为邮箱中任何文件夹中的至少一个对话项目是否受保护的信息权限管理 (IRM)。<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" />属性是适用于 Exchange Online 和 Exchange 开头 15.00.0847.032 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-167">Gets a value indicating whether at least one conversation item in any folder in a mailbox is protected by Information Rights Management (IRM).The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalHasIrm" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-168">
+            <b>true</b>如果为邮箱中的至少一个对话项目受 IRM;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-168">
+              <b>true</b> if at least one conversation item in a mailbox is protected by IRM; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalIconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex GlobalIconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex GlobalIconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalIconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex GlobalIconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-169">获取全局图标索引。<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-169">Gets the global icon index.The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalIconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-170">全局图标索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-170">The global icon index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalImportance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance GlobalImportance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance GlobalImportance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalImportance" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalImportance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance GlobalImportance { Microsoft::Exchange::WebServices::Data::Importance get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-171">邮箱中获取所有对话项目的聚合的重要性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-171">Gets the aggregated importance for all conversation items in a mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-172">全局对话的重要性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-172">The global importance of a conversation.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-173">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" />属性获取当前文件夹中的所有对话项目的聚合的重要性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-173">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" /> property to get the aggregated importance for all conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalItemClasses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalItemClasses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalItemClasses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalItemClasses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalItemClasses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-174">获取列表项类表示的邮箱中的会话项目的所有项类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-174">Gets a list of item classes that represents all the item classes of the conversation items in a mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-175">项类的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-175">A list of item classes.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-176">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" />属性获取当前文件夹中的对话的所有项目的项类。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-176">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" /> property to get the item classes of all the conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalItemIds">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIdCollection GlobalItemIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemIdCollection GlobalItemIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalItemIds As ItemIdCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ GlobalItemIds { Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-177">获取对话的所有项目的邮箱中的项标识符的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-177">Gets the collection of item identifiers for all conversation items in a mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-178">项标识符的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-178">A collection of item identifiers.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-179">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" />属性获取所有对话项目在当前文件夹中的项标识符。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-179">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> property to get the item identifiers for all conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalLastDeliveryTime">
+      <MemberSignature Language="C#" Value="public DateTime GlobalLastDeliveryTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime GlobalLastDeliveryTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalLastDeliveryTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalLastDeliveryTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime GlobalLastDeliveryTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-180">获取在邮箱中的所有文件夹上次此对话中收到的邮件的传递时间正在</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-180">Gets the delivery time of the message that was last received in this conversation across all folders in the mailbox..</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-181">最近的对话项目的交货时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-181">The delivery time of the last conversation item.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-182">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" />属性获取上次的对话项目的交货时间接收当前文件夹中。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-182">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" /> property to get the delivery time of the conversation item that was last received in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalMessageCount">
+      <MemberSignature Language="C#" Value="public int GlobalMessageCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GlobalMessageCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalMessageCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalMessageCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GlobalMessageCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-183">邮箱中获取对话项目的总数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-183">Gets the total number of conversation items in the mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-184">对话项目数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-184">The number of conversation items.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-185">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" />属性在当前文件夹中获取对话项目的总数。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-185">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" /> property to get the total number of conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalSize">
+      <MemberSignature Language="C#" Value="public int GlobalSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GlobalSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GlobalSize { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-186">获取对话开始计算的邮箱中的所有对话项目的大小的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-186">Gets the size of the conversation calculated from the size of all conversation items in the mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-187">知识库中的对话的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-187">The size of the conversation in KBs.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-188">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" />属性获取的对话大小计算从当前文件夹中的所有对话项目的大小。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-188">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" /> property to get the size of the conversation calculated from the size of all conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalUniqueRecipients As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalUniqueRecipients { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-189">获取所有跨邮箱中的所有文件夹此对话中收到消息的人员列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-189">Gets a list of all the people who have received messages in this conversation across all folders in the mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-190">一组收件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-190">A list of recipients.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-191">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" />属性获取当前文件夹中的所有收件人的会话项目的列表。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-191">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" /> property to get the list of all the recipients of conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueSenders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueSenders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueSenders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueSenders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalUniqueSenders As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalUniqueSenders { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-192">邮箱中获取会话项目的所有发件人的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-192">Gets a list of all the senders of conversation items in the mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-193">发件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-193">A list of senders.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-194">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" />属性获取当前文件夹中的会话项目的所有发件人列表。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-194">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" /> property to get the list of all the senders of conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUniqueUnreadSenders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueUnreadSenders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList GlobalUniqueUnreadSenders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUniqueUnreadSenders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalUniqueUnreadSenders As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ GlobalUniqueUnreadSenders { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-195">获取所有已发送邮件的邮箱中的所有文件夹中的当前未读此对话中人员的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-195">Gets a list of all the people who have sent messages that are currently unread in this conversation across all folders in the mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-196">发件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-196">A list of senders.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-197">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" />属性获取当前文件夹中的未读的对话项目的所有发件人列表。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-197">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" /> property to get the list of all the senders of unread conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalUnreadCount">
+      <MemberSignature Language="C#" Value="public int GlobalUnreadCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GlobalUnreadCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalUnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GlobalUnreadCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GlobalUnreadCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-198">获取的邮箱中的未读的对话的所有项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-198">Gets a count of all the unread conversation items in the mailbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-199">未读项目数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-199">The count of unread items.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="50109-200">
+            <para>使用<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" />属性来获取当前文件夹中的未读的对话的所有项目。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-200">
+              <para>Use the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" /> property to get the count of all unread conversation items in the current folder.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-201">获取一个值，该值指示当前文件夹中的至少一个对话项目是否包含附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-201">Gets a value that indicates whether at least one conversation item in the current folder has an attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-202">
+            <b>true</b>如果当前文件夹中的至少一个对话项目包含附件;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-202">
+              <b>true</b> if at least one conversation item in the current folder has an attachment; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasIrm">
+      <MemberSignature Language="C#" Value="public bool HasIrm { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasIrm" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasIrm As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasIrm { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-203">获取一个值，该值的当前文件夹中的至少一个对话项目是否受保护的信息权限管理 (IRM)。<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" />属性是适用于 Exchange Online 和 Exchange 开头 15.00.0847.032 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-203">Gets a value indicating whether at least one conversation item in the current folder is protected by Information Rights Management (IRM).The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.HasIrm" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-204">
+            <b>true</b>如果当前文件夹中的至少一个对话项目受 IRM;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-204">
+              <b>true</b> if at least one conversation item in the current folder is protected by IRM; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex IconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex IconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex IconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-205">获取的图标索引。<see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-205">Gets the icon index.The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.IconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-206">图标索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-206">The icon index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ Id { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-207">获取对话标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-207">Gets the conversation identifier.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-208">标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-208">An identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-209">在当前文件夹中获取所有对话项目的聚合的重要性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-209">Gets the aggregated importance for all conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-210">对话的重要性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-210">The importance of a conversation.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public byte[] InstanceKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InstanceKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKey As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ InstanceKey { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-211">获取对话实例键。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-211">Gets the conversation instance key.</span>
+          </span>
+          <span data-ttu-id="50109-212">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-212">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.InstanceKey" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-213">对话实例键。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-213">The conversation instance key.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClasses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ItemClasses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ItemClasses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemClasses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ItemClasses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-214">获取列表项类的值，该值代表当前文件夹中的会话项目的所有项类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-214">Gets a list of item classes that represents all the item classes of the conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-215">项类的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-215">A list of item classes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemIds">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIdCollection ItemIds { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemIdCollection ItemIds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemIds As ItemIdCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ ItemIds { Microsoft::Exchange::WebServices::Data::ItemIdCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIdCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-216">获取对话的所有项目在当前文件夹中的项标识符的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-216">Gets the collection of item identifiers for all conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-217">项标识符的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-217">A collection of item identifiers.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastDeliveryTime">
+      <MemberSignature Language="C#" Value="public DateTime LastDeliveryTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastDeliveryTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.LastDeliveryTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastDeliveryTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastDeliveryTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-218">获取上次当前文件夹中的此对话中收到的邮件的传递时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-218">Gets the delivery time of the message that was last received in this conversation in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-219">最近的对话项目的交货时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-219">The delivery time of the last conversation item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-220">获取的日期和时间上次修改此对话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-220">Gets the date and time this conversation was last modified.</span>
+          </span>
+          <span data-ttu-id="50109-221">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-221">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.LastModifiedTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-222">日期和时间上次修改此对话中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-222">The date and time this conversation was last modified.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageCount">
+      <MemberSignature Language="C#" Value="public int MessageCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MessageCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.MessageCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MessageCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-223">在当前文件夹中获取对话项目的总数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-223">Gets the total number of conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-224">对话项目数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-224">The number of conversation items.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveItemsInConversation">
+      <MemberSignature Language="C#" Value="public void MoveItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MoveItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.MoveItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MoveItemsInConversation (contextFolderId As FolderId, destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-225">包含要移动的对话项的文件夹的文件夹标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-225">The folder identifier of the folder that contains the conversation items to move.</span>
+          </span>
+          <span data-ttu-id="50109-226">如果该参数设置为空引用 (在 Visual Basic 中为 Nothing)，跨整个邮箱对话中的所有项目都移动到目标文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-226">If this argument is set to a null reference (Nothing in Visual Basic), all items in a conversation across an entire mailbox are moved to the destination folder.</span>
+          </span>
+        </param>
+        <param name="destinationFolderId">
+          <span data-ttu-id="50109-227">目标文件夹将包含移动的项目的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-227">The destination folder identifier of the folder that will contain the moved items.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-228">将对话中的项目移至的目标文件夹。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-228">Moves items in a conversation to a destination folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-229">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-229">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-230">获取对话预览。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-230">Gets the conversation preview.</span>
+          </span>
+          <span data-ttu-id="50109-231">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-231">The <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-232">对话预览。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-232">The conversation preview.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetReadStateForItemsInConversation">
+      <MemberSignature Language="C#" Value="public void SetReadStateForItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, bool isRead);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetReadStateForItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, bool isRead) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetReadStateForItemsInConversation (contextFolderId As FolderId, isRead As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetReadStateForItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, bool isRead);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="isRead" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-233">其项目将具有其读取文件夹的标识符进行了更新的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-233">The identifier of the folder whose items will have their read state updated.</span>
+          </span>
+          <span data-ttu-id="50109-234">如果值<paramref name="contextFolderId" />参数为空引用 (在 Visual Basic 中为 Nothing)，将更新跨整个邮箱关联的对话中的所有项目的读取的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-234">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the read state of all items in the associated conversation across an entire mailbox will be updated.</span>
+          </span>
+        </param>
+        <param name="isRead">
+          <span data-ttu-id="50109-235">
+            <b>true</b>如果对话项目标记为阅读;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-235">
+              <b>true</b> if conversation items are marked as read; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-236">在对话中设置读取的项的状态。<see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-236">Sets the read state of items in a conversation.The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-237">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-237">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetReadStateForItemsInConversation">
+      <MemberSignature Language="C#" Value="public void SetReadStateForItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, bool isRead, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetReadStateForItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, bool isRead, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetReadStateForItemsInConversation (contextFolderId As FolderId, isRead As Boolean, suppressReadReceipts As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetReadStateForItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, bool isRead, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="isRead" Type="System.Boolean" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-238">其项目将具有其读取文件夹的标识符进行了更新的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-238">The identifier of the folder whose items will have their read state updated.</span>
+          </span>
+          <span data-ttu-id="50109-239">如果值<paramref name="contextFolderId" />参数为空引用 (在 Visual Basic 中为 Nothing)，则设置跨整个邮箱的项的阅读的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-239">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the read states of items across the entire mailbox are set.</span>
+          </span>
+        </param>
+        <param name="isRead">
+          <span data-ttu-id="50109-240">如果为<b>true</b>，对话项目标记为已读;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-240">
+              <b>true</b>, if conversation items are marked as read; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="50109-241">
+            <b>true</b>如果读取回执将禁止显示;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-241">
+              <b>true</b> if read receipts are suppressed; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-242">设置指定的对话中读取的项的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-242">Sets the read state of items in the specified conversation.</span>
+          </span>
+          <span data-ttu-id="50109-243">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-243">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetReadStateForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,System.Boolean,System.Boolean)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-244">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-244">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetRetentionPolicyForItemsInConversation">
+      <MemberSignature Language="C#" Value="public void SetRetentionPolicyForItemsInConversation (Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, Microsoft.Exchange.WebServices.Data.RetentionType retentionPolicyType, Nullable&lt;Guid&gt; retentionPolicyTagId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetRetentionPolicyForItemsInConversation(class Microsoft.Exchange.WebServices.Data.FolderId contextFolderId, valuetype Microsoft.Exchange.WebServices.Data.RetentionType retentionPolicyType, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; retentionPolicyTagId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetRetentionPolicyForItemsInConversation (contextFolderId As FolderId, retentionPolicyType As RetentionType, retentionPolicyTagId As Nullable(Of Guid))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetRetentionPolicyForItemsInConversation(Microsoft::Exchange::WebServices::Data::FolderId ^ contextFolderId, Microsoft::Exchange::WebServices::Data::RetentionType retentionPolicyType, Nullable&lt;Guid&gt; retentionPolicyTagId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contextFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="retentionPolicyType" Type="Microsoft.Exchange.WebServices.Data.RetentionType" />
+        <Parameter Name="retentionPolicyTagId" Type="System.Nullable&lt;System.Guid&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="contextFolderId">
+          <span data-ttu-id="50109-245">其项目将具有其保留策略设置的文件夹的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-245">The identifier of the folder whose items will have their retention policy set.</span>
+          </span>
+          <span data-ttu-id="50109-246">如果值<paramref name="contextFolderId" />参数为空引用 (在 Visual Basic 中为 Nothing)，跨整个邮箱的项目的保留策略设置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-246">If the value of the <paramref name="contextFolderId" /> parameter is a null reference (Nothing in Visual Basic), the retention policy of items across the entire mailbox are set.</span>
+          </span>
+        </param>
+        <param name="retentionPolicyType">
+          <span data-ttu-id="50109-247">指示是否存档或删除已标记的对象的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-247">A value indicating whether the tagged object is to be archived or deleted.</span>
+          </span>
+        </param>
+        <param name="retentionPolicyTagId">
+          <span data-ttu-id="50109-248">保留策略标记标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-248">The retention policy tag identifier.</span>
+          </span>
+          <span data-ttu-id="50109-249">一个空引用 (在 Visual Basic 中为 Nothing) 值将清除策略。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-249">A a null reference (Nothing in Visual Basic) value will clear the policy.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="50109-250">设置项目的保留策略中指定的对话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-250">Sets the retention policy of items in the specified conversation.</span>
+          </span>
+          <span data-ttu-id="50109-251">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-251">The <see cref="M:Microsoft.Exchange.WebServices.Data.Conversation.SetRetentionPolicyForItemsInConversation(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.RetentionType,System.Nullable{System.Guid})" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="50109-252">
+            <para>呼叫到 Exchange Web Services (EWS) 中调用此方法的结果。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-252">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-253">获取对话开始计算的当前文件夹中的所有对话项目的大小的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-253">Gets the size of the conversation calculated from the size of all conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-254">知识库中的对话的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-254">The size of the conversation in KBs.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Topic">
+      <MemberSignature Language="C#" Value="public string Topic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Topic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.Topic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Topic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Topic { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-255">获取对话的主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-255">Gets the topic of the conversation.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-256">对话主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-256">A conversation topic.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueRecipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList UniqueRecipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList UniqueRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueRecipients As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ UniqueRecipients { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-257">获取当前文件夹中邮件此对话中收到邮件的所有人员的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-257">Gets a list of all the people who have received messages in this conversation for messages in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-258">一组收件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-258">A list of recipients.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueSenders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList UniqueSenders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList UniqueSenders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueSenders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueSenders As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ UniqueSenders { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-259">在当前文件夹中获取会话项目的所有发件人的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-259">Gets a list of all the senders of conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-260">发件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-260">A list of senders.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueUnreadSenders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList UniqueUnreadSenders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList UniqueUnreadSenders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.UniqueUnreadSenders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueUnreadSenders As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ UniqueUnreadSenders { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-261">获取所有已发送邮件的当前文件夹中的此对话中当前未读的人员列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-261">Gets a list of all the people who have sent messages that are currently unread in this conversation in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-262">发件人列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-262">A list of senders.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public int UnreadCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UnreadCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conversation.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnreadCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UnreadCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="50109-263">获取当前文件夹中的未读的对话的所有项目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-263">Gets a count of all the unread conversation items in the current folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="50109-264">未读项目数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="50109-264">The count of unread items.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

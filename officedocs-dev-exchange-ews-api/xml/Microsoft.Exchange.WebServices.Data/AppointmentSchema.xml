@@ -1,0 +1,1129 @@
+<Type Name="AppointmentSchema" FullName="Microsoft.Exchange.WebServices.Data.AppointmentSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4380452252bcc002f667826db9e62844edef42bf" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622880" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AppointmentSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppointmentSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppointmentSchema&#xA;Inherits ItemSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppointmentSchema : Microsoft::Exchange::WebServices::Data::ItemSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="5276b-101">定义约会的架构。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5276b-101">Defines the schema for appointments.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdjacentMeetingCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AdjacentMeetingCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AdjacentMeetingCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.AdjacentMeetingCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AdjacentMeetingCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AdjacentMeetingCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-102">定义 AdjacentMeetingCount 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-102">Defines the AdjacentMeetingCount property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjacentMeetings">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AdjacentMeetings;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AdjacentMeetings" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.AdjacentMeetings" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AdjacentMeetings As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AdjacentMeetings;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-103">定义 AdjacentMeetings 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-103">Defines the AdjacentMeetings property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowNewTimeProposal">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AllowNewTimeProposal;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AllowNewTimeProposal" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.AllowNewTimeProposal" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AllowNewTimeProposal As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AllowNewTimeProposal;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-104">定义 AllowNewTimeProposal 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-104">Defines the AllowNewTimeProposal property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentReplyTime">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentReplyTime;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentReplyTime" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.AppointmentReplyTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AppointmentReplyTime As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AppointmentReplyTime;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-105">定义 AppointmentReplyTime 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-105">Defines the AppointmentReplyTime property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentSequenceNumber">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentSequenceNumber;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentSequenceNumber" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.AppointmentSequenceNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AppointmentSequenceNumber As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AppointmentSequenceNumber;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-106">定义 AppointmentSequenceNumber 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-106">Defines the AppointmentSequenceNumber property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentState">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentState" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.AppointmentState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AppointmentState As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AppointmentState;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-107">定义 AppointmentState 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-107">Defines the AppointmentState property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentType">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AppointmentType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.AppointmentType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AppointmentType As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AppointmentType;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-108">定义 AppointmentType 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-108">Defines the AppointmentType property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceType">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConferenceType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConferenceType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.ConferenceType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConferenceType As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConferenceType;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-109">定义 ConferenceType 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-109">Defines the ConferenceType property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetingCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConflictingMeetingCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConflictingMeetingCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.ConflictingMeetingCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConflictingMeetingCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConflictingMeetingCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-110">定义 ConflictingMeetingCount 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-110">Defines the ConflictingMeetingCount property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetings">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ConflictingMeetings;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ConflictingMeetings" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.ConflictingMeetings" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ConflictingMeetings As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ConflictingMeetings;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-111">定义 ConflictingMeetings 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-111">Defines the ConflictingMeetings property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedOccurrences">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DeletedOccurrences;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DeletedOccurrences" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.DeletedOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DeletedOccurrences As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DeletedOccurrences;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-112">定义 DeletedOccurrences 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-112">Defines the DeletedOccurrences property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Duration;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Duration" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Duration As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Duration;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-113">定义的持续时间属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-113">Defines the Duration property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition End;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition End" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.End" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly End As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ End;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-114">定义 End 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-114">Defines the End property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeZone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition EndTimeZone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition EndTimeZone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.EndTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EndTimeZone As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ EndTimeZone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-115">定义 EndTimeZone 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-115">Defines the EndTimeZone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedLocation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition EnhancedLocation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition EnhancedLocation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.EnhancedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EnhancedLocation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ EnhancedLocation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-116">定义 EnhancedLocation 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-116">Defines the EnhancedLocation property.</span>
+          </span>
+          <span data-ttu-id="5276b-117">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.EnhancedLocation" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-117">The <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.EnhancedLocation" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstOccurrence">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition FirstOccurrence;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition FirstOccurrence" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.FirstOccurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FirstOccurrence As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ FirstOccurrence;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-118">定义 FirstOccurrence 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-118">Defines the FirstOccurrence property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalDateTimeStamp">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ICalDateTimeStamp;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ICalDateTimeStamp" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.ICalDateTimeStamp" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ICalDateTimeStamp As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ICalDateTimeStamp;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-119">定义 ICalDateTimeStamp 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-119">Defines the ICalDateTimeStamp property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalRecurrenceId">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ICalRecurrenceId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ICalRecurrenceId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.ICalRecurrenceId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ICalRecurrenceId As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ICalRecurrenceId;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-120">定义 ICalRecurrenceId 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-120">Defines the ICalRecurrenceId property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalUid">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ICalUid;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ICalUid" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.ICalUid" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ICalUid As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ICalUid;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-121">定义 ICalUid 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-121">Defines the ICalUid property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAllDayEvent">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsAllDayEvent;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsAllDayEvent" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.IsAllDayEvent" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsAllDayEvent As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsAllDayEvent;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-122">定义 IsAllDayEvent 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-122">Defines the IsAllDayEvent property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCancelled">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsCancelled;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsCancelled" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.IsCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsCancelled As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsCancelled;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-123">定义的 IsCancelled 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-123">Defines the IsCancelled property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeeting">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsMeeting;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsMeeting" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.IsMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsMeeting As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsMeeting;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-124">定义 IsMeeting 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-124">Defines the IsMeeting property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOnlineMeeting">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsOnlineMeeting;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsOnlineMeeting" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.IsOnlineMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsOnlineMeeting As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsOnlineMeeting;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-125">定义 IsOnlineMeeting 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-125">Defines the IsOnlineMeeting property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRecurring;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsRecurring" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsRecurring As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsRecurring;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-126">定义 IsRecurring 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-126">Defines the IsRecurring property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequested">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition IsResponseRequested;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition IsResponseRequested" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.IsResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly IsResponseRequested As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ IsResponseRequested;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-127">定义 IsResponseRequested 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-127">Defines the IsResponseRequested property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JoinOnlineMeetingUrl">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition JoinOnlineMeetingUrl;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition JoinOnlineMeetingUrl" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.JoinOnlineMeetingUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly JoinOnlineMeetingUrl As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ JoinOnlineMeetingUrl;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-128">定义 JoinOnlineMeetingUrl 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-128">Defines the JoinOnlineMeetingUrl property.</span>
+          </span>
+          <span data-ttu-id="5276b-129">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.JoinOnlineMeetingUrl" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-129">The <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.JoinOnlineMeetingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastOccurrence">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition LastOccurrence;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition LastOccurrence" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.LastOccurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LastOccurrence As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ LastOccurrence;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-130">定义 LastOccurrence 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-130">Defines the LastOccurrence property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyFreeBusyStatus">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition LegacyFreeBusyStatus;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition LegacyFreeBusyStatus" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.LegacyFreeBusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly LegacyFreeBusyStatus As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ LegacyFreeBusyStatus;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-131">定义 LegacyFreeBusyStatus 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-131">Defines the LegacyFreeBusyStatus property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Location;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Location" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Location As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Location;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-132">定义的 Location 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-132">Defines the Location property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestWasSent">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition MeetingRequestWasSent;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition MeetingRequestWasSent" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.MeetingRequestWasSent" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MeetingRequestWasSent As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ MeetingRequestWasSent;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-133">定义 MeetingRequestWasSent 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-133">Defines the MeetingRequestWasSent property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingWorkspaceUrl">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition MeetingWorkspaceUrl;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition MeetingWorkspaceUrl" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.MeetingWorkspaceUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MeetingWorkspaceUrl As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ MeetingWorkspaceUrl;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-134">定义 MeetingWorkspaceUrl 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-134">Defines the MeetingWorkspaceUrl property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedOccurrences">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ModifiedOccurrences;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ModifiedOccurrences" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.ModifiedOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ModifiedOccurrences As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ModifiedOccurrences;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-135">定义 ModifiedOccurrences 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-135">Defines the ModifiedOccurrences property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyResponseType">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition MyResponseType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition MyResponseType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.MyResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MyResponseType As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ MyResponseType;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-136">定义 MyResponseType 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-136">Defines the MyResponseType property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetShowUrl">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition NetShowUrl;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition NetShowUrl" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.NetShowUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NetShowUrl As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ NetShowUrl;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-137">定义 NetShowUrl 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-137">Defines the NetShowUrl property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlineMeetingSettings">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition OnlineMeetingSettings;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition OnlineMeetingSettings" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.OnlineMeetingSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OnlineMeetingSettings As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ OnlineMeetingSettings;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-138">定义 OnlineMeetingSettings 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-138">Defines the OnlineMeetingSettings property.</span>
+          </span>
+          <span data-ttu-id="5276b-139">
+            <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.OnlineMeetingSettings" />字段是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-139">The <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.OnlineMeetingSettings" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptionalAttendees">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition OptionalAttendees;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition OptionalAttendees" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.OptionalAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OptionalAttendees As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ OptionalAttendees;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-140">定义 OptionalAttendees 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-140">Defines the OptionalAttendees property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Organizer">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Organizer;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Organizer" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Organizer" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Organizer As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Organizer;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-141">定义组织者属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-141">Defines the Organizer property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalStart">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition OriginalStart;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition OriginalStart" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.OriginalStart" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OriginalStart As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ OriginalStart;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-142">定义 OriginalStart 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-142">Defines the OriginalStart property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Recurrence;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Recurrence" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Recurrence As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Recurrence;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-143">定义的定期属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-143">Defines the Recurrence property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredAttendees">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition RequiredAttendees;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition RequiredAttendees" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.RequiredAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RequiredAttendees As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ RequiredAttendees;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-144">定义 RequiredAttendees 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-144">Defines the RequiredAttendees property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resources">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Resources;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Resources" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Resources" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Resources As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Resources;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-145">定义资源属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-145">Defines the Resources property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Start;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Start" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Start As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Start;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-146">定义 Start 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-146">Defines the Start property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTimeZone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition StartTimeZone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition StartTimeZone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly StartTimeZone As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ StartTimeZone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-147">定义 StartTimeZone 属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-147">Defines the StartTimeZone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition TimeZone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition TimeZone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.TimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TimeZone As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ TimeZone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-148">TimeZone 属性定义它们。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-148">Defines them TimeZone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="When">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition When;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition When" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.When" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly When As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ When;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5276b-149">定义时属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5276b-149">Defines the When property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

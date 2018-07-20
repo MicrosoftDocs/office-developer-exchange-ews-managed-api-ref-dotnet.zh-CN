@@ -1,0 +1,150 @@
+<Type Name="EmailPosition" FullName="Microsoft.Exchange.WebServices.Data.EmailPosition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="27bd8cdf8137afb4dea4bcad02f4e884110f30c2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623246" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum EmailPosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EmailPosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailPosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EmailPosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class EmailPosition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0e995-101">定义其中一条消息中找到提取的实体的位置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0e995-101">Defines the position where an extracted entity was found in a message.</span>
+      </span>
+      <span data-ttu-id="0e995-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.EmailPosition" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0e995-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.EmailPosition" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LatestReply">
+      <MemberSignature Language="C#" Value="LatestReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EmailPosition LatestReply = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailPosition.LatestReply" />
+      <MemberSignature Language="VB.NET" Value="LatestReply" />
+      <MemberSignature Language="C++ CLI" Value="LatestReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e995-103">位置指向最新的答复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e995-103">The position points to the latest reply.</span>
+          </span>
+          <span data-ttu-id="0e995-104">适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端 LatestReply 字段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e995-104">The LatestReply field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Other">
+      <MemberSignature Language="C#" Value="Other" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EmailPosition Other = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailPosition.Other" />
+      <MemberSignature Language="VB.NET" Value="Other" />
+      <MemberSignature Language="C++ CLI" Value="Other" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e995-105">位置指向一个未列出的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e995-105">The position points to an unlisted position.</span>
+          </span>
+          <span data-ttu-id="0e995-106">适用于客户端针对 Exchange Online 和版本的 Exchange 开头 Exchange Server 2013 中的其他域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e995-106">The Other field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Signature">
+      <MemberSignature Language="C#" Value="Signature" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EmailPosition Signature = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailPosition.Signature" />
+      <MemberSignature Language="VB.NET" Value="Signature" />
+      <MemberSignature Language="C++ CLI" Value="Signature" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e995-107">位置指向的电子邮件签名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e995-107">The position points to the signature of an email.</span>
+          </span>
+          <span data-ttu-id="0e995-108">适用于客户端针对 Exchange Online 和版本的 Exchange 开头 Exchange Server 2013 中的签名域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e995-108">The Signature field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="Subject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EmailPosition Subject = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EmailPosition.Subject" />
+      <MemberSignature Language="VB.NET" Value="Subject" />
+      <MemberSignature Language="C++ CLI" Value="Subject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e995-109">位置指向一封电子邮件的主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e995-109">The position points to the subject of an email.</span>
+          </span>
+          <span data-ttu-id="0e995-110">适用于客户端针对 Exchange Online 和版本的 Exchange 开头 Exchange Server 2013 中的主题字段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e995-110">The Subject field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

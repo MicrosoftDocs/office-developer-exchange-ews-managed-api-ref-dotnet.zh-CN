@@ -1,0 +1,102 @@
+<Type Name="SubscriptionErrorEventArgs" FullName="Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b0b2ec8e61c7bf1a72c2df1d01db9d132660a02" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623051" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SubscriptionErrorEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SubscriptionErrorEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class SubscriptionErrorEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SubscriptionErrorEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="65b19-101">向 StreamingSubscriptionConnection 对象的 OnSubscriptionError 和 OnDisconnect 事件提供数据。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="65b19-101">Provides data to the OnSubscriptionError and OnDisconnect events of a StreamingSubscriptionConnection object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exception">
+      <MemberSignature Language="C#" Value="public Exception Exception { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Exception Exception" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs.Exception" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exception As Exception" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Exception ^ Exception { Exception ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Exception</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65b19-102">获取表示的错误的异常。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65b19-102">Gets the exception that represents the error.</span>
+          </span>
+          <span data-ttu-id="65b19-103">如果异常为空引用 (在 Visual Basic 中为 Nothing)，连接干净关闭该服务器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65b19-103">If Exception is a null reference (Nothing in Visual Basic), the connection was cleanly closed by the server.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="65b19-104">一个 System.Exception 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65b19-104">A System.Exception object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscription">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StreamingSubscription Subscription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StreamingSubscription Subscription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs.Subscription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Subscription As StreamingSubscription" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StreamingSubscription ^ Subscription { Microsoft::Exchange::WebServices::Data::StreamingSubscription ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscription</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="65b19-105">获取的订阅时出错。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65b19-105">Gets the subscription for which an error occurred.</span>
+          </span>
+          <span data-ttu-id="65b19-106">如果订阅是空引用 (在 Visual Basic 中为 Nothing)，错误应用于整个连接。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65b19-106">If Subscription is a null reference (Nothing in Visual Basic), the error applies to the entire connection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="65b19-107">一个 StreamingSubscription 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="65b19-107">A StreamingSubscription object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

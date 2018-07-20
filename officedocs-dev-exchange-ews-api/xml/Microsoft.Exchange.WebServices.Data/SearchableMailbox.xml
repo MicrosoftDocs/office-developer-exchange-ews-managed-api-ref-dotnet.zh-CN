@@ -1,0 +1,395 @@
+<Type Name="SearchableMailbox" FullName="Microsoft.Exchange.WebServices.Data.SearchableMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8162c32391574af0a59694adda4e65fc47453286" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623532" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchableMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchableMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchableMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchableMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="604ab-101">代表一个可搜索的邮箱对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="604ab-101">Represents a searchable mailbox object.</span>
+      </span>
+      <span data-ttu-id="604ab-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="604ab-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchableMailbox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchableMailbox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="604ab-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class.</span>
+          </span>
+          <span data-ttu-id="604ab-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchableMailbox (Guid guid, string smtpAddress, bool isExternalMailbox, string externalEmailAddress, string displayName, bool isMembershipGroup, string referenceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid guid, string smtpAddress, bool isExternalMailbox, string externalEmailAddress, string displayName, bool isMembershipGroup, string referenceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchableMailbox(Guid guid, System::String ^ smtpAddress, bool isExternalMailbox, System::String ^ externalEmailAddress, System::String ^ displayName, bool isMembershipGroup, System::String ^ referenceId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="guid" Type="System.Guid" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+        <Parameter Name="isExternalMailbox" Type="System.Boolean" />
+        <Parameter Name="externalEmailAddress" Type="System.String" />
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="isMembershipGroup" Type="System.Boolean" />
+        <Parameter Name="referenceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="guid">
+          <span data-ttu-id="604ab-105">邮箱标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-105">The mailbox identifier.</span>
+          </span>
+        </param>
+        <param name="smtpAddress">
+          <span data-ttu-id="604ab-106">邮箱的简单邮件传输协议 (SMTP) 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-106">The Simple Mail Transfer Protocol (SMTP) address of the mailbox.</span>
+          </span>
+        </param>
+        <param name="isExternalMailbox">
+          <span data-ttu-id="604ab-107">
+            <b>true</b>如果邮箱是外部邮箱;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-107">
+              <b>true</b> if the mailbox is an external mailbox; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="externalEmailAddress">
+          <span data-ttu-id="604ab-108">邮箱的外部电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-108">The external email address of the mailbox.</span>
+          </span>
+        </param>
+        <param name="displayName">
+          <span data-ttu-id="604ab-109">邮箱的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-109">The name of the mailbox.</span>
+          </span>
+        </param>
+        <param name="isMembershipGroup">
+          <span data-ttu-id="604ab-110">
+            <b>true</b>如果它是通讯组列表;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-110">
+              <b>true</b> if this is a distribution list; otherwise <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="referenceId">
+          <span data-ttu-id="604ab-111">邮箱引用标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-111">The reference identifier of the mailbox.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="604ab-112">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchableMailbox" /> class.</span>
+          </span>
+          <span data-ttu-id="604ab-113">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-113">The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchableMailbox.#ctor(System.Guid,System.String,System.Boolean,System.String,System.String,System.Boolean,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="604ab-114">获取或设置要搜索的邮箱的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-114">Gets or sets the display name of the mailbox to be searched.</span>
+          </span>
+          <span data-ttu-id="604ab-115">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="604ab-116">显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-116">The display name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEmailAddress">
+      <MemberSignature Language="C#" Value="public string ExternalEmailAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExternalEmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalEmailAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalEmailAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="604ab-117">获取或设置邮箱的外部电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-117">Gets or sets the external email address of the mailbox.</span>
+          </span>
+          <span data-ttu-id="604ab-118">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ExternalEmailAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="604ab-119">外部电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-119">The external email address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Guid">
+      <MemberSignature Language="C#" Value="public Guid Guid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid Guid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" />
+      <MemberSignature Language="VB.NET" Value="Public Property Guid As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid Guid { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="604ab-120">获取或设置邮箱标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-120">Gets or sets the mailbox identifier.</span>
+          </span>
+          <span data-ttu-id="604ab-121">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.Guid" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="604ab-122">GUID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-122">The GUID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExternalMailbox">
+      <MemberSignature Language="C#" Value="public bool IsExternalMailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsExternalMailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExternalMailbox As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsExternalMailbox { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="604ab-123">获取或设置一个值，该值指示是否外部邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-123">Gets or sets a value that indicates whether this is an external mailbox.</span>
+          </span>
+          <span data-ttu-id="604ab-124">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsExternalMailbox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="604ab-125">
+            <b>true</b>如果外部邮箱;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-125">
+              <b>true</b> if an external mailbox; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMembershipGroup">
+      <MemberSignature Language="C#" Value="public bool IsMembershipGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMembershipGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMembershipGroup As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMembershipGroup { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="604ab-126">获取或设置关联的 SMTP 地址是否邮箱或通讯组列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-126">Gets or sets whether the associated SMTP address is a mailbox or distribution list.</span>
+          </span>
+          <span data-ttu-id="604ab-127">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.IsMembershipGroup" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="604ab-128">
+            <b>true</b>如果关联的 SMTP 地址为通讯组列表;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-128">
+              <b>true</b> if the associated SMTP address is a distribution list; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferenceId">
+      <MemberSignature Language="C#" Value="public string ReferenceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReferenceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReferenceId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ReferenceId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="604ab-129">获取或设置邮箱引用标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-129">Gets or sets the mailbox reference identifier.</span>
+          </span>
+          <span data-ttu-id="604ab-130">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.ReferenceId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="604ab-131">引用标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-131">The reference identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="604ab-132">获取或设置要搜索的邮箱的简单邮件传输协议 (SMTP) 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-132">Gets or sets the Simple Mail Transfer Protocol (SMTP) address of the mailbox to be searched.</span>
+          </span>
+          <span data-ttu-id="604ab-133">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-133">The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchableMailbox.SmtpAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="604ab-134">SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="604ab-134">The SMTP address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

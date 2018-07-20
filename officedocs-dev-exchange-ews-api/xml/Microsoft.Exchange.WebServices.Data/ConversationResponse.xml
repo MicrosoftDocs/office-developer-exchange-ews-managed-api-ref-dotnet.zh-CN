@@ -1,0 +1,139 @@
+<Type Name="ConversationResponse" FullName="Microsoft.Exchange.WebServices.Data.ConversationResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b6931dda087ef33c1e7989ad482f255c01dde40e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623218" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ConversationResponse : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationResponse extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationResponse&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationResponse sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="b81de-101">对话响应组成的对话 ID、 同步状态和对话节点的数组。<see cref="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b81de-101">A conversation response consisting of a conversation ID, a synchronization state, and an array of conversation nodes.The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b81de-102">获取对话 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-102">Gets the conversation ID.</span>
+          </span>
+          <span data-ttu-id="b81de-103">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-103">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b81de-104">对话 id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-104">The conversation ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationNodeCollection ConversationNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationNodeCollection ConversationNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationNodes As ConversationNodeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationNodeCollection ^ ConversationNodes { Microsoft::Exchange::WebServices::Data::ConversationNodeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationNodeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b81de-105">获取一<see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-105">Gets a collection of <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" /> objects.</span>
+          </span>
+          <span data-ttu-id="b81de-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b81de-107">对话节点。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-107">The conversation nodes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncState">
+      <MemberSignature Language="C#" Value="public string SyncState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SyncState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SyncState As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SyncState { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b81de-108">获取的同步状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-108">Gets the synchronization state.</span>
+          </span>
+          <span data-ttu-id="b81de-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="b81de-110">同步状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b81de-110">The sync state.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

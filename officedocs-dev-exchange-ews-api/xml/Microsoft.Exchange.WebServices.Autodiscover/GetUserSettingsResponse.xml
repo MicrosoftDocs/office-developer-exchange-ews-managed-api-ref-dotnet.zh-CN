@@ -1,0 +1,233 @@
+<Type Name="GetUserSettingsResponse" FullName="Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a92f5f1e90e82f308cc16cd05d38684c91ab07fd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622950" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetUserSettingsResponse : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetUserSettingsResponse extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetUserSettingsResponse&#xA;Inherits AutodiscoverResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserSettingsResponse sealed : Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="0f3e6-101">代表对单个用户 GetUsersSettings 呼叫的响应。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0f3e6-101">Represents the response to a GetUsersSettings call for an individual user.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserSettingsResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserSettingsResponse();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0f3e6-102">初始化 GetUserSettingsResponse 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-102">Initializes a new instance of the GetUserSettingsResponse class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectTarget">
+      <MemberSignature Language="C#" Value="public string RedirectTarget { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RedirectTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.RedirectTarget" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RedirectTarget As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RedirectTarget { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0f3e6-103">获取重定向目标 （URL 或电子邮件地址）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-103">Gets the redirection target (URL or e-mail address).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0f3e6-104">重定向目标 URL 或电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-104">The redirection target URL or e-mail address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingName,object&gt; Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName, object&gt; Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As IDictionary(Of UserSettingName, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingName, System::Object ^&gt; ^ Settings { System::Collections::Generic::IDictionary&lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingName, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingName,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0f3e6-105">获取用户的请求的设置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-105">Gets the requested settings for the user.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0f3e6-106">请求的用户设置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-106">The requested user settings.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0f3e6-107">获取此响应应用于的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-107">Gets the SMTP e-mail address to which this response applies.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0f3e6-108">此响应适用于 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-108">The SMTP address that this response applies to.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetSettingValue&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public bool TryGetSettingValue&lt;T&gt; (Microsoft.Exchange.WebServices.Autodiscover.UserSettingName setting, out T value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetSettingValue&lt;T&gt;(valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName setting, [out] !!T&amp; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.TryGetSettingValue``1(Microsoft.Exchange.WebServices.Autodiscover.UserSettingName,``0@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetSettingValue(Of T) (setting As UserSettingName, ByRef value As T) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; bool TryGetSettingValue(Microsoft::Exchange::WebServices::Autodiscover::UserSettingName setting, [Runtime::InteropServices::Out] T % value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="setting" Type="Microsoft.Exchange.WebServices.Autodiscover.UserSettingName" />
+        <Parameter Name="value" Type="T&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">
+          <span data-ttu-id="0f3e6-109">用户设置的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-109">The type of the user setting.</span>
+          </span>
+        </typeparam>
+        <param name="setting">
+          <span data-ttu-id="0f3e6-110">用户设置的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-110">The type of user setting.</span>
+          </span>
+        </param>
+        <param name="value">
+          <span data-ttu-id="0f3e6-111">设置值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-111">The setting value.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0f3e6-112">尝试获取用户的设置值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-112">Attempts to get the user setting value.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0f3e6-113">
+            <b>true</b>如果设置为可用，则否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-113">
+              <b>true</b> if the setting was available; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSettingErrors">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingError&gt; UserSettingErrors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.UserSettingError&gt; UserSettingErrors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.UserSettingErrors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserSettingErrors As Collection(Of UserSettingError)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingError ^&gt; ^ UserSettingErrors { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingError ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingError&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0f3e6-114">获取设置不会返回错误的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-114">Gets a collection of errors for settings that could not be returned.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0f3e6-115">UserSettingError 对象的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0f3e6-115">A collection of UserSettingError objects.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

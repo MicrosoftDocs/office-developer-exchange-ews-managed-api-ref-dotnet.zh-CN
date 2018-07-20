@@ -1,0 +1,242 @@
+<Type Name="FolderPermissionCollection" FullName="Microsoft.Exchange.WebServices.Data.FolderPermissionCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2c650c1d1bce1c5586f9334441aa4d9d9440011b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623030" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderPermissionCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.FolderPermission&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderPermissionCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.FolderPermission&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderPermissionCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderPermissionCollection&#xA;Inherits ComplexPropertyCollection(Of FolderPermission)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderPermissionCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::FolderPermission ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.FolderPermission&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.FolderPermission</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a1261-101">代表文件夹权限的集合。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a1261-101">Represents a collection of folder permissions.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="a1261-102">
+        <para>时面向 Exchange Online 中，Exchange Online 作为 Office 365 的一部分和开头 Exchange 2013 的 Exchange 内部部署版本中不返回文件夹权限<see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" />属性集。若要检索文件夹权限，添加<see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" />属性绑定到文件夹时设置的属性。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a1261-102">
+          <para>When targeting Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange 2013, folder permissions are not returned in the <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> property set. In order to retrieve folder permissions, add the <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> property to the property set when binding to the folder.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.FolderPermission permission);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Microsoft.Exchange.WebServices.Data.FolderPermission permission) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermissionCollection.Add(Microsoft.Exchange.WebServices.Data.FolderPermission)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (permission As FolderPermission)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::FolderPermission ^ permission);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="permission" Type="Microsoft.Exchange.WebServices.Data.FolderPermission" />
+      </Parameters>
+      <Docs>
+        <param name="permission">
+          <span data-ttu-id="a1261-103">要添加的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-103">The permission to add.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a1261-104">将权限添加到集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-104">Adds a permission to the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.FolderPermission&gt; permissions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.FolderPermission&gt; permissions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermissionCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.FolderPermission})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (permissions As IEnumerable(Of FolderPermission))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::FolderPermission ^&gt; ^ permissions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="permissions" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.FolderPermission&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="permissions">
+          <span data-ttu-id="a1261-105">要添加的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-105">The permissions to add.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a1261-106">向集合中添加指定的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-106">Adds the specified permissions to the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermissionCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a1261-107">清除此集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-107">Clears this collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.FolderPermission permission);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.FolderPermission permission) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermissionCollection.Remove(Microsoft.Exchange.WebServices.Data.FolderPermission)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (permission As FolderPermission) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::FolderPermission ^ permission);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="permission" Type="Microsoft.Exchange.WebServices.Data.FolderPermission" />
+      </Parameters>
+      <Docs>
+        <param name="permission">
+          <span data-ttu-id="a1261-108">要删除的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-108">The permission to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a1261-109">从集合中删除权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-109">Removes a permission from the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="a1261-110">如果为<b>true</b> ; 集中已成功删除文件夹权限否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-110">
+              <b>true</b> if the folder permission was successfully removed from the collection; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermissionCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="a1261-111">要删除的权限的从零开始的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-111">The zero-based index of the permission to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a1261-112">从集合中删除权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-112">Removes a permission from the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnknownEntries">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;string&gt; UnknownEntries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;string&gt; UnknownEntries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermissionCollection.UnknownEntries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UnknownEntries As Collection(Of String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;System::String ^&gt; ^ UnknownEntries { System::Collections::ObjectModel::Collection&lt;System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a1261-113">获取集合中的未知用户 Id 的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-113">Gets a list of unknown user IDs in the collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a1261-114">用户 Id 的未知的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a1261-114">A list of user IDs that are unknown.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

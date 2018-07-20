@@ -1,0 +1,387 @@
+<Type Name="RetentionPolicyTag" FullName="Microsoft.Exchange.WebServices.Data.RetentionPolicyTag">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="68516c957f2caf0b6685cc8fc426f21f25c12a1d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623439" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RetentionPolicyTag" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RetentionPolicyTag extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RetentionPolicyTag" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RetentionPolicyTag sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f54fe-101">包含与文件夹、 邮箱或项目关联的保留策略信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f54fe-101">Contains retention policy information associated with a folder, mailbox, or item.</span>
+      </span>
+      <span data-ttu-id="f54fe-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f54fe-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetentionPolicyTag ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RetentionPolicyTag();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" /> class.</span>
+          </span>
+          <span data-ttu-id="f54fe-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-105">获取或设置保留策略标记的说明。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-105">Gets or sets the description of the retention policy tag.</span>
+          </span>
+          <span data-ttu-id="f54fe-106">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-106">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-107">保留策略标记说明。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-107">The retention policy tag description.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-108">获取或设置的保留策略元素的描述性名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-108">Gets or sets the descriptive name of the retention policy element.</span>
+          </span>
+          <span data-ttu-id="f54fe-109">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-110">保留策略标记显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-110">The retention policy tag display name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-111">获取或设置是否标记包含有关 message 对象的存档策略的信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-111">Gets or sets whether the tag contains information about the archive policy for a message object.</span>
+          </span>
+          <span data-ttu-id="f54fe-112">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-113">
+            <b>true</b>如果标签存档标记;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-113">
+              <b>true</b> if the tag is an archive tag; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-114">获取或设置是否可由用户看到标记。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-114">Gets or sets whether the tag can be seen by users.</span>
+          </span>
+          <span data-ttu-id="f54fe-115">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-116">
+            <b>true</b>如果可见，则标签否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-116">
+              <b>true</b> if the tag is visible; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptedInto">
+      <MemberSignature Language="C#" Value="public bool OptedInto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OptedInto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" />
+      <MemberSignature Language="VB.NET" Value="Public Property OptedInto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OptedInto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-117">获取或设置是否此保留策略标记已由用户设置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-117">Gets or sets whether this retention policy tag was set by a user.</span>
+          </span>
+          <span data-ttu-id="f54fe-118">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-119">
+            <b>true</b>如果用户设置此标记;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-119">
+              <b>true</b> if a user set this tag; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RetentionActionType RetentionAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType RetentionAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionAction As RetentionActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RetentionActionType RetentionAction { Microsoft::Exchange::WebServices::Data::RetentionActionType get(); void set(Microsoft::Exchange::WebServices::Data::RetentionActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-120">获取或设置的保留策略根据执行的操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-120">Gets or sets the action that is taken according to the retention policy.</span>
+          </span>
+          <span data-ttu-id="f54fe-121">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-122">保留操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-122">The retention action.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionId">
+      <MemberSignature Language="C#" Value="public Guid RetentionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid RetentionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionId As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid RetentionId { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-123">获取或设置的保留策略元素的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-123">Gets or sets the identifier for the retention policy element.</span>
+          </span>
+          <span data-ttu-id="f54fe-124">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-125">保留标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-125">The retention identifier.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionPeriod">
+      <MemberSignature Language="C#" Value="public int RetentionPeriod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RetentionPeriod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionPeriod As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RetentionPeriod { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-126">获取或设置一个项目上执行操作之前的时间长度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-126">Gets or sets the length of time before an action is taken on an item.</span>
+          </span>
+          <span data-ttu-id="f54fe-127">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-128">保持期，以时间跨度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-128">The retention period in time span.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ElcFolderType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As ElcFolderType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ElcFolderType Type { Microsoft::Exchange::WebServices::Data::ElcFolderType get(); void set(Microsoft::Exchange::WebServices::Data::ElcFolderType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f54fe-129">获取或设置是否存档或删除的已标记的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-129">Gets or sets whether the tagged object is archived or deleted.</span>
+          </span>
+          <span data-ttu-id="f54fe-130">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-130">The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f54fe-131">保留类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f54fe-131">The retention type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

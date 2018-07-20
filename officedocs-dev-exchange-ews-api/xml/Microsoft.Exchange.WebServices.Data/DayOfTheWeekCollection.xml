@@ -1,0 +1,375 @@
+<Type Name="DayOfTheWeekCollection" FullName="Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="34ab74b2f7635b479fbe5c2ccf4c499ca775a0cc" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622852" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DayOfTheWeekCollection : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DayOfTheWeekCollection extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DayOfTheWeekCollection&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable(Of DayOfTheWeek)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DayOfTheWeekCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::DayOfTheWeek&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7e226-101">包含属性和方法用于管理的集合的<see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />用于会议和约会与每日定期模式的枚举值。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7e226-101">Contains properties and methods that manage a collection of <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration values used for meetings and appointments with daily recurrence patterns.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.DayOfTheWeek dayOfTheWeek);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek dayOfTheWeek) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.Add(Microsoft.Exchange.WebServices.Data.DayOfTheWeek)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::DayOfTheWeek dayOfTheWeek);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dayOfTheWeek" Type="Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />
+      </Parameters>
+      <Docs>
+        <param name="dayOfTheWeek">
+          <span data-ttu-id="7e226-102">
+            <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />添加到集合的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />enumeration value to add to the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7e226-103">添加一个新的<see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />到集合的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-103">Adds a new <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration value to the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt; daysOfTheWeek);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt; daysOfTheWeek) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.DayOfTheWeek})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (daysOfTheWeek As IEnumerable(Of DayOfTheWeek))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::DayOfTheWeek&gt; ^ daysOfTheWeek);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="daysOfTheWeek" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="daysOfTheWeek">
+          <span data-ttu-id="7e226-104">要添加到集合中的天数区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-104">The range of days to add to the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7e226-105">添加范围内的<see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />到集合的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-105">Adds a range of <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration values to the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7e226-106">从集合中删除所有成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-106">Removes all members from the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7e226-107">获取集合中的天数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-107">Gets the number of days in the collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7e226-108">数<see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />集合中的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-108">The number of <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration values in the collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of DayOfTheWeek)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::DayOfTheWeek&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.DayOfTheWeek&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7e226-109">返回循环访问集合中的元素的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-109">Returns an enumerator that iterates through the elements of the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="7e226-110">一个 IEnumerator 对象，可用于循环访问集合中的元素。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-110">An IEnumerator object that can be used to iterate through the elements of the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DayOfTheWeek this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As DayOfTheWeek" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DayOfTheWeek default[int] { Microsoft::Exchange::WebServices::Data::DayOfTheWeek get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DayOfTheWeek</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="7e226-111">要返回的项的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-111">The index of the item to return.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7e226-112">获取<see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />集合中指定索引处的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-112">Gets the <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration value at a specific index in the collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="7e226-113">指定索引处的一天。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-113">The day at the specified index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.DayOfTheWeek dayOfTheWeek);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(valuetype Microsoft.Exchange.WebServices.Data.DayOfTheWeek dayOfTheWeek) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.Remove(Microsoft.Exchange.WebServices.Data.DayOfTheWeek)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::DayOfTheWeek dayOfTheWeek);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dayOfTheWeek" Type="Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />
+      </Parameters>
+      <Docs>
+        <param name="dayOfTheWeek">
+          <span data-ttu-id="7e226-114">要删除的日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-114">The day to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7e226-115">删除指定<see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />集合中的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-115">Removes the specified <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration value from the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="7e226-116">
+            <b>true</b>如果从集合; 移除了某一天否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-116">
+              <b>true</b> if the day was removed from the collection; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="7e226-117">一天中删除集合中的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-117">The index in the collection of the day to remove.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="7e226-118">删除<see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" />指定索引处的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-118">Removes the <see cref="T:Microsoft.Exchange.WebServices.Data.DayOfTheWeek" /> enumeration value at the specified index.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7e226-119">获取集合中的元素通过一个循环枚举器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-119">Gets an enumerator that iterates through the elements of the collection.</span>
+          </span>
+          <span data-ttu-id="7e226-120">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.System#Collections#IEnumerable#GetEnumerator" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-120">The <see cref="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="7e226-121">一个循环访问集合中的元素的枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-121">An enumerator that iterates through the elements of the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DayOfTheWeekCollection.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="7e226-122">生成的字符串表示形式集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-122">Builds a string representation of the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="7e226-123">一个以逗号分隔的字符串的天数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7e226-123">A comma-delimited string of days.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

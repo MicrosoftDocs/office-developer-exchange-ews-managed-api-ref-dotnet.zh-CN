@@ -1,0 +1,14 @@
+<Namespace Name="Microsoft.Exchange.WebServices.Data">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4a3ce5126d377736d79e52a6028996617255b03c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623208" />
+  </Metadata>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Namespace>

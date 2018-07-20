@@ -1,0 +1,558 @@
+<Type Name="ClientExtension" FullName="Microsoft.Exchange.WebServices.Data.ClientExtension">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="206a1bb75a365473bd19cf7621c3d5b30082368b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623243" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ClientExtension : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientExtension extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientExtension&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientExtension sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="fae05-101">定义对客户端扩展对象的引用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fae05-101">Defines a reference to a client extension object.</span>
+      </span>
+      <span data-ttu-id="fae05-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fae05-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientExtension (Microsoft.Exchange.WebServices.Data.ExtensionType type, Microsoft.Exchange.WebServices.Data.ExtensionInstallScope scope, System.IO.Stream manifestStream, string marketplaceAssetID, string marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo providedTo, Microsoft.Exchange.WebServices.Data.StringList specificUsers, string appStatus, string etoken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.ExtensionType type, valuetype Microsoft.Exchange.WebServices.Data.ExtensionInstallScope scope, class System.IO.Stream manifestStream, string marketplaceAssetID, string marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, valuetype Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo providedTo, class Microsoft.Exchange.WebServices.Data.StringList specificUsers, string appStatus, string etoken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (type As ExtensionType, scope As ExtensionInstallScope, manifestStream As Stream, marketplaceAssetID As String, marketplaceContentMarket As String, isAvailable As Boolean, isMandatory As Boolean, isEnabledByDefault As Boolean, providedTo As ClientExtensionProvidedTo, specificUsers As StringList, appStatus As String, etoken As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClientExtension(Microsoft::Exchange::WebServices::Data::ExtensionType type, Microsoft::Exchange::WebServices::Data::ExtensionInstallScope scope, System::IO::Stream ^ manifestStream, System::String ^ marketplaceAssetID, System::String ^ marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo providedTo, Microsoft::Exchange::WebServices::Data::StringList ^ specificUsers, System::String ^ appStatus, System::String ^ etoken);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Exchange.WebServices.Data.ExtensionType" />
+        <Parameter Name="scope" Type="Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" />
+        <Parameter Name="manifestStream" Type="System.IO.Stream" />
+        <Parameter Name="marketplaceAssetID" Type="System.String" />
+        <Parameter Name="marketplaceContentMarket" Type="System.String" />
+        <Parameter Name="isAvailable" Type="System.Boolean" />
+        <Parameter Name="isMandatory" Type="System.Boolean" />
+        <Parameter Name="isEnabledByDefault" Type="System.Boolean" />
+        <Parameter Name="providedTo" Type="Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo" />
+        <Parameter Name="specificUsers" Type="Microsoft.Exchange.WebServices.Data.StringList" />
+        <Parameter Name="appStatus" Type="System.String" />
+        <Parameter Name="etoken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="type">
+          <span data-ttu-id="fae05-103">扩展类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-103">The extension type.</span>
+          </span>
+        </param>
+        <param name="scope">
+          <span data-ttu-id="fae05-104">扩展安装范围。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-104">The extension install scope.</span>
+          </span>
+        </param>
+        <param name="manifestStream">
+          <span data-ttu-id="fae05-105">清单流;可以为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-105">The manifest stream; can be null.</span>
+          </span>
+        </param>
+        <param name="marketplaceAssetID">
+          <span data-ttu-id="fae05-106">Office 市场资产 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-106">The asset ID for Office Marketplace.</span>
+          </span>
+        </param>
+        <param name="marketplaceContentMarket">
+          <span data-ttu-id="fae05-107">Office 市场内容市场。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-107">The content market for Office Marketplace.</span>
+          </span>
+        </param>
+        <param name="isAvailable">
+          <span data-ttu-id="fae05-108">
+            <b>true</b>如果扩展可用;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-108">
+              <b>true</b> if the extension is available; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="isMandatory">
+          <span data-ttu-id="fae05-109">
+            <b>true</b>如果扩展是强制性;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-109">
+              <b>true</b> if the extension is mandatory; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="isEnabledByDefault">
+          <span data-ttu-id="fae05-110">
+            <b>true</b>如果扩展启用默认设置。否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-110">
+              <b>true</b> if the extension is enabled by default; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="providedTo">
+          <span data-ttu-id="fae05-111">组织组的成员资格。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-111">The organizational group membership.</span>
+          </span>
+        </param>
+        <param name="specificUsers">
+          <span data-ttu-id="fae05-112">提供了用户扩展的列表可以为 null。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-112">The list of users extension is provided for; can be null.</span>
+          </span>
+        </param>
+        <param name="appStatus">
+          <span data-ttu-id="fae05-113">应用程序的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-113">The app's status.</span>
+          </span>
+        </param>
+        <param name="etoken">
+          <span data-ttu-id="fae05-114">应用程序权利令牌。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-114">The entitlement token for the app.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="fae05-115">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />类。<see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-115">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppStatus">
+      <MemberSignature Language="C#" Value="public string AppStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AppStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppStatus As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AppStatus { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-116">获取或设置应用程序状态。<see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" />属性是适用于 Exchange Online 和 Exchange 开头 15.00.0847.032 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-116">Gets or sets the app status.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Etoken">
+      <MemberSignature Language="C#" Value="public string Etoken { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Etoken" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" />
+      <MemberSignature Language="VB.NET" Value="Public Property Etoken As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Etoken { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-117">获取或设置应用程序的权利标记。<see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" />属性是适用于 Exchange Online 和 Exchange 开头 15.00.0847.032 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-117">Gets or sets the entitlement token for the app.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAvailable">
+      <MemberSignature Language="C#" Value="public bool IsAvailable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAvailable As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAvailable { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-118">获取或设置一个值，指示扩展是否可用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-118">Gets or sets the value indicating whether the extension is available.</span>
+          </span>
+          <span data-ttu-id="fae05-119">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-120">
+            <b>true</b>如果扩展可用;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-120">
+              <b>true</b> if the extension is available; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabledByDefault">
+      <MemberSignature Language="C#" Value="public bool IsEnabledByDefault { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabledByDefault" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEnabledByDefault As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabledByDefault { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-121">获取或设置一个值，指示是否默认情况下启用扩展。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-121">Gets or sets the value indicating whether the extension is enabled by default.</span>
+          </span>
+          <span data-ttu-id="fae05-122">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-123">
+            <b>true</b>如果扩展启用默认设置。否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-123">
+              <b>true</b> if the extension is enabled by default; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMandatory">
+      <MemberSignature Language="C#" Value="public bool IsMandatory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMandatory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMandatory As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMandatory { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-124">获取或设置一个值，指示是否需要扩展。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-124">Gets or sets the value indicating whether the extension is required.</span>
+          </span>
+          <span data-ttu-id="fae05-125">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-125">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-126">
+            <b>true</b>如果扩展是强制性;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-126">
+              <b>true</b> if the extension is mandatory; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManifestStream">
+      <MemberSignature Language="C#" Value="public System.IO.Stream ManifestStream { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.IO.Stream ManifestStream" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManifestStream As Stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::IO::Stream ^ ManifestStream { System::IO::Stream ^ get(); void set(System::IO::Stream ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-127">获取或设置扩展清单流。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-127">Gets or sets the extension manifest stream.</span>
+          </span>
+          <span data-ttu-id="fae05-128">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-128">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-129">扩展清单流。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-129">The extension manifest stream.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarketplaceAssetID">
+      <MemberSignature Language="C#" Value="public string MarketplaceAssetID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MarketplaceAssetID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarketplaceAssetID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MarketplaceAssetID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-130">获取或设置 Office 市场的资产 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-130">Gets or sets the asset ID for Office Marketplace.</span>
+          </span>
+          <span data-ttu-id="fae05-131">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-131">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-132">Office 市场资产 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-132">The asset ID for Office Marketplace.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarketplaceContentMarket">
+      <MemberSignature Language="C#" Value="public string MarketplaceContentMarket { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MarketplaceContentMarket" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarketplaceContentMarket As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MarketplaceContentMarket { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-133">获取或设置市场内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-133">Gets or sets the marketplace content.</span>
+          </span>
+          <span data-ttu-id="fae05-134">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-134">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-135">市场内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-135">The marketplace content.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvidedTo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo ProvidedTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo ProvidedTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvidedTo As ClientExtensionProvidedTo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo ProvidedTo { Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo get(); void set(Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-136">获取或设置可以访问扩展的组织组成员身份。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-136">Gets or sets the organizational group membership that can access the extension.</span>
+          </span>
+          <span data-ttu-id="fae05-137">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-137">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-138">扩展 ProvidedTo 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-138">The extension ProvidedTo value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtensionInstallScope Scope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExtensionInstallScope Scope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public Property Scope As ExtensionInstallScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtensionInstallScope Scope { Microsoft::Exchange::WebServices::Data::ExtensionInstallScope get(); void set(Microsoft::Exchange::WebServices::Data::ExtensionInstallScope value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionInstallScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-139">获取或设置扩展范围。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-139">Gets or sets the extension scope.</span>
+          </span>
+          <span data-ttu-id="fae05-140">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-140">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-141">扩展范围中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-141">The extension scope.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecificUsers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList SpecificUsers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList SpecificUsers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpecificUsers As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ SpecificUsers { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-142">获取或设置此扩展提供给用户列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-142">Gets or sets the user list this extension is provided to.</span>
+          </span>
+          <span data-ttu-id="fae05-143">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-143">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-144">用户向其提供此扩展名的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-144">A list of users to which this extension is provided.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtensionType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExtensionType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As ExtensionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtensionType Type { Microsoft::Exchange::WebServices::Data::ExtensionType get(); void set(Microsoft::Exchange::WebServices::Data::ExtensionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fae05-145">获取或设置扩展类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-145">Gets or sets the extension type.</span>
+          </span>
+          <span data-ttu-id="fae05-146">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-146">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fae05-147">扩展类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fae05-147">The extension type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

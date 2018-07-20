@@ -1,0 +1,143 @@
+<Type Name="ServiceJsonDeserializationException" FullName="Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e709384c2eefb4646563d17df96730c69e87c60a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623362" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ServiceJsonDeserializationException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit ServiceJsonDeserializationException extends Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceJsonDeserializationException&#xA;Inherits ServiceLocalException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceJsonDeserializationException sealed : Microsoft::Exchange::WebServices::Data::ServiceLocalException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceLocalException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="da9d4-101">表示无法进行响应的 XML 反序列化时发生错误。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="da9d4-101">Represents an error that occurs when the XML for a response cannot be deserialized.</span>
+      </span>
+      <span data-ttu-id="da9d4-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="da9d4-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceJsonDeserializationException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceJsonDeserializationException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="da9d4-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> class.</span>
+          </span>
+          <span data-ttu-id="da9d4-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceJsonDeserializationException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceJsonDeserializationException(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <span data-ttu-id="da9d4-105">错误消息文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-105">The error message text.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="da9d4-106">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" />使用异常错误消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> class with an error message for the exception.</span>
+          </span>
+          <span data-ttu-id="da9d4-107">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-107">The <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceJsonDeserializationException (string message, Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceJsonDeserializationException(System::String ^ message, Exception ^ innerException);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">
+          <span data-ttu-id="da9d4-108">错误消息文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-108">The error message text.</span>
+          </span>
+        </param>
+        <param name="innerException">
+          <span data-ttu-id="da9d4-109">导致反序列化操作错误的异常。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-109">The exception that caused the deserialization error.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="da9d4-110">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" />一条错误消息和导致反序列化操作错误的异常的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-110">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> class with an error message and the exception that caused the deserialization error.</span>
+          </span>
+          <span data-ttu-id="da9d4-111">
+            <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String,System.Exception)" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="da9d4-111">The <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String,System.Exception)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

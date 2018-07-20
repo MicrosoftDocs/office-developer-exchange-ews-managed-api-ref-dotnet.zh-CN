@@ -1,0 +1,50 @@
+<Type Name="StreamingSubscriptionConnection+NotificationEventDelegate" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+NotificationEventDelegate">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="eaa5d4548252af7ef76514329860d85e567083df" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622637" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void StreamingSubscriptionConnection.NotificationEventDelegate(object sender, NotificationEventArgs args);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed StreamingSubscriptionConnection/NotificationEventDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection.NotificationEventDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub StreamingSubscriptionConnection.NotificationEventDelegate(sender As Object, args As NotificationEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public: delegate void StreamingSubscriptionConnection::NotificationEventDelegate(System::Object ^ sender, NotificationEventArgs ^ args);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="args" Type="Microsoft.Exchange.WebServices.Data.NotificationEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">
+      <span data-ttu-id="05476-101">接收事件 StreamingSubscriptionConnection 实例。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="05476-101">The StreamingSubscriptionConnection instance that received the events.</span>
+      </span>
+    </param>
+    <param name="args">
+      <span data-ttu-id="05476-102">事件数据。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="05476-102">The event data.</span>
+      </span>
+    </param>
+    <summary>
+      <span data-ttu-id="05476-103">表示从服务器接收通知时调用的委托。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="05476-103">Represents a delegate that is invoked when notifications are received from the server.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

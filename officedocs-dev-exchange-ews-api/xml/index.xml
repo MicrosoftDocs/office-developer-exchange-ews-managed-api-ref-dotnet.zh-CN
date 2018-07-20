@@ -1,0 +1,667 @@
+<Overview>
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bb436dc2ec80cb3d9e8544272474e753e096b748" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623298" />
+  </Metadata>
+  <Assemblies>
+    <Assembly Name="Microsoft.Exchange.WebServices.Auth" Version="15.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("(C) 2014 Microsoft Corporation. All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("15.00.0913.000")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft(R) Exchange")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("Microsoft(R) is a registered trademark of Microsoft Corporation.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.TokenValidation, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+    <Assembly Name="Microsoft.Exchange.WebServices" Version="15.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 b5 fc 90 e7 02 7f 67 87 1e 77 3a 8f de 89 38 c8 1d d4 02 ba 65 b9 20 1d 60 59 3e 96 c4 92 65 1e 88 9c c1 3f 14 15 eb b5 3f ac 11 31 ae 0b d3 33 c5 ee 60 21 67 2d 97 18 ea 31 a8 ae bd 0d a0 07 2f 25 d8 7d ba 6f c9 0f fd 59 8e d4 da 35 e4 4c 39 8c 45 43 07 e8 e3 3b 84 26 14 3d ae c9 f5 96 83 6f 97 c8 f7 47 50 e5 97 5c 64 e2 18 9f 45 de f4 6b 2a 2b 12 47 ad c3 65 2b f5 c3 08 05 5d a9 ]</AssemblyPublicKey>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("(C) 2014 Microsoft Corporation. All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("15.00.0913.015")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft(R) Exchange")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("Microsoft(R) is a registered trademark of Microsoft Corporation.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.RpcClientAccess.Handler, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.OutlookService.Service, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.UM.Hosting, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.Migration, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.Data.Storage, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.Data.ApplicationLogic, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.InfoWorker.Shared, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.Clients.SmimeAX,PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.Swordfish.Protocols.Owa2013, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.Connections.Eas, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.EDiscovery.MailboxSearch, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Office.CompliancePolicy.Exchange.Dar, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Admin.ControlPanel.WebService, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Shared, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.Services.Authentication, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.Services.EwsManagedApiShim, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.Clients.MowaHost.Common, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.FrontEnd.Protocols.Common, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.UM.Common, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.Services.Ews.MultiMailboxSearch, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Infoworker.ResourceBooking, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.InfoWorker.Shared.RB, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Swordfish.Extensions.Owa, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Clients.Owa2.Server.Protocol, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.Cafe.Routing, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.Services.Common, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.Services.Ews, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.InfoWorker.CalendarProvider, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.Test.Services.AutoDiscover, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Exchange.Test.Migration.MultiMailboxSearch,PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.EDiscovery.MailboxSearch.FunctionalTest, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Internal.Exchange.EDiscovery.MailboxSearch.UnitTest, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b5fc90e7027f67871e773a8fde8938c81dd402ba65b9201d60593e96c492651e889cc13f1415ebb53fac1131ae0bd333c5ee6021672d9718ea31a8aebd0da0072f25d87dba6fc90ffd598ed4da35e44c398c454307e8e33b8426143daec9f596836f97c8f74750e5975c64e2189f45def46b2a2b1247adc3652bf5c308055da9")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.Exchange.WebServices.Auth.Validation">
+      <Type Name="AppIdentityToken" Kind="Class" />
+      <Type Name="AuthToken" Kind="Class" />
+      <Type Name="IMetaDocumentRetriever" Kind="Interface" />
+      <Type Name="InvalidTokenAudienceException" Kind="Class" />
+      <Type Name="InvalidTokenFormatException" Kind="Class" />
+      <Type Name="InvalidTokenSignatureException" Kind="Class" />
+      <Type Name="InvalidTokenVersionException" Kind="Class" />
+      <Type Name="MetadataAccessException" Kind="Class" />
+      <Type Name="PublicKeyInfo" Kind="Class" />
+      <Type Name="TokenExpiredException" Kind="Class" />
+      <Type Name="TokenRequiresValidationException" Kind="Class" />
+      <Type Name="TokenValidationException" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Exchange.WebServices.Autodiscover">
+      <Type Name="AlternateMailbox" Kind="Class" />
+      <Type Name="AlternateMailboxCollection" Kind="Class" />
+      <Type Name="AutodiscoverError" Kind="Class" />
+      <Type Name="AutodiscoverErrorCode" Kind="Enumeration" />
+      <Type Name="AutodiscoverRedirectionUrlValidationCallback" Kind="Delegate" />
+      <Type Name="AutodiscoverRemoteException" Kind="Class" />
+      <Type Name="AutodiscoverResponse" Kind="Class" />
+      <Type Name="AutodiscoverResponseCollection`1" DisplayName="AutodiscoverResponseCollection&lt;TResponse&gt;" Kind="Class" />
+      <Type Name="AutodiscoverResponseException" Kind="Class" />
+      <Type Name="AutodiscoverService" Kind="Class" />
+      <Type Name="DocumentSharingLocation" Kind="Class" />
+      <Type Name="DocumentSharingLocationCollection" Kind="Class" />
+      <Type Name="DomainSettingError" Kind="Class" />
+      <Type Name="DomainSettingName" Kind="Enumeration" />
+      <Type Name="GetDomainSettingsResponse" Kind="Class" />
+      <Type Name="GetDomainSettingsResponseCollection" Kind="Class" />
+      <Type Name="GetUserSettingsResponse" Kind="Class" />
+      <Type Name="GetUserSettingsResponseCollection" Kind="Class" />
+      <Type Name="ProtocolConnection" Kind="Class" />
+      <Type Name="ProtocolConnectionCollection" Kind="Class" />
+      <Type Name="UserSettingError" Kind="Class" />
+      <Type Name="UserSettingName" Kind="Enumeration" />
+      <Type Name="WebClientUrl" Kind="Class" />
+      <Type Name="WebClientUrlCollection" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.Exchange.WebServices.Data">
+      <Type Name="AcceptMeetingInvitationMessage" Kind="Class" />
+      <Type Name="AccountIsLockedException" Kind="Class" />
+      <Type Name="AddressEntity" Kind="Class" />
+      <Type Name="AddressEntityCollection" Kind="Class" />
+      <Type Name="AffectedTaskOccurrence" Kind="Enumeration" />
+      <Type Name="AggregateType" Kind="Enumeration" />
+      <Type Name="AlternateId" Kind="Class" />
+      <Type Name="AlternateIdBase" Kind="Class" />
+      <Type Name="AlternatePublicFolderId" Kind="Class" />
+      <Type Name="AlternatePublicFolderItemId" Kind="Class" />
+      <Type Name="Appointment" Kind="Class" />
+      <Type Name="AppointmentOccurrenceId" Kind="Class" />
+      <Type Name="AppointmentSchema" Kind="Class" />
+      <Type Name="AppointmentType" Kind="Enumeration" />
+      <Type Name="ApprovalRequestData" Kind="Class" />
+      <Type Name="ArchiveItemResponse" Kind="Class" />
+      <Type Name="ArchiveTag" Kind="Class" />
+      <Type Name="Attachment" Kind="Class" />
+      <Type Name="AttachmentCollection" Kind="Class" />
+      <Type Name="Attendee" Kind="Class" />
+      <Type Name="AttendeeAvailability" Kind="Class" />
+      <Type Name="AttendeeCollection" Kind="Class" />
+      <Type Name="AttendeeInfo" Kind="Class" />
+      <Type Name="AutodiscoverLocalException" Kind="Class" />
+      <Type Name="AvailabilityData" Kind="Enumeration" />
+      <Type Name="AvailabilityOptions" Kind="Class" />
+      <Type Name="BasePropertySet" Kind="Enumeration" />
+      <Type Name="BatchServiceResponseException`1" DisplayName="BatchServiceResponseException&lt;TResponse&gt;" Kind="Class" />
+      <Type Name="BodyType" Kind="Enumeration" />
+      <Type Name="ByteArrayArray" Kind="Class" />
+      <Type Name="CalendarActionResults" Kind="Class" />
+      <Type Name="CalendarEvent" Kind="Class" />
+      <Type Name="CalendarEventDetails" Kind="Class" />
+      <Type Name="CalendarFolder" Kind="Class" />
+      <Type Name="CalendarResponseMessage`1" DisplayName="CalendarResponseMessage&lt;TMessage&gt;" Kind="Class" />
+      <Type Name="CalendarResponseMessageBase`1" DisplayName="CalendarResponseMessageBase&lt;TMessage&gt;" Kind="Class" />
+      <Type Name="CalendarView" Kind="Class" />
+      <Type Name="CancelMeetingMessage" Kind="Class" />
+      <Type Name="Change" Kind="Class" />
+      <Type Name="ChangeCollection`1" DisplayName="ChangeCollection&lt;TChange&gt;" Kind="Class" />
+      <Type Name="ChangeHighlights" Kind="Class" />
+      <Type Name="ChangeType" Kind="Enumeration" />
+      <Type Name="ClientAccessTokenRequest" Kind="Class" />
+      <Type Name="ClientAccessTokenType" Kind="Enumeration" />
+      <Type Name="ClientApp" Kind="Class" />
+      <Type Name="ClientAppMetadata" Kind="Class" />
+      <Type Name="ClientCertificateCredentials" Kind="Class" />
+      <Type Name="ClientExtension" Kind="Class" />
+      <Type Name="ClientExtensionProvidedTo" Kind="Enumeration" />
+      <Type Name="ComparisonMode" Kind="Enumeration" />
+      <Type Name="CompleteName" Kind="Class" />
+      <Type Name="ComplexProperty" Kind="Class" />
+      <Type Name="ComplexPropertyCollection`1" DisplayName="ComplexPropertyCollection&lt;TComplexProperty&gt;" Kind="Class" />
+      <Type Name="Conflict" Kind="Class" />
+      <Type Name="ConflictResolutionMode" Kind="Enumeration" />
+      <Type Name="ConflictType" Kind="Enumeration" />
+      <Type Name="ConnectingIdType" Kind="Enumeration" />
+      <Type Name="ConnectionFailureCause" Kind="Enumeration" />
+      <Type Name="Contact" Kind="Class" />
+      <Type Name="ContactEntity" Kind="Class" />
+      <Type Name="ContactEntityCollection" Kind="Class" />
+      <Type Name="ContactGroup" Kind="Class" />
+      <Type Name="ContactGroupSchema" Kind="Class" />
+      <Type Name="ContactPhoneEntity" Kind="Class" />
+      <Type Name="ContactPhoneEntityCollection" Kind="Class" />
+      <Type Name="ContactSchema" Kind="Class" />
+      <Type Name="ContactsFolder" Kind="Class" />
+      <Type Name="ContactSource" Kind="Enumeration" />
+      <Type Name="ContainmentMode" Kind="Enumeration" />
+      <Type Name="Conversation" Kind="Class" />
+      <Type Name="ConversationFlagStatus" Kind="Enumeration" />
+      <Type Name="ConversationId" Kind="Class" />
+      <Type Name="ConversationIndexedItemView" Kind="Class" />
+      <Type Name="ConversationNode" Kind="Class" />
+      <Type Name="ConversationNodeCollection" Kind="Class" />
+      <Type Name="ConversationQueryTraversal" Kind="Enumeration" />
+      <Type Name="ConversationRequest" Kind="Class" />
+      <Type Name="ConversationResponse" Kind="Class" />
+      <Type Name="ConversationSchema" Kind="Class" />
+      <Type Name="ConversationSortOrder" Kind="Enumeration" />
+      <Type Name="ConvertIdResponse" Kind="Class" />
+      <Type Name="CreateAttachmentException" Kind="Class" />
+      <Type Name="CreateAttachmentResponse" Kind="Class" />
+      <Type Name="CreateRuleOperation" Kind="Class" />
+      <Type Name="CustomXmlSerializationDelegate" Kind="Delegate" />
+      <Type Name="DateTimePrecision" Kind="Enumeration" />
+      <Type Name="DayOfTheWeek" Kind="Enumeration" />
+      <Type Name="DayOfTheWeekCollection" Kind="Class" />
+      <Type Name="DayOfTheWeekIndex" Kind="Enumeration" />
+      <Type Name="DeclineMeetingInvitationMessage" Kind="Class" />
+      <Type Name="DefaultExtendedPropertySet" Kind="Enumeration" />
+      <Type Name="DelegateFolderPermissionLevel" Kind="Enumeration" />
+      <Type Name="DelegateInformation" Kind="Class" />
+      <Type Name="DelegatePermissions" Kind="Class" />
+      <Type Name="DelegateUser" Kind="Class" />
+      <Type Name="DelegateUserResponse" Kind="Class" />
+      <Type Name="DeleteAttachmentException" Kind="Class" />
+      <Type Name="DeleteAttachmentResponse" Kind="Class" />
+      <Type Name="DeletedOccurrenceInfo" Kind="Class" />
+      <Type Name="DeletedOccurrenceInfoCollection" Kind="Class" />
+      <Type Name="DeleteMode" Kind="Enumeration" />
+      <Type Name="DeleteRuleOperation" Kind="Class" />
+      <Type Name="DictionaryEntryProperty`1" DisplayName="DictionaryEntryProperty&lt;TKey&gt;" Kind="Class" />
+      <Type Name="DictionaryProperty`2" DisplayName="DictionaryProperty&lt;TKey,TEntry&gt;" Kind="Class" />
+      <Type Name="DisableReasonType" Kind="Enumeration" />
+      <Type Name="DiscoverySearchConfiguration" Kind="Class" />
+      <Type Name="EffectiveRights" Kind="Enumeration" />
+      <Type Name="ElcFolderType" Kind="Enumeration" />
+      <Type Name="EmailAddress" Kind="Class" />
+      <Type Name="EmailAddressCollection" Kind="Class" />
+      <Type Name="EmailAddressDictionary" Kind="Class" />
+      <Type Name="EmailAddressEntity" Kind="Class" />
+      <Type Name="EmailAddressEntityCollection" Kind="Class" />
+      <Type Name="EmailAddressEntry" Kind="Class" />
+      <Type Name="EmailAddressKey" Kind="Enumeration" />
+      <Type Name="EmailMessage" Kind="Class" />
+      <Type Name="EmailMessageSchema" Kind="Class" />
+      <Type Name="EmailPosition" Kind="Enumeration" />
+      <Type Name="EmailUserEntity" Kind="Class" />
+      <Type Name="EmailUserEntityCollection" Kind="Class" />
+      <Type Name="EnhancedLocation" Kind="Class" />
+      <Type Name="EntityExtractionResult" Kind="Class" />
+      <Type Name="EventType" Kind="Enumeration" />
+      <Type Name="ExchangeCredentials" Kind="Class" />
+      <Type Name="ExchangeServerInfo" Kind="Class" />
+      <Type Name="ExchangeService" Kind="Class" />
+      <Type Name="ExchangeService+RenderingMode" Kind="Enumeration" />
+      <Type Name="ExchangeServiceBase" Kind="Class" />
+      <Type Name="ExchangeVersion" Kind="Enumeration" />
+      <Type Name="ExpandGroupResults" Kind="Class" />
+      <Type Name="ExtendedAttribute" Kind="Class" />
+      <Type Name="ExtendedAttributes" Kind="Class" />
+      <Type Name="ExtendedProperty" Kind="Class" />
+      <Type Name="ExtendedPropertyCollection" Kind="Class" />
+      <Type Name="ExtendedPropertyDefinition" Kind="Class" />
+      <Type Name="ExtensionInstallScope" Kind="Enumeration" />
+      <Type Name="ExtensionType" Kind="Enumeration" />
+      <Type Name="ExtractedEntity" Kind="Class" />
+      <Type Name="FailedSearchMailbox" Kind="Class" />
+      <Type Name="FileAsMapping" Kind="Enumeration" />
+      <Type Name="FileAttachment" Kind="Class" />
+      <Type Name="FindConversationResults" Kind="Class" />
+      <Type Name="FindFoldersResults" Kind="Class" />
+      <Type Name="FindItemsResults`1" DisplayName="FindItemsResults&lt;TItem&gt;" Kind="Class" />
+      <Type Name="Flag" Kind="Class" />
+      <Type Name="FlaggedForAction" Kind="Enumeration" />
+      <Type Name="Folder" Kind="Class" />
+      <Type Name="FolderChange" Kind="Class" />
+      <Type Name="FolderEvent" Kind="Class" />
+      <Type Name="FolderId" Kind="Class" />
+      <Type Name="FolderIdCollection" Kind="Class" />
+      <Type Name="FolderPermission" Kind="Class" />
+      <Type Name="FolderPermissionCollection" Kind="Class" />
+      <Type Name="FolderPermissionLevel" Kind="Enumeration" />
+      <Type Name="FolderPermissionReadAccess" Kind="Enumeration" />
+      <Type Name="FolderSchema" Kind="Class" />
+      <Type Name="FolderTraversal" Kind="Enumeration" />
+      <Type Name="FolderView" Kind="Class" />
+      <Type Name="FreeBusyViewType" Kind="Enumeration" />
+      <Type Name="GetAttachmentResponse" Kind="Class" />
+      <Type Name="GetClientAccessTokenResponse" Kind="Class" />
+      <Type Name="GetClientExtensionResponse" Kind="Class" />
+      <Type Name="GetConversationItemsResponse" Kind="Class" />
+      <Type Name="GetDiscoverySearchConfigurationResponse" Kind="Class" />
+      <Type Name="GetEncryptionConfigurationResponse" Kind="Class" />
+      <Type Name="GetEventsResults" Kind="Class" />
+      <Type Name="GetFolderResponse" Kind="Class" />
+      <Type Name="GetHoldOnMailboxesResponse" Kind="Class" />
+      <Type Name="GetItemResponse" Kind="Class" />
+      <Type Name="GetNonIndexableItemDetailsParameters" Kind="Class" />
+      <Type Name="GetNonIndexableItemDetailsResponse" Kind="Class" />
+      <Type Name="GetNonIndexableItemStatisticsParameters" Kind="Class" />
+      <Type Name="GetNonIndexableItemStatisticsResponse" Kind="Class" />
+      <Type Name="GetSearchableMailboxesResponse" Kind="Class" />
+      <Type Name="GetUserAvailabilityResults" Kind="Class" />
+      <Type Name="GetUserRetentionPolicyTagsResponse" Kind="Class" />
+      <Type Name="GroupedFindItemsResults`1" DisplayName="GroupedFindItemsResults&lt;TItem&gt;" Kind="Class" />
+      <Type Name="Grouping" Kind="Class" />
+      <Type Name="GroupMember" Kind="Class" />
+      <Type Name="GroupMemberCollection" Kind="Class" />
+      <Type Name="HighlightTerm" Kind="Class" />
+      <Type Name="HoldAction" Kind="Enumeration" />
+      <Type Name="HoldStatus" Kind="Enumeration" />
+      <Type Name="IconIndex" Kind="Enumeration" />
+      <Type Name="IdFormat" Kind="Enumeration" />
+      <Type Name="IFileAttachmentContentHandler" Kind="Interface" />
+      <Type Name="ImAddressDictionary" Kind="Class" />
+      <Type Name="ImAddressEntry" Kind="Class" />
+      <Type Name="ImAddressKey" Kind="Enumeration" />
+      <Type Name="ImpersonatedUserId" Kind="Class" />
+      <Type Name="Importance" Kind="Enumeration" />
+      <Type Name="IndexedPropertyDefinition" Kind="Class" />
+      <Type Name="InternetMessageHeader" Kind="Class" />
+      <Type Name="InternetMessageHeaderCollection" Kind="Class" />
+      <Type Name="ISearchStringProvider" Kind="Interface" />
+      <Type Name="Item" Kind="Class" />
+      <Type Name="ItemAttachment" Kind="Class" />
+      <Type Name="ItemAttachment`1" DisplayName="ItemAttachment&lt;TItem&gt;" Kind="Class" />
+      <Type Name="ItemChange" Kind="Class" />
+      <Type Name="ItemCollection`1" DisplayName="ItemCollection&lt;TItem&gt;" Kind="Class" />
+      <Type Name="ItemEvent" Kind="Class" />
+      <Type Name="ItemFlagStatus" Kind="Enumeration" />
+      <Type Name="ItemGroup`1" DisplayName="ItemGroup&lt;TItem&gt;" Kind="Class" />
+      <Type Name="ItemId" Kind="Class" />
+      <Type Name="ItemIdCollection" Kind="Class" />
+      <Type Name="ItemIndexError" Kind="Enumeration" />
+      <Type Name="ItemSchema" Kind="Class" />
+      <Type Name="ItemTraversal" Kind="Enumeration" />
+      <Type Name="ItemView" Kind="Class" />
+      <Type Name="ITraceListener" Kind="Interface" />
+      <Type Name="KeywordStatisticsSearchResult" Kind="Class" />
+      <Type Name="LegacyFreeBusyStatus" Kind="Enumeration" />
+      <Type Name="LobbyBypass" Kind="Enumeration" />
+      <Type Name="LocationSource" Kind="Enumeration" />
+      <Type Name="LogicalOperator" Kind="Enumeration" />
+      <Type Name="Mailbox" Kind="Class" />
+      <Type Name="MailboxHoldResult" Kind="Class" />
+      <Type Name="MailboxHoldStatus" Kind="Class" />
+      <Type Name="MailboxQuery" Kind="Class" />
+      <Type Name="MailboxSearchLocation" Kind="Enumeration" />
+      <Type Name="MailboxSearchScope" Kind="Class" />
+      <Type Name="MailboxStatisticsItem" Kind="Class" />
+      <Type Name="MailboxType" Kind="Enumeration" />
+      <Type Name="ManagedFolderInformation" Kind="Class" />
+      <Type Name="ManagementRoles" Kind="Class" />
+      <Type Name="MapiPropertyType" Kind="Enumeration" />
+      <Type Name="MarkAsJunkResponse" Kind="Class" />
+      <Type Name="MeetingAttendeeType" Kind="Enumeration" />
+      <Type Name="MeetingCancellation" Kind="Class" />
+      <Type Name="MeetingCancellationSchema" Kind="Class" />
+      <Type Name="MeetingMessage" Kind="Class" />
+      <Type Name="MeetingMessageSchema" Kind="Class" />
+      <Type Name="MeetingRequest" Kind="Class" />
+      <Type Name="MeetingRequestSchema" Kind="Class" />
+      <Type Name="MeetingRequestsDeliveryScope" Kind="Enumeration" />
+      <Type Name="MeetingRequestType" Kind="Enumeration" />
+      <Type Name="MeetingResponse" Kind="Class" />
+      <Type Name="MeetingResponseSchema" Kind="Class" />
+      <Type Name="MeetingResponseType" Kind="Enumeration" />
+      <Type Name="MeetingSuggestion" Kind="Class" />
+      <Type Name="MeetingSuggestionCollection" Kind="Class" />
+      <Type Name="MemberStatus" Kind="Enumeration" />
+      <Type Name="MessageBody" Kind="Class" />
+      <Type Name="MessageDisposition" Kind="Enumeration" />
+      <Type Name="MimeContent" Kind="Class" />
+      <Type Name="MobilePhone" Kind="Class" />
+      <Type Name="Month" Kind="Enumeration" />
+      <Type Name="MoveCopyFolderResponse" Kind="Class" />
+      <Type Name="MoveCopyItemResponse" Kind="Class" />
+      <Type Name="NameResolution" Kind="Class" />
+      <Type Name="NameResolutionCollection" Kind="Class" />
+      <Type Name="NonIndexableItem" Kind="Class" />
+      <Type Name="NonIndexableItemDetailsResult" Kind="Class" />
+      <Type Name="NonIndexableItemParameters" Kind="Class" />
+      <Type Name="NonIndexableItemStatistic" Kind="Class" />
+      <Type Name="NormalizedBody" Kind="Class" />
+      <Type Name="NotificationEvent" Kind="Class" />
+      <Type Name="NotificationEventArgs" Kind="Class" />
+      <Type Name="OAuthCredentials" Kind="Class" />
+      <Type Name="OccurrenceInfo" Kind="Class" />
+      <Type Name="OccurrenceInfoCollection" Kind="Class" />
+      <Type Name="OffsetBasePoint" Kind="Enumeration" />
+      <Type Name="OnlineMeetingAccessLevel" Kind="Enumeration" />
+      <Type Name="OnlineMeetingSettings" Kind="Class" />
+      <Type Name="OofExternalAudience" Kind="Enumeration" />
+      <Type Name="OofReply" Kind="Class" />
+      <Type Name="OofSettings" Kind="Class" />
+      <Type Name="OofState" Kind="Enumeration" />
+      <Type Name="OrderByCollection" Kind="Class" />
+      <Type Name="PagedView" Kind="Class" />
+      <Type Name="PermissionScope" Kind="Enumeration" />
+      <Type Name="PersonaPostalAddress" Kind="Class" />
+      <Type Name="PhoneCall" Kind="Class" />
+      <Type Name="PhoneCallState" Kind="Enumeration" />
+      <Type Name="PhoneEntity" Kind="Class" />
+      <Type Name="PhoneEntityCollection" Kind="Class" />
+      <Type Name="PhoneNumberDictionary" Kind="Class" />
+      <Type Name="PhoneNumberEntry" Kind="Class" />
+      <Type Name="PhoneNumberKey" Kind="Enumeration" />
+      <Type Name="PhysicalAddressDictionary" Kind="Class" />
+      <Type Name="PhysicalAddressEntry" Kind="Class" />
+      <Type Name="PhysicalAddressIndex" Kind="Enumeration" />
+      <Type Name="PhysicalAddressKey" Kind="Enumeration" />
+      <Type Name="PolicyTag" Kind="Class" />
+      <Type Name="PostItem" Kind="Class" />
+      <Type Name="PostItemSchema" Kind="Class" />
+      <Type Name="PostReply" Kind="Class" />
+      <Type Name="Presenters" Kind="Enumeration" />
+      <Type Name="PreviewItemBaseShape" Kind="Enumeration" />
+      <Type Name="PreviewItemMailbox" Kind="Class" />
+      <Type Name="PreviewItemResponseShape" Kind="Class" />
+      <Type Name="PropertyDefinition" Kind="Class" />
+      <Type Name="PropertyDefinitionBase" Kind="Class" />
+      <Type Name="PropertyException" Kind="Class" />
+      <Type Name="PropertySet" Kind="Class" />
+      <Type Name="PullSubscription" Kind="Class" />
+      <Type Name="PushSubscription" Kind="Class" />
+      <Type Name="Recurrence" Kind="Class" />
+      <Type Name="Recurrence+DailyPattern" Kind="Class" />
+      <Type Name="Recurrence+DailyRegenerationPattern" Kind="Class" />
+      <Type Name="Recurrence+IntervalPattern" Kind="Class" />
+      <Type Name="Recurrence+MonthlyPattern" Kind="Class" />
+      <Type Name="Recurrence+MonthlyRegenerationPattern" Kind="Class" />
+      <Type Name="Recurrence+RelativeMonthlyPattern" Kind="Class" />
+      <Type Name="Recurrence+RelativeYearlyPattern" Kind="Class" />
+      <Type Name="Recurrence+WeeklyPattern" Kind="Class" />
+      <Type Name="Recurrence+WeeklyRegenerationPattern" Kind="Class" />
+      <Type Name="Recurrence+YearlyPattern" Kind="Class" />
+      <Type Name="Recurrence+YearlyRegenerationPattern" Kind="Class" />
+      <Type Name="RecurringAppointmentMasterId" Kind="Class" />
+      <Type Name="ResolveNameSearchLocation" Kind="Enumeration" />
+      <Type Name="ResponseActions" Kind="Enumeration" />
+      <Type Name="ResponseHeadersCapturedHandler" Kind="Delegate" />
+      <Type Name="ResponseMessage" Kind="Class" />
+      <Type Name="ResponseMessageType" Kind="Enumeration" />
+      <Type Name="ResponseObject`1" DisplayName="ResponseObject&lt;TMessage&gt;" Kind="Class" />
+      <Type Name="RetentionActionType" Kind="Enumeration" />
+      <Type Name="RetentionPolicyTag" Kind="Class" />
+      <Type Name="RetentionTagBase" Kind="Class" />
+      <Type Name="RetentionType" Kind="Enumeration" />
+      <Type Name="Rule" Kind="Class" />
+      <Type Name="RuleActions" Kind="Class" />
+      <Type Name="RuleCollection" Kind="Class" />
+      <Type Name="RuleError" Kind="Class" />
+      <Type Name="RuleErrorCode" Kind="Enumeration" />
+      <Type Name="RuleOperation" Kind="Class" />
+      <Type Name="RuleOperationError" Kind="Class" />
+      <Type Name="RuleOperationErrorCollection" Kind="Class" />
+      <Type Name="RulePredicateDateRange" Kind="Class" />
+      <Type Name="RulePredicates" Kind="Class" />
+      <Type Name="RulePredicateSizeRange" Kind="Class" />
+      <Type Name="RuleProperty" Kind="Enumeration" />
+      <Type Name="SearchableMailbox" Kind="Class" />
+      <Type Name="SearchFilter" Kind="Class" />
+      <Type Name="SearchFilter+ContainsSubstring" Kind="Class" />
+      <Type Name="SearchFilter+ExcludesBitmask" Kind="Class" />
+      <Type Name="SearchFilter+Exists" Kind="Class" />
+      <Type Name="SearchFilter+IsEqualTo" Kind="Class" />
+      <Type Name="SearchFilter+IsGreaterThan" Kind="Class" />
+      <Type Name="SearchFilter+IsGreaterThanOrEqualTo" Kind="Class" />
+      <Type Name="SearchFilter+IsLessThan" Kind="Class" />
+      <Type Name="SearchFilter+IsLessThanOrEqualTo" Kind="Class" />
+      <Type Name="SearchFilter+IsNotEqualTo" Kind="Class" />
+      <Type Name="SearchFilter+Not" Kind="Class" />
+      <Type Name="SearchFilter+PropertyBasedFilter" Kind="Class" />
+      <Type Name="SearchFilter+RelationalFilter" Kind="Class" />
+      <Type Name="SearchFilter+SearchFilterCollection" Kind="Class" />
+      <Type Name="SearchFolder" Kind="Class" />
+      <Type Name="SearchFolderParameters" Kind="Class" />
+      <Type Name="SearchFolderSchema" Kind="Class" />
+      <Type Name="SearchFolderTraversal" Kind="Enumeration" />
+      <Type Name="SearchMailboxesParameters" Kind="Class" />
+      <Type Name="SearchMailboxesResponse" Kind="Class" />
+      <Type Name="SearchMailboxesResult" Kind="Class" />
+      <Type Name="SearchPageDirection" Kind="Enumeration" />
+      <Type Name="SearchPreviewItem" Kind="Class" />
+      <Type Name="SearchRefinerItem" Kind="Class" />
+      <Type Name="SearchResultType" Kind="Enumeration" />
+      <Type Name="SeekToConditionItemView" Kind="Class" />
+      <Type Name="SendCancellationsMode" Kind="Enumeration" />
+      <Type Name="SendInvitationsMode" Kind="Enumeration" />
+      <Type Name="SendInvitationsOrCancellationsMode" Kind="Enumeration" />
+      <Type Name="SendPrompt" Kind="Enumeration" />
+      <Type Name="Sensitivity" Kind="Enumeration" />
+      <Type Name="ServerBusyException" Kind="Class" />
+      <Type Name="ServiceError" Kind="Enumeration" />
+      <Type Name="ServiceId" Kind="Class" />
+      <Type Name="ServiceJsonDeserializationException" Kind="Class" />
+      <Type Name="ServiceLocalException" Kind="Class" />
+      <Type Name="ServiceObject" Kind="Class" />
+      <Type Name="ServiceObjectPropertyDefinition" Kind="Class" />
+      <Type Name="ServiceObjectPropertyException" Kind="Class" />
+      <Type Name="ServiceObjectSchema" Kind="Class" />
+      <Type Name="ServiceObjectType" Kind="Enumeration" />
+      <Type Name="ServiceRemoteException" Kind="Class" />
+      <Type Name="ServiceRequestException" Kind="Class" />
+      <Type Name="ServiceResponse" Kind="Class" />
+      <Type Name="ServiceResponseCollection`1" DisplayName="ServiceResponseCollection&lt;TResponse&gt;" Kind="Class" />
+      <Type Name="ServiceResponseException" Kind="Class" />
+      <Type Name="ServiceResult" Kind="Enumeration" />
+      <Type Name="ServiceValidationException" Kind="Class" />
+      <Type Name="ServiceVersionException" Kind="Class" />
+      <Type Name="ServiceXmlDeserializationException" Kind="Class" />
+      <Type Name="ServiceXmlSerializationException" Kind="Class" />
+      <Type Name="SetClientExtensionAction" Kind="Class" />
+      <Type Name="SetClientExtensionActionId" Kind="Enumeration" />
+      <Type Name="SetHoldOnMailboxesParameters" Kind="Class" />
+      <Type Name="SetHoldOnMailboxesResponse" Kind="Class" />
+      <Type Name="SetRuleOperation" Kind="Class" />
+      <Type Name="SortDirection" Kind="Enumeration" />
+      <Type Name="StandardUser" Kind="Enumeration" />
+      <Type Name="StreamingSubscription" Kind="Class" />
+      <Type Name="StreamingSubscriptionConnection" Kind="Class" />
+      <Type Name="StreamingSubscriptionConnection+NotificationEventDelegate" Kind="Delegate" />
+      <Type Name="StreamingSubscriptionConnection+SubscriptionErrorDelegate" Kind="Delegate" />
+      <Type Name="StringList" Kind="Class" />
+      <Type Name="SubscriptionBase" Kind="Class" />
+      <Type Name="SubscriptionErrorEventArgs" Kind="Class" />
+      <Type Name="Suggestion" Kind="Class" />
+      <Type Name="SuggestionQuality" Kind="Enumeration" />
+      <Type Name="SyncFolderHierarchyResponse" Kind="Class" />
+      <Type Name="SyncFolderItemsResponse" Kind="Class" />
+      <Type Name="SyncFolderItemsScope" Kind="Enumeration" />
+      <Type Name="SyncResponse`2" DisplayName="SyncResponse&lt;TServiceObject,TChange&gt;" Kind="Class" />
+      <Type Name="Task" Kind="Class" />
+      <Type Name="TaskDelegationState" Kind="Enumeration" />
+      <Type Name="TaskMode" Kind="Enumeration" />
+      <Type Name="TaskSchema" Kind="Class" />
+      <Type Name="TasksFolder" Kind="Class" />
+      <Type Name="TaskStatus" Kind="Enumeration" />
+      <Type Name="TaskSuggestion" Kind="Class" />
+      <Type Name="TaskSuggestionCollection" Kind="Class" />
+      <Type Name="TeamMailboxLifecycleState" Kind="Enumeration" />
+      <Type Name="TextBody" Kind="Class" />
+      <Type Name="TimeSuggestion" Kind="Class" />
+      <Type Name="TimeWindow" Kind="Class" />
+      <Type Name="TimeZoneConversionException" Kind="Class" />
+      <Type Name="TokenCredentials" Kind="Class" />
+      <Type Name="TraceFlags" Kind="Enumeration" />
+      <Type Name="UnifiedMessaging" Kind="Class" />
+      <Type Name="UniqueBody" Kind="Class" />
+      <Type Name="UpdateInboxRulesException" Kind="Class" />
+      <Type Name="UpdateItemResponse" Kind="Class" />
+      <Type Name="UrlEntity" Kind="Class" />
+      <Type Name="UrlEntityCollection" Kind="Class" />
+      <Type Name="UserConfiguration" Kind="Class" />
+      <Type Name="UserConfigurationDictionary" Kind="Class" />
+      <Type Name="UserConfigurationDictionaryObjectType" Kind="Enumeration" />
+      <Type Name="UserConfigurationProperties" Kind="Enumeration" />
+      <Type Name="UserId" Kind="Class" />
+      <Type Name="ViewBase" Kind="Class" />
+      <Type Name="ViewFilter" Kind="Enumeration" />
+      <Type Name="VotingInformation" Kind="Class" />
+      <Type Name="VotingOptionData" Kind="Class" />
+      <Type Name="WebCredentials" Kind="Class" />
+      <Type Name="WellKnownFolderName" Kind="Enumeration" />
+      <Type Name="WorkingHours" Kind="Class" />
+      <Type Name="WSSecurityBasedCredentials" Kind="Class" />
+      <Type Name="X509CertificateCredentials" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Untitled</Title>
+</Overview>

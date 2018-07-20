@@ -1,0 +1,170 @@
+<Type Name="Recurrence+YearlyPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+YearlyPattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="271fbf9a2c1f60f2970c892a025e3cace0256d68" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622658" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Recurrence.YearlyPattern : Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Recurrence/YearlyPattern extends Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Recurrence.YearlyPattern&#xA;Inherits Recurrence" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::YearlyPattern sealed : Microsoft::Exchange::WebServices::Data::Recurrence" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="5326c-101">代表其中每个出现发生的情况在特定日期每年定期模式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5326c-101">Represents a recurrence pattern where each occurrence happens on a specific day every year.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public YearlyPattern ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; YearlyPattern();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="5326c-102">初始化 Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-102">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public YearlyPattern (DateTime startDate, Microsoft.Exchange.WebServices.Data.Month month, int dayOfMonth);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime startDate, valuetype Microsoft.Exchange.WebServices.Data.Month month, int32 dayOfMonth) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern.#ctor(System.DateTime,Microsoft.Exchange.WebServices.Data.Month,System.Int32)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; YearlyPattern(DateTime startDate, Microsoft::Exchange::WebServices::Data::Month month, int dayOfMonth);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="startDate" Type="System.DateTime" />
+        <Parameter Name="month" Type="Microsoft.Exchange.WebServices.Data.Month" />
+        <Parameter Name="dayOfMonth" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="startDate">
+          <span data-ttu-id="5326c-103">日期和定期开始的时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-103">The date and time when the recurrence starts.</span>
+          </span>
+        </param>
+        <param name="month">
+          <span data-ttu-id="5326c-104">月份的每个出现发生的情况。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-104">The month of the year each occurrence happens.</span>
+          </span>
+        </param>
+        <param name="dayOfMonth">
+          <span data-ttu-id="5326c-105">每次发生相应月份的日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-105">The day of the month each occurrence happens.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="5326c-106">初始化 Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-106">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfMonth">
+      <MemberSignature Language="C#" Value="public int DayOfMonth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DayOfMonth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern.DayOfMonth" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfMonth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DayOfMonth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5326c-107">获取或设置每次发生的情况月的天。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-107">Gets or sets the day of the month when each occurrence happens.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5326c-108">一个整数值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-108">An integer value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="5326c-109">
+            <para>DayOfMonth 必须介于 1 和 31 之间。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-109">
+              <para>DayOfMonth must be between 1 and 31.            </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Month">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Month Month { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Month Month" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern.Month" />
+      <MemberSignature Language="VB.NET" Value="Public Property Month As Month" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Month Month { Microsoft::Exchange::WebServices::Data::Month get(); void set(Microsoft::Exchange::WebServices::Data::Month value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Month</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5326c-110">获取或设置月份的每个出现发生的情况。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-110">Gets or sets the month of the year when each occurrence happens.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5326c-111">月枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5326c-111">One of the Month enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

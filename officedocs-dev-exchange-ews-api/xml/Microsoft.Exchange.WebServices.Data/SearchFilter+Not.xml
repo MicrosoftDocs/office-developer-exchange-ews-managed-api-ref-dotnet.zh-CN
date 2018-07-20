@@ -1,0 +1,252 @@
+<Type Name="SearchFilter+Not" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+Not">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a6b71a78146fa6e44700e8ce8236965526d25dee" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622887" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.Not : Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/Not extends Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.Not&#xA;Inherits SearchFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::Not sealed : Microsoft::Exchange::WebServices::Data::SearchFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="80fa0-101">代表 Boolean<b></b>适用于另一个搜索筛选器的搜索筛选器。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="80fa0-101">Represents search filter that applies a Boolean <b>NOT</b> to another search filter.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="80fa0-102">
+        <para>应用程序可以使用<see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />类来定义如<b></b>（其他筛选器） 的条件。</para>
+        <para>下面是可用于的搜索筛选器类<see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />类：</para>
+        <list type="bullet">
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+            </description>
+          </item>
+          <item>
+            <description>
+              <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+            </description>
+          </item>
+        </list>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="80fa0-102">
+          <para>Applications can use the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> class to define conditions such as <b>NOT</b>(other filter).</para>
+          <para>The following are the search filter classes that can be used with the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> class: </para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Not ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Not();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="80fa0-103">初始化 SearchFilter.Not 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80fa0-103">Initializes a new instance of the SearchFilter.Not class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Not (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Not(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">
+          <span data-ttu-id="80fa0-104">对搜索筛选器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80fa0-104">The search filter to negate.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="80fa0-105">使用指定的搜索筛选器初始化 SearchFilter.Not 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80fa0-105">Initializes a new instance of the SearchFilter.Not class with the specified search filter.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchFilter">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter SearchFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter SearchFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.SearchFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchFilter As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ SearchFilter { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(); void set(Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80fa0-106">获取或设置要否定的搜索筛选器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80fa0-106">Gets or sets the search filter to negate.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="80fa0-107">对搜索筛选器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80fa0-107">The search filter to negate.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

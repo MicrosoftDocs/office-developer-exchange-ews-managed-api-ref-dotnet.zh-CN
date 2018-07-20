@@ -1,0 +1,361 @@
+<Type Name="AttachmentCollection" FullName="Microsoft.Exchange.WebServices.Data.AttachmentCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="99b4cb0d83e11922d5457d02b89f84ea23ee48c3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622702" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AttachmentCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttachmentCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Attachment&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttachmentCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttachmentCollection&#xA;Inherits ComplexPropertyCollection(Of Attachment)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttachmentCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::Attachment ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.Attachment&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.Attachment</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1941a-101">定义项目的附件集合。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1941a-101">Defines an item's attachment collection.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddFileAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddFileAttachment(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFileAttachment (fileName As String) As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ AddFileAttachment(System::String ^ fileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">
+          <span data-ttu-id="1941a-102">要添加到集合的文件路径。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-102">The path to a file to be added to the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1941a-103">添加到集合的文件附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-103">Adds a file attachment to the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1941a-104">文件附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-104">A file attachment.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFileAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment (string name, byte[] content);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment(string name, unsigned int8[] content) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddFileAttachment(System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFileAttachment (name As String, content As Byte()) As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ AddFileAttachment(System::String ^ name, cli::array &lt;System::Byte&gt; ^ content);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="content" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="1941a-105">文件附件的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-105">The file attachment's display name.</span>
+          </span>
+        </param>
+        <param name="content">
+          <span data-ttu-id="1941a-106">一个字节数组表示的文件附件的内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-106">A byte array that represents the content of the file attachment.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1941a-107">添加到集合包含的文件的文件附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-107">Adds a file attachment to the collection that contains the file.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1941a-108">文件附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-108">A file attachment.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFileAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment (string name, System.IO.Stream contentStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment(string name, class System.IO.Stream contentStream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddFileAttachment(System.String,System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFileAttachment (name As String, contentStream As Stream) As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ AddFileAttachment(System::String ^ name, System::IO::Stream ^ contentStream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="contentStream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="1941a-109">文件附件的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-109">The file attachment's display name.</span>
+          </span>
+        </param>
+        <param name="contentStream">
+          <span data-ttu-id="1941a-110">包含文件附加到集合的数据流。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-110">The data stream that contains the file to be attached to the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1941a-111">使用数据流包含的文件添加到集合的文件附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-111">Adds a file attachment to the collection by using a data stream that contains the file.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1941a-112">文件附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-112">A file attachment.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFileAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment (string name, string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FileAttachment AddFileAttachment(string name, string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddFileAttachment(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFileAttachment (name As String, fileName As String) As FileAttachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FileAttachment ^ AddFileAttachment(System::String ^ name, System::String ^ fileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FileAttachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="1941a-113">文件附件的显示名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-113">The file attachment's display name.</span>
+          </span>
+        </param>
+        <param name="fileName">
+          <span data-ttu-id="1941a-114">文件附件的文件名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-114">The file attachment's file name.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1941a-115">添加到集合的文件附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-115">Adds a file attachment to the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1941a-116">文件附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-116">A file attachment.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddItemAttachment&lt;TItem&gt;">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemAttachment&lt;TItem&gt; AddItemAttachment&lt;TItem&gt; () where TItem : Microsoft.Exchange.WebServices.Data.Item;" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ItemAttachment`1&lt;!!TItem&gt; AddItemAttachment&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt;() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.AddItemAttachment``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddItemAttachment(Of TItem As Item) () As ItemAttachment(Of TItem)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TItem&gt;&#xA; where TItem : Microsoft::Exchange::WebServices::Data::Item Microsoft::Exchange::WebServices::Data::ItemAttachment&lt;TItem&gt; ^ AddItemAttachment();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemAttachment&lt;TItem&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TItem">
+          <Constraints>
+            <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="TItem">
+          <span data-ttu-id="1941a-117">要附加到集合的项的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-117">The type of the item to be attached to the collection.</span>
+          </span>
+        </typeparam>
+        <summary>
+          <span data-ttu-id="1941a-118">添加到集合的项目附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-118">Adds an item attachment to the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1941a-119">项目附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-119">An item attachment.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="1941a-120">从集合中删除所有附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-120">Removes all attachments from the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.Attachment attachment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.Attachment attachment) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.Remove(Microsoft.Exchange.WebServices.Data.Attachment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::Attachment ^ attachment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachment" Type="Microsoft.Exchange.WebServices.Data.Attachment" />
+      </Parameters>
+      <Docs>
+        <param name="attachment">
+          <span data-ttu-id="1941a-121">从集合中删除附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-121">The attachment to be removed from the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1941a-122">从集合中删除指定的附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-122">Removes the specified attachment from the collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1941a-123">
+            <b>true</b>如果指定的附件已成功移除从集合;否则为<b>false</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-123">
+              <b>true</b> if the specified attachment was successfully removed from the collection; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttachmentCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">
+          <span data-ttu-id="1941a-124">从集合中删除的附件的索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-124">The index of the attachment to be removed from the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1941a-125">集合中删除 （位置） 中指定索引处的附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1941a-125">Removes the attachment at the specified index (location) in the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

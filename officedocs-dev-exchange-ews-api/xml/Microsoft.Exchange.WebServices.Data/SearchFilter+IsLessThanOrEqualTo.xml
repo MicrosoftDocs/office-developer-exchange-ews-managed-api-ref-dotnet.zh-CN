@@ -1,0 +1,130 @@
+<Type Name="SearchFilter+IsLessThanOrEqualTo" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+IsLessThanOrEqualTo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5ad1ca0e7116855a67430be520fcca23639ee367" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623042" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.IsLessThanOrEqualTo : Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/IsLessThanOrEqualTo extends Microsoft.Exchange.WebServices.Data.SearchFilter/RelationalFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.IsLessThanOrEqualTo&#xA;Inherits SearchFilter.RelationalFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::IsLessThanOrEqualTo sealed : Microsoft::Exchange::WebServices::Data::SearchFilter::RelationalFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+RelationalFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="72975-101">代表确定询问属性小于或等于给定的值或其他属性的搜索筛选器。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="72975-101">Represents a search filter that determines wheter a property is less than or equal to a given value or other property.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsLessThanOrEqualTo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsLessThanOrEqualTo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="72975-102">初始化 SearchFilter.IsLessThanOrEqualTo 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="72975-102">Initializes a new instance of the SearchFilter.IsLessThanOrEqualTo class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsLessThanOrEqualTo (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase otherPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase otherPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, otherPropertyDefinition As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsLessThanOrEqualTo(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ otherPropertyDefinition);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="otherPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">
+          <span data-ttu-id="72975-103">正在比较属性的定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="72975-103">The definition of the property that is being compared.</span>
+          </span>
+        </param>
+        <param name="otherPropertyDefinition">
+          <span data-ttu-id="72975-104">正在比较属性的定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="72975-104">The definition of the property that is being compared.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="72975-105">初始化与指定的属性定义要比较的 SearchFilter.IsLessThanOrEqualTo 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="72975-105">Initializes a new instance of the SearchFilter.IsLessThanOrEqualTo class with the specified property definitions to compare.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsLessThanOrEqualTo (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsLessThanOrEqualTo(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, System::Object ^ value);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">
+          <span data-ttu-id="72975-106">正在比较属性的定义。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="72975-106">The definition of the property that is being compared.</span>
+          </span>
+        </param>
+        <param name="value">
+          <span data-ttu-id="72975-107">要比较的属性的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="72975-107">The value to compare the property with.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="72975-108">初始化与指定的属性定义和值进行比较的 SearchFilter.IsLessThanOrEqualTo 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="72975-108">Initializes a new instance of the SearchFilter.IsLessThanOrEqualTo class with the specified property definition and value to compare.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

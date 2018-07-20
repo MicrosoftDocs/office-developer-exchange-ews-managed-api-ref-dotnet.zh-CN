@@ -1,0 +1,153 @@
+<Type Name="MobilePhone" FullName="Microsoft.Exchange.WebServices.Data.MobilePhone">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9de1bb43e39872028ad32e3297b6dbf617a39edd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623347" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class MobilePhone" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MobilePhone extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MobilePhone" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MobilePhone" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MobilePhone sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="ebd78-101">代表移动电话。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ebd78-101">Represents a mobile phone.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MobilePhone ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MobilePhone.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MobilePhone();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebd78-102">初始化 MobilePhone 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebd78-102">Initializes a new instance of the MobilePhone class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MobilePhone (string name, string phoneNumber);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string phoneNumber) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MobilePhone.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, phoneNumber As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MobilePhone(System::String ^ name, System::String ^ phoneNumber);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="phoneNumber" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="ebd78-103">与移动电话关联的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebd78-103">The name that is associated with the mobile phone.</span>
+          </span>
+        </param>
+        <param name="phoneNumber">
+          <span data-ttu-id="ebd78-104">移动电话号码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebd78-104">The number of the mobile phone.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="ebd78-105">初始化 MobilePhone 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebd78-105">Initializes a new instance of the MobilePhone class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MobilePhone.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebd78-106">获取或设置与移动电话关联的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebd78-106">Gets or sets the name that is associated with the mobile phone.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ebd78-107">与移动电话关联的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebd78-107">The name that is associated with the mobile phone.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumber">
+      <MemberSignature Language="C#" Value="public string PhoneNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PhoneNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MobilePhone.PhoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhoneNumber As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PhoneNumber { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebd78-108">获取或设置移动电话的号码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebd78-108">Gets or sets the number of the mobile phone.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ebd78-109">移动电话号码。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebd78-109">The number of the mobile phone.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

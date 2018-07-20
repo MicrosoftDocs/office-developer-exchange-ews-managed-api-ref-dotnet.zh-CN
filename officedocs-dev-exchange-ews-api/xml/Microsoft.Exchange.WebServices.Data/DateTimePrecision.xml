@@ -1,0 +1,105 @@
+<Type Name="DateTimePrecision" FullName="Microsoft.Exchange.WebServices.Data.DateTimePrecision">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d1bbb02b23af79fc8f32259e24d9c74f4609f571" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622690" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DateTimePrecision" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DateTimePrecision extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DateTimePrecision" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DateTimePrecision" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DateTimePrecision" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1cff5-101">确定要传递给客户端的 DateTime 对象的精度。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1cff5-101">Determines the precision of DateTime objects to be communicated to a client.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DateTimePrecision Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DateTimePrecision.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DateTimePrecision</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1cff5-102">没有精度值发送到客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1cff5-102">No precision value is sent to the client.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Milliseconds">
+      <MemberSignature Language="C#" Value="Milliseconds" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DateTimePrecision Milliseconds = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DateTimePrecision.Milliseconds" />
+      <MemberSignature Language="VB.NET" Value="Milliseconds" />
+      <MemberSignature Language="C++ CLI" Value="Milliseconds" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DateTimePrecision</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1cff5-103">精度设置为毫秒。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1cff5-103">Precision is set to milliseconds.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Seconds">
+      <MemberSignature Language="C#" Value="Seconds" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DateTimePrecision Seconds = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DateTimePrecision.Seconds" />
+      <MemberSignature Language="VB.NET" Value="Seconds" />
+      <MemberSignature Language="C++ CLI" Value="Seconds" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DateTimePrecision</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1cff5-104">精度设置为秒。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1cff5-104">Precision is set to seconds.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

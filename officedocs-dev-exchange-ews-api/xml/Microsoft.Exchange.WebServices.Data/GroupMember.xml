@@ -1,0 +1,469 @@
+<Type Name="GroupMember" FullName="Microsoft.Exchange.WebServices.Data.GroupMember">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="202b304ca91f303821e22cb519da99bfe414d2a0" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622708" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GroupMember : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GroupMember extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GroupMember" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupMember&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupMember : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="35e73-101">代表组的成员。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="35e73-101">Represents a member of a group.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="35e73-102">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (Microsoft.Exchange.WebServices.Data.EmailAddress addressInformation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.EmailAddress addressInformation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(Microsoft.Exchange.WebServices.Data.EmailAddress)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (addressInformation As EmailAddress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(Microsoft::Exchange::WebServices::Data::EmailAddress ^ addressInformation);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="addressInformation" Type="Microsoft.Exchange.WebServices.Data.EmailAddress" />
+      </Parameters>
+      <Docs>
+        <param name="addressInformation">
+          <span data-ttu-id="35e73-103">成员的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-103">The e-mail address of the member.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-104">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />从指定的电子邮件地址的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-104">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from the specified e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (Microsoft.Exchange.WebServices.Data.ItemId contactGroupId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ItemId contactGroupId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (contactGroupId As ItemId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(Microsoft::Exchange::WebServices::Data::ItemId ^ contactGroupId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="contactGroupId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="contactGroupId">
+          <span data-ttu-id="35e73-105">要链接到的成员的联系人组的标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-105">The identifier of the contact group to link the member to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-106">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-106">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="35e73-107">成员的 SMTP 电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-107">The SMTP e-mail address of the member.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-108">nitializes 的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />指定的电子邮件地址的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-108">nitializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (Microsoft.Exchange.WebServices.Data.Contact contact, Microsoft.Exchange.WebServices.Data.EmailAddressKey emailAddressKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.Contact contact, valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey emailAddressKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(Microsoft.Exchange.WebServices.Data.Contact,Microsoft.Exchange.WebServices.Data.EmailAddressKey)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(Microsoft::Exchange::WebServices::Data::Contact ^ contact, Microsoft::Exchange::WebServices::Data::EmailAddressKey emailAddressKey);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Exchange.WebServices.Data.Contact" />
+        <Parameter Name="emailAddressKey" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
+      </Parameters>
+      <Docs>
+        <param name="contact">
+          <span data-ttu-id="35e73-109">要链接到的联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-109">The contact to link to.</span>
+          </span>
+        </param>
+        <param name="emailAddressKey">
+          <span data-ttu-id="35e73-110">要链接到的联系人的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-110">The contact's e-mail address to link to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-111">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />类从<see cref="T:Microsoft.Exchange.WebServices.Data.Contact" />索引指定的电子邮件地址的实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-111">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from a <see cref="T:Microsoft.Exchange.WebServices.Data.Contact" /> instance that is indexed by the specified e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (Microsoft.Exchange.WebServices.Data.ItemId contactId, string addressToLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ItemId contactId, string addressToLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(Microsoft.Exchange.WebServices.Data.ItemId,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (contactId As ItemId, addressToLink As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(Microsoft::Exchange::WebServices::Data::ItemId ^ contactId, System::String ^ addressToLink);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="contactId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="addressToLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="contactId">
+          <span data-ttu-id="35e73-112">联系人的成员标识符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-112">The identifier of the contact member.</span>
+          </span>
+        </param>
+        <param name="addressToLink">
+          <span data-ttu-id="35e73-113">联系人电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-113">The e-mail address of the contact.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-114">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />从指定标识符的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-114">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class from the specified identifier.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (string smtpAddress, Microsoft.Exchange.WebServices.Data.MailboxType mailboxType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress, valuetype Microsoft.Exchange.WebServices.Data.MailboxType mailboxType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MailboxType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(System::String ^ smtpAddress, Microsoft::Exchange::WebServices::Data::MailboxType mailboxType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+        <Parameter Name="mailboxType" Type="Microsoft.Exchange.WebServices.Data.MailboxType" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">
+          <span data-ttu-id="35e73-115">成员的 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-115">The SMTP address of the member.</span>
+          </span>
+        </param>
+        <param name="mailboxType">
+          <span data-ttu-id="35e73-116">之一<see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" />枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-116">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> enumeration values.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-117">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />类已指定的地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-117">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (string name, string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(System::String ^ name, System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="35e73-118">成员的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-118">The name of the member.</span>
+          </span>
+        </param>
+        <param name="smtpAddress">
+          <span data-ttu-id="35e73-119">成员的 SMTP 地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-119">The SMTP address of the member.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-120">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />具有指定的名称和电子邮件地址的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-120">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified name and e-mail address.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (string address, string routingType, Microsoft.Exchange.WebServices.Data.MailboxType mailboxType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string address, string routingType, valuetype Microsoft.Exchange.WebServices.Data.MailboxType mailboxType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(System.String,System.String,Microsoft.Exchange.WebServices.Data.MailboxType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(System::String ^ address, System::String ^ routingType, Microsoft::Exchange::WebServices::Data::MailboxType mailboxType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+        <Parameter Name="mailboxType" Type="Microsoft.Exchange.WebServices.Data.MailboxType" />
+      </Parameters>
+      <Docs>
+        <param name="address">
+          <span data-ttu-id="35e73-121">成员的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-121">The e-mail address of the member.</span>
+          </span>
+        </param>
+        <param name="routingType">
+          <span data-ttu-id="35e73-122">路由的地址类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-122">The routing type of the address.</span>
+          </span>
+        </param>
+        <param name="mailboxType">
+          <span data-ttu-id="35e73-123">之一<see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" />枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-123">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxType" /> enumeration values.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-124">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />具有指定的地址、 路由和邮箱类型的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-124">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class that has the specified address, routing, and mailbox type.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMember (string name, string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMember.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMember(System::String ^ name, System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">
+          <span data-ttu-id="35e73-125">组成员的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-125">The name of the group member.</span>
+          </span>
+        </param>
+        <param name="address">
+          <span data-ttu-id="35e73-126">组成员的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-126">The e-mail address of the group member.</span>
+          </span>
+        </param>
+        <param name="routingType">
+          <span data-ttu-id="35e73-127">传送的电子邮件地址类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-127">The routing type for the e-mail address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="35e73-128">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" />指定的名称、 电子邮件地址和传送类型的类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-128">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> class with the specified name, e-mail address, and routing type.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddressInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress AddressInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress AddressInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddressInformation As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ AddressInformation { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="35e73-129">获取组成员的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-129">Gets the e-mail address of the group member.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="35e73-130">值<see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" />属性是<see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />对象，其中包含组成员的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-130">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.AddressInformation" /> property is an <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> object that contains the e-mail address of the group member.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public string Key { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Key" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Key As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Key { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="35e73-131">获取组成员的键字段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-131">Gets the key field for the group member.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="35e73-132">值<see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" />属性是组成员的键字段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-132">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Key" /> property is the key field for the group member.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MemberStatus Status { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MemberStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As MemberStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MemberStatus Status { Microsoft::Exchange::WebServices::Data::MemberStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MemberStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="35e73-133">获取组成员的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-133">Gets the status of the group member.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="35e73-134">值<see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" />属性是一个<see cref="T:Microsoft.Exchange.WebServices.Data.MemberStatus" />枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="35e73-134">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.GroupMember.Status" /> property is one of the <see cref="T:Microsoft.Exchange.WebServices.Data.MemberStatus" /> enumeration values.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

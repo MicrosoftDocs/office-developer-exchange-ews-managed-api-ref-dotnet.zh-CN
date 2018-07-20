@@ -1,0 +1,236 @@
+<Type Name="ItemAttachment" FullName="Microsoft.Exchange.WebServices.Data.ItemAttachment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="19d13b6eb9bdd603329a3de50a5e1397d2fca0a9" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623496" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ItemAttachment : Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ItemAttachment extends Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemAttachment" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemAttachment&#xA;Inherits Attachment" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemAttachment : Microsoft::Exchange::WebServices::Data::Attachment" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Attachment</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="fccd4-101">表示项目附件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fccd4-101">Represents an item attachment.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Item { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Item Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemAttachment.Item" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Item ^ Item { Microsoft::Exchange::WebServices::Data::Item ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fccd4-102">获取与附件相关联的项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-102">Gets the item that is associated with the attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fccd4-103">项目包含附件相关联。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-103">The item that is associated with the attachment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemAttachment.Load(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (ParamArray additionalProperties As PropertyDefinitionBase())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">
+          <span data-ttu-id="fccd4-104">要加载的其他属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-104">The additional properties to load.</span>
+          </span>
+          <span data-ttu-id="fccd4-105">此参数是可选的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-105">This parameter is optional.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="fccd4-106">加载附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-106">Loads the attachment.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemAttachment.Load(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (additionalProperties As IEnumerable(Of PropertyDefinitionBase))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="additionalProperties">
+          <span data-ttu-id="fccd4-107">要加载的其他属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-107">The additional properties to load.</span>
+          </span>
+          <span data-ttu-id="fccd4-108">此参数是可选的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-108">This parameter is optional.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="fccd4-109">加载附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-109">Loads the attachment.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (Microsoft.Exchange.WebServices.Data.BodyType bodyType, params Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(valuetype Microsoft.Exchange.WebServices.Data.BodyType bodyType, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemAttachment.Load(Microsoft.Exchange.WebServices.Data.BodyType,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[])" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(Microsoft::Exchange::WebServices::Data::BodyType bodyType, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyType" Type="Microsoft.Exchange.WebServices.Data.BodyType" />
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="bodyType">
+          <span data-ttu-id="fccd4-110">要加载的主体类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-110">The body type to load.</span>
+          </span>
+        </param>
+        <param name="additionalProperties">
+          <span data-ttu-id="fccd4-111">要加载的其他属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-111">The additional properties to load.</span>
+          </span>
+          <span data-ttu-id="fccd4-112">此参数是可选的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-112">This parameter is optional.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="fccd4-113">加载附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-113">Loads the attachment.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (Microsoft.Exchange.WebServices.Data.BodyType bodyType, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(valuetype Microsoft.Exchange.WebServices.Data.BodyType bodyType, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemAttachment.Load(Microsoft.Exchange.WebServices.Data.BodyType,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase})" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(Microsoft::Exchange::WebServices::Data::BodyType bodyType, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ additionalProperties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyType" Type="Microsoft.Exchange.WebServices.Data.BodyType" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="bodyType">
+          <span data-ttu-id="fccd4-114">要加载的主体类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-114">The body type to load.</span>
+          </span>
+        </param>
+        <param name="additionalProperties">
+          <span data-ttu-id="fccd4-115">要加载的其他属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-115">The additional properties to load.</span>
+          </span>
+          <span data-ttu-id="fccd4-116">此参数是可选的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-116">This parameter is optional.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="fccd4-117">加载附件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fccd4-117">Loads the attachment.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

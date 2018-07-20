@@ -1,0 +1,74 @@
+<Type Name="GetUserRetentionPolicyTagsResponse" FullName="Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="280563af81eef005385c16402ff7cbe0b92c3295" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623485" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetUserRetentionPolicyTagsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetUserRetentionPolicyTagsResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetUserRetentionPolicyTagsResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserRetentionPolicyTagsResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e8569-101">包含与用户关联的保留策略标记的列表。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e8569-101">Contains a list of retention policy tags associated with a user.</span>
+      </span>
+      <span data-ttu-id="e8569-102">
+        <see cref="T:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e8569-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="RetentionPolicyTags">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RetentionPolicyTag[] RetentionPolicyTags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RetentionPolicyTag[] RetentionPolicyTags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse.RetentionPolicyTags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionPolicyTags As RetentionPolicyTag()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::RetentionPolicyTag ^&gt; ^ RetentionPolicyTags { cli::array &lt;Microsoft::Exchange::WebServices::Data::RetentionPolicyTag ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionPolicyTag[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e8569-103">获取与用户关联的保留策略标记的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e8569-103">Gets a list of retention policy tags associated with a user.</span>
+          </span>
+          <span data-ttu-id="e8569-104">
+            <see cref="P:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse.RetentionPolicyTags" />属性是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e8569-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse.RetentionPolicyTags" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e8569-105">保留策略标记的列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e8569-105">A list of retention policy tags.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

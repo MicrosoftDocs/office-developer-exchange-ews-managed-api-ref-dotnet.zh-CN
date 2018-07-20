@@ -1,0 +1,72 @@
+<Type Name="EmailAddressEntry" FullName="Microsoft.Exchange.WebServices.Data.EmailAddressEntry">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6a4ac3c99c37ae68aa6d5b065dbbf9289cc8e51a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623224" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class EmailAddressEntry : Microsoft.Exchange.WebServices.Data.DictionaryEntryProperty&lt;Microsoft.Exchange.WebServices.Data.EmailAddressKey&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailAddressEntry extends Microsoft.Exchange.WebServices.Data.DictionaryEntryProperty`1&lt;valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddressEntry" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailAddressEntry&#xA;Inherits DictionaryEntryProperty(Of EmailAddressKey)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddressEntry sealed : Microsoft::Exchange::WebServices::Data::DictionaryEntryProperty&lt;Microsoft::Exchange::WebServices::Data::EmailAddressKey&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.DictionaryEntryProperty&lt;Microsoft.Exchange.WebServices.Data.EmailAddressKey&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TKey">Microsoft.Exchange.WebServices.Data.EmailAddressKey</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6cfff-101">代表电子邮件地址词典中的条目。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6cfff-101">Represents an entry within an e-mail address dictionary.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EmailAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress EmailAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress EmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddressEntry.EmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property EmailAddress As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ EmailAddress { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6cfff-102">获取或设置该条目的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6cfff-102">Gets or sets the e-mail address of the entry.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="6cfff-103">条目的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6cfff-103">The e-mail address of the entry.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

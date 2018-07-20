@@ -1,0 +1,127 @@
+<Type Name="AuthToken" FullName="Microsoft.Exchange.WebServices.Auth.Validation.AuthToken">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dc8af01bd1214d1e6ebf6ccf1c970e88abd1a5de" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623458" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class AuthToken" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AuthToken extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AuthToken" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AuthToken abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="87ae5-101">定义身份验证令牌的基类。<see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />类是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="87ae5-101">Defines the base class for authentication tokens.The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="87ae5-102">
+        <para>此类可用于为<a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">邮件应用程序使用 Exchange 标识令牌进行身份验证</a>web 服务中</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="87ae5-102">
+          <para>This class can be used in a web service to <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">authenticate a mail app by using Exchange identity tokens</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AuthToken ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; AuthToken();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="87ae5-103">初始化的新实例<see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="87ae5-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> class.</span>
+          </span>
+          <span data-ttu-id="87ae5-104">
+            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" />是适用于客户端针对 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的构造函数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="87ae5-104">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parse">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Auth.Validation.AuthToken Parse (string token);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Auth.Validation.AuthToken Parse(string token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (token As String) As AuthToken" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Auth::Validation::AuthToken ^ Parse(System::String ^ token);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Auth.Validation.AuthToken</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="token">
+          <span data-ttu-id="87ae5-105">设置字符串格式令牌中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="87ae5-105">The string-formatted token.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="87ae5-106">将字符串格式的标识令牌解析为单个的声明令牌中存在。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="87ae5-106">Parses a string-formatted identification token into the individual claims present in the token.</span>
+          </span>
+          <span data-ttu-id="87ae5-107">
+            <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" />方法是适用于 Exchange Online 和 Exchange Server 2013 开头的 Exchange 版本的目标设定的客户端。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="87ae5-107">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="87ae5-108">已分析的授权令牌中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="87ae5-108">The parsed authorization token.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="87ae5-109">
+            <para>字符串传递给<see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" />方法应格式化的后代类根据需要<see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />类。例如，<see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" />方法<see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" />类所需的 base64 编码的令牌，定义在<a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">JSON Web 令牌 (JWT) Internet 草稿</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="87ae5-109">
+              <para>The string passed to the <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> method should be formatted as required by the descendent class of the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> class. For example, the <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> method on the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> class requires a base-64 encoded token as defined in the <a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">JSON Web Token (JWT) Internet Draft</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

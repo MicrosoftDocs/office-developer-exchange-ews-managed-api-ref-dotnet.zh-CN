@@ -1,0 +1,98 @@
+<Type Name="NameResolution" FullName="Microsoft.Exchange.WebServices.Data.NameResolution">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="46ac2e4da2874915f16713b985ddb66dac4e8b1f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623183" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class NameResolution" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NameResolution extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NameResolution" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NameResolution" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NameResolution sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="5c961-101">代表建议的名称解析。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5c961-101">Represents a suggested name resolution.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Contact">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Contact Contact { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Contact Contact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NameResolution.Contact" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contact As Contact" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Contact ^ Contact { Microsoft::Exchange::WebServices::Data::Contact ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Contact</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5c961-102">获取建议解析名称的联系人信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5c961-102">Gets the contact information of the suggested resolved name.</span>
+          </span>
+          <span data-ttu-id="5c961-103">ResolveName 调用<b>returnContactDetails</b>参数设置为<b>true</b>时，此属性才可用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5c961-103">This property is only available when ResolveName is called with the <b>returnContactDetails</b> argument set to <b>true</b>.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5c961-104">Exchange 联系人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5c961-104">An Exchange contact.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress Mailbox { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NameResolution.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mailbox As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ Mailbox { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5c961-105">获取建议解析名称的邮箱。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5c961-105">Gets the mailbox of the suggested resolved name.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5c961-106">邮箱的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5c961-106">A mailbox e-mail address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

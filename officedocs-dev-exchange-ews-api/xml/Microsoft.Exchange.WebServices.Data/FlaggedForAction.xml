@@ -1,0 +1,297 @@
+<Type Name="FlaggedForAction" FullName="Microsoft.Exchange.WebServices.Data.FlaggedForAction">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a15662eab7e58bbf14f8b110172917e8d4903a3d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623106" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum FlaggedForAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlaggedForAction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FlaggedForAction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FlaggedForAction" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FlaggedForAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1929d-101">上一条消息定义可能标的后续操作。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1929d-101">Defines the follow-up actions that may be stamped on a message.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Any">
+      <MemberSignature Language="C#" Value="Any" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction Any = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.Any" />
+      <MemberSignature Language="VB.NET" Value="Any" />
+      <MemberSignature Language="C++ CLI" Value="Any" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-102">将邮件标记与任何操作。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-102">The message is flagged with any action.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Call">
+      <MemberSignature Language="C#" Value="Call" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction Call = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.Call" />
+      <MemberSignature Language="VB.NET" Value="Call" />
+      <MemberSignature Language="C++ CLI" Value="Call" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-103">收件人请求将呼叫发件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-103">The recipient is requested to call the sender.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DoNotForward">
+      <MemberSignature Language="C#" Value="DoNotForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction DoNotForward = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.DoNotForward" />
+      <MemberSignature Language="VB.NET" Value="DoNotForward" />
+      <MemberSignature Language="C++ CLI" Value="DoNotForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-104">请求收件人不转发的邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-104">The recipient is requested not to forward the message.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FollowUp">
+      <MemberSignature Language="C#" Value="FollowUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction FollowUp = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.FollowUp" />
+      <MemberSignature Language="VB.NET" Value="FollowUp" />
+      <MemberSignature Language="C++ CLI" Value="FollowUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-105">收件人请求进行后续消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-105">The recipient is requested to follow up on the message.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="Forward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction Forward = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.Forward" />
+      <MemberSignature Language="VB.NET" Value="Forward" />
+      <MemberSignature Language="C++ CLI" Value="Forward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-106">请求收件人将邮件转发。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-106">The recipient is requested to forward the message.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FYI">
+      <MemberSignature Language="C#" Value="FYI" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction FYI = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.FYI" />
+      <MemberSignature Language="VB.NET" Value="FYI" />
+      <MemberSignature Language="C++ CLI" Value="FYI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-107">收件人收到的邮件的信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-107">The recipient received the message for information.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoResponseNecessary">
+      <MemberSignature Language="C#" Value="NoResponseNecessary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction NoResponseNecessary = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.NoResponseNecessary" />
+      <MemberSignature Language="VB.NET" Value="NoResponseNecessary" />
+      <MemberSignature Language="C++ CLI" Value="NoResponseNecessary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-108">收件人将得到通知响应消息不需要。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-108">The recipient is informed that a response to the message is not required.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="Read" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction Read = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.Read" />
+      <MemberSignature Language="VB.NET" Value="Read" />
+      <MemberSignature Language="C++ CLI" Value="Read" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-109">收件人请求读取消息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-109">The recipient is requested to read the message.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="Reply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction Reply = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.Reply" />
+      <MemberSignature Language="VB.NET" Value="Reply" />
+      <MemberSignature Language="C++ CLI" Value="Reply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-110">收件人请求将答复邮件发件人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-110">The recipient is requested to reply to the sender of the message.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyToAll">
+      <MemberSignature Language="C#" Value="ReplyToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction ReplyToAll = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.ReplyToAll" />
+      <MemberSignature Language="VB.NET" Value="ReplyToAll" />
+      <MemberSignature Language="C++ CLI" Value="ReplyToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-111">收件人请求答复邮件发送到的每个人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-111">The recipient is requested to reply to everyone the message was sent to.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Review">
+      <MemberSignature Language="C#" Value="Review" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction Review = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FlaggedForAction.Review" />
+      <MemberSignature Language="VB.NET" Value="Review" />
+      <MemberSignature Language="C++ CLI" Value="Review" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FlaggedForAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1929d-112">收件人请求以查看邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1929d-112">The recipient is requested to review the message.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

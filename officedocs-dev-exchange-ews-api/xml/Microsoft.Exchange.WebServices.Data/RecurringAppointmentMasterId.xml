@@ -1,0 +1,64 @@
+<Type Name="RecurringAppointmentMasterId" FullName="Microsoft.Exchange.WebServices.Data.RecurringAppointmentMasterId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0ca14cc22346f4f94c3f86aa36c183ddb0d4771d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623433" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RecurringAppointmentMasterId : Microsoft.Exchange.WebServices.Data.ItemId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RecurringAppointmentMasterId extends Microsoft.Exchange.WebServices.Data.ItemId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RecurringAppointmentMasterId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RecurringAppointmentMasterId&#xA;Inherits ItemId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecurringAppointmentMasterId sealed : Microsoft::Exchange::WebServices::Data::ItemId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f8262-101">表示定期约会的 Id。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f8262-101">Represents the Id of an occurrence of a recurring appointment.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecurringAppointmentMasterId (string occurrenceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string occurrenceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RecurringAppointmentMasterId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (occurrenceId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RecurringAppointmentMasterId(System::String ^ occurrenceId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="occurrenceId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="occurrenceId">
+          <span data-ttu-id="f8262-102">定期系列中出现的 Id。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8262-102">The Id of an occurrence in the recurring series.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f8262-103">初始化 Microsoft.Exchange.WebServices.Data.RecurringAppointmentMasterId 类的新实例。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8262-103">Initializes a new instance of the Microsoft.Exchange.WebServices.Data.RecurringAppointmentMasterId class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

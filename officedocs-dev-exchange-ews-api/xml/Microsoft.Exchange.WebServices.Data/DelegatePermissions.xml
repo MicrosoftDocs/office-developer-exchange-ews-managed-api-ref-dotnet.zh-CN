@@ -1,0 +1,214 @@
+<Type Name="DelegatePermissions" FullName="Microsoft.Exchange.WebServices.Data.DelegatePermissions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a5cd2fb85bfad7c9345a55f7f4fab914e66dd2f7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623427" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DelegatePermissions : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegatePermissions extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegatePermissions" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegatePermissions&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegatePermissions sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="90cfa-101">代表委托用户的权限。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="90cfa-101">Represents the permissions of a delegate user.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CalendarFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel CalendarFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel CalendarFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.CalendarFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel CalendarFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="90cfa-102">获取或设置的主体的日历上的委托用户的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-102">Gets or sets the delegate user's permission on the principal's calendar.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="90cfa-103">指示代理人的权限级别的主体的日历文件夹的 DelegateFolderPermissionLevel 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-103">One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Calendar folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactsFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel ContactsFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel ContactsFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.ContactsFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactsFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel ContactsFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="90cfa-104">获取或设置代理上的主体的联系人文件夹的用户的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-104">Gets or sets the delegate user's permission on the principal's Contacts folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="90cfa-105">指示代理人的权限级别的主体的联系人文件夹的 DelegateFolderPermissionLevel 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-105">One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Contacts folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InboxFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel InboxFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel InboxFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.InboxFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property InboxFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel InboxFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="90cfa-106">获取或设置代理上的主体的收件箱的用户的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-106">Gets or sets the delegate user's permission on the principal's Inbox.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="90cfa-107">指示代理人的权限级别的主体的收件箱 DelegateFolderPermissionLevel 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-107">One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Inbox.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JournalFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel JournalFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel JournalFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.JournalFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property JournalFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel JournalFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="90cfa-108">获取或设置代理上的主体的日记文件夹的用户的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-108">Gets or sets the delegate user's permission on the principal's Journal folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="90cfa-109">指示代理人的权限级别的主体的日记文件夹 DelegateFolderPermissionLevel 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-109">One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Journal folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotesFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel NotesFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel NotesFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.NotesFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotesFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel NotesFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="90cfa-110">获取或设置代理上的主体的便笺文件夹的用户的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-110">Gets or sets the delegate user's permission on the principal's Notes folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="90cfa-111">指示代理人的权限级别的主体的便笺文件夹 DelegateFolderPermissionLevel 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-111">One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Notes folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TasksFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel TasksFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel TasksFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.TasksFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property TasksFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel TasksFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="90cfa-112">获取或设置代理上的主体的任务文件夹的用户的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-112">Gets or sets the delegate user's permission on the principal's Tasks folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="90cfa-113">指示代理人的权限级别的主体的任务文件夹的 DelegateFolderPermissionLevel 枚举值之一。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="90cfa-113">One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Tasks folder.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
