@@ -48,7 +48,13 @@
       "ms.topic": "reference",
       "audience": "developer",
       "ms.reviewer": "",
+      "ms.suite": "office",
       "ms.prod": "exchange",
+      "products": [
+        "https://authoring-docs-microsoft.poolparty.biz/devrel/6ab06385-661e-4214-8870-bbe4071c960d",
+        "https://authoring-docs-microsoft.poolparty.biz/devrel/390894b2-8646-4f7e-b8cd-2209156272a9",
+        "https://authoring-docs-microsoft.poolparty.biz/devrel/cf9b82c5-b6dc-45f3-b005-b1bc5fc03bea"
+      ],
       "ms.technology": "sdk",
       "ms.tgt_pltfrm": "dotnet",
       "apiPlatform": "dotnet",
@@ -63,9 +69,6 @@
     },
     "template": [],
     "dest": "_site",
-    "xref": [
-      "_zip/msdn.4.5.2.zip"
-    ],
     "lruSize": 0
   }
 }
